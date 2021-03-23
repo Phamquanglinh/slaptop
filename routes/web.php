@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout.app');
+});
+Route::get('/contact',function (){
+    return view('frontend.contact');
 });

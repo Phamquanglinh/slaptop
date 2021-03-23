@@ -22,17 +22,17 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
+            @if (backpack_auth()->check())
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                        <a href="{{ route('backpack.account.info') }}" class="text-sm text-gray-700 underline">Chào {{backpack_user()->name}}</a>
+                        <a href="{{ url('/admin') }}" class="text-sm text-gray-700 underline">Quản trị</a>
+                        <a href="{{ route('backpack.auth.logout') }}" class="text-sm text-gray-700 underline">Đăng xuất</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                        @endif
-                    @endauth
+                </div>
+            @else
+                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    <a href="{{ route('backpack.auth.login') }}" class="text-sm text-gray-700 underline">Đăng nhập</a>
+                    <a href="{{ route('backpack.auth.register') }}" class="text-sm text-gray-700 underline">Đăng ký</a>
                 </div>
             @endif
 

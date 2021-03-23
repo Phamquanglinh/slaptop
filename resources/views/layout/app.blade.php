@@ -55,6 +55,7 @@
             </nav>
         </div>
     </header>
+@yield('slider')
 @yield('content')
 <!-- Site footer -->
     <footer class="site-footer">

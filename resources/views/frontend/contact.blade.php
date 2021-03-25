@@ -8,7 +8,7 @@ $title = 'Liên hệ';
         <div class="px-5 w-100 location">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.887548836526!2d105.7739293154024!3d21.037184992865445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455f90fe8ad65%3A0xec38b94cb36de0ab!2zVmnhu4duIEPDtG5nIG5naOG7hyB0aMO0bmcgdGluIFQzSA!5e0!3m2!1svi!2s!4v1616483457715!5m2!1svi!2s"
-               style="border:0;" allowfullscreen="" width="100%" loading="lazy">
+                style="border:0;" allowfullscreen="" width="100%" loading="lazy">
             </iframe>
             <div class="address mt-5">
                 <p class="text-uppercase h3">Công ty cổ phần SLapTop</p>

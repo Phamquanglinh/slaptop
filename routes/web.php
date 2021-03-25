@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
+
 Route::get('/contact',function (){
     return view('frontend.contact');
 })->name('frontend.contact');
+
+Route::get('/contact-test',function (){
+    return view('frontend.contact-test');
+})->name('frontend.contact-test');

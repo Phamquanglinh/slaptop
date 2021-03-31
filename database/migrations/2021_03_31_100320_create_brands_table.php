@@ -17,8 +17,7 @@ class CreateBrandsTable extends Migration
             $table->id();
             $table->string('brand_name');
             $table->longText('brand_logo');
-            $table->longText('brand_cover_imgage');
-            $table->foreignId('parent_id');
+            $table->longText('brand_cover_image');
             $table->timestamps();
         });
     }

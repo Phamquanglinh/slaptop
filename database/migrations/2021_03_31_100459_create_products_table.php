@@ -17,12 +17,12 @@ class CreateProductsTable extends Migration
             $table->id();
             $table->string('product_name');
             $table->integer('prices');
+            $table->integer('old_prices');
             $table->integer('quantity');
             $table->longText('cover_image');
             $table->longText('logo');
             $table->longText('description');
             $table->smallInteger('rate');
-            $table->foreignId('product_id');
             $table->timestamps();
         });
     }

@@ -26,6 +26,7 @@ class CreateProductsTable extends Migration
             $table->foreignId('brands_id')->constrained('brands');
             $table->foreignId('categories_id')->constrained('categories');
             $table->foreignId('users_id')->constrained('users');
+            $table->foreignId('customers_id')->constrained('customers');
             $table->timestamps();
         });
     }

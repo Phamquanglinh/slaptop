@@ -17,7 +17,8 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->string('category_name');
             $table->longText('category_cover_image');
-            $table->foreignId('products_id');
+            $table->unsignedInteger('products_id');
+            $table->foreign('products_id')->references('id')->on('products');
             $table->timestamps();
         });
     }

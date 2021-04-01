@@ -22,3 +22,4 @@ Route::get('/contact',function (){
 Route::get('/about',function (){
     return view('frontend.about');
 })->name('frontend.about');
+Route::get('/product/{slug}',[\App\Http\Controllers\Frontend\ProductController::class,'index','id'])->where(['slug'])->name('product');

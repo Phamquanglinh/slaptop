@@ -56,23 +56,23 @@
             top: 40%;
         }
     </style>
-    <div class="container-fluid">
-        <div class="bg-info p-5">
-            <div class="row px-5">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
-                    <a href="#" class="text-center"><img src="{{asset('asset/img/index/flash-sale.png')}}" class="img-fluid w-100"></a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
-                    <a href="#" class="text-center"><img src="{{asset('asset/img/index/big-sale.png')}}" class="img-fluid w-100"></a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <a href="#" class="text-center"><img src="{{asset('asset/img/index/black-friday.png')}}" class="img-fluid w-100"></a>
+        <div class="bg-info">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+                        <a href="#" class="text-center"><img src="{{asset('asset/img/index/flash-sale.png')}}" class="img-fluid w-100"></a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+                        <a href="#" class="text-center"><img src="{{asset('asset/img/index/big-sale.png')}}" class="img-fluid w-100"></a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <a href="#" class="text-center"><img src="{{asset('asset/img/index/black-friday.png')}}" class="img-fluid w-100"></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <div class="container">
-        <div class="my-4 p-3 box-shadow">
+        <div class="my-5 p-3 box-shadow">
             <div class="clearfix px-3">
                 <a href="#" class="float-left text-dark link-style-none"><h2>HOT SALE THÁNG 3</h2></a>
                 <span class="float-right"><a href="#" class="text-secondary">Xem tất cả sản phẩm</a></span>

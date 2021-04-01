@@ -23,7 +23,6 @@ class CreateProductsTable extends Migration
             $table->longText('logo');
             $table->longText('content');
             $table->smallInteger('rate');
-            $table->unsignedInteger('categories_id');
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('brand_id');
             $table->unsignedBigInteger('user_id');

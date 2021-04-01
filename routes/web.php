@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/contact',function (){
     return view('frontend.contact');
 })->name('frontend.contact');
+Route::get('/about',function (){
+    return view('frontend.about');
+})->name('frontend.about');

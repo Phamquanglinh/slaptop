@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/contact',function (){
     return view('frontend.contact');
 })->name('frontend.contact');
+Route::get('/about',function (){
+    return view('frontend.about');
+})->name('frontend.about');
+Route::get('/product/{slug}',[\App\Http\Controllers\Frontend\ProductController::class,'index','id'])->where(['slug'])->name('product');

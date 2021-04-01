@@ -23,23 +23,14 @@ class CreateProductsTable extends Migration
             $table->longText('logo');
             $table->longText('content');
             $table->smallInteger('rate');
-<<<<<<< HEAD:database/migrations/2021_03_31_143146_create_products_table.php
             $table->unsignedInteger('categories_id');
-
-=======
->>>>>>> 38a0c70a8ff991969efc61bd124a2d1823da85a6:database/migrations/2021_03_31_135155_create_products_table.php
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('brand_id');
             $table->unsignedBigInteger('user_id');
             $table->foreign('brand_id')->references('id')->on('brands');
             $table->foreign('category_id')->references('id')->on('categories');
             $table->foreign('user_id')->references('id')->on('users');
-<<<<<<< HEAD:database/migrations/2021_03_31_143146_create_products_table.php
-
-
-=======
             $table->timestamps();
->>>>>>> 38a0c70a8ff991969efc61bd124a2d1823da85a6:database/migrations/2021_03_31_135155_create_products_table.php
         });
     }
 

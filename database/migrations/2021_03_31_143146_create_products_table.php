@@ -23,11 +23,16 @@ class CreateProductsTable extends Migration
             $table->longText('logo');
             $table->longText('content');
             $table->smallInteger('rate');
-            $table->foreignId('brands_id')->constrained('brands');
-            $table->foreignId('categories_id')->constrained('categories');
-            $table->foreignId('users_id')->constrained('users');
-            $table->foreignId('customers_id')->constrained('customers');
-            $table->timestamps();
+            $table->unsignedInteger('categories_id');
+
+            $table->unsignedBigInteger('category_id');
+            $table->unsignedBigInteger('brand_id');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('brand_id')->references('id')->on('brands');
+            $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('user_id')->references('id')->on('users');
+
+
         });
     }
 

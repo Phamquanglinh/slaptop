@@ -15,9 +15,54 @@
 <body>
 <div class="container-fluid">
     <header class="bg-primary">
-        <div class="py-5 bg-danger"></div>
+        <div class="py-2 bg-primary text-white">
+            <div class="row text-center px-5">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <i class="fas fa-mail-bulk"></i> Slaptopvietnam@gmail.com
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <i class="fas fa-phone"></i> 0904 800 240
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <i class="fab fa-facebook"></i> SLaptopVietNam
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <i class="fas fa-mail-bulk"></i> Slaptopvietnam@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="py-2 bg-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md">
+                        <a class="link-style-none text-center text-lg-left" href="#">
+                            <img src="{{asset('asset/logo/logo.png')}}" class="w-100">
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-group">
+                            <form action="#" method="get">
+                                <div class="input-group">
+                                    <input class="form-control rounded-0" name="search" placeholder="Tìm kiếm mọi thứ tại đây..">
+                                    <button class="btn btn-primary rounded-0 input-group-append"><i class="fas fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="form-group">
+                            <form action="#" method="get">
+                                <div class="bg-primary h4 text-white rounded p-2 text-center">
+                                   Ngày:  {{date('d')}}-{{date('m')}}-{{date("Y")}}
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-primary">
+    <nav class="navbar navbar-expand-lg h5 navbar-dark sticky-top bg-primary">
         <div class="container">
             <a class="navbar-brand d-block d-md-none" href="#">SLaptop</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"

@@ -17,11 +17,12 @@ class FrontendCategoryController extends Controller
             $title = $category->name;
             $products = $category->products()->get();
             $parent = $category->parent()->first();
-            if (isset($parent)) {
-                $link['parent'] = $parent->name;
-                $link['parent_url'] = $parent->slug;
-                $link['main'] = $category->name;
-                $link['main_url'] = $category->slug;
+            if (isset($slug)){
+                $link['parent_url']=$parent->slug;
+                echo var_dump(empty($parent));
+                $link['parent']=$parent->name;
+                $link['main']=$category->name;
+                $link['main_url']=$parent->slug;
             }
         }
 

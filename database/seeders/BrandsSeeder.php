@@ -22,6 +22,7 @@ class BrandsSeeder extends Seeder
                 'name'=>Str::random(5),
                 'logo'=>Str::random(10).'png',
                 'cover_image'=>Str::random(10).'.png',
+                'slug'=>Str::random('5'),
                 'created_at'=>now(),
             ]);
         }

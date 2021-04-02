@@ -11,13 +11,13 @@ class FrontendCategoryController extends Controller
 {
     public function getData($slug)
     {
-        $link=null;
+        $link = null;
         $category = Category::where('slug', '=', $slug)->first();
-        if(isset($category)){
+        if (isset($category)) {
             $title = $category->name;
             $products = $category->products()->get();
             $parent = $category->parent()->first();
-            if(isset($parent)){
+            if (isset($parent)) {
                 $link['parent'] = $parent->name;
                 $link['parent_url'] = $parent->slug;
                 $link['main'] = $category->name;
@@ -25,11 +25,11 @@ class FrontendCategoryController extends Controller
             }
         }
 
-        return $this->render($category, $title, $products,$link);
+        return $this->render($category, $title, $products, $link);
     }
 
-    public function render($category, $title, $products,$link)
+    public function render($category, $title, $products, $link)
     {
-        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products,'slug'=>$link]);
+        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link]);
     }
 }

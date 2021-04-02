@@ -15,13 +15,37 @@ class TagsSeeder extends Seeder
      */
     public function run()
     {
-        $count=5;
-        for ($i=0;$i<$count;$i++){
-            DB::table('tags')->insert([
-                'name'=>Str::random(5),
-                'slug'=>Str::random('5'),
-                'created_at'=>now(),
-            ]);
-        }
+
+        DB::table('tags')->insert([
+            'name' => 'điện thoại hỏng',
+            'slug' => 'điện thoại hỏng.aspx',
+            'created_at' => now(),
+        ]);
+        DB::table('tags')->insert([
+            'name' => 'điện thoại cũ',
+            'slug' => 'điện thoại cũ.aspx',
+            'created_at' => now(),
+        ]);
+        DB::table('tags')->insert([
+            'name' => 'điện thoại vỡ',
+            'slug' => 'điện thoại vỡ.aspx',
+            'created_at' => now(),
+        ]);
+        DB::table('tags')->insert([
+            'name' => 'điện thoại cháy',
+            'slug' => 'điện thoại cháy.aspx',
+            'created_at' => now(),
+        ]);
+        DB::table('tags')->insert([
+            'name' => 'điện thoại fa',
+            'slug' => 'điện thoại fa.aspx',
+            'created_at' => now(),
+        ]);
+        DB::table('tags')->insert([
+            'name' => 'điện thoại alone',
+            'slug' => 'điện thoại alone.aspx',
+            'created_at' => now(),
+        ]);
+
     }
 }

@@ -16,15 +16,44 @@ class BrandsSeeder extends Seeder
      */
     public function run()
     {
-        $count=5;
-        for ($i=0;$i<$count;$i++){
-            DB::table('brands')->insert([
-                'name'=>Str::random(5),
-                'logo'=>Str::random(10).'png',
-                'cover_image'=>Str::random(10).'.png',
-                'slug'=>Str::random('5'),
-                'created_at'=>now(),
-            ]);
-        }
+        DB::table('brands')->insert([
+            'name' => 'microsoft',
+            'logo' => 'logo.png',
+            'cover_image' => 'cover-img.png',
+            'slug' => 'microsoft.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('brands')->insert([
+            'name' => 'asus',
+            'logo' => 'logo.png',
+            'cover_image' => 'cover-img.png',
+            'slug' => 'asus.apsx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('brands')->insert([
+            'name' => 'hp',
+            'logo' => 'logo.png',
+            'cover_image' => 'cover-img.png',
+            'slug' => 'hp.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('brands')->insert([
+            'name' => 'dell',
+            'logo' => 'logo.png',
+            'cover_image' => 'cover-img.png',
+            'slug' => 'dell.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('brands')->insert([
+            'name' => 'mac',
+            'logo' => 'logo.png',
+            'cover_image' => 'cover-img.png',
+            'slug' => 'mac.aspx',
+            'created_at' => now(),
+        ]);
     }
 }

@@ -6,7 +6,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
-class CategoriesSeeder extends Seeder
+class TagsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,13 +17,11 @@ class CategoriesSeeder extends Seeder
     {
         $count=5;
         for ($i=0;$i<$count;$i++){
-            DB::table('categories')->insert([
+            DB::table('tags')->insert([
                 'name'=>Str::random(5),
-                'cover_image'=>Str::random(10).'.png',
                 'slug'=>Str::random('5'),
                 'created_at'=>now(),
             ]);
         }
-
     }
 }

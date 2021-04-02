@@ -25,11 +25,14 @@ class ProductsSeeder extends Seeder
                 'quantity'=>random_int(1,100000),
                 'cover_image'=>Str::random(10).'.png',
                 'logo'=>Str::random(10).'.png',
-                'content'=>Str::random(100),
                 'rate'=>random_int(1,5),
                 'category_id'=>$i,
                 'brand_id'=>$i,
                 'user_id'=>$i,
+                'describe'=>Str::random('200'),
+                'specifications'=>Str::random('200'),
+                'details'=>Str::random('200'),
+                'slug'=>Str::random('5'),
                 'created_at'=>now(),
 
             ]);

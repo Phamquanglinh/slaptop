@@ -20,6 +20,7 @@ class CategoriesSeeder extends Seeder
             DB::table('categories')->insert([
                 'name'=>Str::random(5),
                 'cover_image'=>Str::random(10).'.png',
+                'slug'=>Str::random('5'),
                 'created_at'=>now(),
             ]);
         }

@@ -16,15 +16,15 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
-        $count=5;
-        for ($i=0;$i<$count;$i++){
+        $count = 5;
+        for ($i = 0; $i < $count; $i++) {
             DB::table('users')->insert([
-                'name'=>Str::random(5),
-                'email'=>Str::random(10).'@gmail.com',
-                'password'=>Hash::make('password'),
-                'created_at'=>now(),
+                'name' => Str::random(5),
+                'email' => Str::random(10) . '@gmail.com',
+                'password' => Hash::make('password'),
+                'role'=>2,
+                'created_at' => now(),
             ]);
         }
-
     }
 }

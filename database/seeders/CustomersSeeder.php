@@ -15,17 +15,50 @@ class CustomersSeeder extends Seeder
      */
     public function run()
     {
-        $count=5;
-        for ($i=1;$i<=$count;$i++){
-            DB::table('customers')->insert([
+        DB::table('customers')->insert([
 
-                'number_phone'=>random_int(1,1000000000),
-                'address'=>Str::random(10).'-'.Str::random(10),
-                'user_id'=>$i,
-                'created_at'=>now(),
+            'number_phone' => '0562201674',
+            'address' => 'hà nội',
+            'user_id' => 1,
+            'created_at' => now(),
 
-            ]);
-        }
+        ]);
+
+        DB::table('customers')->insert([
+
+            'number_phone' => '0562201674',
+            'address' => 'hà nội',
+            'user_id' => 2,
+            'created_at' => now(),
+
+        ]);
+
+        DB::table('customers')->insert([
+
+            'number_phone' => '0562201675',
+            'address' => 'quảng ninh',
+            'user_id' => 3,
+            'created_at' => now(),
+
+        ]);
+
+        DB::table('customers')->insert([
+
+            'number_phone' => '0562201676',
+            'address' => 'ninh bình',
+            'user_id' => 4,
+            'created_at' => now(),
+
+        ]);
+
+        DB::table('customers')->insert([
+
+            'number_phone' => '0562201677',
+            'address' => 'quảng nam',
+            'user_id' => 5,
+            'created_at' => now(),
+
+        ]);
 
     }
 }

@@ -16,16 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
-Route::get('/contact',function (){
+Route::get('/contact', function () {
     return view('frontend.contact');
 })->name('frontend.contact');
-Route::get('/about',function (){
+Route::get('/about', function () {
     return view('frontend.about');
 })->name('frontend.about');
-Route::get('/product/{slug}',[\App\Http\Controllers\Frontend\ProductController::class,'index','id'])->where(['slug'])->name('product');
-Route::get('/list', function (){
-    return view('frontend.list');
-})->name('frontend.list');
-Route::get('/faq',function (){
+Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController::class, 'index', 'id'])->where(['slug'])->name('product');
+Route::get('/faq', function () {
     return view('frontend.faq');
 })->name('frontend.faq');
+Route::get('/category/{slug}', [\App\Http\Controllers\Frontend\FrontendCategoryController::class, 'getData', 'id'])->where(['slug'])->name('category');

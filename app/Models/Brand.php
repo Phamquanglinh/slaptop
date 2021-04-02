@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Brand extends Model
 {
+    use \Backpack\CRUD\app\Models\Traits\CrudTrait;
     protected $table='brands';
     use HasFactory;
 }

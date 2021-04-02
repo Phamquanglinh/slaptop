@@ -1,0 +1,13 @@
+.bg-link{
+    padding: 20px 0;
+    background: #38384f;
+    background-image: linear-gradient(to right, #db1a5b, #2434b7);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.bg_link img {
+    height: 250px;
+    width: auto;
+}
+

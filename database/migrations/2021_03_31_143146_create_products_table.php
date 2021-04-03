@@ -21,11 +21,14 @@ class CreateProductsTable extends Migration
             $table->integer('quantity');
             $table->longText('cover_image');
             $table->longText('logo');
-            $table->longText('content');
+            $table->longText('describe');
+            $table->longText('specifications');
+            $table->longText('details');
             $table->smallInteger('rate');
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('brand_id');
             $table->unsignedBigInteger('user_id');
+            $table->string('slug');
             $table->foreign('brand_id')->references('id')->on('brands');
             $table->foreign('category_id')->references('id')->on('categories');
             $table->foreign('user_id')->references('id')->on('users');

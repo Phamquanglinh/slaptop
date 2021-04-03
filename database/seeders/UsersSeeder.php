@@ -16,15 +16,45 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
-        $count=5;
-        for ($i=0;$i<$count;$i++){
-            DB::table('users')->insert([
-                'name'=>Str::random(5),
-                'email'=>Str::random(10).'@gmail.com',
-                'password'=>Hash::make('password'),
-                'created_at'=>now(),
-            ]);
-        }
 
+        DB::table('users')->insert([
+            'name' => 'khanh',
+            'email' => 'khanhdang@gmail.com',
+            'password' => Hash::make('password'),
+            'role' => 2,
+            'created_at' => now(),
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'duy',
+            'email' => 'vanduy@gmail.com',
+            'password' => Hash::make('password'),
+            'role' => 2,
+            'created_at' => now(),
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'linh',
+            'email' => 'quanglinh@gmail.com',
+            'password' => Hash::make('password'),
+            'role' => 2,
+            'created_at' => now(),
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'giang',
+            'email' => 'truonggiang@gmail.com',
+            'password' => Hash::make('password'),
+            'role' => 2,
+            'created_at' => now(),
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'tuc',
+            'email' => 'vantuc@gmail.com',
+            'password' => Hash::make('password'),
+            'role' => 2,
+            'created_at' => now(),
+        ]);
     }
 }

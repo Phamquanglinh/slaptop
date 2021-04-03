@@ -5,7 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Customer extends Model
+class Tags extends Model
 {
     use CrudTrait;
 
@@ -15,7 +15,7 @@ class Customer extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'customers';
+    protected $table = 'tags';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];

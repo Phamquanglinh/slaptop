@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('content')
+    @if(isset($data))
     <link rel="stylesheet" href="{{asset('asset/css/list.css')}}">
     <style>
         .box-shadow{
@@ -20,9 +21,13 @@
         }
     </style>
     <div class="container">
-        <h3 class="text-white bg-info p-2 my-5"><a href="#" class="text-white">Laptop</a> &#187; Laptop Gaming</h3>
+        @if($slug)
+        <h3 class="text-white bg-info p-2 my-5"><a href="{{route('category',['slug'=>$slug['parent_url']])}}" class="text-white">{{$slug['parent']}}</a>
+            >> <a href="{{route('category',['slug'=>$slug['main_url']])}}" class="text-white">{{$slug['main']}}</a>
+        </h3>
+        @endif
         <div class="row mb-3">
-            @for($i = 1; $i<= 12; $i++)
+            @foreach($products as $items)
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-4">
                     <div class="p-1 box-shadow">
                         <a class="link-style-none" href="#">
@@ -30,15 +35,15 @@
                                 <h5 class="bg-danger text-white p-2 discount">-18%</h5>
                             </div>
                             <div class="p-2 bg-light">
-                                <h4>Laptop HP Gaming Pavilion...</h4>
-                                <p class="text-danger mb-1">15.800.000 đ</p>
-                                <small class="text-secondary">18.800.000 đ</small>
-                                <p><samll><img src="{{asset('asset/img/list-page/star.png')}}"> 5000 đánh giá</samll></p>
+                                <h4>{{$items->name}}</h4>
+                                <p class="text-danger mb-1">{{$items->price}} d</p>
+                                <small class="text-secondary">{{$items->old_price}} d</small>
+                                <p><samll><img src="{{asset('asset/img/list-page/star.png')}}"> {{$items->rate}} đánh giá</samll></p>
                             </div>
                         </a>
                     </div>
                 </div>
-            @endfor
+            @endforeach
         </div>
         <ul class="pagination justify-content-center">
             <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -50,4 +55,9 @@
             <li class="page-item"><a class="page-link" href="#">9</a></li>
         </ul>
     </div>
+    @else <h1 class="text-center text-danger">Nothings select</h1>
+        <script>
+            alert('category haven\'t been selected!');
+        </script>
+    @endif
 @endsection

@@ -18,7 +18,7 @@
 <div class="container-fluid">
     <header class="bg-primary">
         <div class="py-2 bg-primary text-white">
-            <div class="row text-center px-5">
+            <div class="row m-0 text-center px-5">
                 <div class="col-md-3 col-sm-6 col-12">
                     <i class="fas fa-mail-bulk"></i> Slaptopvietnam@gmail.com
                 </div>

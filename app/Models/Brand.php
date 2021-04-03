@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Http\Controllers\Frontend\ProductController;
+use App\Models\Category;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
@@ -43,9 +44,15 @@ class Brand extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
         public function products(){
             return $this->hasMany(Product::class,'brand_id','id');
         }
+        public function parent(){
+         return $this->belongsTo(Category::class,'parent_id','id');
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

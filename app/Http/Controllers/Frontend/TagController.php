@@ -25,12 +25,11 @@ class TagController extends Controller
                 $link['main_url'] = $category->slug;
             }
         }
-        return 'Tag';
-       // return $this->render($category, $title=null, $products=null, $link);
+        return $this->render($category, $title = null, $products = null, $link);
     }
 
-//    public function render($category, $title, $products, $link)
-//    {
-//        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link]);
-//    }
+    public function render($category, $title, $products, $link)
+    {
+        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link]);
+    }
 }

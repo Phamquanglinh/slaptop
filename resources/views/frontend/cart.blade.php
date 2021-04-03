@@ -140,12 +140,12 @@
                 $('.incPrice').click(function (){
                     let getQuantity = $('.quantity').val();
                     let total_price = 20990000 * getQuantity + 20990000;
-                    $('.total_price').text(total_price + 'đ')
+                    $('.total_price').text(total_price.toLocaleString() + 'đ')
                 });
                 $('.decPrice').click(function (){
                     let getQuantity = $('.quantity').val();
                     let total_price = 20990000 * getQuantity - 20990000;
-                    $('.total_price').text(total_price + 'đ')
+                    $('.total_price').text(total_price.toLocaleString() + 'đ')
                 })
                 // show pay method
                 $('.pay').click(function (){

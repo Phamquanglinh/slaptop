@@ -12,7 +12,7 @@ class BrandController extends Controller
 {
     public function getData($slug)
     {
-        $link = null;
+        $link=null;
         $category = Brand::where('slug', '=', $slug)->first();
         if (isset($category)) {
             $title = $category->name;
@@ -25,8 +25,8 @@ class BrandController extends Controller
                 $link['main_url'] = $category->slug;
             }
         }
-        return 'brand';
-        //return $this->render($category, $title, $products, $link);
+
+        return $this->render($category, $title, $products, $link);
     }
 
     public function render($category, $title, $products, $link)

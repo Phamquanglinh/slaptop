@@ -4,6 +4,9 @@ $title = 'Câu hỏi thường gặp';
 @extends('layout.app')
 @section('content')
     <link rel="stylesheet" href="{{asset('asset/css/faq.css')}}">
+    <style>
+
+    </style>
     <div class="container-fluid">
         <div class="bg-link text-light">
             <div class="row ">
@@ -23,12 +26,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingOne">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="btn btn-link text-dark hover-yellow" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Câu hỏi 1: Hóa đơn điện là gì ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapsing" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>
@@ -53,12 +56,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingTwo">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                             Câu hỏi 2: Hóa đơn điện Tử Có Mấy Liên ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div id="collapseTwo" class="collapsing" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>Hóa đơn điện tử không có khái niệm liên, và chỉ có 1 bản duy nhất.</p>
@@ -68,12 +71,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingThree">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                             Câu hỏi 3: Những Lợi Ích Của Hóa Đơn Điện Tử ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                <div id="collapseThree" class="collapsing" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <ul>
@@ -89,12 +92,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingFour">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                             Câu hỏi 4: Hóa Đơn Điện Tử Có Đang Sử Dụng Song Ngữ ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+                <div id="collapseFour" class="collapsing" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>Có</p>
@@ -105,12 +108,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingFive">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                             Câu hỏi 5: Trường Hợp Mất Hóa Đơn Chuyển Đổi, Có Bị Phạt Hay Không? Phải Làm Gì Trong Vận Chuyển Hàng Trong Trường Hợp Này ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordion">
+                <div id="collapseFive" class="collapsing" aria-labelledby="headingFive" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>+ Không bị phạt.</p>
@@ -121,12 +124,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingSix">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                             Câu hỏi 6: Phần mềm của tổ chức trung gian cung cấp giải pháp hóa đơn điện tử có thể kết nối từ phần mềm kế toán của doanh nghiệp không?
                         </button>
                     </p>
                 </div>
-                <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordion">
+                <div id="collapseSix" class="collapsing" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>Tùy vào tình hình cụ thể của doanh nghiệp, tổ chức trung gian cung cấp giải pháp hóa đơn điện tử có thể cung cấp các giải pháp tích hợp với bất kỳ hệ thống kế toán nào của doanh nghiệp.Không phải nhập lại dữ liệu.</p>
@@ -136,12 +139,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingSeven">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                             Câu hỏi 7: Doanh nghiệp có thể sử dụng chung chữ ký số(CKS) với khai thuế qua mạng, nộp thuế điện tử hay không? Có sử dụng chữ ký của nhà cung cấp Chữ ký số khác được không?
                         </button>
                     </p>
                 </div>
-                <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordion">
+                <div id="collapseSeven" class="collapsing" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>- Có thể dùng chung CKS với các dịch vụ khác.</p>
@@ -152,12 +155,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingEigth">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                             Câu hỏi 8: Có bắt buộc có CKS của người mua trên hóa đơn điện ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseEight" class="collapse show" aria-labelledby="headingEight" data-parent="#accordion">
+                <div id="collapseEight" class="collapsing" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>Trường hợp người bán có số lượng hóa đơn lớn và muốn đề nghị được miễn tiêu thức chữ ký người mua trên hóa đơn điện tử thì gửi văn bản đề nghị đến cơ quan thuế quản lý trực tiếp để được xem xét từng trường hợp phát sinh cụ thể ( theo công văn 2402/BTC-TCT ngày 23/02/2016)</p>
@@ -167,12 +170,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingNine">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
                             Câu hỏi 9: Có thể xuất hóa đơn điẹne lùi ngày ? Xuất nhảy số
                         </button>
                     </p>
                 </div>
-                <div id="collapseNine" class="collapse show" aria-labelledby="headingNine" data-parent="#accordion">
+                <div id="collapseNine" class="collapsing" aria-labelledby="headingNine" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>Căn cứ thông tư 39/2014/TT-BTC mục a, khoản 2, điều 16</p>
@@ -185,12 +188,12 @@ $title = 'Câu hỏi thường gặp';
             <div class="card">
                 <div class="card-header" id="headingTen">
                     <p>
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                             Câu hỏi 10: Doanh nghiệp cần chuẩn bị gì khi đăng ký sử dụng hóa đơn điện tử ?
                         </button>
                     </p>
                 </div>
-                <div id="collapseTen" class="collapse show" aria-labelledby="headingTen" data-parent="#accordion">
+                <div id="collapseTen" class="collapsing" aria-labelledby="headingTen" data-parent="#accordion">
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>1.Doanh nghiệp có thể sử dụng một trong hai hình thức: tự xây dựng phần mềm hoặc thông qua nhà cung cấp dịch vụ trung gian.</p>
@@ -203,7 +206,7 @@ $title = 'Câu hỏi thường gặp';
                     </div>
                 </div>
             </div>
-            <nav class="m-auto" aria-label="Page navigation example">
+            <nav class="mt-5" aria-label="Page navigation example">
                 <ul class="pagination">
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">

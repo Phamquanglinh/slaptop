@@ -21,87 +21,106 @@ class ProductCrudController extends CrudController
 
     /**
      * Configure the CrudPanel object. Apply settings to all operations.
-     * 
+     *
      * @return void
      */
     public function setup()
     {
         CRUD::setModel(\App\Models\Product::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/product');
-        CRUD::setEntityNameStrings('product', 'products');
+        CRUD::setEntityNameStrings('Sản phẩm','Các sản phẩm');
+        $this->crud->addButtonFromModelFunction('line','Xem trên web','viewOnWeb');
     }
 
     /**
      * Define what happens when the List operation is loaded.
-     * 
+     *
      * @see  https://backpackforlaravel.com/docs/crud-operation-list-entries
      * @return void
      */
     protected function setupListOperation()
     {
-        CRUD::column('id');
-        CRUD::column('name');
-        CRUD::column('price');
-        CRUD::column('old_price');
-        CRUD::column('quantity');
-        CRUD::column('cover_image');
-        CRUD::column('logo');
-        CRUD::column('describe');
-        CRUD::column('specifications');
-        CRUD::column('details');
-        CRUD::column('rate');
-        CRUD::column('category_id');
-        CRUD::column('brand_id');
-        CRUD::column('user_id');
-        CRUD::column('slug');
-        CRUD::column('created_at');
-        CRUD::column('updated_at');
+        CRUD::column('name')->label('Tên');
+        CRUD::column('price')->label('Giá');
+        CRUD::column('old_price')->label('Giá cũ');
+        CRUD::column('quantity')->label('Hàng còn trong kho');
+        CRUD::column('logo')->label('Ảnh sản phẩm')->type('image');
+        $this->crud->addColumn([
+            'name'=>'category_id',
+            'type'=>'select',
+            'label'=>'Danh mục',
+            'entity'=>'category',
+            'model'=>'App\Models\Category'
+        ]);
+        $this->crud->addColumn([
+            'name'=>'brand_id',
+            'type'=>'select',
+            'label'=>'Thương hiệu',
+            'entity'=>'brand',
+            'model'=>'App\Models\Brand'
+        ]);
+        $this->crud->addColumn([
+            'name'=>'user_id',
+            'type'=>'select',
+            'label'=>'Người đăng',
+            'entity'=>'user',
+            'model'=>'App\Models\User'
+        ]);
+        CRUD::column('slug')->label('Url');
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
          * - CRUD::column('price')->type('number');
-         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']); 
+         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']);
          */
     }
 
     /**
      * Define what happens when the Create operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-create
      * @return void
      */
     protected function setupCreateOperation()
     {
         CRUD::setValidation(ProductRequest::class);
-
-        CRUD::field('id');
-        CRUD::field('name');
-        CRUD::field('price');
-        CRUD::field('old_price');
-        CRUD::field('quantity');
-        CRUD::field('cover_image');
-        CRUD::field('logo');
-        CRUD::field('describe');
-        CRUD::field('specifications');
-        CRUD::field('details');
-        CRUD::field('rate');
-        CRUD::field('category_id');
-        CRUD::field('brand_id');
-        CRUD::field('user_id');
-        CRUD::field('slug');
-        CRUD::field('created_at');
-        CRUD::field('updated_at');
+        CRUD::field('name')->label('Tên sản phẩm');
+        CRUD::field('price')->label('Giá')->type('number');
+        CRUD::field('old_price')->label('Giá cũ')->type('number');
+        CRUD::field('quantity')->label('Hàng còn trong kho')->type('number');
+        CRUD::field('cover_image')->label('Ảnh bìa')->type('image')->defaut(null);
+        CRUD::field('logo')->label('Ảnh sản phẩm')->type('image');
+        CRUD::field('describe')->label('Mô tả')->type('ckeditor');
+        CRUD::field('specifications')->label('Thông số kỹ thuật')->type('ckeditor');
+        CRUD::field('details')->label('Thông tin bổ xung')->type('ckeditor');
+        CRUD::field('rate')->type('select_from_array')->options([1,2,3,4,5]);
+        $this->crud->addField([
+            'name'=>'category_id',
+            'type'=>'select2',
+            'label'=>'Danh mục',
+            'entity'=>'category',
+            'model'=>'App\Models\Category'
+        ]);
+        $this->crud->addField([
+            'name'=>'brand_id',
+            'type'=>'select2',
+            'label'=>'Thương hiệu',
+            'entity'=>'brand',
+            'model'=>'App\Models\Brand'
+        ]);
+        CRUD::field('user_id')->type('hidden')->default(backpack_user()->id);
+        CRUD::field('slug')->type('hidden');
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:
          * - CRUD::field('price')->type('number');
-         * - CRUD::addField(['name' => 'price', 'type' => 'number'])); 
+         * - CRUD::addField(['name' => 'price', 'type' => 'number']));
          */
     }
 
     /**
      * Define what happens when the Update operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-update
      * @return void
      */

@@ -21,42 +21,40 @@ class BrandCrudController extends CrudController
 
     /**
      * Configure the CrudPanel object. Apply settings to all operations.
-     * 
+     *
      * @return void
      */
     public function setup()
     {
         CRUD::setModel(\App\Models\Brand::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/brand');
-        CRUD::setEntityNameStrings('brand', 'brands');
+        CRUD::setEntityNameStrings('Nhãn hiệu', 'Các nhãn hiệu');
     }
 
     /**
      * Define what happens when the List operation is loaded.
-     * 
+     *
      * @see  https://backpackforlaravel.com/docs/crud-operation-list-entries
      * @return void
      */
     protected function setupListOperation()
     {
         CRUD::column('id');
-        CRUD::column('name');
+        CRUD::column('name')->label('Tên');
         CRUD::column('logo');
-        CRUD::column('cover_image');
-        CRUD::column('slug');
-        CRUD::column('created_at');
-        CRUD::column('updated_at');
+        CRUD::column('slug')->label('Đường dẫn');
+        $this->crud->addButtonFromModelFunction('line','Xem trên web','viewOnWeb');
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
          * - CRUD::column('price')->type('number');
-         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']); 
+         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']);
          */
     }
 
     /**
      * Define what happens when the Create operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-create
      * @return void
      */
@@ -66,22 +64,20 @@ class BrandCrudController extends CrudController
 
         CRUD::field('id');
         CRUD::field('name');
-        CRUD::field('logo');
-        CRUD::field('cover_image');
-        CRUD::field('slug');
-        CRUD::field('created_at');
-        CRUD::field('updated_at');
+        CRUD::field('logo')->type('image');
+        CRUD::field('cover_image')->type('image')->label('Ảnh bìa');;
+        CRUD::field('slug')->type('hidden');
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:
          * - CRUD::field('price')->type('number');
-         * - CRUD::addField(['name' => 'price', 'type' => 'number'])); 
+         * - CRUD::addField(['name' => 'price', 'type' => 'number']));
          */
     }
 
     /**
      * Define what happens when the Update operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-update
      * @return void
      */

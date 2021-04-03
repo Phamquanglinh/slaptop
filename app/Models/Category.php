@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Category extends Model
 {
@@ -28,7 +29,14 @@ class Category extends Model
     | FUNCTIONS
     |--------------------------------------------------------------------------
     */
-
+    public function setSlugAttribute()
+    {
+        $this->attributes['slug'] =Str::slug($this->name, '-').'.aspx';
+    }
+    public function viewOnWeb($crud = false)
+    {
+        return '<a class="btn btn-sm btn-link" target="_blank" href="'.env('APP_URL').'/category/'.urlencode($this->slug).'" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS

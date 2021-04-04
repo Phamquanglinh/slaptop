@@ -41,7 +41,7 @@ class BrandCrudController extends CrudController
     {
         CRUD::column('id');
         CRUD::column('name')->label('Tên');
-        CRUD::column('logo');
+        CRUD::column('logo')->type('image');
         CRUD::column('slug')->label('Đường dẫn');
         $this->crud->addButtonFromModelFunction('line','Xem trên web','viewOnWeb');
 
@@ -63,7 +63,7 @@ class BrandCrudController extends CrudController
         CRUD::setValidation(BrandRequest::class);
 
         CRUD::field('id');
-        CRUD::field('name');
+        CRUD::field('name')->label('Tên');
         CRUD::field('logo')->type('image');
         CRUD::field('cover_image')->type('image')->label('Ảnh bìa');;
         CRUD::field('slug')->type('hidden');

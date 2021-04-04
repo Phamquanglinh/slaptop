@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Requests\ProductRequest;
+use App\Models\Tags;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 
@@ -107,6 +108,23 @@ class ProductCrudController extends CrudController
             'label'=>'Thương hiệu',
             'entity'=>'brand',
             'model'=>'App\Models\Brand'
+        ]);
+        $this->crud->addField([
+            'name'=>'brand_id',
+            'type'=>'select2',
+            'label'=>'Thương hiệu',
+            'entity'=>'brand',
+            'model'=>'App\Models\Brand'
+        ]);
+        $this->crud->addField([
+            // any type of relationship
+            'name'         => 'tags', // name of relationship method in the model
+            'type'         => 'relationship',
+            'label'        => 'Nhãn', // Table column heading
+            // OPTIONAL
+            'entity'    => 'tags', // the method that defines the relationship in your Model
+            'attribute' => 'name',
+            'model'     => Tags::class, // foreign key model
         ]);
         CRUD::field('user_id')->type('hidden')->default(backpack_user()->id);
         CRUD::field('slug')->type('hidden');

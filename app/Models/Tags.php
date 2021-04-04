@@ -35,6 +35,13 @@ class Tags extends Model
     |--------------------------------------------------------------------------
     */
 
+    public function products(){
+        return $this->belongsToMany(Product::class,'pivot','tag_id','product_id');
+    }
+
+//    public function parent(){
+//        return $this->hasMany(Product::class,'category_id','id');
+//    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

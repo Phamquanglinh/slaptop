@@ -40,7 +40,7 @@
                 <h3 class="mb-5">Thanh toán</h3>
                 <div class="row">
                     <div class="col-8"><p class="font-weight-bold">Tổng số tiền các sản phẩm</p></div>
-                    <div class="col-4"><p class="text-primary total_price">41.980.000 đ</p></div>
+                    <div class="col-4"><p class="text-primary total_price">125.940.000 đ</p></div>
                 </div>
                 <div class="row">
                     <div class="col-8"><p class="font-weight-bold">Phí vận chuyển</p></div>
@@ -52,7 +52,7 @@
                 </div><hr>
                 <div class="row">
                     <div class="col-8"><h3>Tổng</h3></div>
-                    <div class="col-4"><h5 class="text-primary total_price">41.980.000 đ</h5></div>
+                    <div class="col-4"><h5 class="text-primary total_price">125.940.000 đ</h5></div>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
@@ -125,30 +125,32 @@
             $(document).ready(function (){
                 // increment quantity
                 let increment = $('.increment');
-                let counter_increment = $('.counter_increment');
+                let counterIncrement = $('.counter_increment');
                 increment.click(function () {
-                    counter_increment.val(parseInt(counter_increment.val())+1);
+                    counterIncrement.val(parseInt(counterIncrement.val())+1);
                 });
-                // decrement quantity
+                // // decrement quantity
                 let decrement = $('.decrement');
-                let counter_decrement = $('.counter_decrement');
+                let counterDecrement = $('.counter_decrement');
                 decrement.click(function () {
-                    if (counter_decrement.val() > 1){
-                        counter_decrement.val(parseInt(counter_decrement.val())-1);
+                    if (counterDecrement.val() > 1){
+                        counterDecrement.val(parseInt(counterDecrement.val())-1);
                     }
                 });
 
                 // caculate price
                 $('.incPrice').click(function (){
                     let getQuantity = $('.quantity').val();
-                    let total_price = 20990000 * getQuantity;
-                    $('.total_price').text(total_price.toLocaleString() + ' đ')
+                    let totalPrice = 20990000 * getQuantity;
+                    $('.total_price').text(totalPrice.toLocaleString() + ' đ');
                 });
+
                 $('.decPrice').click(function (){
                     let getQuantity = $('.quantity').val();
-                    let total_price = 20990000 * getQuantity;
-                    $('.total_price').text(total_price.toLocaleString() + ' đ')
-                })
+                    let totalPrice = 20990000 * getQuantity;
+                    $('.total_price').text(totalPrice.toLocaleString() + ' đ');
+                });
+
                 // show pay method
                 $('.pay').click(function (){
                     $('.hidden').removeClass('hidden');

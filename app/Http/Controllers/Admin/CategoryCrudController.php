@@ -39,9 +39,10 @@ class CategoryCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('name');
-        CRUD::column('cover_image')->type('image');
-        CRUD::column('slug');
+        CRUD::column('name')->label('Tên');
+        CRUD::column('cover_image')->type('image')->label('Ảnh bìa');
+        CRUD::column('parent_id')->type('select')->entity('parent')->model('App\Models\Category')->attribute('name')->label('Danh mục mẹ');
+        CRUD::column('slug')->label('Url');
         $this->crud->addButtonFromModelFunction('line','Xem trên web','viewOnWeb');
 
         /**
@@ -63,6 +64,7 @@ class CategoryCrudController extends CrudController
 
         CRUD::field('name');
         CRUD::field('cover_image')->type('image');
+        CRUD::field('parent_id')->type('select2')->entity('parent')->model('App\Models\Category')->attribute('name')->label('Danh mục mẹ');
         CRUD::field('slug')->type('hidden');
 
         /**

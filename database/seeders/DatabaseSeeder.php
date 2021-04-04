@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
             CustomersSeeder::class,
             OrdersSeeder::class,
             TagsSeeder::class,
+            PivotSeeder::class,
         ]);
     }
 }

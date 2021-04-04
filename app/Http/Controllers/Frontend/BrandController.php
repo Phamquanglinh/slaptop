@@ -14,6 +14,10 @@ class BrandController extends Controller
     {
         $link=null;
         $category = Brand::where('slug', '=', $slug)->first();
+        $error='nothing select';
+        if (empty($category)){
+            return view('frontend.index',['error'=>$error]);
+        }
         if (isset($category)) {
             $title = $category->name;
             $products = $category->products()->get();

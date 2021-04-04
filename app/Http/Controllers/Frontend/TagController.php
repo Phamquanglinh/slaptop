@@ -15,6 +15,10 @@ class TagController extends Controller
     {
         $link = null;
         $tags = Tags::where('slug', '=', $slug)->first();
+        $error='nothing select';
+        if (empty($tags)){
+            return view('frontend.index',['error'=>$error]);
+        }
         if (isset($tags)) {
             $title = $tags->name;
             $products = $tags->products()->get();

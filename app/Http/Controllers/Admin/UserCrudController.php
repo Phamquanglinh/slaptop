@@ -28,7 +28,8 @@ class UserCrudController extends CrudController
     {
         CRUD::setModel(\App\Models\User::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/user');
-        CRUD::setEntityNameStrings('user', 'users');
+        CRUD::setEntityNameStrings('Người dùng', 'Người dùng');
+        CRUD::denyAccess('create');
     }
 
     /**
@@ -39,10 +40,9 @@ class UserCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('name');
-        CRUD::column('email');
-        CRUD::column('password');
-        CRUD::column('role')->label('Phân quyền')->type('select_from_array')->options(['Admin','Publisher','User']);
+        CRUD::column('name')->label('Tên');
+        CRUD::column('email')->label('Email');
+        CRUD::column('role')->label('Phân quyền')->type('select_from_array')->options(['Quản trị','Người đăng sản phẩm','Người dùng']);
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:

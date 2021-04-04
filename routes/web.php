@@ -22,7 +22,7 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('frontend.about');
 })->name('frontend.about');
-Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController::class, 'index', 'id'])->where(['slug'])->name('product');
+Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController::class, 'getData', 'id'])->where(['slug'])->name('product');
 Route::get('/faq', function () {
     return view('frontend.faq');
 })->name('frontend.faq');
@@ -31,4 +31,5 @@ Route::get('/cart', function () {
 })->name('frontend.cart');
 Route::get('/category/{slug}', [\App\Http\Controllers\Frontend\FrontendCategoryController::class, 'getData', 'id'])->where(['slug'])->name('category');
 Route::get('/tag/{slug}', [\App\Http\Controllers\Frontend\TagController::class, 'getData', 'id'])->where(['slug'])->name('tag');
-Route::get('/brand/{slug}', [\App\Http\Controllers\Frontend\BrandController::class, 'getData', 'id'])->where(['slug'])->name('tag');
+
+Route::get('/brand/{slug}', [\App\Http\Controllers\Frontend\BrandController::class, 'getData', 'id'])->where(['slug'])->name('brand');

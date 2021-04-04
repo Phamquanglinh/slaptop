@@ -59,6 +59,10 @@ class Product extends Model
     public function tags(){
         return $this->belongsToMany(Tags::class,'pivot','product_id','tag_id');
     }
+
+    public function parent(){
+        return $this->belongsTo(Category::class,'parent_id','id');
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

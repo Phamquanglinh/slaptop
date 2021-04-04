@@ -30,7 +30,7 @@
             @foreach($products as $items)
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-4">
                     <div class="p-1 box-shadow">
-                        <a class="link-style-none" href="#">
+                        <a class="link-style-none" href="{{route('product',['slug'=>$items->slug])}}">
                             <div class="bg-image">
                                 <h5 class="bg-danger text-white p-2 discount">-18%</h5>
                             </div>

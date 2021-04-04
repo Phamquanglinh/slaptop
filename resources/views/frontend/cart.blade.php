@@ -20,13 +20,13 @@
                                 <i class="fas fa-minus text-white"></i>
                             </button>
                         </div>
-                        <input type="number" class="quantity counter_increment counter_decrement" value="1">
+                        <input type="number" class="quantity counter_increment counter_decrement" value="2" min="1">
                         <div class="input-group-append">
                             <button type="button" class="btn btn-outline-primary bg-info rounded-0 increment incPrice">
                                 <i class="fas fa-plus text-white"></i>
                             </button>
                         </div>
-                        <span class="h4 text-primary ml-5 total_price">41.980.000</span>
+                        <span class="h4 text-primary ml-5 total_price">41.980.000 đ</span>
                     </div>
                     <p class="float-right mt-0">
                         <span><a class="link-style-none" href="#"><i class="fas fa-info-circle fa-2x mr-2"></i></a></span>
@@ -133,19 +133,21 @@
                 let decrement = $('.decrement');
                 let counter_decrement = $('.counter_decrement');
                 decrement.click(function () {
-                    counter_decrement.val(parseInt(counter_decrement.val())-1);
+                    if (counter_decrement.val() > 1){
+                        counter_decrement.val(parseInt(counter_decrement.val())-1);
+                    }
                 });
 
                 // caculate price
                 $('.incPrice').click(function (){
                     let getQuantity = $('.quantity').val();
-                    let total_price = 20990000 * getQuantity + 20990000;
-                    $('.total_price').text(total_price.toLocaleString() + 'đ')
+                    let total_price = 20990000 * getQuantity;
+                    $('.total_price').text(total_price.toLocaleString() + ' đ')
                 });
                 $('.decPrice').click(function (){
                     let getQuantity = $('.quantity').val();
-                    let total_price = 20990000 * getQuantity - 20990000;
-                    $('.total_price').text(total_price.toLocaleString() + 'đ')
+                    let total_price = 20990000 * getQuantity;
+                    $('.total_price').text(total_price.toLocaleString() + ' đ')
                 })
                 // show pay method
                 $('.pay').click(function (){

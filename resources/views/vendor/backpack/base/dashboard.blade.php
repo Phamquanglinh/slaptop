@@ -1,6 +1,10 @@
 @extends(backpack_view('blank'))
 
 @php
+   $user = \App\Models\User::count();
+   $products = \App\Models\Product::count();
+   $order = \App\Models\Order::count();
+   $successOrder = \App\Models\Order::count();
     $widgets['before_content'][0] = [
            'class' => 'col-12',
            'type'        => 'jumbotron',
@@ -12,35 +16,31 @@
 
        $widgets['before_content'][1]=[
        'type'        => 'progress',
-       'class'       => 'card text-white bg-primary mb-2',
-       'value'       => '11.456',
-       'description' => 'Registered users.',
+       'class'       => 'card text-white bg-success mb-2',
+       'value'       => $user,
+       'description' => 'Người dùng.',
        'progress'    => 57, // integer
-       'hint'        => '8544 more until next milestone.',
        ];
        $widgets['before_content'][2]=[
        'type'        => 'progress',
        'class'       => 'card text-white bg-primary mb-2',
-       'value'       => '11.456',
-       'description' => 'Registered users.',
+       'value'       => $products,
+       'description' => 'Sản phẩm',
        'progress'    => 57, // integer
-       'hint'        => '8544 more until next milestone.',
        ];
        $widgets['before_content'][3]=[
        'type'        => 'progress',
-       'class'       => 'card text-white bg-primary mb-2',
-       'value'       => '11.456',
-       'description' => 'Registered users.',
+       'class'       => 'card text-white bg-warning mb-2',
+       'value'       => $order,
+       'description' => 'Đơn hàng',
        'progress'    => 57, // integer
-       'hint'        => '8544 more until next milestone.',
        ];
        $widgets['before_content'][4]=[
        'type'        => 'progress',
-       'class'       => 'card text-white bg-primary mb-2',
-       'value'       => '11.456',
-       'description' => 'Registered users.',
+       'class'       => 'card text-white bg-info mb-2',
+       'value'       => $successOrder,
+       'description' => 'Đã giao',
        'progress'    => 57, // integer
-       'hint'        => '8544 more until next milestone.',
        ];
 
 
@@ -53,7 +53,7 @@
             'class'   => 'card mb-2',
             'wrapper' => ['class'=> 'col-md-6'] ,
             'content' => [
-             'header' => 'Tổng quan',
+             'header' => 'Bảng số liệu',
              'body'   => 'This chart should make it obvious how many new users have signed up in the past 7 days.<br><br>',
                         ],
        ];
@@ -66,7 +66,7 @@
             'wrapper' => ['class'=> 'col-md-6'] ,
             'content' => [
              'header' => 'Tổng quan',
-             'body'   => 'This chart should make it obvious how many new users have signed up in the past 7 days.<br><br>',
+             'body'   => 'Bảng số liệu.<br><br>',
                         ],
        ];
 

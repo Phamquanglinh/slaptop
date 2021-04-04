@@ -7,29 +7,23 @@ use App\Models\Category;
 use App\Models\Product;
 use App\Models\Tags;
 use Illuminate\Http\Request;
+use phpDocumentor\Reflection\DocBlock\Tag;
 
 class TagController extends Controller
 {
     public function getData($slug)
     {
         $link = null;
-        $category = Tags::where('slug', '=', $slug)->first();
-        if (isset($category)) {
-            $title = $category->name;
-            $products = $category->products()->get();
-            $parent = $category->parent()->first();
-            if (isset($parent)) {
-                $link['parent'] = $parent->name;
-                $link['parent_url'] = $parent->slug;
-                $link['main'] = $category->name;
-                $link['main_url'] = $category->slug;
-            }
+        $tags = Tags::where('slug', '=', $slug)->first();
+        if (isset($tags)) {
+            $title = $tags->name;
+            $products = $tags->products()->get();
         }
-        return $this->render($category, $title = null, $products = null, $link);
+        return $this->render($tags, $title, $products, $link);
     }
 
-    public function render($category, $title, $products, $link)
+    public function render($tags, $title, $products, $link)
     {
-        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link]);
+        return view('frontend.list', ['data' => $tags, 'title' => $title, 'products' => $products, 'slug' => $link]);
     }
 }

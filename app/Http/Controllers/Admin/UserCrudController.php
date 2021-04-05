@@ -38,6 +38,12 @@ class UserCrudController extends CrudController
      * @see  https://backpackforlaravel.com/docs/crud-operation-list-entries
      * @return void
      */
+
+    public function __construct(){
+        $this->middleware('boss');
+        parent::__construct();
+    }
+
     protected function setupListOperation()
     {
         CRUD::column('name')->label('Tên');

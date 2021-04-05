@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class CheckIfAdmin
+class CheckIfBoss
 {
     /**
      * Checked that the logged in user is an administrator.
@@ -26,11 +26,11 @@ class CheckIfAdmin
      *
      * @return bool [description]
      */
-    private function checkIfUserIsAdmin($user)
+    private function checkIfUserIsBoss($user)
     {
-         if ($user->role <= 1){
-             return true;
-         }
+        if($user->role == 0){
+            return true;
+        }
     }
 
     /**
@@ -63,8 +63,8 @@ class CheckIfAdmin
             return $this->respondToUnauthorizedRequest($request);
         }
 
-        if (! $this->checkIfUserIsAdmin(backpack_user())) {
-            return redirect('/');
+        if (! $this->checkIfUserIsBoss(backpack_user())) {
+            return redirect('/admin');
         }
 
         return $next($request);

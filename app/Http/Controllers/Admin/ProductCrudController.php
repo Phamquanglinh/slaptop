@@ -45,7 +45,7 @@ class ProductCrudController extends CrudController
         CRUD::column('price')->label('Giá');
         CRUD::column('old_price')->label('Giá cũ');
         CRUD::column('quantity')->label('Hàng còn trong kho');
-        CRUD::column('logo')->label('Ảnh sản phẩm')->type('image');
+        CRUD::column('cover_image')->label('Ảnh sản phẩm')->type('image');
         $this->crud->addColumn([
             'name'=>'category_id',
             'type'=>'select',
@@ -89,11 +89,10 @@ class ProductCrudController extends CrudController
         CRUD::field('price')->label('Giá')->type('number');
         CRUD::field('old_price')->label('Giá cũ')->type('number');
         CRUD::field('quantity')->label('Hàng còn trong kho')->type('number');
-        CRUD::field('cover_image')->label('Ảnh bìa')->type('image')->defaut(null);
-        CRUD::field('logo')->label('Ảnh sản phẩm')->type('image');
+        CRUD::field('cover_image')->label('Ảnh sản phẩm')->type('image');
         CRUD::field('describe')->label('Mô tả')->type('ckeditor');
         CRUD::field('specifications')->label('Thông số kỹ thuật')->type('ckeditor');
-        CRUD::field('details')->label('Thông tin bổ xung')->type('ckeditor');
+        CRUD::field('details')->label('Thông tin bổ sung')->type('ckeditor');
         CRUD::field('rate')->type('select_from_array')->options([1,2,3,4,5]);
         $this->crud->addField([
             'name'=>'category_id',

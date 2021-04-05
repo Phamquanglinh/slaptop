@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     public function index($slug){
-        return view('frontend.detail');
+      return view('frontend.detail');
     }
 }

@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers\Admin\Charts;
 
+use App\Models\Category;
+use App\Models\Customer;
+use App\Models\Order;
+use App\Models\Product;
 use App\Models\User;
 use Backpack\CRUD\app\Http\Controllers\ChartController;
 use ConsoleTVs\Charts\Classes\Chartjs\Chart;
@@ -37,28 +41,31 @@ class WeeklyUsersChartController extends ChartController
      */
      public function data()
      {
-         $users_created_today = User::whereDate('created_at', today())->count();
+         $order = Order::count();
+         $product = Product::count();
+         $category = Category::count();
+         $customer = Customer::count();
 
-         $this->chart->dataset('Số người dùng mới', 'bar', [
-                    50,
+         $this->chart->dataset('Khách hàng', 'bar', [
+                    $customer,
                  ])
              ->color('rgba(205, 32, 31, 1)')
              ->backgroundColor('rgba(205, 32, 31, 0.4)');
 
          $this->chart->dataset('Số đơn hàng bán được', 'bar', [
-             122,
+             $order,
          ])
              ->color('rgba(70, 127, 208, 1)')
              ->backgroundColor('rgba(70, 127, 208, 0.4)');
 
          $this->chart->dataset('Tổng sản phẩm', 'bar', [
-             80,
+             $product,
          ])
              ->color('rgb(77, 189, 116)')
              ->backgroundColor('rgba(77, 189, 116, 0.4)');
 
          $this->chart->dataset('Danh mục', 'bar', [
-             27,
+             $category,
          ])
              ->color('rgb(96, 92, 168)')
              ->backgroundColor('rgba(96, 92, 168, 0.4)');

@@ -21,41 +21,40 @@ class CategoryCrudController extends CrudController
 
     /**
      * Configure the CrudPanel object. Apply settings to all operations.
-     * 
+     *
      * @return void
      */
     public function setup()
     {
         CRUD::setModel(\App\Models\Category::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/category');
-        CRUD::setEntityNameStrings('category', 'categories');
+        CRUD::setEntityNameStrings('Danh mục', 'Các danh mục');
     }
 
     /**
      * Define what happens when the List operation is loaded.
-     * 
+     *
      * @see  https://backpackforlaravel.com/docs/crud-operation-list-entries
      * @return void
      */
     protected function setupListOperation()
     {
-        CRUD::column('id');
-        CRUD::column('name');
-        CRUD::column('cover_image');
-        CRUD::column('slug');
-        CRUD::column('created_at');
-        CRUD::column('updated_at');
+        CRUD::column('name')->label('Tên');
+        CRUD::column('cover_image')->type('image')->label('Ảnh bìa');
+        CRUD::column('parent_id')->type('select')->entity('parent')->model('App\Models\Category')->attribute('name')->label('Danh mục mẹ');
+        CRUD::column('slug')->label('Url');
+        $this->crud->addButtonFromModelFunction('line','Xem trên web','viewOnWeb');
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
          * - CRUD::column('price')->type('number');
-         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']); 
+         * - CRUD::addColumn(['name' => 'price', 'type' => 'number']);
          */
     }
 
     /**
      * Define what happens when the Create operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-create
      * @return void
      */
@@ -63,23 +62,21 @@ class CategoryCrudController extends CrudController
     {
         CRUD::setValidation(CategoryRequest::class);
 
-        CRUD::field('id');
         CRUD::field('name');
-        CRUD::field('cover_image');
-        CRUD::field('slug');
-        CRUD::field('created_at');
-        CRUD::field('updated_at');
+        CRUD::field('cover_image')->type('image');
+        CRUD::field('parent_id')->type('select2')->entity('parent')->model('App\Models\Category')->attribute('name')->label('Danh mục mẹ');
+        CRUD::field('slug')->type('hidden');
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:
          * - CRUD::field('price')->type('number');
-         * - CRUD::addField(['name' => 'price', 'type' => 'number'])); 
+         * - CRUD::addField(['name' => 'price', 'type' => 'number']));
          */
     }
 
     /**
      * Define what happens when the Update operation is loaded.
-     * 
+     *
      * @see https://backpackforlaravel.com/docs/crud-operation-update
      * @return void
      */

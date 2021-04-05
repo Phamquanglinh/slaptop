@@ -201,17 +201,16 @@
                 function getQuantity(index){
                     return document.getElementById(index).value;
                 }
-                let totalPrice = 0;
                 let totalQuantity = 0;
                 let orders=document.getElementsByClassName("order");
                 for (let i = 1; i <= orders.length; i++){
                     let checkoutIndex = "total-" + i; // Make ID checkout
                     let quantityIndex="slot-" + i; // Make ID quantity
                     totalQuantity += Number(getQuantity(quantityIndex));
-                    totalPrice += Number(getPrice(checkoutIndex));
                 }
-                document.getElementById("total-price").innerHTML = totalPrice.toLocaleString() + ' đ';
-                document.getElementById("after-price").innerHTML = (totalQuantity * 20990000).toLocaleString() + ' đ';
+                let totalPrice = (totalQuantity * 20990000).toLocaleString() + ' đ';
+                document.getElementById("total-price").innerHTML = totalPrice;
+                document.getElementById("after-price").innerHTML = totalPrice;
             }
             // show pay method
             $('.pay').click(function (){

@@ -1,5 +1,6 @@
-.container-fluid{
-    text-transform: capitalize;
+.card-header{
+    width: 80%;
+    margin: auto;
 }
 .bg-link{
     padding: 20px 0;

@@ -4,7 +4,13 @@ $title = 'Câu hỏi thường gặp';
 @extends('layout.app')
 @section('content')
     <link rel="stylesheet" href="{{asset('asset/css/faq.css')}}">
-    <div class="container-fluid">
+    <style>
+        .card{
+            width: 60%;
+            margin: auto;
+        }
+    </style>
+    <div class="container">
         <div class="bg-link text-light">
             <div class="row ">
                 <div class="col-md-6 p-5">
@@ -20,7 +26,7 @@ $title = 'Câu hỏi thường gặp';
             </div>
         </div>
         <div id="accordion">
-            <div class="card">
+            <div class="card" style="width: 60%">
                 <div class="card-header" id="headingOne">
                     <p>
                         <button class="btn btn-link text-dark hover-yellow" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -105,7 +111,7 @@ $title = 'Câu hỏi thường gặp';
                 <div class="card-header" id="headingFive">
                     <p>
                         <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                            Câu hỏi 5: Trường Hợp Mất Hóa Đơn Chuyển Đổi, Có Bị Phạt Hay Không? Phải Làm Gì Trong Vận Chuyển Hàng Trong Trường Hợp Này ?
+                            Câu hỏi 5: Trường Hợp Mất Hóa Đơn Chuyển Đổi, Có Bị Phạt Hay Không? <br>Phải Làm Gì Trong Vận Chuyển Hàng Trong Trường Hợp Này ?
                         </button>
                     </p>
                 </div>
@@ -121,7 +127,7 @@ $title = 'Câu hỏi thường gặp';
                 <div class="card-header" id="headingSix">
                     <p>
                         <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                            Câu hỏi 6: Phần mềm của tổ chức trung gian cung cấp giải pháp hóa đơn điện tử có thể kết nối từ phần mềm kế toán của doanh nghiệp không?
+                            Câu hỏi 6: Phần mềm của tổ chức trung gian cung cấp giải pháp hóa đơn điện tử<br> có thể kết nối từ phần mềm kế toán của doanh nghiệp không?
                         </button>
                     </p>
                 </div>
@@ -136,7 +142,7 @@ $title = 'Câu hỏi thường gặp';
                 <div class="card-header" id="headingSeven">
                     <p>
                         <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                            Câu hỏi 7: Doanh nghiệp có thể sử dụng chung chữ ký số(CKS) với khai thuế qua mạng, nộp thuế điện tử hay không?
+                            Câu hỏi 7: Nếu hóa đơn đã xuất có sai sót có được điều chỉnh không?
                         </button>
                     </p>
                 </div>
@@ -201,24 +207,9 @@ $title = 'Câu hỏi thường gặp';
                     </div>
                 </div>
             </div>
-            <nav class="mt-5" aria-label="Page navigation">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="http://localhost/slaptop/public/faq" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="http://localhost/slaptop/public/faq">1</a></li>
-                    <li class="page-item"><a class="page-link" href="http://localhost/slaptop/public/faq-page-2">2</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="http://localhost/slaptop/public/faq-page-2" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </div>
 @endsection
+
+
+

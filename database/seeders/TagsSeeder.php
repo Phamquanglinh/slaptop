@@ -17,33 +17,28 @@ class TagsSeeder extends Seeder
     {
 
         DB::table('tags')->insert([
-            'name' => 'điện thoại hỏng',
-            'slug' => 'điện thoại hỏng.aspx',
+            'name' => 'Sản phẩm giảm giá',
+            'slug' => Str::slug('Sản phẩm giảm giá','-').'.aspx',
             'created_at' => now(),
         ]);
         DB::table('tags')->insert([
-            'name' => 'điện thoại cũ',
-            'slug' => 'điện thoại cũ.aspx',
+            'name' => 'Sản phẩm cao cấp',
+            'slug' => Str::slug('Sản phẩm cao cấp','-').'.aspx',
             'created_at' => now(),
         ]);
         DB::table('tags')->insert([
-            'name' => 'điện thoại vỡ',
-            'slug' => 'điện thoại vỡ.aspx',
+            'name' => 'Số lượng có hạn',
+            'slug' => Str::slug('Số lượng có hạn','-').'.aspx',
             'created_at' => now(),
         ]);
         DB::table('tags')->insert([
-            'name' => 'điện thoại cháy',
-            'slug' => 'điện thoại cháy.aspx',
+            'name' => 'Phù hợp cho sinh viên',
+            'slug' => Str::slug('Phù hợp cho sinh viên','-').'.aspx',
             'created_at' => now(),
         ]);
         DB::table('tags')->insert([
-            'name' => 'điện thoại fa',
-            'slug' => 'điện thoại fa.aspx',
-            'created_at' => now(),
-        ]);
-        DB::table('tags')->insert([
-            'name' => 'điện thoại alone',
-            'slug' => 'điện thoại alone.aspx',
+            'name' => 'Phù hợp cho người đi làm',
+            'slug' => Str::slug('Phù hợp cho người đi làm','-').'.aspx',
             'created_at' => now(),
         ]);
 

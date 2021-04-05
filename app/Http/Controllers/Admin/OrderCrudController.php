@@ -41,11 +41,12 @@ class OrderCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('customers_id');
-        CRUD::column('products_id');
-        CRUD::column('price');
+        CRUD::column('customers');
+        CRUD::column('products');
+        CRUD::column('total')->type('number');
         CRUD::column('ship_address');
         CRUD::column('payment_method');
+        CRUD::column('status')->type('select_from_array')->options(['Đang chờ','Đã xác nhận','Đang vận chuyển','Đã chuyển']);
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
@@ -65,8 +66,8 @@ class OrderCrudController extends CrudController
         CRUD::setValidation(OrderRequest::class);
 
         CRUD::field('id');
-        CRUD::field('customers_id');
-        CRUD::field('products_id');
+        CRUD::field('customers');
+        CRUD::field('products');
         CRUD::field('price');
         CRUD::field('ship_address');
         CRUD::field('payment_method');

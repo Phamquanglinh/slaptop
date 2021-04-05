@@ -26,6 +26,9 @@ Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController:
 Route::get('/faq', function () {
     return view('frontend.faq');
 })->name('frontend.faq');
+Route::get('/faq-page-2', function () {
+    return view('frontend.faq-page-2');
+})->name('frontend.faq-page-2');
 Route::get('/cart', function () {
     return view('frontend.cart');
 })->name('frontend.cart');

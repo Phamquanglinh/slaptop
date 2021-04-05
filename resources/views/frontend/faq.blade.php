@@ -4,9 +4,6 @@ $title = 'Câu hỏi thường gặp';
 @extends('layout.app')
 @section('content')
     <link rel="stylesheet" href="{{asset('asset/css/faq.css')}}">
-    <style>
-
-    </style>
     <div class="container-fluid">
         <div class="bg-link text-light">
             <div class="row ">
@@ -49,7 +46,6 @@ $title = 'Câu hỏi thường gặp';
                                 Thông tin chứa trong hóa đơn điện tử có thể truy cập, sử dụng được dưới dạng hoàn chỉnh khi cần thiết.
                             </li>
                         </ul>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -140,7 +136,7 @@ $title = 'Câu hỏi thường gặp';
                 <div class="card-header" id="headingSeven">
                     <p>
                         <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                            Câu hỏi 7: Doanh nghiệp có thể sử dụng chung chữ ký số(CKS) với khai thuế qua mạng, nộp thuế điện tử hay không? Có sử dụng chữ ký của nhà cung cấp Chữ ký số khác được không?
+                            Câu hỏi 7: Doanh nghiệp có thể sử dụng chung chữ ký số(CKS) với khai thuế qua mạng, nộp thuế điện tử hay không?
                         </button>
                     </p>
                 </div>
@@ -148,7 +144,6 @@ $title = 'Câu hỏi thường gặp';
                     <div class="card-body">
                         <p><b>Trả lời:</b></p>
                         <p>- Có thể dùng chung CKS với các dịch vụ khác.</p>
-                        <p>- Có thể sử dụng CKS số của nhà cung cấp khác.</p>
                     </div>
                 </div>
             </div>
@@ -206,19 +201,18 @@ $title = 'Câu hỏi thường gặp';
                     </div>
                 </div>
             </div>
-            <nav class="mt-5" aria-label="Page navigation example">
+            <nav class="mt-5" aria-label="Page navigation">
                 <ul class="pagination">
                     <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
+                        <a class="page-link" href="http://localhost/slaptop/public/faq" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                             <span class="sr-only">Previous</span>
                         </a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="http://localhost/slaptop/public/faq">1</a></li>
+                    <li class="page-item"><a class="page-link" href="http://localhost/slaptop/public/faq-page-2">2</a></li>
                     <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
+                        <a class="page-link" href="http://localhost/slaptop/public/faq-page-2" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                             <span class="sr-only">Next</span>
                         </a>

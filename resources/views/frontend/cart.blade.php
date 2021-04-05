@@ -171,6 +171,8 @@
             </div>
         </div>
         <div class="row mb-5 box-shadow p-3 hidden border-radius">
+            <div class="h4">Đơn hàng</div>
+            <div id="bill" class="text-muted my-4"></div>
             <form action="#" method="post" class="w-100">
                 @csrf
                 <div class="row form-group">
@@ -197,7 +199,7 @@
                     <h5 class="form-label">Ghi chú</h5>
                     <textarea class="form-control" rows="5"></textarea>
                 </div>
-                <input name="order-container" value=" " type="hidden" id="order-container">
+                <input name="order-container" value="" type="hidden" id="order-container">
                 <div class="form-group">
                     <h5 class="form-label">Phương thức thanh toán</h5>
                     <select name="pay">
@@ -214,6 +216,18 @@
             </form>
         </div>
         <script>
+            let str = '';
+            let bill = '';
+            function getOrderData() {
+                let quantities = $('.quantity');
+                let product = $('.name-order');
+                for (let i = 0; i < product.length; i++) {
+                    str += quantities[i].value + '{@4433}' + product[i].innerText + '{@5678}';
+                    bill += product[i].innerText + ' x ' + quantities[i].value + ' chiếc<br>';
+                }
+                document.getElementById('order-container').value = str;
+                $('#bill').html(bill);
+            }
             function addCount(count, method) {
                 let idQuantityInput = "slot-" + count; // get id
                 let quantityValue = Number($('#'+idQuantityInput).val());

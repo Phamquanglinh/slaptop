@@ -1,149 +1,164 @@
 @extends('layout.app')
 @section('content')
     <link rel="stylesheet" href="{{asset('asset/css/cart.css')}}">
+    <style>
+        @media all and (max-width: 992px){
+            .name-order, .quantity-string{
+                font-size: 1rem;
+            }
+            .new-price{
+                font-size: 1.2rem;
+            }
+            .title-size-responsive{
+                font-size: 1.5rem;
+            }
+            .size-responsive{
+                font-size: 0.8rem;
+            }
+        }
+    </style>
     <div class="container">
-        <div class="order row my-5 box-shadow border-radius">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}" class="img-fluid w-100 border-radius p-2">
+        <div class="orderList">
+            <div class="order row my-5 box-shadow border-radius">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}" class="img-fluid w-100 border-radius p-2">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
+                    <h5 class="text-uppercase name-order">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650 4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
+                    <div class="d-flex flex-wrap align-items-center my-3">
+                        <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
+                        <span class="text-primary h4 new-price">20.990.000 đ</span>
+                    </div>
+                    <h5 class="quantity-string">Số lượng</h5>
+                    <div class="input-group flex-wrap text-center">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(1, 'minus')">
+                                <i class="fas fa-minus text-white"></i>
+                            </button>
+                        </div>
+                        <input type="number" class="quantity" value="1" min="1" id="slot-1">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(1, 'plus')">
+                                <i class="fas fa-plus text-white"></i>
+                            </button>
+                        </div>
+                        <span class="h4 text-primary ml-5" id="total-1">20.990.000 đ</span>
+                    </div>
+                    <p class="float-right my-0">
+                        <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
+                        <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
+                    </p>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
-                <h5 class="text-uppercase">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650 4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
-                <div class="d-flex flex-wrap align-items-center my-3">
-                    <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
-                    <span class="text-primary h4 new-price">20.990.000 đ</span>
+            <div class="order row my-5 box-shadow border-radius">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}" class="img-fluid w-100 border-radius p-2">
                 </div>
-                <h5>Số lượng</h5>
-                <div class="input-group flex-wrap text-center">
-                    <div class="input-group-prepend">
-                        <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(1, 'minus')">
-                            <i class="fas fa-minus text-white"></i>
-                        </button>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
+                    <h5 class="text-uppercase name-order">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650 4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
+                    <div class="d-flex flex-wrap align-items-center my-3">
+                        <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
+                        <span class="text-primary h4 new-price">20.990.000 đ</span>
                     </div>
-                    <input type="number" class="quantity" value="2" min="1" id="slot-1">
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(1, 'plus')">
-                            <i class="fas fa-plus text-white"></i>
-                        </button>
+                    <h5 class="quantity-string">Số lượng</h5>
+                    <div class="input-group flex-wrap text-center">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(2, 'minus')">
+                                <i class="fas fa-minus text-white"></i>
+                            </button>
+                        </div>
+                        <input type="number" class="quantity" value="1" min="1" id="slot-2">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(2, 'plus')">
+                                <i class="fas fa-plus text-white"></i>
+                            </button>
+                        </div>
+                        <span class="h4 text-primary ml-5" id="total-2">20.990.000 đ</span>
                     </div>
-                    <span class="h4 text-primary ml-5" id="total-1">41.980.000 đ</span>
+                    <p class="float-right my-0">
+                        <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
+                        <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
+                    </p>
                 </div>
-                <p class="float-right mt-0">
-                    <span><a class="link-style-none" href="#"><i class="fas fa-info-circle fa-2x mr-2"></i></a></span>
-                    <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt fa-2x"></i></a></span>
-                </p>
             </div>
-        </div>
-        <div class="order row my-5 box-shadow border-radius">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}" class="img-fluid w-100 border-radius p-2">
-            </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
-                <h5 class="text-uppercase">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650 4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
-                <div class="d-flex flex-wrap align-items-center my-3">
-                    <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
-                    <span class="text-primary h4">20.990.000 đ</span>
+            <div class="order row my-5 box-shadow border-radius">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}" class="img-fluid w-100 border-radius p-2">
                 </div>
-                <h5>Số lượng</h5>
-                <div class="input-group flex-wrap text-center">
-                    <div class="input-group-prepend">
-                        <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(2, 'minus')">
-                            <i class="fas fa-minus text-white"></i>
-                        </button>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
+                    <h5 class="text-uppercase name-order">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650 4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
+                    <div class="d-flex flex-wrap align-items-center my-3">
+                        <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
+                        <span class="text-primary h4 new-price">20.990.000 đ</span>
                     </div>
-                    <input type="number" class="quantity" value="2" min="1" id="slot-2">
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(2, 'plus')">
-                            <i class="fas fa-plus text-white"></i>
-                        </button>
+                    <h5 class="quantity-string">Số lượng</h5>
+                    <div class="input-group flex-wrap text-center">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(3, 'minus')">
+                                <i class="fas fa-minus text-white"></i>
+                            </button>
+                        </div>
+                        <input type="number" class="quantity" value="1" min="1" id="slot-3">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(3, 'plus')">
+                                <i class="fas fa-plus text-white"></i>
+                            </button>
+                        </div>
+                        <span class="h4 text-primary ml-5" id="total-3">20.990.000 đ</span>
                     </div>
-                    <span class="h4 text-primary ml-5" id="total-2">41.980.000 đ</span>
+                    <p class="float-right my-0">
+                        <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
+                        <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
+                    </p>
                 </div>
-                <p class="float-right mt-0">
-                    <span><a class="link-style-none" href="#"><i class="fas fa-info-circle fa-2x mr-2"></i></a></span>
-                    <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt fa-2x"></i></a></span>
-                </p>
-            </div>
-        </div>
-        <div class="order row my-5 box-shadow border-radius">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}" class="img-fluid w-100 border-radius p-2">
-            </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
-                <h5 class="text-uppercase">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650 4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
-                <div class="d-flex flex-wrap align-items-center my-3">
-                    <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
-                    <span class="text-primary h4 new-price">20.990.000 đ</span>
-                </div>
-                <h5>Số lượng</h5>
-                <div class="input-group flex-wrap text-center">
-                    <div class="input-group-prepend">
-                        <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(3, 'minus')">
-                            <i class="fas fa-minus text-white"></i>
-                        </button>
-                    </div>
-                    <input type="number" class="quantity" value="2" min="1" id="slot-3">
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-outline-primary bg-info rounded-0" onclick="addCount(3, 'plus')">
-                            <i class="fas fa-plus text-white"></i>
-                        </button>
-                    </div>
-                    <span class="h4 text-primary ml-5" id="total-3">41.980.000 đ</span>
-                </div>
-                <p class="float-right mt-0">
-                    <span><a class="link-style-none" href="#"><i class="fas fa-info-circle fa-2x mr-2"></i></a></span>
-                    <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt fa-2x"></i></a></span>
-                </p>
             </div>
         </div>
         <div class="row mb-5 box-shadow p-3 border-radius">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
-                <h3 class="mb-5">Thanh toán</h3>
+                <h3 class="mb-5 title-size-responsive">Thanh toán</h3>
                 <div class="row">
-                    <div class="col-8"><p class="font-weight-bold">Tổng số tiền các sản phẩm</p></div>
-                    <div class="col-4"><p class="text-primary" id="total-price">125.940.000 đ</p></div>
+                    <div class="col-8"><p class="font-weight-bold size-responsive">Tổng số tiền các sản phẩm</p></div>
+                    <div class="col-4"><p class="text-primary size-responsive" id="total-price">62.970.000 đ</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-8"><p class="font-weight-bold">Phí vận chuyển</p></div>
-                    <div class="col-4"><p class="text-primary">+ 12.000 đ</p></div>
+                    <div class="col-8"><p class="font-weight-bold size-responsive">Phí vận chuyển</p></div>
+                    <div class="col-4"><p class="text-primary size-responsive">+ 12.000 đ</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-8"><p class="font-weight-bold">Mã khuyến mãi áp dụng</p></div>
-                    <div class="col-4"><p class="text-success">- 12.000 đ</p></div>
+                    <div class="col-8"><p class="font-weight-bold size-responsive">Mã khuyến mãi áp dụng</p></div>
+                    <div class="col-4"><p class="text-success size-responsive">- 12.000 đ</p></div>
                 </div><hr>
                 <div class="row">
-                    <div class="col-8"><h3>Tổng</h3></div>
-                    <div class="col-4"><h5 class="text-primary" id="after-price">125.940.000 đ</h5></div>
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7"><h3 class="title-size-responsive">Tổng</h3></div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4"><h5 class="text-primary" id="after-price">62.970.000 đ</h5></div>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
-                <h3 class="mb-5">Chấp nhận thanh toán</h3>
+                <h3 class="mb-5 title-size-responsive">Chấp nhận thanh toán</h3>
                 <div class="row bg-light-blue p-4 box-shadow border-radius">
                     <div class="col-4">
-                        <a class="link-style-none" href="#">
-                            <img src="{{asset('asset/img/cart-page/vnpay.png')}}" class="img-fluid w-100">
-                            <p class="font-weight-bold text-center mt-2">VNPAY</p>
-                        </a>
+                        <img src="{{asset('asset/img/cart-page/vnpay.png')}}" class="img-fluid w-100">
+                        <p class="font-weight-bold text-center mt-2 size-responsive">VNPAY</p>
                     </div>
                     <div class="col-4">
-                        <a class="link-style-none" href="#">
-                            <img src="{{asset('asset/img/cart-page/momo.png')}}" class="img-fluid w-100">
-                            <p class="font-weight-bold text-center mt-2">MOMO</p>
-                        </a>
+                        <img src="{{asset('asset/img/cart-page/momo.png')}}" class="img-fluid w-100">
+                        <p class="font-weight-bold text-center mt-2 size-responsive">MOMO</p>
                     </div>
                     <div class="col-4">
-                        <a class="link-style-none" href="#">
-                            <img src="{{asset('asset/img/cart-page/tt-pay.png')}}" class="img-fluid w-100">
-                            <p class="font-weight-bold text-center mt-2">TT Khi nhận hàng</p>
-                        </a>
+                        <img src="{{asset('asset/img/cart-page/tt-pay.png')}}" class="img-fluid w-100">
+                        <p class="font-weight-bold text-center mt-2 size-responsive">TT Khi nhận hàng</p>
                     </div>
                 </div>
             </div>
             <div class="mx-auto mt-5 mb-3">
-                <button type="submit" class="btn btn-primary border-radius pay">Tiến hành thanh toán</button>
+                <button type="submit" class="btn btn-primary border-radius pay" onclick="getOrderData()">Tiến hành thanh toán</button>
             </div>
         </div>
         <div class="row mb-5 box-shadow p-3 hidden border-radius">
+            <div class="h4">Đơn hàng</div>
+            <div id="bill" class="text-muted my-4"></div>
             <form action="#" method="post" class="w-100">
+                @csrf
                 <div class="row form-group">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
                         <h5>Họ và tên</h5>
@@ -168,20 +183,33 @@
                     <h5>Ghi chú</h5>
                     <textarea class="form-control" rows="5"></textarea>
                 </div>
+                <input name="order-container" value=" " type="hidden" id="order-container">
                 <div class="form-group">
                     <h5>Phương thức thanh toán</h5>
-                    <select>
+                    <select name="pay">
                         <option>MOMO</option>
                         <option>VNPAY</option>
                         <option>Thanh toán khi nhận hàng</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <p class="text-center mt-4"><input type="submit" class="btn btn-success border-radius pay" value="Tiến hành thanh toán"></p>
+                    <p class="text-center mt-4"><input type="submit" class="btn btn-success border-radius" value="Tiến hành thanh toán"></p>
                 </div>
             </form>
         </div>
         <script>
+            let str='';
+            let bill='';
+            function getOrderData(){
+              let quantities =  document.getElementsByClassName('quantity');
+              let product = document.getElementsByClassName('name-order');
+              for(let i=0;i<product.length;i++){
+                  str += quantities[i].value + '{@4433}'+product[i].innerText + '{@5678}';
+                  bill += product[i].innerText + ' x '+quantities[i].value+'<br>';
+              }
+              document.getElementById('order-container').value=str;
+              document.getElementById('bill').innerHTML=bill;
+            }
             function addCount(count, method){
                 let idQuantityInput = "slot-" + count; // get id
                 let quantityValue = Number(document.getElementById(idQuantityInput).value);
@@ -215,6 +243,7 @@
             // show pay method
             $('.pay').click(function (){
                 $('.hidden').removeClass('hidden');
+                $('.orderList').addClass('hidden');
             })
         </script>
     </div>

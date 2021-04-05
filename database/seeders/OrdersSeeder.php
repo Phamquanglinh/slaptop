@@ -19,52 +19,23 @@ class OrdersSeeder extends Seeder
 
         DB::table('orders')->insert([
 
-            'customers_id' => 1,
-            'products_id' => 1,
-            'price' => random_int(1, 100000),
-            'ship_address' => 'hà nội',
-            'payment_method' => 'Thẻ ngân hàng',
-            'created_at' => now(),
-
-        ]);
-
-        DB::table('orders')->insert([
-
-            'customers_id' => 2,
-            'products_id' => 2,
-            'price' => random_int(1, 100000),
-            'ship_address' => 'hà tây',
-            'payment_method' => 'Momo',
+            'customers' => 'Trần Gia Hào',
+            'products' => '1:4-2:5-3:4',
+            'total' => 49990000,
+            'ship_address' => 'Nam Từ Liêm - Hà Nội',
+            'status' => 0,
+            'payment_method' => 'Nhận hàng thanh toán',
             'created_at' => now(),
 
         ]);
         DB::table('orders')->insert([
 
-            'customers_id' => 3,
-            'products_id' => 3,
-            'price' => random_int(1, 100000),
-            'ship_address' => 'quảng nam',
-            'payment_method' => 'ví điện tử ',
-            'created_at' => now(),
-
-        ]);
-        DB::table('orders')->insert([
-
-            'customers_id' => 4,
-            'products_id' => 4,
-            'price' => random_int(1, 100000),
-            'ship_address' => 'hà nội',
-            'payment_method' => 'Thẻ ngân hàng',
-            'created_at' => now(),
-
-        ]);
-        DB::table('orders')->insert([
-
-            'customers_id' => 5,
-            'products_id' => 5,
-            'price' => random_int(1, 100000),
-            'ship_address' => 'hà nội',
-            'payment_method' => 'Thẻ ngân hàng',
+            'customers' => 'Trần Thị Minh',
+            'products' => '1:4-2:5-3:4',
+            'total' => 49990000,
+            'ship_address' => 'Thanh Xuân - Hà Nội',
+            'status' => 3,
+            'payment_method' => 'Nhận hàng thanh toán',
             'created_at' => now(),
 
         ]);

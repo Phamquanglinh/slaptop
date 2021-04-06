@@ -1,0 +1,19 @@
+.quantity{
+    width:40px!important;
+}
+.box-shadow{
+    box-shadow: 4px 6px 20px 1px #797879;
+}
+.bg-light-blue{
+    background-color: #C9F7FD;
+}
+.border-radius{
+    border-radius: 8px;
+}
+.pay{
+    cursor: pointer;
+}
+.hidden{
+    visibility: hidden;
+    height: 0;
+}

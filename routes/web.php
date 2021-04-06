@@ -26,9 +26,15 @@ Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController:
 Route::get('/faq', function () {
     return view('frontend.faq');
 })->name('frontend.faq');
-Route::get('/cart', function () {
-    return view('frontend.cart');
-})->name('frontend.cart');
+Route::get('/cart',[\App\Http\Controllers\Frontend\CartController::class,'index'])->name('cart.show');
+Route::get('/cart/push/{id}/quantity/{quantity}/type/{type}',[\App\Http\Controllers\Frontend\CartController::class,'pushData','id','quantity','type'])
+->where(['id','quantity','type'])->name('cart.push');
+Route::get('/cart/remove/{id}',[\App\Http\Controllers\Frontend\CartController::class,'removeData','id']
+)->where(['id'])->name('cart.remove');
 Route::get('/category/{slug}', [\App\Http\Controllers\Frontend\FrontendCategoryController::class, 'getData', 'id'])->where(['slug'])->name('category');
 Route::get('/tag/{slug}', [\App\Http\Controllers\Frontend\TagController::class, 'getData', 'id'])->where(['slug'])->name('tag');
 Route::get('/brand/{slug}', [\App\Http\Controllers\Frontend\BrandController::class, 'getData', 'id'])->where(['slug'])->name('tag');
+Route::get('/cart/{method}/{id}',[\App\Http\Controllers\Frontend\CartController::class,'ajax','method','id'])->where(['method','id'])->name('cart.ajax');
+Route::get('/cart/{method}/{product_id}/{quantity}',[\App\Http\Controllers\Frontend\CartController::class,'addToCart','method','product_id','quantity'])->where(['method','product_id','quantity'])->name('cart.add');
+Route::get('/cart/remove/{id}',[\App\Http\Controllers\Frontend\CartController::class,'removeItem','id'])->where(['id'])->name('cart.remove');
+

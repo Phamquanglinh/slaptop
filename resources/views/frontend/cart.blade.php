@@ -1,5 +1,8 @@
 @extends('layout.app')
 @section('content')
+    @php
+    $order='';
+    @endphp
     <link rel="stylesheet" href="{{asset('asset/css/cart.css')}}">
     <style>
         @media all and (max-width: 992px) {
@@ -17,12 +20,18 @@
             }
         }
     </style>
+    @if (session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+    @endif
     @if(isset($carts->first()->id))
     <div class="container">
         <div class="orderList">
                 @foreach($carts as $key => $cart)
                     @php
                         $product = $cart->getProduct()->first();
+                        $order .= $cart->id."-";
                     @endphp
                     <div class="order row my-5 box-shadow border-radius">
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4">
@@ -32,29 +41,29 @@
                         <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
                             <h5 class="text-uppercase name-order">{{$product->name}}</h5>
                             <div class="d-flex flex-wrap align-items-center my-3">
-                                <span class="text-secondary p-2"><del>{{$product->old_price}}</del></span>
-                                <span class="text-primary h4 new-price">{{$product->price}}</span>
+                                <span class="text-secondary p-2"><del>{{($product->old_price)}} đ</del></span>
+                                <span class="text-primary h4 new-price">{{$product->price}} đ</span>
                             </div>
                             <h5 class="quantity-string">Số lượng</h5>
                             <div class="input-group flex-wrap text-center">
                                 <div class="input-group-prepend">
                                     <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                            onclick="addCount({{$key}},{{$product->price}},'minus');sumPrice()">
+                                            onclick="addCount({{$key}},{{$product->price}},'minus');sumPrice();loadAjax({{$cart->id}},'minus')">
                                         <i class="fas fa-minus text-white"></i>
                                     </button>
                                 </div>
-                                <input type="number" class="quantity" value="{{$cart->quantity}}" min="1" id="slot-{{$key}}">
+                                <input type="text" disabled class="quantity" value="{{$cart->quantity}}" min="1" id="slot-{{$key}}">
                                 <div class="input-group-append">
                                     <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                            onclick="addCount({{$key}},{{$product->price}}, 'plus');sumPrice()">
+                                            onclick="addCount({{$key}},{{$product->price}}, 'plus');sumPrice();loadAjax({{$cart->id}},'plus')">
                                         <i class="fas fa-plus text-white"></i>
                                     </button>
                                 </div>
-                                <span class="h4 text-primary ml-5 total-price" id="total-{{$key}}">{{$product->price * $cart->quantity}} đ</span>
+                                <span class="h4 text-primary ml-5 total-price" id="total-{{$key}}">{{$product->price * $cart->quantity}} </span><span class="ml-2 h4 text-primary">đ</span>
                             </div>
                             <p class="float-right my-0">
-                                <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
-                                <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
+                                <span><a class="link-style-none" href="{{route('product',['slug'=>$product->slug])}}"><i class="fas fa-info-circle mr-2"></i></a></span>
+                                <span><a class="link-style-none" href="{{route('cart.remove',['id'=>$cart->id])}}"><i class="fas fa-trash-alt"></i></a></span>
                             </p>
                         </div>
                     </div>
@@ -65,7 +74,7 @@
                 <h3 class="mb-5 title-size-responsive">Thanh toán</h3>
                 <div class="row">
                     <div class="col-8"><p class="font-weight-bold size-responsive">Tổng số tiền các sản phẩm</p></div>
-                    <div class="col-4"><p class="text-primary size-responsive" id="total-price"> đ</p></div>
+                    <div class="col-4"><p class="text-primary size-responsive" id="total-price"> </p></div>
                 </div>
                 <div class="row">
                     <div class="col-8"><p class="font-weight-bold size-responsive">Phí vận chuyển</p></div>
@@ -113,11 +122,11 @@
                 <div class="row form-group">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
                         <h5 class="form-label">Họ và tên</h5>
-                        <input type="text" class="form-control" name="fullname" id="fullname">
+                        <input type="text" class="form-control" name="fullname" value="{{backpack_user()->name}}" id="fullname" readonly>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
                         <h5 class="form-label">Email</h5>
-                        <input type="email" class="form-control" name="email" id="email">
+                        <input type="email" class="form-control" name="email" value="{{backpack_user()->email}}" id="email" readonly>
                     </div>
                 </div>
                 <div class="row form-group">
@@ -134,7 +143,7 @@
                     <h5 class="form-label">Ghi chú</h5>
                     <textarea class="form-control" rows="5"></textarea>
                 </div>
-                <input name="order-container" value="" type="hidden" id="order-container">
+                <input name="order-container" value="{{$order}}" type="hidden" id="order-container">
                 <div class="form-group">
                     <h5 class="form-label">Phương thức thanh toán</h5>
                     <select name="pay">
@@ -151,6 +160,13 @@
             </form>
         </div>
         <script>
+            function loadAjax(id,method){
+                $.ajax({
+                        url:"http://slaptop.com.vn/cart/"+method+"/"+id,
+                        type : "get",
+                    }
+                )
+            }
             function addCount(count,price, method) {
                 let idQuantityInput = "slot-" + count; // get id
                 let quantityValue = Number($('#'+idQuantityInput).val());
@@ -173,9 +189,10 @@
                var finalPrice =0;
                $('.total-price').each(function (){
                    finalPrice += parseInt($(this).text());
+
                });
-               $('#total-price').text(finalPrice).toLocaleString();
-               $('#after-price').text(finalPrice).toLocaleString();
+               $('#total-price').text(finalPrice +' đ');
+               $('#after-price').text(finalPrice + ' đ');
            }
 
             // show pay method

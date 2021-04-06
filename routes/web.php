@@ -34,3 +34,7 @@ Route::get('/cart/remove/{id}',[\App\Http\Controllers\Frontend\CartController::c
 Route::get('/category/{slug}', [\App\Http\Controllers\Frontend\FrontendCategoryController::class, 'getData', 'id'])->where(['slug'])->name('category');
 Route::get('/tag/{slug}', [\App\Http\Controllers\Frontend\TagController::class, 'getData', 'id'])->where(['slug'])->name('tag');
 Route::get('/brand/{slug}', [\App\Http\Controllers\Frontend\BrandController::class, 'getData', 'id'])->where(['slug'])->name('tag');
+Route::get('/cart/{method}/{id}',[\App\Http\Controllers\Frontend\CartController::class,'ajax','method','id'])->where(['method','id'])->name('cart.ajax');
+Route::get('/cart/{method}/{product_id}/{quantity}',[\App\Http\Controllers\Frontend\CartController::class,'addToCart','method','product_id','quantity'])->where(['method','product_id','quantity'])->name('cart.add');
+Route::get('/cart/remove/{id}',[\App\Http\Controllers\Frontend\CartController::class,'removeItem','id'])->where(['id'])->name('cart.remove');
+

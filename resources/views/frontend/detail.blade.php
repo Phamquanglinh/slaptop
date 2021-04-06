@@ -1,20 +1,22 @@
 @extends('layout.app')
 @section('content')
-
     @if(isset($product))
         <link rel="stylesheet" href="{!!asset('asset/css/detail.css')!!}">
         <style>
             .content {
                 word-wrap: break-word !important;
             }
-            .text-line-through{
-                text-decoration: line-through!important;
+
+            .text-line-through {
+                text-decoration: line-through !important;
             }
-            .right-0{
-                right: 0!important;
+
+            .right-0 {
+                right: 0 !important;
             }
-            .smooth{
-                transition: 0.2s!important;
+
+            .smooth {
+                transition: 0.2s !important;
             }
         </style>
         <div id="fb-root"></div>
@@ -26,7 +28,7 @@
                             >></a>
                         <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
                             >> </a>
-                        <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!} >> </a>
+                        <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!}</a>
                     @else
                         <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
                             >> </a>
@@ -40,8 +42,8 @@
             <div class="row align-items-center">
                 <div class="col-md-4 col-12">
                     <div class="img box-shadow rounded position-relative">
-                        <span class="position-absolute p-2 text-white bg-danger rounded right-0">-{!!$sell!!} %</span>
-                        <img src="{!! $product->logo !!}"
+                        <span class="position-absolute p-2 text-white bg-danger rounded right-0">- {!!$sell!!} %</span>
+                        <img src="{{$product->cover_image}} "
                              class="img-fluid rounded">
                     </div>
                 </div>
@@ -50,7 +52,8 @@
                         <div class="h5">{!!$product->name!!}
                         </div>
                         <div class="price d-flex flex-wrap align-items-center">
-                            <span class="text-muted p-2 text-line-through">{!!$product->old_price!!}đ</span><span class="text-primary h4">{!!$product->price!!}đ</span>
+                            <span class="text-muted p-2 text-line-through">{!!$product->old_price!!}đ</span><span
+                                class="text-primary h4">{!!$product->price!!}đ</span>
                         </div>
                         <div class="input-group mb-3 flex-wrap">
                             <div class="input-group-prepend">
@@ -66,9 +69,11 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-info mb-2"><a href="#" class="text-white link-style-none smooth">Thêm vào giỏ
+                        <button class="btn btn-info mb-2"><a href="#" class="text-white link-style-none smooth">Thêm vào
+                                giỏ
                                 hàng</a></button>
-                        <button class="btn btn-success mb-2"><a href="#" class="link-style-none text-white smooth">Mua ngay</a>
+                        <button class="btn btn-success mb-2"><a href="#" class="link-style-none text-white smooth">Mua
+                                ngay</a>
                         </button>
                     </div>
                 </div>
@@ -132,28 +137,29 @@
                         </div>
                     @endforeach
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12"><h4>Tag</h4></div>
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="tags-group">
-                            @if(isset($tag))
+                @if(!empty($tag))
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12"><h4>Tag</h4></div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="tags-group">
+
                                 @foreach($tag as $items)
                                     <a href="{!!route('tag',['slug'=>$items->slug])!!}"
                                        class="badge badge-info border-0 shadow-md">{!!$items->name!!}</a>
                                 @endforeach
-                            @endif
+
+                            </div>
                         </div>
                     </div>
-
-
-                </div>
+                @endif
             </div>
         </div>
+
         <script>
             function add() {
                 var quantity = document.getElementById('quantity');
                 if (parseInt(quantity.value) < quantity.max) {
-                    quantity.value=parseInt(quantity.value)+1;
+                    quantity.value = parseInt(quantity.value) + 1;
                 }
 
             }

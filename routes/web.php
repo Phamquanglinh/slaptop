@@ -30,6 +30,7 @@ Route::get('/cart', function () {
     return view('frontend.cart');
 })->name('frontend.cart');
 Route::get('/category/{slug}', [\App\Http\Controllers\Frontend\FrontendCategoryController::class, 'getData', 'id'])->where(['slug'])->name('category');
+
 Route::get('/tag/{slug}', [\App\Http\Controllers\Frontend\TagController::class, 'getData', 'id'])->where(['slug'])->name('tag');
 
 Route::get('/brand/{slug}', [\App\Http\Controllers\Frontend\BrandController::class, 'getData', 'id'])->where(['slug'])->name('brand');

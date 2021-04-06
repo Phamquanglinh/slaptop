@@ -9,27 +9,19 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    /**
+     * @param $slug
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function getData($slug)
     {
+        //getdata
         $link = null;
         $categoryParent = null;
         $title = null;
+        $sell = null;
         $product = Product::where('slug', '=', $slug)->first();
         $error = "nothing select";
-        return $product->price;
-//        $sell=ceil(($product->price/$product->old_price)*100);
-        $formatMoney=false;
-        while(!$formatMoney){
-            $replace=preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2',$product->price);
-            $replaceOld=preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2',$product->old_price);
-
-            if ($replace!==$product->price||$replaceOld!==$product->old_price){
-                $product->price=$replace;
-                $product->old_price=$replaceOld;
-            }else{
-                $formatMoney=true;
-            }
-        }
         if (empty($product)) {
             return view('frontend.index', ['error' => $error]);
         } else {
@@ -38,6 +30,7 @@ class ProductController extends Controller
             $category = $product->category()->first();
             $categoryParent = $category->parent()->first();
             $products = $category->products()->get();
+            $sell = $product->sell($product->old_price, $product->price);
             $title = $product->name;
             $link['product'] = $product->name;
             $link['product_url'] = $product->slug;
@@ -45,17 +38,42 @@ class ProductController extends Controller
                 $link['categoryParent_url'] = $categoryParent->slug;
                 $link['categoryParent'] = $categoryParent->name;
             } else {
-                $link['categoryParent_url'] =  null;
-                $link['categoryParent'] =  null;
+                $link['categoryParent_url'] = null;
+                $link['categoryParent'] = null;
             }
             $link['category'] = $category->name;
             $link['category_url'] = $category->slug;
-            return $this->render($product, $products, $title, $brand, $tag, $link,$sell);
         }
+
+
+        //format money
+
+        $product->price = $product->formatMoney($product->price);
+        $product->old_price = $product->formatMoney($product->old_price);
+        foreach ($products as $item) {
+            $item->price = $product->formatMoney($item->price);
+            $item->old_price = $product->formatMoney($item->old_price);
+        }
+
+
+        //return view
+        return $this->render($product, $products, $title, $brand, $tag, $link, $sell);
+
     }
 
-    public function render($product, $products, $title, $brand, $tag, $link,$sell)
+    /**
+     * @param $product
+     * @param $products
+     * @param $title
+     * @param $brand
+     * @param $tag
+     * @param $link
+     * @param $sell
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
+    public function render($product, $products, $title, $brand, $tag, $link, $sell)
     {
-        return view('frontend.detail', ['product' => $product, 'products' => $products, 'title' => $title, 'brand' => $brand, 'tag' => $tag, 'link' => $link,'sell'=>$sell]);
+        //return view function
+        return view('frontend.detail', ['product' => $product, 'products' => $products, 'title' => $title, 'brand' => $brand, 'tag' => $tag, 'link' => $link, 'sell' => $sell]);
     }
 }

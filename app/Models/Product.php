@@ -38,6 +38,25 @@ class Product extends Model
     {
         return '<a class="btn btn-sm btn-link" target="_blank" href="'.env('APP_URL').'/product/'.urlencode($this->slug).'" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
     }
+
+
+    public function formatMoney($money)
+    {
+        //format money function
+        $formatMoney = false;
+        while (!$formatMoney) {
+            $replace = preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2', $money);
+            if ($replace !== $money) {
+                $money = $replace;
+            } else {
+                $formatMoney = true;
+            }
+        }
+        return $money;
+    }
+    public function sell($oldPrice,$price){
+        return 100-ceil(($price/$oldPrice)*100);
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS

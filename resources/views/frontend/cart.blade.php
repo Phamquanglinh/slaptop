@@ -17,120 +17,55 @@
             }
         }
     </style>
+    @if(isset($carts->first()->id))
     <div class="container">
         <div class="orderList">
-            <div class="order row my-5 box-shadow border-radius">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}"
-                         class="img-fluid w-100 border-radius p-2">
-                </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
-                    <h5 class="text-uppercase name-order">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650
-                        4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
-                    <div class="d-flex flex-wrap align-items-center my-3">
-                        <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
-                        <span class="text-primary h4 new-price">20.990.000 đ</span>
-                    </div>
-                    <h5 class="quantity-string">Số lượng</h5>
-                    <div class="input-group flex-wrap text-center">
-                        <div class="input-group-prepend">
-                            <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                    onclick="addCount(1, 'minus')">
-                                <i class="fas fa-minus text-white"></i>
-                            </button>
+                @foreach($carts as $key => $cart)
+                    @php
+                        $product = $cart->getProduct()->first();
+                    @endphp
+                    <div class="order row my-5 box-shadow border-radius">
+                        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <img src="{{$product->cover_image}}"
+                                 class="img-fluid w-75 border-radius p-2">
                         </div>
-                        <input type="number" class="quantity" value="1" min="1" id="slot-1">
-                        <div class="input-group-append">
-                            <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                    onclick="addCount(1, 'plus')">
-                                <i class="fas fa-plus text-white"></i>
-                            </button>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
+                            <h5 class="text-uppercase name-order">{{$product->name}}</h5>
+                            <div class="d-flex flex-wrap align-items-center my-3">
+                                <span class="text-secondary p-2"><del>{{$product->old_price}}</del></span>
+                                <span class="text-primary h4 new-price">{{$product->price}}</span>
+                            </div>
+                            <h5 class="quantity-string">Số lượng</h5>
+                            <div class="input-group flex-wrap text-center">
+                                <div class="input-group-prepend">
+                                    <button type="button" class="btn btn-outline-primary bg-info rounded-0"
+                                            onclick="addCount({{$key}},{{$product->price}},'minus');sumPrice()">
+                                        <i class="fas fa-minus text-white"></i>
+                                    </button>
+                                </div>
+                                <input type="number" class="quantity" value="{{$cart->quantity}}" min="1" id="slot-{{$key}}">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-outline-primary bg-info rounded-0"
+                                            onclick="addCount({{$key}},{{$product->price}}, 'plus');sumPrice()">
+                                        <i class="fas fa-plus text-white"></i>
+                                    </button>
+                                </div>
+                                <span class="h4 text-primary ml-5 total-price" id="total-{{$key}}">{{$product->price * $cart->quantity}} đ</span>
+                            </div>
+                            <p class="float-right my-0">
+                                <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
+                                <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
+                            </p>
                         </div>
-                        <span class="h4 text-primary ml-5" id="total-1">20.990.000 đ</span>
                     </div>
-                    <p class="float-right my-0">
-                        <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
-                        <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="order row my-5 box-shadow border-radius">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}"
-                         class="img-fluid w-100 border-radius p-2">
-                </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
-                    <h5 class="text-uppercase name-order">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650
-                        4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
-                    <div class="d-flex flex-wrap align-items-center my-3">
-                        <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
-                        <span class="text-primary h4 new-price">20.990.000 đ</span>
-                    </div>
-                    <h5 class="quantity-string">Số lượng</h5>
-                    <div class="input-group flex-wrap text-center">
-                        <div class="input-group-prepend">
-                            <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                    onclick="addCount(2, 'minus')">
-                                <i class="fas fa-minus text-white"></i>
-                            </button>
-                        </div>
-                        <input type="number" class="quantity" value="1" min="1" id="slot-2">
-                        <div class="input-group-append">
-                            <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                    onclick="addCount(2, 'plus')">
-                                <i class="fas fa-plus text-white"></i>
-                            </button>
-                        </div>
-                        <span class="h4 text-primary ml-5" id="total-2">20.990.000 đ</span>
-                    </div>
-                    <p class="float-right my-0">
-                        <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
-                        <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="order row my-5 box-shadow border-radius">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="{{asset('asset/img/cart-page/laptop-lenovo.png')}}"
-                         class="img-fluid w-100 border-radius p-2">
-                </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-4">
-                    <h5 class="text-uppercase name-order">laptop lenovo legion 5 15imh05 (82au004xvn) geforce gtx1650
-                        4gb intel corei5 10300h 8gb 512 gb 15.6" 120hz ips rgb win 10</h5>
-                    <div class="d-flex flex-wrap align-items-center my-3">
-                        <span class="text-secondary p-2"><del>24.990.000 đ</del></span>
-                        <span class="text-primary h4 new-price">20.990.000 đ</span>
-                    </div>
-                    <h5 class="quantity-string">Số lượng</h5>
-                    <div class="input-group flex-wrap text-center">
-                        <div class="input-group-prepend">
-                            <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                    onclick="addCount(3, 'minus')">
-                                <i class="fas fa-minus text-white"></i>
-                            </button>
-                        </div>
-                        <input type="number" class="quantity" value="1" min="1" id="slot-3">
-                        <div class="input-group-append">
-                            <button type="button" class="btn btn-outline-primary bg-info rounded-0"
-                                    onclick="addCount(3, 'plus')">
-                                <i class="fas fa-plus text-white"></i>
-                            </button>
-                        </div>
-                        <span class="h4 text-primary ml-5" id="total-3">20.990.000 đ</span>
-                    </div>
-                    <p class="float-right my-0">
-                        <span><a class="link-style-none" href="#"><i class="fas fa-info-circle mr-2"></i></a></span>
-                        <span><a class="link-style-none" href="#"><i class="fas fa-trash-alt"></i></a></span>
-                    </p>
-                </div>
-            </div>
+            @endforeach
         </div>
         <div class="row mb-5 box-shadow p-3 border-radius">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
                 <h3 class="mb-5 title-size-responsive">Thanh toán</h3>
                 <div class="row">
                     <div class="col-8"><p class="font-weight-bold size-responsive">Tổng số tiền các sản phẩm</p></div>
-                    <div class="col-4"><p class="text-primary size-responsive" id="total-price">62.970.000 đ</p></div>
+                    <div class="col-4"><p class="text-primary size-responsive" id="total-price"> đ</p></div>
                 </div>
                 <div class="row">
                     <div class="col-8"><p class="font-weight-bold size-responsive">Phí vận chuyển</p></div>
@@ -216,19 +151,7 @@
             </form>
         </div>
         <script>
-            let str = '';
-            let bill = '';
-            function getOrderData() {
-                let quantities = $('.quantity');
-                let product = $('.name-order');
-                for (let i = 0; i < product.length; i++) {
-                    str += quantities[i].value + '{@4433}' + product[i].innerText + '{@5678}';
-                    bill += product[i].innerText + ' x ' + quantities[i].value + ' chiếc<br>';
-                }
-                document.getElementById('order-container').value = str;
-                $('#bill').html(bill);
-            }
-            function addCount(count, method) {
+            function addCount(count,price, method) {
                 let idQuantityInput = "slot-" + count; // get id
                 let quantityValue = Number($('#'+idQuantityInput).val());
                 if (method === "plus") {
@@ -240,27 +163,31 @@
                 }
                 document.getElementById(idQuantityInput).value = quantityValue;
                 let idTotalPrice = "total-" + count;
-                $('#'+idTotalPrice).text((20990000 * quantityValue).toLocaleString() + ' đ');
+                $('#'+idTotalPrice).text((parseInt(price) * quantityValue));
                 function getQuantity(index) {
                     return $('#'+index).val();
                 }
-
-                let totalQuantity = 0;
-                let orders = $(".order");
-                for (let i = 1; i <= orders.length; i++) {
-                    let quantityIndex = "slot-" + i; // Make ID quantity
-                    totalQuantity += Number(getQuantity(quantityIndex));
-                }
-                let totalPrice = (totalQuantity * 20990000).toLocaleString() + ' đ';
-                $("#total-price").text(totalPrice);
-                $("#after-price").text(totalPrice);
             }
+            //Total
+           function sumPrice(){
+               var finalPrice =0;
+               $('.total-price').each(function (){
+                   finalPrice += parseInt($(this).text());
+               });
+               $('#total-price').text(finalPrice).toLocaleString();
+               $('#after-price').text(finalPrice).toLocaleString();
+           }
+
             // show pay method
             $('.pay').click(function () {
                 $('.hidden').removeClass('hidden');
                 $('.orderList').addClass('hidden');
                 $('.pay').addClass('hidden');
             })
+            sumPrice();
         </script>
     </div>
+    @else
+        <div class="text-center p-5">Giỏ hàng trống , hãy quay lại mua hàng nhé !!</div>
+    @endif
 @endsection

@@ -19,8 +19,8 @@ class CreateProductsTable extends Migration
             $table->integer('price');
             $table->integer('old_price');
             $table->integer('quantity');
-            $table->longText('cover_image');
-            $table->longText('logo');
+            $table->longText('cover_image')->nullable();
+            $table->longText('logo')->nullable();
             $table->longText('describe');
             $table->longText('specifications');
             $table->longText('details');

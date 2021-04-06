@@ -5,6 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use phpDocumentor\Reflection\Utils;
 
 class Product extends Model
 {
@@ -46,7 +47,9 @@ class Product extends Model
     {
         return $this->belongsTo(Category::class, 'category_id', 'id');
     }
-
+    public function products(){
+        return $this->hasMany(Product::class,'product_id','id');
+    }
     public function brand()
     {
         return $this->belongsTo(Brand::class, 'brand_id', 'id');

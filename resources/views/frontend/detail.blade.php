@@ -1,34 +1,56 @@
 @extends('layout.app')
 @section('content')
+
     @if(isset($product))
-        <link rel="stylesheet" href="{{asset('asset/css/detail.css')}}">
+        <link rel="stylesheet" href="{!!asset('asset/css/detail.css')!!}">
         <style>
-            .content{
-                word-wrap: break-word!important;
+            .content {
+                word-wrap: break-word !important;
+            }
+            .text-line-through{
+                text-decoration: line-through!important;
+            }
+            .right-0{
+                right: 0!important;
+            }
+            .smooth{
+                transition: 0.2s!important;
             }
         </style>
         <div id="fb-root"></div>
         <div class="container pt-3 pb-5">
             <div class="slug text-primary pb-2 border-top-0 border-right-0 border-left-0 border border-primary">
-                <a href="{{route('category',['slug'=>$link['categoryParent_url']])}}">{{$link['categoryParent']}} >></a>
-                <a href="{{route('category',['slug'=>$link['category_url']])}}">{{$link['category']}} >> </a>
-                <a href="{{route('product',['slug'=>$link['product_url']])}}">{{$link['product']}} >> </a>
+                @if(isset($link['category']))
+                    @if(isset($link['categoryParent_url']))
+                        <a href="{!!route('category',['slug'=>$link['categoryParent_url']])!!}">{!!$link['categoryParent']!!}
+                            >></a>
+                        <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
+                            >> </a>
+                        <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!} >> </a>
+                    @else
+                        <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
+                            >> </a>
+                        <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!} </a>
+                    @endif
+                @endif
             </div>
+
         </div>
         <div class="container bg-light p-5">
             <div class="row align-items-center">
                 <div class="col-md-4 col-12">
-                    <div class="img box-shadow rounded">
-                        <img src="https://laptoptitan.vn/wp-content/uploads/2020/08/Top-10-Laptop-Gaming-Gia-re-1.jpg"
+                    <div class="img box-shadow rounded position-relative">
+                        <span class="position-absolute p-2 text-white bg-danger rounded right-0">-{!!$sell!!} %</span>
+                        <img src="{!! $product->logo !!}"
                              class="img-fluid rounded">
                     </div>
                 </div>
                 <div class="col-md-8 col-12">
                     <div class="detail box-shadow rounded p-3">
-                        <div class="h5">{{$product->name}}
+                        <div class="h5">{!!$product->name!!}
                         </div>
                         <div class="price d-flex flex-wrap align-items-center">
-                            <span class="text-muted p-2">{{$product->old_price}}đ</span><span class="text-primary h4">{{$product->price}}đ</span>
+                            <span class="text-muted p-2 text-line-through">{!!$product->old_price!!}đ</span><span class="text-primary h4">{!!$product->price!!}đ</span>
                         </div>
                         <div class="input-group mb-3 flex-wrap">
                             <div class="input-group-prepend">
@@ -36,17 +58,17 @@
                                         class="fas fa-minus"></i>
                                 </button>
                             </div>
-                            <input type="number" class="quantity" max="{{$product->quantity}}" min="0" id="quantity"
-                                   value='0'>
+                            <input type="number" class="quantity" max="{{$product->quantity}}" min="1" id="quantity"
+                                   value='1'>
                             <div class="input-group-append">
                                 <button class="btn btn-outline-primary rounded-0" type="button" onclick="add()"><i
                                         class="fas fa-plus"></i>
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-primary mb-2"><a href="#" class="link-style-none text-white">Thêm vào giỏ
+                        <button class="btn btn-info mb-2"><a href="#" class="text-white link-style-none smooth">Thêm vào giỏ
                                 hàng</a></button>
-                        <button class="btn btn-success mb-2"><a href="#" class="link-style-none text-white">Mua ngay</a>
+                        <button class="btn btn-success mb-2"><a href="#" class="link-style-none text-white smooth">Mua ngay</a>
                         </button>
                     </div>
                 </div>
@@ -68,40 +90,42 @@
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="p-3">
+                        <div class="p-3 content">
 
-                                <p class="content">{{$product->describe}}</p>
+                            {!!$product->describe!!}
 
                         </div>
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="p-3">
-                            <p class="content">{{$product->specifications}}</p>
+                        <div class="p-3 content">
+                            {!!$product->specifications!!}
                         </div>
                     </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="p-3">
-                            <p class="content">{{$product->details}}</p>
+                        <div class="p-3 content">
+                            {!!$product->details!!}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mt-5 box-shadow">
-                <div class="fb-comments" data-href="https://slaptop.com.vn/{{$product->slug}}" data-width="100%" data-numposts="10"></div>
+                <div class="fb-comments" data-href="https://slaptop.com.vn/{!!$product->slug!!}" data-width="100%"
+                     data-numposts="10"></div>
             </div>
             <div class="mt-5">
                 <div class="row">
                     @foreach($products as $items)
                         <div class="col-md-3 col-sm-6 mb-4">
                             <div class="box-shadow bg-white rounded">
-                                <a href="{{route('product',['slug'=>$items->slug])}}" class="link-style-none box-shadow bg-white">
+                                <a href="{!!route('product',['slug'=>$items->slug])!!}"
+                                   class="link-style-none box-shadow bg-white">
                                     <img
                                         src="https://laptoptitan.vn/wp-content/uploads/2020/08/Top-10-Laptop-Gaming-Gia-re-1.jpg"
                                         class="img-fluid rounded">
                                     <div class="p-1">
-                                        <div class="h6">{{$items->name}}</div>
-                                        <div class="text-primary h4">{{$items->price}}đ</div>
-                                        <div class="text-muted">{{$items->old_price}}đ</div>
+                                        <div class="h6">{!!$items->name!!}</div>
+                                        <div class="text-primary h4">{!!$items->price!!}đ</div>
+                                        <div class="text-muted">{!!$items->old_price!!}đ</div>
                                     </div>
                                 </a>
                             </div>
@@ -112,9 +136,12 @@
                     <div class="col-sm-12 col-md-12 col-lg-12"><h4>Tag</h4></div>
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="tags-group">
-                            @foreach($tag as $items)
-                                <a href="{{route('tag',['slug'=>$items->slug])}}" class="btn btn-info border-0 shadow-md">{{$items->name}}</a>
-                            @endforeach
+                            @if(isset($tag))
+                                @foreach($tag as $items)
+                                    <a href="{!!route('tag',['slug'=>$items->slug])!!}"
+                                       class="badge badge-info border-0 shadow-md">{!!$items->name!!}</a>
+                                @endforeach
+                            @endif
                         </div>
                     </div>
 
@@ -125,15 +152,15 @@
         <script>
             function add() {
                 var quantity = document.getElementById('quantity');
-                if (quantity.value < quantity.max) {
-                    quantity.value = parseInt(quantity.value) + 1;
+                if (parseInt(quantity.value) < quantity.max) {
+                    quantity.value=parseInt(quantity.value)+1;
                 }
 
             }
 
             function reduce() {
                 var quantity = document.getElementById('quantity');
-                if (quantity.value > quantity.min) {
+                if (parseInt(quantity.value) > quantity.min) {
                     quantity.value = parseInt(quantity.value) - 1;
                 }
             }

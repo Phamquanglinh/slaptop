@@ -123,7 +123,7 @@
                                     {{backpack_user()->name}}
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="user">
-                                    <a class="dropdown-item" href="{{route('backpack.account.info')}}">Hồ sơ</a>
+                                    <a class="dropdown-item" href="{{route('frontend.profile')}}">Hồ sơ</a>
                                     <a href="{{route('cart.show')}}" class="dropdown-item">Giỏ hàng</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="{{route('backpack.auth.logout')}}">Đăng xuất </a>

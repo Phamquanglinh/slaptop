@@ -14,7 +14,8 @@
 </head>
 <body>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0" nonce="T8surPrS"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0"
+        nonce="T8surPrS"></script>
 <div class="container-fluid">
     <header class="bg-primary">
         <div class="py-2 bg-primary text-white">
@@ -45,8 +46,10 @@
                         <div class="form-group">
                             <form action="#" method="get">
                                 <div class="input-group">
-                                    <input class="form-control rounded-0" name="search" placeholder="Tìm kiếm mọi thứ tại đây..">
-                                    <button class="btn btn-primary rounded-0 input-group-append"><i class="fas fa-search"></i></button>
+                                    <input class="form-control rounded-0" name="search"
+                                           placeholder="Tìm kiếm mọi thứ tại đây..">
+                                    <button class="btn btn-primary rounded-0 input-group-append"><i
+                                            class="fas fa-search"></i></button>
                                 </div>
                             </form>
                         </div>
@@ -55,7 +58,7 @@
                         <div class="form-group">
                             <form action="#" method="get">
                                 <div class="bg-primary h4 text-white rounded p-2 text-center">
-                                   Ngày:  {{date('d')}}-{{date('m')}}-{{date("Y")}}
+                                    Ngày: {{date('d')}}-{{date('m')}}-{{date("Y")}}
                                 </div>
                             </form>
                         </div>
@@ -113,22 +116,26 @@
                 </ul>
                 <div class="text-white">
                     @if(backpack_auth()->check())
-                        <a class="text-white px-1" href="{{route('backpack.account.info')}}">
-                            <i class="fas fa-user"></i> {{backpack_user()->name}} </a>
-                        <a class="text-white px-1" href="{{route('backpack.auth.logout')}}">
-                            <i class="fas fa-sign-out-alt"></i> Đăng xuất </a>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="user" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{backpack_user()->name}}
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="user">
+                                    <a class="dropdown-item" href="{{route('backpack.account.info')}}">Hồ sơ</a>
+                                    <a href="{{route('cart.show')}}" class="dropdown-item">Giỏ hàng</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{route('backpack.auth.logout')}}">Đăng xuất </a>
+                                </div>
+                            </li>
+                        </ul>
                     @else
                         <a class="text-white px-1" href="{{route('backpack.auth.login')}}">
                             <i class="fas fa-sign-in-alt"></i> Đăng nhập </a>
                         <a class="text-white px-1 btn btn-success py-1" href="{{route('backpack.auth.register')}}">
                             <i class="fas fa-plus-square"></i> Đăng ký </a>
                     @endif
-                    <button class="btn btn-outline-success text-white">
-                        <a href="#" class="text-white px-1">
-                            <i class="fas fa-shopping-cart"></i>
-                            <div class="badge badge-danger text-white">12</div>
-                        </a>
-                    </button>
                 </div>
             </div>
         </div>
@@ -195,17 +202,18 @@
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
     <script>
-        window.fbAsyncInit = function() {
+        window.fbAsyncInit = function () {
             FB.init({
-                xfbml            : true,
-                version          : 'v10.0'
+                xfbml: true,
+                version: 'v10.0'
             });
         };
 
-        (function(d, s, id) {
+        (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
+            js = d.createElement(s);
+            js.id = id;
             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));

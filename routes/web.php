@@ -26,6 +26,9 @@ Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController:
 Route::get('/faq', function () {
     return view('frontend.faq');
 })->name('frontend.faq');
+Route::get('/profile', [\App\Http\Controllers\Frontend\ProfileController::class,'index'])->name('frontend.profile');
+Route::post('/profile/update', [\App\Http\Controllers\Frontend\ProfileController::class,'update'])->name('frontend.profile.update');
+Route::post('/profile/store', [\App\Http\Controllers\Frontend\ProfileController::class,'store'])->name('frontend.profile.store');
 Route::get('/cart',[\App\Http\Controllers\Frontend\CartController::class,'index'])->name('cart.show');
 Route::get('/cart/push/{id}/quantity/{quantity}/type/{type}',[\App\Http\Controllers\Frontend\CartController::class,'pushData','id','quantity','type'])
 ->where(['id','quantity','type'])->name('cart.push');

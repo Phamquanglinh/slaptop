@@ -7,3 +7,11 @@
 .quantity{
     width:40px!important;
 }
+.product-image{
+    height: 250px;
+    overflow: hidden;
+}
+.h6{
+    height: 100px;
+    overflow: hidden;
+}

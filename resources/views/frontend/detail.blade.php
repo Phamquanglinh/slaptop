@@ -40,7 +40,7 @@
 
         </div>
         <div class="container bg-light p-5">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-md-4 col-sm-4 col-lg-4 col-12">
                     <div class="img shadow-sm rounded position-relative">
                         <span class="position-absolute p-2 text-white bg-danger rounded right-0">- {!!$sell!!} %</span>
@@ -114,20 +114,19 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-5 box-shadow">
-                <div class="fb-comments" data-href="https://slaptop.com.vn/{!!$product->slug!!}" data-width="100%"
-                     data-numposts="10"></div>
-            </div>
             <div class="mt-5">
+                <div class="text-primary h3 pb-5 text-center">Sản phẩm liên quan</div>
                 <div class="row">
                     @foreach($products as $items)
                         <div class="col-md-3 col-sm-6 mb-4">
-                            <div class="box-shadow bg-white rounded">
+                            <div class="box-shadow bg-white rounded ">
                                 <a href="{!!route('product',['slug'=>$items->slug])!!}"
                                    class="link-style-none box-shadow bg-white">
-                                    <img
-                                        src="{{$items->cover_image}}"
-                                        class="img-fluid rounded">
+                                    <div class="product-image p-1">
+                                        <img
+                                            src="{{$items->cover_image}}"
+                                            class="img-fluid rounded">
+                                    </div>
                                     <div class="p-1">
                                         <div class="h6">{!!$items->name!!}</div>
                                         <div class="text-primary h4">{!!$items->price!!}đ</div>
@@ -138,7 +137,6 @@
                         </div>
                     @endforeach
                 </div>
-
                 @if(count($tag)!==0)
                     <div class="row">
                         <h4>Tags</h4>
@@ -154,6 +152,10 @@
                         </div>
                     </div>
                 @endif
+                <div class="mt-5 box-shadow">
+                    <div class="fb-comments" data-href="https://slaptop.com.vn/{!!$product->slug!!}" data-width="100%"
+                         data-numposts="10"></div>
+                </div>
             </div>
         </div>
 

@@ -27,28 +27,28 @@
                 @if(isset($brand)||isset($tag)||isset($categories))
                     @if(!empty($categories)&&!empty($slug['parent_url']))
 
-                        <h3 class="text-white bg-info p-2 my-5"><a
+                        <p class="text-primary p-2 my-5 border"><a
                                 href="{{route('category',['slug'=>$slug['parent_url']])}}"
-                                class="text-white">{{$slug['parent']}}</a>
+                                class="text-primary">{{$slug['parent']}}</a>
                             >> <a href="{{route('category',['slug'=>$slug['main_url']])}}"
-                                  class="text-white">{{$slug['main']}}</a>
-                        </h3>
+                                  class="text-primary">{{$slug['main']}}</a>
+                        </p>
                     @else
                         <?php $checkparent = false?>
                     @endif
 
                     @if(!empty($brand))
-                        <h3 class="text-white bg-info p-2 my-5">
+                        <p class="text-primary p-2 my-5 border">
                             <a href="{{route('brand',['slug'=>$slug['main_url']])}}"
-                               class="text-white">{{$slug['main']}}</a>
-                        </h3>
+                               class="text-primary">{{$slug['main']}}</a>
+                        </p>
                         <?php $checkparent = true?>
                     @endif
                     @if(!empty($tag))
-                        <h3 class="text-white bg-info p-2 my-5">
+                        <p class="text-primary p-2 my-5 border">
                             <a href="{{route('tag',['slug'=>$slug['main_url']])}}"
-                               class="text-white">{{$slug['main']}}</a>
-                        </h3>
+                               class="text-primary">{{$slug['main']}}</a>
+                        </p>
                         <?php $checkparent = true?>
                     @endif
 
@@ -65,9 +65,9 @@
                                             </div>
 
                                             <div class="p-2 bg-light">
-                                                <h4>{{$items->name}}</h4>
-                                                <p class="text-danger mb-1">{{$items->price}} d</p>
-                                                <small class="text-secondary">{{$items->old_price}} d</small>
+                                                <h6>{{$items->name}}</h6>
+                                                <p class="text-danger mb-1">{{$items->price}} đ</p>
+                                                <small class="text-secondary">{{$items->old_price}} đ</small>
                                                 <p>
                                                     <samll>
 
@@ -87,10 +87,10 @@
 
                 @if(!$checkparent)
 
-                    <h3 class="text-white bg-info p-2 my-5">
+                    <p class="text-primary p-2 my-5 border">
                         <a href="{{route('category',['slug'=>$slug['main_url']])}}"
-                           class="text-white">{{$slug['main']}}</a>
-                    </h3>
+                           class="text-primary">{{$slug['main']}}</a>
+                    </p>
                     <div class="row">
                         @foreach($products as $items)
                             @foreach($items as $item)
@@ -110,7 +110,7 @@
                                             </div>
 
                                             <div class="p-2 bg-light">
-                                                <h4>{{$item->name}}</h4>
+                                                <h6>{{$item->name}}</h6>
                                                 <p class="text-danger mb-1">{{$item->price}} d</p>
                                                 <small class="text-secondary">{{$item->old_price}} d</small>
                                                 <p>

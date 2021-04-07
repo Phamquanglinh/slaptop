@@ -5,6 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
+use phpDocumentor\Reflection\Utils;
 
 class Product extends Model
 {
@@ -37,6 +38,26 @@ class Product extends Model
     {
         return '<a class="btn btn-sm btn-link" target="_blank" href="'.env('APP_URL').'/product/'.urlencode($this->slug).'" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
     }
+
+
+    public function formatMoney($money)
+    {
+        //format money function
+        $formatMoney = false;
+        while (!$formatMoney) {
+            $replace = preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2', $money);
+            if ($replace !== $money) {
+                $money = $replace;
+            } else {
+                $formatMoney = true;
+            }
+        }
+        return $money;
+    }
+
+    public function sell($oldPrice,$price){
+        return 100-ceil(($price/$oldPrice)*100);
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
@@ -46,7 +67,9 @@ class Product extends Model
     {
         return $this->belongsTo(Category::class, 'category_id', 'id');
     }
-
+    public function products(){
+        return $this->hasMany(Product::class,'product_id','id');
+    }
     public function brand()
     {
         return $this->belongsTo(Brand::class, 'brand_id', 'id');
@@ -59,9 +82,9 @@ class Product extends Model
     public function tags(){
         return $this->belongsToMany(Tags::class,'pivot','product_id','tag_id');
     }
-    public function orders(){
-        return $this->belongsToMany(Order::class,'paravot','product_id','order_id');
-    }
+
+    public function parent(){
+        return $this->belongsTo(Category::class,'parent_id','id');
     /*
     |--------------------------------------------------------------------------
     | SCOPES

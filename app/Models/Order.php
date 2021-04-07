@@ -27,13 +27,25 @@ class Order extends Model
     |--------------------------------------------------------------------------
     | FUNCTIONS
     |--------------------------------------------------------------------------
-    */
+    /**
+     * @var mixed
+     */
+    private $customers_id;
 
+    public function users(){
+        return $this->belongsTo(User::class,'customers_id','id');
+    }
+    public function showDetail(){
+        return '<a href="'.route('show.order',['id'=>$this->id]).'" class="btn btn-sm btn-link"><i class="la la-eye"></i> Xem chi tiết</a>';
+    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
     |--------------------------------------------------------------------------
     */
+     public function carts(){
+         return $this->hasMany(Cart::class,'order_id','id');
+     }
 
     /*
     |--------------------------------------------------------------------------

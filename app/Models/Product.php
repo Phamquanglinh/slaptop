@@ -85,7 +85,6 @@ class Product extends Model
 
     public function parent(){
         return $this->belongsTo(Category::class,'parent_id','id');
-    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

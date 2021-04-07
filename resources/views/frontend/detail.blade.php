@@ -70,10 +70,10 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-info mb-2"><a href="#" class="text-white link-style-none smooth">Thêm vào
+                        <button class="btn btn-info mb-2"><a href="{{route('cart.add',['method'=>'addCart','product_id'=>$product->id,'quantity'=>1])}}" class="text-white link-style-none smooth">Thêm vào
                                 giỏ
                                 hàng</a></button>
-                        <button class="btn btn-success mb-2"><a href="#" class="link-style-none text-white smooth">Mua
+                        <button class="btn btn-success mb-2"><a href="{{route('cart.add',['method'=>'buyNow','product_id'=>$product->id,'quantity'=>1])}}" class="link-style-none text-white smooth">Mua
                                 ngay</a>
                         </button>
                     </div>

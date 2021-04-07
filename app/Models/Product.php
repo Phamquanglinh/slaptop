@@ -54,6 +54,7 @@ class Product extends Model
         }
         return $money;
     }
+
     public function sell($oldPrice,$price){
         return 100-ceil(($price/$oldPrice)*100);
     }

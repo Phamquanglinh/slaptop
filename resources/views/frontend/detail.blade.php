@@ -1,6 +1,7 @@
 @extends('layout.app')
 @section('content')
     @if(isset($product))
+        <?php $limit = 5?>
         <link rel="stylesheet" href="{!!asset('asset/css/detail.css')!!}">
         <style>
             .content {
@@ -40,14 +41,14 @@
         </div>
         <div class="container bg-light p-5">
             <div class="row align-items-center">
-                <div class="col-md-4 col-12">
-                    <div class="img box-shadow rounded position-relative">
+                <div class="col-md-4 col-sm-4 col-lg-4 col-12">
+                    <div class="img shadow-sm rounded position-relative">
                         <span class="position-absolute p-2 text-white bg-danger rounded right-0">- {!!$sell!!} %</span>
                         <img src="{{$product->cover_image}} "
                              class="img-fluid rounded">
                     </div>
                 </div>
-                <div class="col-md-8 col-12">
+                <div class="col-md-8 col-12 col-sm-8 col-lg-8 mt-2 mt-sm-0">
                     <div class="detail box-shadow rounded p-3">
                         <div class="h5">{!!$product->name!!}
                         </div>
@@ -125,7 +126,7 @@
                                 <a href="{!!route('product',['slug'=>$items->slug])!!}"
                                    class="link-style-none box-shadow bg-white">
                                     <img
-                                        src="https://laptoptitan.vn/wp-content/uploads/2020/08/Top-10-Laptop-Gaming-Gia-re-1.jpg"
+                                        src="{{$items->cover_image}}"
                                         class="img-fluid rounded">
                                     <div class="p-1">
                                         <div class="h6">{!!$items->name!!}</div>
@@ -137,15 +138,16 @@
                         </div>
                     @endforeach
                 </div>
-                @if(!empty($tag))
+
+                @if(count($tag)!==0)
                     <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-12"><h4>Tag</h4></div>
+                        <h4>Tags</h4>
                         <div class="col-sm-12 col-md-12 col-lg-12">
                             <div class="tags-group">
-
                                 @foreach($tag as $items)
                                     <a href="{!!route('tag',['slug'=>$items->slug])!!}"
                                        class="badge badge-info border-0 shadow-md">{!!$items->name!!}</a>
+
                                 @endforeach
 
                             </div>

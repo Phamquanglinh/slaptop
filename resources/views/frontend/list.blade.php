@@ -9,15 +9,6 @@
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
 
-            .bg-image {
-                position: relative;
-                background-image: url("{{asset('asset/img/list-page/category.png')}}");
-                background-repeat: no-repeat;
-                background-size: 100% 100%;
-                height: 182px;
-                border-radius: 5px;
-            }
-
             .discount {
                 position: absolute;
                 right: 0;
@@ -25,6 +16,9 @@
 
             .right-0 {
                 right: 0 !important;
+            }
+            .top-0{
+                top:0px!important;
             }
         </style>
         <div class="container">
@@ -64,10 +58,12 @@
                                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-4">
                                     <div class="p-1 box-shadow">
                                         <a class="link-style-none" href="{{route('product',['slug'=>$items->slug])}}">
-                                            <div class="bg-image">
-                                                <h5 class="position-absolute p-2 text-white bg-danger rounded right-0">
+                                            <div class="product-image position-relative">
+                                                <img class="img-fluid" src="{{$items->cover_image}}">
+                                                <h5 class="position-absolute p-2 text-white bg-danger rounded right-0 top-0">
                                                     - {!!$sell!!} %</h5>
                                             </div>
+
                                             <div class="p-2 bg-light">
                                                 <h4>{{$items->name}}</h4>
                                                 <p class="text-danger mb-1">{{$items->price}} d</p>
@@ -102,15 +98,17 @@
                                     <div class="p-1 box-shadow">
                                         <a class="link-style-none"
                                            href="{{route('product',['slug'=>$item->slug])}}">
-                                            <div class="bg-image">
+                                            <div class="product-image position-relative">
+                                                <img class="img-fluid" src="{{$item->cover_image}}">
                                                 @if($sell[$item->name]>0)
-                                                    <h5 class="position-absolute p-2 text-white bg-danger rounded right-0">
+                                                    <h5 class="position-absolute p-2 text-white bg-danger rounded right-0 top-0">
                                                         - {!!$sell[$item->name]!!} %</h5>
                                                 @else
-                                                    <h5 class="position-absolute p-2 text-white bg-danger rounded right-0">{!!$sell[$item->name]!!}
+                                                    <h5 class="position-absolute p-2 text-white bg-danger rounded right-0 top-0">{!!$sell[$item->name]!!}
                                                         %</h5>
                                                 @endif
                                             </div>
+
                                             <div class="p-2 bg-light">
                                                 <h4>{{$item->name}}</h4>
                                                 <p class="text-danger mb-1">{{$item->price}} d</p>

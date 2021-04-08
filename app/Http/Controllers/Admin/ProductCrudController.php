@@ -19,6 +19,7 @@ class ProductCrudController extends CrudController
     use \Backpack\CRUD\app\Http\Controllers\Operations\UpdateOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
+    use \Backpack\CRUD\app\Http\Controllers\Operations\CloneOperation { clone as traitClone; }
 
     /**
      * Configure the CrudPanel object. Apply settings to all operations.
@@ -144,5 +145,15 @@ class ProductCrudController extends CrudController
     protected function setupUpdateOperation()
     {
         $this->setupCreateOperation();
+    }
+    public function clone($id)
+    {
+        $this->crud->hasAccessOrFail('clone');
+        $this->crud->setOperation('clone');
+
+        // whatever you want
+
+        // if you still want to call the old clone method
+        $this->traitClone($id);
     }
 }

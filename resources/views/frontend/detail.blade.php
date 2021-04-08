@@ -25,13 +25,13 @@
             <div class="slug text-primary pb-2 border-top-0 border-right-0 border-left-0 border border-primary">
                 @if(isset($link['category']))
                     @if(isset($link['categoryParent_url']))
-                        <a href="{!!route('category',['slug'=>$link['categoryParent_url']])!!}">{!!$link['categoryParent']!!}
+                        <a href="{!!route('category',['slug'=>$link['categoryParent_url'],'page'=>1])!!}">{!!$link['categoryParent']!!}
                             >></a>
-                        <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
+                        <a href="{!!route('category',['slug'=>$link['category_url'],'page'=>1])!!}">{!!$link['category']!!}
                             >> </a>
                         <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!}</a>
                     @else
-                        <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
+                        <a href="{!!route('category',['slug'=>$link['category_url'],'page'=>1])!!}">{!!$link['category']!!}
                             >> </a>
                         <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!} </a>
                     @endif
@@ -143,7 +143,7 @@
                         <div class="col-sm-12 col-md-12 col-lg-12">
                             <div class="tags-group">
                                 @foreach($tag as $items)
-                                    <a href="{!!route('tag',['slug'=>$items->slug])!!}"
+                                    <a href="{!!route('tag',['slug'=>$items->slug,'page'=>1])!!}"
                                        class="badge badge-info border-0 shadow-md">{!!$items->name!!}</a>
 
                                 @endforeach

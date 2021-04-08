@@ -23,9 +23,7 @@ Route::get('/about', function () {
     return view('frontend.about');
 })->name('frontend.about');
 
-Route::get('/faq', function () {
-    return view('frontend.faq');
-})->name('frontend.faq');
+Route::get('/faq', [\App\Http\Controllers\Frontend\FaqController::class, 'index'])->name('frontend.faq');
 Route::get('/profile', [\App\Http\Controllers\Frontend\ProfileController::class, 'index'])->name('frontend.profile');
 Route::post('/profile/update', [\App\Http\Controllers\Frontend\ProfileController::class, 'update'])->name('frontend.profile.update');
 Route::post('/profile/store', [\App\Http\Controllers\Frontend\ProfileController::class, 'store'])->name('frontend.profile.store');

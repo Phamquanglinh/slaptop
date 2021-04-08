@@ -20,9 +20,9 @@ class DatabaseSeeder extends Seeder
             CategoriesSeeder::class,
             ProductsSeeder::class,
             CustomersSeeder::class,
-            //OrdersSeeder::class,
             TagsSeeder::class,
             PivotSeeder::class,
+            FaqSeeder::class,
         ]);
     }
 }

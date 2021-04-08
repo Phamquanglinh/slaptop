@@ -9,4 +9,5 @@
 @if(backpack_user()->role == 0)
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('user') }}'><i class='nav-icon la la-user'></i> Người dùng</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('elfinder') }}"><i class="nav-icon la la-files-o"></i> <span>Quản lý File</span></a></li>
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('faqs') }}'><i class='nav-icon la la-question'></i> Faqs</a></li>
 @endif

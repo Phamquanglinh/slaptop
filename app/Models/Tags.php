@@ -31,20 +31,23 @@ class Tags extends Model
     */
     public function setSlugAttribute()
     {
-        $this->attributes['slug'] = \Illuminate\Support\Str::slug($this->name, '-').'.aspx';
+        $this->attributes['slug'] = \Illuminate\Support\Str::slug($this->name, '-') . '.aspx';
     }
+
     public function viewOnWeb($crud = true)
     {
-        return '<a class="btn btn-sm btn-link" target="_blank" href="'.env('APP_URL').'/tag/'.urlencode($this->slug).'" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
+        return '<a class="btn btn-sm btn-link" target="_blank" href="' . env('APP_URL') . '/tag/' . urlencode($this->slug) . '" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
     }
+
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
     |--------------------------------------------------------------------------
     */
 
-    public function products(){
-        return $this->belongsToMany(Product::class,'pivot','tag_id','product_id');
+    public function products()
+    {
+        return $this->belongsToMany(Product::class, 'pivot', 'tag_id', 'product_id');
     }
 
 //    public function parent(){

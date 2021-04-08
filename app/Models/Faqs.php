@@ -5,7 +5,7 @@ namespace App\Models;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
-class Order extends Model
+class Faqs extends Model
 {
     use CrudTrait;
 
@@ -15,7 +15,7 @@ class Order extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'orders';
+    protected $table = 'faqs';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];
@@ -27,25 +27,13 @@ class Order extends Model
     |--------------------------------------------------------------------------
     | FUNCTIONS
     |--------------------------------------------------------------------------
-    /**
-     * @var mixed
-     */
-    private $customers_id;
+    */
 
-    public function users(){
-        return $this->belongsTo(User::class,'customers_id','id');
-    }
-    public function showDetail(){
-        return '<a href="'.route('show.order',['id'=>$this->id]).'" class="btn btn-sm btn-link"><i class="la la-eye"></i> Xem chi tiết</a>';
-    }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-     public function carts(){
-         return $this->hasMany(Cart::class,'order_id','id');
-     }
 
     /*
     |--------------------------------------------------------------------------

@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Requests\OrderRequest;
-use App\Models\Order;
+use App\Http\Requests\FaqsRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 
 /**
- * Class OrderCrudController
+ * Class FaqsCrudController
  * @package App\Http\Controllers\Admin
  * @property-read \Backpack\CRUD\app\Library\CrudPanel\CrudPanel $crud
  */
-class OrderCrudController extends CrudController
+class FaqsCrudController extends CrudController
 {
     use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
     use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;
@@ -27,12 +26,9 @@ class OrderCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\App\Models\Order::class);
-        CRUD::setRoute(config('backpack.base.route_prefix') . '/order');
-        CRUD::setEntityNameStrings('Đơn hàng', 'Những đơn hàng');
-        $this->crud->enableDetailsRow();
-        $this->crud->denyAccess('create');
-        $this->crud->denyAccess('show');
+        CRUD::setModel(\App\Models\Faqs::class);
+        CRUD::setRoute(config('backpack.base.route_prefix') . '/faqs');
+        CRUD::setEntityNameStrings('faqs', 'faqs');
     }
 
     /**
@@ -43,11 +39,7 @@ class OrderCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        $this->crud->addColumn(['name'=>'Users']);
-        CRUD::column('ship_address');
-        CRUD::column('payment_method');
-        CRUD::column('status')->type('select_from_array')->options(['Đang chờ','Đã xác nhận','Đang vận chuyển','Đã chuyển']);
-        $this->crud->addButtonFromModelFunction('line','detai','showDetail','line');
+        CRUD::addColumn(['name' => 'question', 'label' => 'Câu hỏi ']);
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
@@ -64,9 +56,10 @@ class OrderCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::setValidation(OrderRequest::class);
+        CRUD::setValidation(FaqsRequest::class);
 
-        $this->crud->addField(['name'=>'status','type'=>'select_from_array','options'=>['Đang chờ','Đã xác nhận','Đang vận chuyển','Đã chuyển']]);
+        CRUD::addField(['name' => 'question', 'label' => 'Câu hỏi ']);
+        CRUD::addField(['name' => 'answer', 'type' => 'ckeditor','label'=> 'Câu trả lời']);
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:
@@ -84,15 +77,5 @@ class OrderCrudController extends CrudController
     protected function setupUpdateOperation()
     {
         $this->setupCreateOperation();
-    }
-    protected  function showDetailsRow($id){
-        $total =0;
-        $order = Order::find($id);
-        $carts=$order->carts()->get();
-        foreach ($carts as $cart){
-            $total += $cart->getProduct()->first()->price*$cart->quantity;
-        }
-
-        return view('frontend.order',['order'=>$order,'carts'=>$carts,'total'=>$total]) ;
     }
 }

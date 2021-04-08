@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 
 class BrandController extends Controller
 {
-    public function getData($slug)
+    public function getData($slug,$page=1)
     {//getdata
         $link=null;
         $title=null;
@@ -24,6 +24,7 @@ class BrandController extends Controller
             $product=new Product();
             $title=$category->name;
             $products=$category->products()->get();
+            $footer=$category->products()->count();
             $link['main']=$category->name;
             $link['main_url']=$category->slug;
             foreach ($products as $item) {
@@ -34,11 +35,11 @@ class BrandController extends Controller
 
         }
 
-        return $this->render($category, $title, $products, $link,$brand,$sell);
+        return $this->render($footer,$page,$category, $title, $products, $link,$brand,$sell);
     }
 
-    public function render($category, $title, $products, $link,$brand,$sell)
+    public function render($footer,$page,$category, $title, $products, $link,$brand,$sell)
     {
-        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link,'brand'=>$brand,'sell'=>$sell]);
+        return view('frontend.list', ['footer'=>$footer,'page'=>$page,'data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link,'brand'=>$brand,'sell'=>$sell]);
     }
 }

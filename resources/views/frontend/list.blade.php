@@ -44,7 +44,7 @@
 
                     @if(!empty($brand))
                         <p class="text-primary p-2 my-5 border">
-                            <a href="{{route('brand',['slug'=>$slug['main_url']])}}"
+                            <a href="{{route('brand',['slug'=>$slug['main_url'],'page'=>1])}}"
                                class="text-primary">{{$slug['main']}}</a>
                         </p>
                         <?php $checkparent = true?>

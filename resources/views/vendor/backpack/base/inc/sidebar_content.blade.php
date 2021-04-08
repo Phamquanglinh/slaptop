@@ -11,3 +11,5 @@
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('elfinder') }}"><i class="nav-icon la la-files-o"></i> <span>Quản lý File</span></a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('faqs') }}'><i class='nav-icon la la-question'></i> Faqs</a></li>
 @endif
+
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('page') }}'><i class='nav-icon la la-question'></i> Pages</a></li>

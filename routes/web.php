@@ -38,3 +38,4 @@ Route::get('/cart-remove/remove/{id}', [\App\Http\Controllers\Frontend\CartContr
 
 Route::get('/search',[\App\Http\Controllers\Frontend\SearchController::class,'getData'])->name('search');
 Route::get('/page/{key}', [\App\Http\Controllers\Frontend\FixedPageController::class, 'index','key'])->where(['key'])->name('frontend.page');
+Route::get('order/history',[\App\Http\Controllers\Frontend\OrderController::class,'historyShow'])->name('order.history');

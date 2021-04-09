@@ -35,3 +35,4 @@ Route::get('/product/{slug}', [\App\Http\Controllers\Frontend\ProductController:
 Route::get('/cart/{method}/{id}', [\App\Http\Controllers\Frontend\CartController::class, 'ajax', 'method', 'id'])->where(['method', 'id'])->name('cart.ajax');
 Route::get('/cart/{method}/{product_id}/{quantity}', [\App\Http\Controllers\Frontend\CartController::class, 'addToCart', 'method', 'product_id', 'quantity'])->where(['method', 'product_id', 'quantity'])->name('cart.add');
 Route::get('/cart-remove/remove/{id}', [\App\Http\Controllers\Frontend\CartController::class, 'removeItem', 'id'])->where(['id'])->name('cart.remove');
+Route::get('/search',[\App\Http\Controllers\Frontend\SearchController::class,'getData'])->name('search');

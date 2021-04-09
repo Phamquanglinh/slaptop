@@ -11,6 +11,20 @@ use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
+    public function formatMoney($money)
+    {
+        //format money function
+        $formatMoney = false;
+        while (!$formatMoney) {
+            $replace = preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2', $money);
+            if ($replace !== $money) {
+                $money = $replace;
+            } else {
+                $formatMoney = true;
+            }
+        }
+        return $money;
+    }
     public function show($id){
         $total =0;
         $order = Order::find($id);
@@ -54,8 +68,8 @@ class OrderController extends Controller
                     $data[$key][$index]['quantity']=$cart->quantity;
                     $data[$key][$index]['slug']=$product->slug;
                     $data[$key][$index]['image']=$product->cover_image;
-                    $data[$key][$index]['price']=$product->price;
-                    $data[$key][$index]['old_price']=$product->old_price;
+                    $data[$key][$index]['price']=$this->formatMoney($product->price);
+                    $data[$key][$index]['old_price']=$this->formatMoney($product->old_price);
 
             }
         }

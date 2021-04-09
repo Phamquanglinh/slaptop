@@ -7,7 +7,7 @@
     </style>
     <div class="container py-5">
         @if(isset($search)&&$search)
-            <h1 class="py-5">kết quả tìm kiếm của:{{$title}}</h1>
+            <h1 class="py-5">Kết quả tìm kiếm của:{{$title}}</h1>
             @if(empty($parentData))
                 <div class="row mb-3">
                     @foreach($products as $items)
@@ -51,8 +51,8 @@
 
                                         <div class="p-2 bg-light">
                                             <h6>{{$item->name}}</h6>
-                                            <p class="text-danger mb-1">{{$item->price}} d</p>
-                                            <small class="text-secondary">{{$item->old_price}} d</small>
+                                            <p class="text-danger mb-1">{{$item->price}} đ</p>
+                                            <small class="text-secondary"><del>{{$item->old_price}} đ</del></small>
                                             <p>
                                                 <samll><img
                                                         src="{{asset('asset/img/list-page/star.png')}}"> {{$item->rate}}

@@ -15,58 +15,49 @@ class SearchController extends Controller
     {
         $name = $request->input('search');
         $search = true;
-        $title = null;
-        $category = Category::where('name', 'like', $name)->first();
-        $tags = Tags::where('name', 'like', $name)->first();
-        $brand = Brand::where('name', 'like', $name)->first();
-        $productsAsProduct = Product::where('name', 'like', $name)->first();
-
+        $title = $name;
+        $category = Category::where('name', 'like', '%' . $name . '%')->first();
+        $tags = Tags::where('name', 'like', '%' . $name . '%')->first();
+        $brand = Brand::where('name', 'like', '%' . $name . '%')->first();
+        $productsAsProduct = Product::where('name', 'like', '%' . $name . '%')->first();
+        $products = [];
 
         if (!empty($category)) {
-            $product = new Product();
-            $title = $category->name;
-            $productAsCategory = $category->products()->get();
-            foreach ($productAsCategory as $item) {
-                $sell = $product->sell($item->old_price, $item->price);
-                $item->price = $product->formatMoney($item->price);
-                $item->old_price = $product->formatMoney($item->old_price);
-            }
+            $products = $category->products()->get();
             if (!empty($category->child()->first())) {
                 $categoryChild = $category->child()->get();
-                $products = [];
+                $productsAsChild = [];
                 foreach ($categoryChild as $items) {
-                    $products[$items->name] = $items->products()->orderby('updated_at', 'DESC')->get();
+                    $productsAsChild[$items->name] = $items->products()->orderby('updated_at', 'DESC')->get();
                 }
                 //format money
-                foreach ($products as $items) {
+                foreach ($productsAsChild as $items) {
                     foreach ($items as $item) {
-                        $sell[$item->name] = $product->sell($item['old_price'], $item['price']);
-                        $item['price'] = $product->formatMoney($item['price']);
-                        $item['old_price'] = $product->formatMoney($item['old_price']);
+                        $sell[$item->name] = $this->sell($item['old_price'], $item['price']);
+                        $item['price'] = $this->formatMoney($item['price']);
+                        $item['old_price'] = $this->formatMoney($item['old_price']);
                     }
                 }
-                return $this->render($title, $search, $productAsCategory, $products);
+                return $this->render($title, $search, $products, $productsAsChild);
             }
-            return $this->render($title, $search, $productAsCategory, "");
-
         } else if (!empty($brand)) {
-            $title = $brand->name;
-            $productAsBrand = $brand->products()->get();
-            return $this->render($title, $search, $productAsBrand, "");
+            $products = $brand->products()->get();
         } else if (!empty($tags)) {
-            $title = $tags->name;
-            $productAsTag = $tags->products()->get();
-            return $this->render($title, $search, $productAsTag, "");
+            $products = $tags->products()->get();
         } else if (!empty($productsAsProduct->name)) {
-            $title=$productsAsProduct->name;
-            return $this->render($title, $search, $productsAsProduct, "");
-
+            $products = Product::where('name', 'like', '%' . $name . '%')->get();
         } else {
             $search = false;
             $title = "nothing";
             $searchData = null;
             return $this->render($title, $search, $searchData, "");
         }
+        foreach ($products as $item) {
+            $sell = $this->sell($item->old_price, $item->price);
+            $item->price = $this->formatMoney($item->price);
+            $item->old_price = $this->formatMoney($item->old_price);
+        }
+        return $this->render($title, $search, $products, "");
     }
 
     public function formatMoney($money)

@@ -7,7 +7,7 @@
     </style>
     <div class="container py-5">
         @if(isset($search)&&$search)
-            <h1 class="py-5 line-n">kết quả tìm kiếm của:{{$title}}</h1>
+            <h1 class="py-5">kết quả tìm kiếm của:{{$title}}</h1>
             @if(empty($parentData))
                 <div class="row mb-3">
                     @foreach($products as $items)

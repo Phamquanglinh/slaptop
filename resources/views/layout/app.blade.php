@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md">
-                        <a class="link-style-none text-center text-lg-left" href="#">
+                        <a class="link-style-none text-center text-lg-left" href="{{route('index')}}">
                             <img src="{{asset('asset/logo/logo.png')}}" class="w-100">
                         </a>
                     </div>
@@ -70,7 +70,7 @@
     </header>
     <nav class="navbar navbar-expand-lg h5 m-0 navbar-dark sticky-top bg-primary">
         <div class="container">
-            <a class="navbar-brand d-block d-md-none" href="#">SLaptop</a>
+            <a class="navbar-brand d-block d-md-none" href="{{route('index')}}">SLaptop</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,10 +79,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Trang chủ</a>
+                        <a class="nav-link" href="{{route('index')}}">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Giới thiệu</a>
+                        <a class="nav-link" href="{{route('frontend.about')}}">Giới thiệu</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
@@ -90,18 +90,20 @@
                             Sản phẩm
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Sản phẩm nổi bật</a></li>
-                            <li><a class="dropdown-item" href="#">Sản phẩm bán chạy</a></li>
+                            <li><a class="dropdown-item" href="{{route('tag',['slug'=>'san-pham-noi-bat.aspx','page'=>1])}}">Sản phẩm nổi bật</a></li>
+                            <li><a class="dropdown-item" href="{{route('tag',['slug'=>'san-pham-ban-chay.aspx','page'=>1])}}">Sản phẩm bán chạy</a></li>
+                            <li><a class="dropdown-item" href="{{route('tag',['slug'=>'san-pham-cao-cap.aspx','page'=>1])}}">Sản phẩm cao cấp</a></li>
+                            <li><a class="dropdown-item" href="{{route('tag',['slug'=>'san-pham-giam-gia.aspx','page'=>1])}}">Sản phẩm đang giảm giá</a></li>
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item dropdown-toggle dropright  " href="#">Danh mục</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Laptop</a></li>
-                                    <li><a class="dropdown-item" href="#">Điện thoại</a></li>
+                                    <li><a class="dropdown-item" href="{{route('category',['slug'=>'laptop.aspx','page'=>1])}}">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="{{route('category',['slug'=>'dien-thoai.aspx','page'=>1])}}">Điện thoại</a></li>
                                     <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Phụ kiện</a>
+                                        <a class="dropdown-item dropdown-toggle" href="{{route('category',['slug'=>'phu-kien.aspx','page'=>1])}}">Phụ kiện</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Sạc</a></li>
-                                            <li><a class="dropdown-item" href="#">Tai nghe</a></li>
+                                            <li><a class="dropdown-item" href="{{route('category',['slug'=>'sac.aspx','page'=>1])}}">Sạc</a></li>
+                                            <li><a class="dropdown-item" href="{{route('category',['slug'=>'tai-nghe.aspx','page'=>1])}}">Tai nghe</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -109,7 +111,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Liên hệ</a>
+                        <a class="nav-link" href="{{route('frontend.contact')}}">Liên hệ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Giới thiệu</a>
@@ -125,9 +127,12 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="user">
                                     <a class="dropdown-item" href="{{route('frontend.profile')}}">Hồ sơ</a>
+                                    @if(backpack_user()->role <= 1)
+                                        <a class="dropdown-item" href="{{route('backpack.dashboard')}}">Quản trị</a>
+                                    @endif
                                     <a href="{{route('cart.show')}}" class="dropdown-item">Giỏ hàng</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="{{route('backpack.auth.logout')}}">Đăng xuất </a>
+                                    <a class="dropdown-item" href="{{route('backpack.auth.logout')}}">Đăng xuất</a>
                                 </div>
                             </li>
                         </ul>
@@ -156,26 +161,23 @@
                 </div>
 
                 <div class="col-xs-6 col-md-3">
-                    <h6>Danh mục</h6>
+                    <h6>Xu hướng</h6>
                     <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/category/c-language/">Máy tính</a></li>
-                        <li><a href="http://scanfcode.com/category/front-end-development/">Điện thoại</a></li>
-                        <li><a href="http://scanfcode.com/category/back-end-development/">Phụ kiện</a></li>
-                        <li><a href="http://scanfcode.com/category/java-programming-language/">Sản phẩm đang bán
-                                chạy</a></li>
-                        <li><a href="http://scanfcode.com/category/android/">Sản phẩm giảm giá</a></li>
-                        <li><a href="http://scanfcode.com/category/templates/">Voucher giảm giá</a></li>
+                        <li><a  href="{{route('tag',['slug'=>'san-pham-noi-bat.aspx','page'=>1])}}">Sản phẩm nổi bật</a></li>
+                        <li><a  href="{{route('tag',['slug'=>'san-pham-ban-chay.aspx','page'=>1])}}">Sản phẩm bán chạy</a></li>
+                        <li><a  href="{{route('tag',['slug'=>'san-pham-cao-cap.aspx','page'=>1])}}">Sản phẩm cao cấp</a></li>
+                        <li><a  href="{{route('tag',['slug'=>'san-pham-giam-gia.aspx','page'=>1])}}">Sản phẩm đang giảm giá</a></li>
                     </ul>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
                     <h6>Liên kết</h6>
                     <ul class="footer-links">
-                        <li><a href="http://scanfcode.com/about/">Giới thiệu</a></li>
+                        <li><a href="{{route('frontend.about')}}">Giới thiệu</a></li>
                         <li><a href="{{route('frontend.contact')}}">Liên hệ</a></li>
-                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Đăng ký làm đại lý</a></li>
-                        <li><a href="http://scanfcode.com/privacy-policy/">Chính sách bảo mật</a></li>
-                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                        <li><a href="{{route('frontend.page',['key'=>'be_client'])}}">Đăng ký làm đại lý</a></li>
+                        <li><a href="{{route('frontend.page',['key'=>'privacy'])}}">Chính sách bảo mật</a></li>
+                        <li><a href="{{route('frontend.page',['key'=>'be_staff'])}}">Chính sách tuyển dụng</a></li>
                     </ul>
                 </div>
             </div>

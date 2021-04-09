@@ -1,0 +1,17 @@
+.box-shadow{
+   box-shadow: 4px 6px 20px 1px #797879;
+}
+.content{
+    word-wrap: break-word!important;
+}
+.quantity{
+    width:40px!important;
+}
+.product-image{
+    height: 250px;
+    overflow: hidden;
+}
+.h6{
+    height: 100px;
+    overflow: hidden;
+}

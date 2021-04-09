@@ -14,4 +14,13 @@ Route::group([
     ),
     'namespace'  => 'App\Http\Controllers\Admin',
 ], function () { // custom admin routes
+    Route::get('charts/weekly-users', 'Charts\WeeklyUsersChartController@response')->name('charts.weekly-users.index');
+    Route::crud('category', 'CategoryCrudController');
+    Route::crud('tags', 'TagsCrudController');
+    Route::crud('product', 'ProductCrudController');
+    Route::crud('customer', 'CustomerCrudController');
+    Route::crud('order', 'OrderCrudController');
+    Route::crud('brand', 'BrandCrudController');
+    Route::crud('user', 'UserCrudController');
+    Route::crud('faqs', 'FaqsCrudController');
 }); // this should be the absolute last line of this file

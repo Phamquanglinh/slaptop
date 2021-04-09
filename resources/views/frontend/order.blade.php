@@ -1,33 +1,49 @@
-
+@extends('layout.app')
+@section('content')
     <div class="container">
-        <div class="p-1 rounded">
-            <div class="p-2 h3 bg-white rounded">
-                Đơn hàng của <b>{{$order->users()->first()->name}}</b>
-            </div>
-            <div class="border p-2 bg-white">
-                @foreach($carts as $cart)
-                    <div class="text-dark bg-light">
-                        <div class="w-25 d-flex">
-                            <img src="{{$cart->getProduct()->first()->cover_image}}" class="w-25">
+        <div class="text-left h2 py-4">Lịch sử mua hàng của bạn</div>
 
-                            <span class="d-flex flex-column">
-                                <span class="text-primary font-weight-bold h5">{{$cart->getProduct()->first()->price}} đ</span>
-                                <del class="text-muted">{{$cart->getProduct()->first()->price}} đ</del>
-                            </span>
-                        </div>
-                        <a href="{{route('product',['slug'=>$cart->getProduct()->first()->slug])}}" class="link-style-none">
-                            {{$cart->getProduct()->first()->name}}
-                        </a><span> x {{$cart->quantity}}</span>
-                    </div>
-                @endforeach
+        @if(isset($data))
+            @foreach($data as $key => $carts)
+                <pre>
+                </pre>
+                <div class="card">
+                    <div class="card-header font-weight-bold">Đơn hàng #{{$data[$key]['id']}}</div>
+                </div>
+                <div class="card-body">
+                    @foreach($carts as $index => $cart)
+                            <div class="">
+                                @if(is_array($cart))
+                                <div class="row">
+                                    <div class="img-fit col-md-3 col-sm-6 col-12">
+                                        <img src="{{$cart['image']}}" class="w-100">
+                                    </div>
+                                    <div class="col-md-9 col-sm-6 col-12">
+                                        <div class="h6">{{$cart['name']}}</div>
+                                        <small class="text-muted">
+                                            <del>{{$cart['old_price']}} đ</del>
+                                        </small>
+                                        <div class="text-danger h5">
+                                            {{$cart['price']}} đ
+                                        </div>
+                                        <div class="text-danger h4">
+                                            Số lượng : {{$cart['quantity']}}
+                                        </div>
+                                        <div><a href="{{route('product',['slug'=>$cart['slug']])}}">Xem chi tiết sản phẩm</a></div>
+                                    </div>
+                                </div>
+                                    <hr>
+                                @endif
+                            </div>
+                    @endforeach
+                </div>
+
+            @endforeach
+        @else
+            <div class="flex-grow-1" style="height: 300px">
+                Không có lịch sử mua hàng
             </div>
-            <hr>
-            <div class="border p-3">
-                <p>Tổng thanh toán : {{$total/1000}}.000 đ</p>
-                <p>Địa chỉ ship hàng : {{explode('/',$order->ship_address)[0]}}</p>
-                <p>Số điện thoại : {{explode('/',$order->ship_address)[1]}}</p>
-                <p>Email : {{$order->users()->first()->email}}</p>
-                <button class="btn btn-primary">Xác nhận đã ship</button>
-            </div>
-        </div>
+        @endif
     </div>
+
+@endsection

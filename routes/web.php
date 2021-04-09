@@ -36,3 +36,4 @@ Route::get('/cart/{method}/{id}', [\App\Http\Controllers\Frontend\CartController
 Route::get('/cart/{method}/{product_id}/{quantity}', [\App\Http\Controllers\Frontend\CartController::class, 'addToCart', 'method', 'product_id', 'quantity'])->where(['method', 'product_id', 'quantity'])->name('cart.add');
 Route::get('/cart-remove/remove/{id}', [\App\Http\Controllers\Frontend\CartController::class, 'removeItem', 'id'])->where(['id'])->name('cart.remove');
 Route::get('/page/{key}', [\App\Http\Controllers\Frontend\FixedPageController::class, 'index','key'])->where(['key'])->name('frontend.page');
+Route::get('order/history',[\App\Http\Controllers\Frontend\OrderController::class,'historyShow'])->name('order.history');

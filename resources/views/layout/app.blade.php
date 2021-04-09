@@ -44,7 +44,8 @@
                     </div>
                     <div class="col-md">
                         <div class="form-group">
-                            <form action="#" method="get">
+                            <form action="{{route('search')}}" method="get">
+                                @csrf
                                 <div class="input-group">
                                     <input class="form-control rounded-0" name="search"
                                            placeholder="Tìm kiếm mọi thứ tại đây..">

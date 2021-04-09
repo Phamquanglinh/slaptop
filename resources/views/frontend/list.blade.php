@@ -69,7 +69,7 @@
                                             <a class="link-style-none"
                                                href="{{route('product',['slug'=>$items->slug])}}">
                                                 <div class="product-image position-relative">
-                                                    <img class="img-fluid" src="{{$items->cover_image}}">
+                                                    <img class="img-fluid" src="{{$items->cover_image}}" alt="">
                                                     <h5 class="position-absolute p-2 text-white bg-danger rounded right-0 top-0">
                                                         - {!!$sell!!} %</h5>
                                                 </div>

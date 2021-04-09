@@ -11,7 +11,7 @@ use phpDocumentor\Reflection\DocBlock\Tag;
 
 class TagController extends Controller
 {
-    public function getData($slug)
+    public function getData($slug,$page)
     {
         $link = null;
         $sell = null;
@@ -24,6 +24,7 @@ class TagController extends Controller
             $product = new Product();
             $title = $category->name;
             $products = $category->products()->get();
+            $footer = $category->products()->count();
             $link['main'] = $category->name;
             $link['main_url'] = $category->slug;
             foreach ($products as $item) {
@@ -32,12 +33,12 @@ class TagController extends Controller
                 $item->old_price = $product->formatMoney($item->old_price);
             }
         }
-        return $this->render($category, $title, $products, $link, $tag, $sell);
+        return $this->render($footer,$page,$category, $title, $products, $link, $tag, $sell);
 
     }
 
-    public function render($category, $title, $products, $link, $tag, $sell)
+    public function render($footer,$page,$category, $title, $products, $link, $tag, $sell)
     {
-        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link, 'tag' => $tag, 'sell' => $sell]);
+        return view('frontend.list', ['footer'=>$footer,'page'=>$page,'data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link, 'tag' => $tag, 'sell' => $sell]);
     }
 }

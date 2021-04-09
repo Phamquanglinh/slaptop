@@ -25,13 +25,13 @@
             <div class="slug text-primary pb-2 border-top-0 border-right-0 border-left-0 border border-primary">
                 @if(isset($link['category']))
                     @if(isset($link['categoryParent_url']))
-                        <a href="{!!route('category',['slug'=>$link['categoryParent_url']])!!}">{!!$link['categoryParent']!!}
+                        <a href="{!!route('category',['slug'=>$link['categoryParent_url'],'page'=>1])!!}">{!!$link['categoryParent']!!}
                             >></a>
-                        <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
+                        <a href="{!!route('category',['slug'=>$link['category_url'],'page'=>1])!!}">{!!$link['category']!!}
                             >> </a>
                         <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!}</a>
                     @else
-                        <a href="{!!route('category',['slug'=>$link['category_url']])!!}">{!!$link['category']!!}
+                        <a href="{!!route('category',['slug'=>$link['category_url'],'page'=>1])!!}">{!!$link['category']!!}
                             >> </a>
                         <a href="{!!route('product',['slug'=>$link['product_url']])!!}">{!!$link['product']!!} </a>
                     @endif
@@ -70,15 +70,16 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-info mb-2"><a href="{{route('cart.add',['method'=>'addCart','product_id'=>$product->id,'quantity'=>1])}}" class="text-white link-style-none smooth">Thêm vào
-                                giỏ
-                                hàng</a></button>
-                        <button class="btn btn-success mb-2"><a href="{{route('cart.add',['method'=>'buyNow','product_id'=>$product->id,'quantity'=>1])}}" class="link-style-none text-white smooth">Mua
-                                ngay</a>
-                        </button>
+                        <button class="btn btn-info mb-2" onclick="buy('addCart')">Thêm vào giỏ hàng</button>
+                        <button class="btn btn-success mb-2" onclick="buy('buyNow')">Mua ngay</button>
                     </div>
                 </div>
             </div>
+            @if (session('status'))
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
             <div class=" mt-5 box-shadow">
                 <ul class="nav nav-tabs bg-white" id="myTab" role="tablist">
                     <li class="nav-item">
@@ -143,7 +144,7 @@
                         <div class="col-sm-12 col-md-12 col-lg-12">
                             <div class="tags-group">
                                 @foreach($tag as $items)
-                                    <a href="{!!route('tag',['slug'=>$items->slug])!!}"
+                                    <a href="{!!route('tag',['slug'=>$items->slug,'page'=>1])!!}"
                                        class="badge badge-info border-0 shadow-md">{!!$items->name!!}</a>
 
                                 @endforeach
@@ -153,13 +154,20 @@
                     </div>
                 @endif
                 <div class="mt-5 box-shadow">
-                    <div class="fb-comments" data-href="https://slaptop.com.vn/{!!$product->slug!!}" data-width="100%"
+                    <div class="fb-comments" data-href="https://slaptop.com.vn/product/{!!$product->slug!!}" data-width="100%"
                          data-numposts="10"></div>
                 </div>
             </div>
         </div>
 
         <script>
+            function buy(method){
+                var quantity = $('#quantity').val();
+
+                url= "http://slaptop.com.vn/cart/" +method+"/{{$product->id}}/"+quantity;
+                console.log(url);
+               location.assign(url);
+            }
             function add() {
                 var quantity = document.getElementById('quantity');
                 if (parseInt(quantity.value) < quantity.max) {

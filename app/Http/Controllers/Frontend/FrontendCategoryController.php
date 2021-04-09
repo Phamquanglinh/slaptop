@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class FrontendCategoryController extends Controller
 {
-    public function getData($slug)
+    public function getData($slug,$page)
     {
         //getdata
         $product = new Product();
@@ -28,7 +28,8 @@ class FrontendCategoryController extends Controller
             $link['main'] = $category->name;
             $link['main_url'] = $category->slug;
             if (isset($parent)) {
-                $products = $category->products()->get();
+                $products = $category->products()->orderby('updated_at','DESC')->get();
+                $footer = $category->products()->count();
                 $link['parent'] = $parent->name;
                 $link['parent_url'] = $parent->slug;
                 foreach ($products as $item) {
@@ -41,8 +42,11 @@ class FrontendCategoryController extends Controller
                 //getdata if category is root..
                 $categoryChild = $category->child()->get();
                 $products = [];
+                $footer=0;
                 foreach ($categoryChild as $items) {
-                    $products[$items->name] = $items->products()->get();
+                    $products[$items->name] = $items->products()->orderby('updated_at','DESC')->get();
+                    $footer += $items->products()->count();
+
                 }
                 //format money
                 foreach ($products as $items) {
@@ -58,12 +62,12 @@ class FrontendCategoryController extends Controller
 
         }
         //return view
-        return $this->render($category, $title, $products, $link, $categories, $sell);
+        return $this->render($footer,$page,$category, $title, $products, $link, $categories, $sell);
     }
 
-    public function render($category, $title, $products, $link, $categories, $sell)
+    public function render($footer,$page,$category, $title, $products, $link, $categories, $sell)
     {   //return view function
 
-        return view('frontend.list', ['data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link, 'categories' => $categories, 'sell' => $sell]);
+        return view('frontend.list', ['footer'=>$footer,'page'=>$page,'data' => $category, 'title' => $title, 'products' => $products, 'slug' => $link, 'categories' => $categories, 'sell' => $sell]);
     }
 }

@@ -35,7 +35,7 @@ class Category extends Model
     }
     public function viewOnWeb($crud = false)
     {
-        return '<a class="btn btn-sm btn-link" target="_blank" href="'.env('APP_URL').'/category/'.urlencode($this->slug).'" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
+        return '<a class="btn btn-sm btn-link" target="_blank" href="'.env('APP_URL').'/category/'.urlencode($this->slug).'/1" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
     }
     /*
     |--------------------------------------------------------------------------

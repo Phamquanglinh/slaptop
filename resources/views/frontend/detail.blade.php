@@ -159,7 +159,6 @@
                 </div>
             </div>
         </div>
-
         <script>
             function buy(method){
                 var quantity = $('#quantity').val();

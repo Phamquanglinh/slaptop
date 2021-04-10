@@ -31,24 +31,29 @@ class CartController extends Controller
 
     public function addToCart($method, $product, $quantity)
     {
-        $checking = 1;
-        $carts = Cart::where('product_id', '=', $product)->get();
-        foreach ($carts as $cart) {
-            if ($cart->order_id == null) {
-                if ($cart->user_id == backpack_user()->id) {
-                    Cart::where('id', '=', $cart->id)->update(['quantity' => $quantity]);
-                    $checking = 0;
+        if (!empty(backpack_user()->id)) {
+            $checking = 1;
+            $carts = Cart::where('product_id', '=', $product)->get();
+            foreach ($carts as $cart) {
+                if ($cart->order_id == null) {
+                    if ($cart->user_id == backpack_user()->id) {
+                        Cart::where('id', '=', $cart->id)->update(['quantity' => $quantity]);
+                        $checking = 0;
+                    }
                 }
             }
-        }
-        if($checking==1){
-            Cart::create(['product_id'=>$product,'quantity'=>$quantity,'user_id'=>backpack_user()->id]);
-        }
-        if($method=='addCart'){
-            return redirect()->back()->with('status', 'Đã thêm giỏ hàng');
+            if ($checking == 1) {
+                Cart::create(['product_id' => $product, 'quantity' => $quantity, 'user_id' => backpack_user()->id]);
+            }
+            if ($method == 'addCart') {
+                return redirect()->back()->with('status', 'Đã thêm giỏ hàng');
+            } else {
+                return redirect('/cart');
+            }
         }else{
-            return redirect('/cart');
+            return  redirect('/admin/login');
         }
+
     }
 
 //       if(! Cart::where('product_id','=',$product,'and','order_id','=',null)->update(['quantity'=>$quantity+old('quantity')])){
@@ -56,11 +61,10 @@ class CartController extends Controller
 //       }
 
 
-
-public function removeItem($id)
-{
-    Cart::destroy($id);
-    return redirect()->back()->with('status', 'Xóa thành công !');
-}
+    public function removeItem($id)
+    {
+        Cart::destroy($id);
+        return redirect()->back()->with('status', 'Xóa thành công !');
+    }
 
 }

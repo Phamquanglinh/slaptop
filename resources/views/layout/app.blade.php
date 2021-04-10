@@ -68,7 +68,7 @@
             </div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg h5 navbar-dark sticky-top bg-primary">
+    <nav class="navbar navbar-expand-lg h5 m-0 navbar-dark sticky-top bg-primary">
         <div class="container">
             <a class="navbar-brand d-block d-md-none" href="#">SLaptop</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"

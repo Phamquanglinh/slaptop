@@ -61,5 +61,76 @@ class CategoriesSeeder extends Seeder
             'created_at' => now(),
         ]);
 
+        DB::table('categories')->insert([
+            'name' => 'Laptop Đồ Họa',
+            'cover_image' => 'https://laptop88.vn/media/news/1203_laptoplamdohoa3d2.png',
+            'parent_id'=>1,
+            'slug' => 'lap-top-do-hoa.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Laptop Lập Trình',
+            'cover_image' => 'https://hunganh.vn/cdn/upload/images/laptop-danh-cho-dan-lap-trinh.jpg',
+            'parent_id'=>1,
+            'slug' => 'lap-top-lap-trinh.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Phụ kiện',
+            'cover_image' => 'https://suachualaptop24h.com/uploads/Tintuc2/linhkienlaptopgiare.jpg',
+            'parent_id'=>null,
+            'slug' => 'phu-kien.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Sạc',
+            'cover_image' => 'https://huaweiviet.vn/wp-content/uploads/2019/05/cap-sac-huawei-nova-3i-chinh-hang.gif',
+            'parent_id'=>9,
+            'slug' => 'sac.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Tai nghe',
+            'cover_image' => 'https://cdn.tgdd.vn/Products/Images/54/187374/tai-nghe-bluetooth-kanen-k6-den-2-org.jpg',
+            'parent_id'=>9,
+            'slug' => 'tai-nghe.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Loa',
+            'cover_image' => 'https://antuan.vn/wp-content/uploads/2020/07/loa-bluetooth-LG-Xboom-Go-PL7-1.jpg',
+            'parent_id'=>9,
+            'slug' => 'loa.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Chuột máy tính',
+            'cover_image' => 'https://product.hstatic.net/1000379362/product/chuot_logitech_2_2ce23484871d443caaaf9aae01d75cd4.jpg',
+            'parent_id'=>9,
+            'slug' => 'chuot-may-tinh.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Window Phone',
+            'cover_image' => 'https://cdn.viettelstore.vn/images/vtimages/c1/81/0e/c1810eeb2cfc43269b526a54710e02a9_VaiO-SmartPhone-ViettelStore.jpg',
+            'parent_id'=>2,
+            'slug' => 'window-phone.aspx',
+            'created_at' => now(),
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'Black Berry',
+            'cover_image' => 'http://bizweb.dktcdn.net/100/318/073/files/blackberry-2019-06-03-21-27-16.jpg?v=1559572108661',
+            'parent_id'=>2,
+            'slug' => 'black-berry.aspx',
+            'created_at' => now(),
+        ]);
     }
 }

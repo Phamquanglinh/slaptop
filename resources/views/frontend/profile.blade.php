@@ -78,7 +78,30 @@
                         </div>
                     </form>
                 @endif
+                <form action="{{route('change.password.user')}}" method="post">
+                    @csrf
+                   <div class="row">
+                       <div class="form-group col-md-4 col-12">
+                           <label>Mật khẩu cũ</label>
+                           <input class="form-control" name="oldPassword" type="password" required>
+                       </div>
+                       <div class="form-group col-md-4 col-12">
+                           <label>Mật khẩu mới</label>
+                           <input class="form-control" name="newPassword" minlength="8" type="password" required>
+                       </div>
+                       <div class="form-group col-md-4 col-12">
+                           <label>Nhập lại mật khẩu mới</label>
+                           <input class="form-control" name="rePassword" minlength="8" type="password" required>
+                       </div>
+                   </div>
+                    <button type="submit" class="btn btn-success my-2 text-center d-block3">Đổi mật khẩu</button>
+                </form>
             </div>
+            @if (session('status'))
+                <div class="alert alert-danger">
+                    {{ session('status') }}
+                </div>
+            @endif
             <script>
                 $('.btnUpdateProfile').click(function () {
                     $('.showProfile').addClass('hidden');

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Customer;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class ProfileController extends Controller
 {
@@ -42,5 +43,18 @@ class ProfileController extends Controller
         ];
         Customer::create($customerTableData);
         return redirect()->back();
+    }
+    public function changePassword(Request $request){
+        $old = backpack_user()->password;
+        if(Hash::check($request->oldPassword,$old)){
+            if($request->newPassword == $request->rePassword){
+                $password = Hash::make($request->newPassword);
+                User::find(backpack_user()->id)->update(['password'=>$password]);
+                return redirect()->back()->with('status','Đổi mật khẩu thành công');
+
+            }else{
+                return redirect()->back()->with('status','Nhập lại mật khẩu không chính xác');
+            }
+        }else return redirect()->back()->with('status','Mật khẩu cũ không chính xác');
     }
 }

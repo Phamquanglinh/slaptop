@@ -13,51 +13,56 @@ class SearchController extends Controller
 {
     public function getData(Request $request)
     {
-        $name = $request->input('search');
-        $search = true;
-        $title = $name;
-        $category = Category::where('name', 'like', '%' . $name . '%')->first();
-        $tags = Tags::where('name', 'like', '%' . $name . '%')->first();
-        $brand = Brand::where('name', 'like', '%' . $name . '%')->first();
-        $productsAsProduct = Product::where('name', 'like', '%' . $name . '%')->first();
-        $products = [];
+        if (!empty($request->input('search'))) {
+            $name = $request->input('search');
+            $search = true;
+            $title = $name;
+            $category = Category::where('name', 'like', '%' . $name . '%')->first();
+            $tags = Tags::where('name', 'like', '%' . $name . '%')->first();
+            $brand = Brand::where('name', 'like', '%' . $name . '%')->first();
+            $productsAsProduct = Product::where('name', 'like', '%' . $name . '%')->first();
+            $products = [];
 
-        if (!empty($category)) {
-            $products = $category->products()->get();
-            if (!empty($category->child()->first())) {
-                $categoryChild = $category->child()->get();
-                $productsAsChild = [];
-                foreach ($categoryChild as $items) {
-                    $productsAsChild[$items->name] = $items->products()->orderby('updated_at', 'DESC')->get();
-                }
-                //format money
-                foreach ($productsAsChild as $items) {
-                    foreach ($items as $item) {
-                        $sell[$item->name] = $this->sell($item['old_price'], $item['price']);
-                        $item['price'] = $this->formatMoney($item['price']);
-                        $item['old_price'] = $this->formatMoney($item['old_price']);
+            if (!empty($category)) {
+                $products = $category->products()->get();
+                if (!empty($category->child()->first())) {
+                    $categoryChild = $category->child()->get();
+                    $productsAsChild = [];
+                    foreach ($categoryChild as $items) {
+                        $productsAsChild[$items->name] = $items->products()->orderby('updated_at', 'DESC')->get();
                     }
+                    //format money
+                    foreach ($productsAsChild as $items) {
+                        foreach ($items as $item) {
+                            $sell[$item->name] = $this->sell($item['old_price'], $item['price']);
+                            $item['price'] = $this->formatMoney($item['price']);
+                            $item['old_price'] = $this->formatMoney($item['old_price']);
+                        }
+                    }
+                    return $this->render($title, $search, $products, $productsAsChild);
                 }
-                return $this->render($title, $search, $products, $productsAsChild);
+            } else if (!empty($brand)) {
+                $products = $brand->products()->get();
+            } else if (!empty($tags)) {
+                $products = $tags->products()->get();
+            } else if (!empty($productsAsProduct->name)) {
+                $products = Product::where('name', 'like', '%' . $name . '%')->get();
+            } else {
+                $search = false;
+                $title = "nothing";
+                $searchData = null;
+                return $this->render($title, $search, $searchData, "");
             }
-        } else if (!empty($brand)) {
-            $products = $brand->products()->get();
-        } else if (!empty($tags)) {
-            $products = $tags->products()->get();
-        } else if (!empty($productsAsProduct->name)) {
-            $products = Product::where('name', 'like', '%' . $name . '%')->get();
-        } else {
-            $search = false;
-            $title = "nothing";
-            $searchData = null;
-            return $this->render($title, $search, $searchData, "");
+            foreach ($products as $item) {
+                $sell = $this->sell($item->old_price, $item->price);
+                $item->price = $this->formatMoney($item->price);
+                $item->old_price = $this->formatMoney($item->old_price);
+            }
+            return $this->render($title, $search, $products, "");
+        }else{
+            return redirect('/');
         }
-        foreach ($products as $item) {
-            $sell = $this->sell($item->old_price, $item->price);
-            $item->price = $this->formatMoney($item->price);
-            $item->old_price = $this->formatMoney($item->old_price);
-        }
-        return $this->render($title, $search, $products, "");
+
     }
 
     public function formatMoney($money)

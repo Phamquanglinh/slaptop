@@ -43,6 +43,7 @@ return [
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
             'auth_mode' => null,
+            'from' => array('address' => 'slaptopcompanyvn@gmail.com', 'name' => 'Slaptop VietNam'),
         ],
 
         'ses' => [

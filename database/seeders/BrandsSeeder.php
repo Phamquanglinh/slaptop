@@ -71,6 +71,13 @@ class BrandsSeeder extends Seeder
             'created_at' => now(),
         ]);
         DB::table('brands')->insert([
+            'name' => 'samsung',
+            'logo' => 'http://rubee.com.vn/admin/webroot/upload/image//images/bai-viet/logo-samsung-4.jpg',
+            'cover_image' => 'https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778_960_720.jpg',
+            'slug' => 'samsung.aspx',
+            'created_at' => now(),
+        ]);
+        DB::table('brands')->insert([
             'name' => 'lg',
             'logo' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LG_logo_%282015%29.svg/800px-LG_logo_%282015%29.svg.png',
             'cover_image' => 'https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778_960_720.jpg',

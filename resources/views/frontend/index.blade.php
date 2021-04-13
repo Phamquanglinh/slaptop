@@ -205,30 +205,34 @@
             <div class="p-3 box-shadow">
                 @php
                     $laptop = \App\Models\Category::where('slug','=','phu-kien.aspx')->first();
-                    $childsOfLaptop = $laptop->child()->get();
+                    if(isset($laptop)){
+                        $childsOfLaptop = $laptop->child()->get();
+                    }
                 @endphp
                 <div class="d-flex justify-content-between mb-3">
                     <h2 class="text-white">Phụ Kiện </h2>
                     <span><a href="{{route('category',['slug'=>'phu-kien.aspx',1])}}" class="text">Xem tất cả</a></span>
                 </div>
                 <div class="row">
-                    @foreach($childsOfLaptop as $index => $item)
-                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
-                            <a class="link-style-none" href="#">
-                                <div class="card rounded">
-                                    <div class="img-fit rounded">
-                                        <img src="{{$item->cover_image}}" class="img-fluid rounded w-100">
+                    @if(isset($childsOfLaptop))
+                        @foreach($childsOfLaptop as $index => $item)
+                            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+                                <a class="link-style-none" href="#">
+                                    <div class="card rounded">
+                                        <div class="img-fit rounded">
+                                            <img src="{{$item->cover_image}}" class="img-fluid rounded w-100">
+                                        </div>
+                                        <div class="card-body p-3">
+                                            <h5>{{$item->name}}</h5>
+                                            <small class="mb-5">
+                                                {{$item->products()->count()}} sản phẩm
+                                            </small>
+                                        </div>
                                     </div>
-                                    <div class="card-body p-3">
-                                        <h5>{{$item->name}}</h5>
-                                        <small class="mb-5">
-                                            {{$item->products()->count()}} sản phẩm
-                                        </small>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    @endforeach
+                                </a>
+                            </div>
+                        @endforeach
+                        @endif
                 </div>
             </div>
         </div>

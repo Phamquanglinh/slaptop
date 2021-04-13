@@ -28,7 +28,7 @@ Route::get('/profile', [\App\Http\Controllers\Frontend\ProfileController::class,
 Route::post('/profile/update', [\App\Http\Controllers\Frontend\ProfileController::class, 'update'])->name('frontend.profile.update');
 Route::post('/profile/changepassword', [\App\Http\Controllers\Frontend\ProfileController::class, 'changePassword'])->name('change.password.user');
 Route::post('/profile/store', [\App\Http\Controllers\Frontend\ProfileController::class, 'store'])->name('frontend.profile.store');
-Route::get('/cart', [\App\Http\Controllers\Frontend\CartController::class, 'index'])->name('cart.show');
+Route::get('/cart', [\App\Http\Controllers\Frontend\CartController::class, 'index'])->middleware(\App\Http\Middleware\Authenticate::class)->name('cart.show');
 Route::get('/category/{slug}/{page}', [\App\Http\Controllers\Frontend\FrontendCategoryController::class, 'getData', 'id','page'])->where(['slug','page'])->name('category');
 Route::get('/tag/{slug}/{page}', [\App\Http\Controllers\Frontend\TagController::class, 'getData', 'id','page'])->where(['slug','page'])->name('tag');
 Route::get('/brand/{slug}/{page}', [\App\Http\Controllers\Frontend\BrandController::class, 'getData', 'id','page'])->where(['slug','page'])->name('brand');

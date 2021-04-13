@@ -113,7 +113,7 @@
                                             <img src="{{$product->cover_image}}" class="img-fluid w-100">
                                         </div>
                                         <div class="col-12 col-sm-12 col-md-8 col-lg-8">
-                                            <a class="link-style-none" href="#">
+                                            <a class="link-style-none" href="{{route('product',['slug'=>$product->slug])}}">
                                                 <h6>{{$product->name}}</h6>
                                                 <p class="text-danger mb-0">2.000.000 đ</p>
                                                 <small class="text mb-0">
@@ -147,7 +147,7 @@
                 <div class="row">
                     @foreach($childsOfLaptop as $index => $item)
                         <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
-                            <a class="link-style-none" href="#">
+                            <a class="link-style-none" href="{{route('category',[$item->slug,1])}}">
                                 <div class="card">
                                     <div class="img-fit">
                                         <img src="{{$item->cover_image}}" class="img-fluid  w-100">
@@ -181,7 +181,7 @@
                 <div class="row">
                     @foreach($childsOfMobile as $index => $item)
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3">
-                            <a class="link-style-none" href="#">
+                            <a class="link-style-none" href="{{route('category',[$item->slug,1])}}">
                                 <div class="card">
                                     <div class="img-fit">
                                         <img src="{{$item->cover_image}}" class="img-fluid  w-100">
@@ -217,7 +217,7 @@
                     @if(isset($childsOfLaptop))
                         @foreach($childsOfLaptop as $index => $item)
                             <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
-                                <a class="link-style-none" href="#">
+                                <a class="link-style-none" href="{{route('category',[$item->slug,1])}}">
                                     <div class="card rounded">
                                         <div class="img-fit rounded">
                                             <img src="{{$item->cover_image}}" class="img-fluid rounded w-100">

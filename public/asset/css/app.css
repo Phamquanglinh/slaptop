@@ -178,3 +178,9 @@
     margin-left: .1rem;
     margin-right: .1rem;
 }
+.brand-logo{
+    background: white;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}

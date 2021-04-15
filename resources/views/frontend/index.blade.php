@@ -1,3 +1,6 @@
+@php
+use App\Http\Controllers\FormatMoney;
+@endphp
 @extends('layout.app')
 @section('slider')
     @if(isset($error))
@@ -89,16 +92,13 @@
                 <div class="row p-3">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-3">
                         <div class="bg-color-light-blue  cursor-pointer">
-                            @php
-                                $products = \App\Models\Tags::where('slug','=','so-luong-co-han.aspx')->first()->products()->orderBy('updated_at','DESC')->get();
-                            @endphp
-                            <a class="link-style-none" href="{{route('product',['slug'=>$products->first()->slug])}}">
+                            <a class="link-style-none" href="{{route('product',['slug'=>$limitProduct[0]['slug']])}}">
                                 <div class="p-4">
-                                    <img src="{{$products->first()->cover_image}}"
+                                    <img src="{{$limitProduct[0]['image']}}"
                                          class="img-fluid w-100 box-shadow rounded">
                                 </div>
-                                <h5 class="px-4">{{$products->first()->name}}</h5>
-                                <h5 class="text-danger px-4">{{$products->first()->price}} đ</h5>
+                                <h5 class="px-4">{{$limitProduct[0]['name']}}</h5>
+                                <h5 class="text-danger px-4">{{$limitProduct[0]['price']}} đ</h5>
                                 <div class="clearfix p-3">
                                 </div>
                             </a>
@@ -106,18 +106,18 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 cursor-pointer">
                         <div class="mb-3  rounded ">
-                            @foreach($products as $index => $product)
+                            @foreach($limitProduct as $index => $product)
                                 @if($index >0 && $index<4)
                                     <div class="row box-shadow align-items-center p-2 rounded">
                                         <div class="col-12 col-md-4 px-0 img-fit overflow-hidden">
-                                            <img src="{{$product->cover_image}}" class="img-fluid w-100">
+                                            <img src="{{$product['image']}}" class="img-fluid w-100">
                                         </div>
                                         <div class="col-12 col-sm-12 col-md-8 col-lg-8">
-                                            <a class="link-style-none" href="#">
-                                                <h6>{{$product->name}}</h6>
-                                                <p class="text-danger mb-0">2.000.000 đ</p>
+                                            <a class="link-style-none" href="{{route('product',['slug'=>$product['slug']])}}">
+                                                <h6>{{$product['name']}}</h6>
+                                                <p class="text-danger mb-0">{{$product['price']}} đ</p>
                                                 <small class="text mb-0">
-                                                    <del>9.000.000 đ</del>
+                                                    <del>{{$product['old_price']}} đ</del>
                                                 </small>
                                                 <div class="clearfix">
 
@@ -146,8 +146,8 @@
                 </div>
                 <div class="row">
                     @foreach($childsOfLaptop as $index => $item)
-                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3">
-                            <a class="link-style-none" href="#">
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+                            <a class="link-style-none" href="{{route('category',[$item->slug,1])}}">
                                 <div class="card">
                                     <div class="img-fit">
                                         <img src="{{$item->cover_image}}" class="img-fluid  w-100">
@@ -181,7 +181,7 @@
                 <div class="row">
                     @foreach($childsOfMobile as $index => $item)
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3">
-                            <a class="link-style-none" href="#">
+                            <a class="link-style-none" href="{{route('category',[$item->slug,1])}}">
                                 <div class="card">
                                     <div class="img-fit">
                                         <img src="{{$item->cover_image}}" class="img-fluid  w-100">
@@ -204,63 +204,90 @@
         <div class="container">
             <div class="p-3 box-shadow">
                 @php
-                    $laptop = \App\Models\Category::where('slug','=','laptop.aspx')->first();
-                    $childsOfLaptop = $laptop->child()->get();
+                    $laptop = \App\Models\Category::where('slug','=','phu-kien.aspx')->first();
+                    if(isset($laptop)){
+                        $childsOfLaptop = $laptop->child()->get();
+                    }
                 @endphp
                 <div class="d-flex justify-content-between mb-3">
-                    <h2 class="text-white">Laptop </h2>
-                    <span><a href="{{route('category',['slug'=>'laptop.aspx',1])}}" class="text">Xem tất cả</a></span>
+                    <h2 class="text-white">Phụ Kiện </h2>
+                    <span><a href="{{route('category',['slug'=>'phu-kien.aspx',1])}}" class="text">Xem tất cả</a></span>
                 </div>
                 <div class="row">
-                    @foreach($childsOfLaptop as $index => $item)
-                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3">
-                            <a class="link-style-none" href="#">
-                                <div class="card">
-                                    <div class="img-fit">
-                                        <img src="{{$item->cover_image}}" class="img-fluid  w-100">
+                    @if(isset($childsOfLaptop))
+                        @foreach($childsOfLaptop as $index => $item)
+                            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-3">
+                                <a class="link-style-none" href="{{route('category',[$item->slug,1])}}">
+                                    <div class="card rounded">
+                                        <div class="img-fit rounded">
+                                            <img src="{{$item->cover_image}}" class="img-fluid rounded w-100">
+                                        </div>
+                                        <div class="card-body p-3">
+                                            <h5>{{$item->name}}</h5>
+                                            <small class="mb-5">
+                                                {{$item->products()->count()}} sản phẩm
+                                            </small>
+                                        </div>
                                     </div>
-                                    <div class="card-body p-3">
-                                        <h5>{{$item->name}}</h5>
-                                        <small class="mb-5">
-                                            {{$item->products()->count()}} sản phẩm
-                                        </small>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    @endforeach
+                                </a>
+                            </div>
+                        @endforeach
+                        @endif
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-premium">
+    <div class="bg-premium pb-3">
         <div class="container text-white">
             <div class="h2 m-0 py-5"><i class="fas text-warning fa-crown"></i> Sản phẩm cao cấp <i
                     class="fas text-warning fa-crown"></i></div>
-            @php
-                $products = \App\Models\Tags::where('slug','=','san-pham-cao-cap.aspx')->first()->products()->orderBy('updated_at','DESC')->get();
-            @endphp
             <div class="row">
-                @foreach($products as $item)
+                @foreach($premiumProduct as $key => $item)
                     <div class="col-md-3 col-sm-6 col-12 py-2   ">
-                        <a class="link-style-none" href="{{route('product',['slug'=>$item->slug])}}">
+                        <a class="link-style-none" href="{{route('product',['slug'=>$item['slug']])}}">
                             <div class="bg-white p-2 rounded-top box-shadow">
                                 <div class="img-fit">
-                                    <img src="{{$item->cover_image}}" class="img-fluid">
+                                    <img src="{{$item['image']}}" class="img-fluid">
                                 </div>
                             </div>
                             <div class="bg-danger px-1 rounded-bottom">
                                 <div class="h6 name-fit text-white">
-                                    {{$item->name}}
+                                    {{$item['name']}}
                                 </div>
                                 <div class="text-warning h5">
-                                    {{$item->price}} đ
+                                    {{$item['price']}} đ
                                 </div>
                                 <div class="text-white">
                                     <span class="text-white">Danh mục</span>
-                                    <a class="text-warning" href="{{route('category',['slug'=>$item->category()->first()->slug,'page'=>1])}}">
-                                        {{$item->category()->first()->name}}
+                                    <a class="text-warning" href="{{route('category',['slug'=>$prCategory[$key]['url'],'page'=>1])}}">
+                                        {{$prCategory[$key]['name']}}
                                     </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark">
+        <div class="container text-white">
+            <div class="h2 m-0 py-5">Thương hiệu</div>
+            <div class="row">
+                @php
+                $brands=\App\Models\Brand::get();
+                @endphp
+                @foreach($brands as  $index => $brand)
+                    <div class="col-md-3 col-sm-6 col-12 mb-4">
+                        <a  class="link-style-none" href="{{route('brand',['slug'=>$brand->slug,'page'=>1])}}">
+                            <div class="bg-light text-dark">
+                                <div class="position-relative">
+                                    <img src="{{$brand->cover_image}}" class="w-100">
+                                    <img src="{{$brand->logo}}" class="w-50  border position-absolute brand-logo">
+                                </div>
+                                <div class="bg-white pt-5">
+                                    <div class="h4 text-center mt-4">{{$brand->name}}</div>
+                                    <div class="text-muted text-center">{{$brand->products()->count()}} sản phẩm</div>
                                 </div>
                             </div>
                         </a>

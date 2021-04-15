@@ -11,6 +11,7 @@ class PivotSeeder extends Seeder
      * Run the database seeds.
      *
      * @return void
+     * @throws \Exception
      */
     public function run()
     {
@@ -55,5 +56,14 @@ class PivotSeeder extends Seeder
             'tag_id'=>1,
 
         ]);
+
+       for($i=1;$i<=40;$i++){
+           DB::table('pivot')->insert([
+
+               'product_id'=>random_int(1,30),
+               'tag_id'=>random_int(1,8),
+
+           ]);
+       }
     }
 }

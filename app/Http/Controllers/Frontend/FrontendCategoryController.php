@@ -20,7 +20,7 @@ class FrontendCategoryController extends Controller
         $category = Category::where('slug', '=', $slug)->first();
         $error = 'nothing select';
         if (empty($category)) {
-            return view('frontend.index', ['error' => $error]);
+            return redirect()->back();
         }
         if (isset($category)) {
             $title = $category->name;

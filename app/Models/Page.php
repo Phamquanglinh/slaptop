@@ -28,7 +28,9 @@ class Page extends Model
     | FUNCTIONS
     |--------------------------------------------------------------------------
     */
-
+        public function edit(){
+            return redirect('/admin/page/1/edit');
+        }
     /*
     |--------------------------------------------------------------------------
     | RELATIONS

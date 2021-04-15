@@ -28,7 +28,7 @@ class CheckIfAdmin
      */
     private function checkIfUserIsAdmin($user)
     {
-        return ($user->role < 1);
+        return ($user->role <= 1);
     }
 
     /**

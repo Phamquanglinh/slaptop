@@ -45,7 +45,7 @@ class Product extends Model
         //format money function
         $formatMoney = false;
         while (!$formatMoney) {
-            $replace = preg_replace('/(-?\d+)(\d\d\d)/', '$1,$2', $money);
+            $replace = preg_replace('/(-?\d+)(\d\d\d)/', '$1.$2', $money);
             if ($replace !== $money) {
                 $money = $replace;
             } else {

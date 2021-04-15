@@ -17,9 +17,8 @@ class TagController extends Controller
         $sell = null;
         $category = Tags::where('slug', '=', $slug)->first();
         $tag = true;
-        $error = 'nothing select';
         if (empty($category)) {
-            return view('frontend.index', ['error' => $error]);
+            return redirect()->back()->withErrors('404');
         } else {
             $product = new Product();
             $title = $category->name;

@@ -2867,6 +2867,2966 @@ class ProductsSeeder extends Seeder
         ]);
 
         DB::table('products')->insert([
+            'name'=>'Điện thoại Xiaomi Redmi Note 10 Pro MFF',
+            'price'=>7490000,
+            'old_price'=>8890000,
+            'quantity'=>50,
+            'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi0redmi-note-10-pro-mff-600x600-600x600.jpg',
+            'rate'=>400,
+            'category_id'=>5,
+            'brand_id'=>4,
+            'user_id'=>random_int(1,5),
+            'describe'=> '<h2>Đặc điểm nổi bật của Xiaomi Redmi Note 10 Pro MFF</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/236596/Slider/vi-vn-xiaomi-redmi-note-10-pro-mi-fan-festival-tongquan.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&aacute;p, C&acirc;y lấy sim, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A</p>
+
+<h3><a href="https://www.thegioididong.com/dtdd/xiaomi-redmi-note-10-pro-mi-fan-festival" target="_blank">Xiaomi Redmi Note 10 Pro MFF</a>&nbsp;l&agrave; phi&ecirc;n bản đặc biệt với khẩu hiệu &quot;Khai ph&aacute; Tiềm năng V&ocirc; cực&quot; được&nbsp;<a href="https://www.thegioididong.com/dtdd-xiaomi" target="_blank">Xiaomi</a>&nbsp;ra mắt d&agrave;nh cho người h&acirc;m mộ. Cấu h&igrave;nh tương tự&nbsp;<a href="https://www.thegioididong.com/dtdd/xiaomi-redmi-note-10-pro" target="_blank">Redmi Note 10 Pro</a>&nbsp;c&ograve;n thiết kế th&igrave; được c&aacute;ch t&acirc;n một &iacute;t để ph&ugrave; hợp với đối tượng Mi Fan.</h3>
+
+<h3>Thiết kế cứng c&aacute;p v&agrave; sang trọng</h3>
+
+<p>Về thiết kế th&igrave; phi&ecirc;n bản đặc biệt kh&ocirc;ng c&oacute; nhiều điểm kh&aacute;c biệt với bản thường, vẫn sử dụng khung viền bằng kim loại, mặt trước v&agrave; sau được bảo vệ bởi k&iacute;nh cường lực b&oacute;ng bẩy, mang lại sự cứng c&aacute;p, bền bỉ v&agrave; kh&ocirc;ng k&eacute;m phần sang trọng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-007.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Thiết kế cạnh viền" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-007.jpg" /></a></p>
+
+<p>Mặt lưng Redmi Note 10 Pro MFF được thiết kế cong 3D tạo cảm gi&aacute;c ba chiều v&agrave; bo tr&ograve;n &ocirc;m trọn th&acirc;n m&aacute;y cho trải nghiệm cầm nắm dễ chịu, thoải m&aacute;i.</p>
+
+<p>C&oacute; một điểm để ph&acirc;n biệt với phi&ecirc;n bản thường l&agrave; ở mặt lưng, Redmi Note 10 Pro Mi Fan Festival c&oacute; logo Mi Fan đặc trưng đặt ở tr&ecirc;n logo Redmi truyền thống v&agrave; chỉ b&aacute;n duy nhất một m&agrave;u đồng ho&agrave;ng h&ocirc;n (v&agrave;ng đồng).</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-001.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF |  Logo Mi Fan" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-001.jpg" /></a></p>
+
+<p>Kh&aacute;c biệt r&otilde; r&agrave;ng c&oacute; lẽ đến từ phần hộp của m&aacute;y, vỏ hộp được thiết kế lấy cảm hứng từ vũ trụ. Mặt trước mang h&igrave;nh ảnh phi h&agrave;nh gia du h&agrave;nh qua dải thi&ecirc;n h&agrave;, mang lại cảm gi&aacute;c rất huyền b&iacute; v&agrave; xa xăm.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-006.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Thiết kế hộp đi kèm" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-006.jpg" /></a></p>
+
+<p>Redmi Note 10 Pro MFF c&oacute; khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd-chong-nuoc-bui" target="_blank">kh&aacute;ng nước, bụi</a>&nbsp;ti&ecirc;u chuẩn IP53, với chuẩn n&agrave;y&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">điện thoại</a>&nbsp;c&oacute; thể kh&aacute;ng được tia nước văng nhẹ, hạn chế được c&aacute;c nguy cơ t&igrave;m ẩn c&oacute; thể g&acirc;y hại cho m&aacute;y trong qu&aacute; tr&igrave;nh sử dụng.</p>
+
+<h3>&nbsp;</h3>
+',
+            'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Xiaomi Redmi Note 10 Pro MFF</h3>
+
+<p><img alt="Thông số kỹ thuật 236596" src="https://cdn.tgdd.vn/Products/Images/42/236596/Kit/xiaomi-redmi-note-10-pro-mi-fan-festival-note-2.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-amoled-la-gi-905766" target="_blank">AMOLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p><a href="https://www.thegioididong.com/tin-tuc/do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi--592178#fullhd" target="_blank">Full HD+ (1080 x 2400 Pixels)</a></p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.67&quot;</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass5" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass 5</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 108 MP &amp; Phụ 8 MP, 5 MP, 2 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/quay-phim-sieu-cham-super-slow-motion-960fps-la-1144253" target="_blank">HD 720p@960fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>C&oacute;</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/quay-phim-sieu-cham-super-slow-motion-960fps-la-gi-1144253" target="_blank">Quay Si&ecirc;u chậm (Super Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cong-nghe-lay-net-theo-pha-tren-smartph-1007275" target="_blank">Lấy n&eacute;t theo pha (PDAF)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-touch-focus-khi-chup-anh-tren-smartphone-906412" target="_blank">Chạm lấy n&eacute;t</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-manual-mode-pro-tren-smartphone-906405" target="_blank">Chuy&ecirc;n nghiệp (Pro)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>16 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-11-la-gi-co-gi-moi-thiet-bi-nao-duoc-cap-nhat-1306447" target="_blank">Android 11</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/chip-snapdragon-732g-la-gi-hieu-nang-manh-me-den-dau-1337673" target="_blank">Snapdragon 732G 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 2.3 Ghz &amp; 6 nh&acirc;n 1.8 Ghz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-730-1174819#adreno618" target="_blank">Adreno 618</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>8 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>128 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>Khoảng 113 GB</p>
+	</li>
+	<li>Thẻ nhớ
+	<p><a href="https://www.thegioididong.com/the-nho-dien-thoai" target="_blank">MicroSD, hỗ trợ tối đa 512 GB</a></p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#80211ac" target="_blank">Wi-Fi 802.11 a/b/g/n/ac</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a><a href="https://www.thegioididong.com/tin-tuc/wi-fi-direct-la-gi--590298" target="_blank">Wi-Fi Direct</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#galileo" target="_blank">GALILEO</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a></p>
+	</li>
+	<li>Bluetooth
+	<p>v5.1</p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p>3.5 mm</p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>Dung lượng pin
+	<p>5020 mAh</p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a></p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/tinh-nang-mo-khoa-bang-khuon-mat-la-gi-1167784" target="_blank">Mở kho&aacute; khu&ocirc;n mặt</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-bao-mat-mo-khoa-van-tay-canh-vien-tren-smartphone-1286767" target="_blank">Mở kho&aacute; v&acirc;n tay cạnh viền</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn tin nhắn</a><a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Radio
+	<p>Đang c&acirc;̣p nh&acirc;̣t</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#3gp" target="_blank">3GP</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#avi" target="_blank">AVI</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wmv" target="_blank">WMV</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wav" target="_blank">WAV</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung kim loại &amp; Mặt lưng k&iacute;nh</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 164 mm - Ngang 76.5 mm - D&agrave;y 8.1 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>193 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>04/2021</p>
+	</li>
+</ul>
+',
+            'details'=> '<h2>Hiệu năng mạnh mẽ c&ugrave;ng Snapdragon 732G</h2>
+
+<p>Cấu h&igrave;nh của Redmi Note 10 Pro MFF c&oacute; phần tương đồng với phi&ecirc;n bản Redmi Note 10 Pro. Sử dụng&nbsp;<a href="https://www.thegioididong.com/hoi-dap/chip-snapdragon-732g-la-gi-hieu-nang-manh-me-den-dau-1337673" target="_blank">Snapdragon 732G</a>&nbsp;sản xuất tr&ecirc;n tiến tr&igrave;nh 8 nm c&oacute; kiến tr&uacute;c CPU v&agrave; GPU ti&ecirc;n tiến, mang lại tốc độ xử l&yacute; vượt trội, th&ocirc;ng minh v&agrave; tiết kiệm điện năng hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-002.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Trang bị chipset Snapdragon 732G" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-002.jpg" /></a></p>
+
+<p>Trang bị 8 GB RAM chuẩn LPDDR5 c&oacute; tốc độ truy xuất dữ liệu cao, cho t&aacute;c vụ đa nhiệm trở l&ecirc;n mượt m&agrave; hơn bao giờ hết. Bộ nhớ trong 128 GB chuẩn UFS 2.2 cho kh&ocirc;ng gian lưu trữ rộng lớn, nếu bạn c&oacute; nhu cầu lưu nhiều hơn th&igrave; Redmi Note 10 Pro MFF vẫn hỗ trợ mở rộng bộ nhớ th&ocirc;ng qua thẻ MicroSD.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-003.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Hỗ trợ mở rộng thẻ nhớ ngoài" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-003.jpg" /></a></p>
+
+<h3>Camera AI độ ph&acirc;n giải si&ecirc;u khủng</h3>
+
+<p>Redmi Note 10 Pro MFF được trang bị 4 camera đặt trong m&ocirc;-đun h&igrave;nh chữ nhật dọc theo th&acirc;n m&aacute;y ở ph&iacute;a tr&ecirc;n b&ecirc;n tr&aacute;i. Camera ch&iacute;nh được bao quanh bởi viền m&agrave;u bạc tr&ocirc;ng kh&aacute; lạ mắt.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-004.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Cụm camera sau" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-004.jpg" /></a></p>
+
+<p>Camera ch&iacute;nh c&oacute; độ ph&acirc;n giải 108 MP khẩu độ f/1.9 cho ph&eacute;p bạn chụp những bức ảnh cực r&otilde; n&eacute;t. Hỗ trợ đủ c&aacute;c kiểu chụp như HDR, Panorama, ch&acirc;n dung AI,... Ngo&agrave;i ra, chế độ ban đ&ecirc;m 2.0 gi&uacute;p giảm nhiễu hiệu quả v&agrave; lưu lại khoảnh khắc chụp đ&ecirc;m ho&agrave;n hảo.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-009.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Ảnh chụp đêm " src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-009.jpg" /></a></p>
+
+<p>Cảm biến đo độ s&acirc;u c&oacute; độ ph&acirc;n giải 2 MP gi&uacute;p t&iacute;nh to&aacute;n v&agrave; hỗ trợ cho ra c&aacute;c bức ảnh x&oacute;a ph&ocirc;ng chuy&ecirc;n nghiệp. Camera g&oacute;c rộng 8 MP cho g&oacute;c nh&igrave;n 119 độ gi&uacute;p thu được nhiều chi tiết hơn trong một khung h&igrave;nh.</p>
+
+<p>Camera telemacro 5 MP cho g&oacute;c nh&igrave;n cận cảnh hơn 2 lần so với camera macro th&ocirc;ng thường, sẽ đưa bạn v&agrave;o thế giới t&iacute; hon kỳ th&uacute;.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-010.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Ảnh chụp macro" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-010.jpg" /></a></p>
+
+<p>Về khả năng quay video th&igrave; Redmi Note 10 MFF cho bạn thoải m&aacute;i s&aacute;ng tạo với c&aacute;c mode quay chuy&ecirc;n nghiệp như: Quay video Timelapse, video k&eacute;p, video ph&acirc;n th&acirc;n,... c&oacute; chống rung cho c&aacute;c cảnh quay được mượt m&agrave; hơn.</p>
+
+<h3>M&agrave;n h&igrave;nh th&ocirc;ng minh v&agrave; si&ecirc;u mượt</h3>
+
+<p>Redmi Note 10 Pro MFF được trang bị m&agrave;n h&igrave;nh AMOLED 6.67 inch, độ ph&acirc;n giải Full HD+ cho ra h&igrave;nh ảnh c&oacute; m&agrave;u sắc rực rỡ, sắc n&eacute;t.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-005.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Trang bị màn hình AMOLED sắc nét" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-005.jpg" /></a></p>
+
+<p>Hỗ trợ gam m&agrave;u DCI-P3 chuẩn điện ảnh, đạt chứng chỉ SGS bảo vệ mắt, tần số qu&eacute;t 120 Hz, tốc độ lấy mẫu cảm ứng 240 Hz, những yếu tố tr&ecirc;n mang lại một m&agrave;n h&igrave;nh c&oacute; thể hiển thị nhiều m&agrave;u sắc, c&aacute;c chuyển động trở n&ecirc;n mượt m&agrave; v&agrave; độ nhạy, độ ch&iacute;nh x&aacute;c của m&agrave;n h&igrave;nh được n&acirc;ng cao. Tất cả đều g&oacute;p phần cho trải nghiệm của bạn trở n&ecirc;n tuyệt vời nhất.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-012.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Hỗ trợ tần số quét cao 120 Hz" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-012.jpg" /></a></p>
+
+<p>Ngo&agrave;i ra, m&aacute;y c&ograve;n c&oacute; cảm biến &aacute;nh s&aacute;ng 360&deg; c&oacute; thể tự động điều chỉnh độ s&aacute;ng. Với độ s&aacute;ng tối đa 1200 nit th&igrave; bất kể trong m&ocirc;i trường &aacute;nh s&aacute;ng n&agrave;o, m&agrave;n h&igrave;nh lu&ocirc;n cung cấp độ s&aacute;ng tối ưu cho trải nghiệm xem tuyệt vời nhất.</p>
+
+<h3>Pin tr&acirc;u sử dụng thoải m&aacute;i</h3>
+
+<p>Redmi Note 10 Pro MFF trang bị vi&ecirc;n pin c&oacute; dung lượng 5.020 mAh, c&oacute; thể sử dụng l&ecirc;n đến 2 ng&agrave;y cho c&aacute;c t&aacute;c vụ th&ocirc;ng thường.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-011.jpg" onclick="return false;"><img alt="Xiaomi Redmi Note 10 Pro MFF | Dung lượng pin lớn đi kèm sạc nhanh 33 W" src="https://cdn.tgdd.vn/Products/Images/42/236596/xiaomi-redmi-note-10-pro-mi-fan-festival-011.jpg" /></a></p>
+
+<p>Hỗ trợ c&ocirc;ng nghệ sạc nhanh 33 W, c&oacute; thể sạc đầy 59% pin chỉ trong 30 ph&uacute;t, gi&uacute;p tiết kiệm thời gian sạc l&agrave; hạn chế l&agrave;m gi&aacute;n đoạn qu&aacute; tr&igrave;nh sử dụng của bạn.</p>
+
+<p>Redmi Note 10 Pro Mi Fan Festival chỉ được ra mắt với số lượng c&oacute; hạn, được xem như m&oacute;n qu&agrave; lưu niệm độc đ&aacute;o m&agrave; người d&ugrave;ng c&oacute; thể sở hữu. D&ugrave; bạn c&oacute; phải l&agrave; Mi Fan hay kh&ocirc;ng th&igrave; sản phẩm n&agrave;y với c&aacute;c điểm mạnh như: Camera si&ecirc;u khủng, cấu h&igrave;nh mạnh mẽ c&ugrave;ng với thiết kế thời trang cũng rất đ&aacute;ng để trải nghiệm.</p>
+',
+            'slug'=>Str::slug('Điện thoại Xiaomi Redmi Note 10 Pro MFF','-').'.aspx',
+            'created_at'=>now(),
+        ]);
+
+        DB::table('products')->insert([
+            'name'=>'Điện thoại Xiaomi Mi 11 5G',
+            'price'=>20490000,
+            'old_price'=>21890000,
+            'quantity'=>50,
+            'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-xanhduong-600x600-600x600.jpg',
+            'rate'=>400,
+            'category_id'=>5,
+            'brand_id'=>4,
+            'user_id'=>random_int(1,5),
+            'describe'=> '<h2>Đặc điểm nổi bật của Xiaomi Mi 11 5G</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/226264/Slider/vi-vn-xiaomi-mi-11-5g-thietke-slider.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, Jack chuyển tai nghe 3.5mm, C&acirc;y lấy sim, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A</p>
+
+<h3><a href="https://www.thegioididong.com/dtdd-xiaomi" target="_blank">Xiaomi</a>&nbsp;chốt năm 2020 cực đỉnh v&agrave; mở đầu năm mới kh&ocirc;ng thể n&agrave;o ấn tượng hơn với si&ecirc;u phẩm mang t&ecirc;n&nbsp;<a href="https://www.thegioididong.com/dtdd/xiaomi-mi-11" target="_blank">Xiaomi Mi 11</a>. Trải nghiệm hiệu năng h&agrave;ng đầu với vi xử l&yacute; Qualcomm Snapdragon 888, c&ugrave;ng loạt c&ocirc;ng nghệ đỉnh cao, khiến bất kỳ ai cũng sẽ cho&aacute;ng ngợp về&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;n&agrave;y.</h3>
+
+<h3>Thiết kế nổi bật với cụm camera độc nhất</h3>
+
+<p>C&oacute; thể thấy, điểm s&aacute;ng trong thiết kế của Mi 11 đến từ cụm 3 camera mặt sau được đặt trong m&ocirc;-đun h&igrave;nh vu&ocirc;ng, được ph&acirc;n tầng với 2 lớp k&iacute;nh tạo n&ecirc;n sự kh&aacute;c biệt v&agrave; nổi bật ngay từ c&aacute;i nh&igrave;n đầu ti&ecirc;n.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-002.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Thiết kế với cụm camera độc đáo" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-002.jpg" /></a></p>
+
+<p>Mi 11 sở hữu th&acirc;n m&aacute;y thanh mảnh với độ mỏng ấn tượng 8.06 mm, được vuốt cong dần về cạnh 2 b&ecirc;n, nối liền ho&agrave;n hảo với phần khung kim loại si&ecirc;u mỏng v&agrave; m&agrave;n h&igrave;nh ở mặt trước tạo n&ecirc;n một khối liền mạch, cho bạn trải nghiệm cầm nắm tốt nhất.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-121621-031604.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Độ mỏng ấn tượng 8.06 mm" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-121621-031604.jpg" /></a></p>
+
+<h3>L&agrave;m chủ mọi khung h&igrave;nh với bộ 3 camera 108 MP</h3>
+
+<p>Với tổ hợp 3 cảm biến gồm c&oacute; camera ch&iacute;nh 108 MP,&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c si&ecirc;u rộng</a>&nbsp;13 MP v&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">camera chụp cận macro</a>&nbsp;5 MP, c&ugrave;ng hệ thống phần cứng tối t&acirc;n được trang bị b&ecirc;n trong. Tất cả đ&atilde; l&agrave;m n&ecirc;n đẳng cấp nhiếp ảnh di động chuy&ecirc;n nghiệp tr&ecirc;n Mi 11.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-003.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Cụm 3 camera độ phân giải lên đến 108 MP" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-003.jpg" /></a></p>
+
+<p>T&iacute;ch hợp b&ecirc;n trong camera ch&iacute;nh 108 MP l&agrave; cảm biến h&igrave;nh ảnh lớn 1/1.33 c&oacute; hỗ trợ chống rung quang học OIS, với c&ocirc;ng nghệ pixel-binning cho ph&eacute;p gộp 4 điểm ảnh th&agrave;nh 1 điểm ảnh si&ecirc;u s&aacute;ng, Mi 11 cho ph&eacute;p người d&ugrave;ng chụp những bức ảnh trong điều kiện thiếu s&aacute;ng m&agrave; vẫn c&oacute; độ n&eacute;t ho&agrave;n hảo.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-121921-031917.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Cảm biến chính chống rung quang học, chụp thiếu sáng sắc nét" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-121921-031917.jpg" /></a></p>
+
+<p>Chụp phong cảnh, ảnh nh&oacute;m dễ d&agrave;ng từ camera g&oacute;c si&ecirc;u rộng 123 độ 13 MP hay chụp ảnh ch&acirc;n dung ảo diệu với hiệu ứng&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-xoa-phong" target="_blank">x&oacute;a ph&ocirc;ng</a>&nbsp;h&uacute;t mắt.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-007.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Giao diện chụp ảnh" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-007.jpg" /></a></p>
+
+<p>Cuối c&ugrave;ng, camera macro sẽ gi&uacute;p bạn chụp si&ecirc;u cận ở khoảng c&aacute;ch gần, mang đến những t&aacute;c phẩm macro ấn tượng, độc lạ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-121121-031142.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Ảnh chụp trên camera macro" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-121121-031142.jpg" /></a></p>
+
+<p>Kh&ocirc;ng chỉ chụp ảnh, Mi 11 c&ograve;n sở hữu khả năng quay video nổi trội với chất lượng 8K, k&egrave;m theo đ&oacute; l&agrave; c&aacute;c thuật to&aacute;n AI v&agrave; giảm nhiễu RAW gi&uacute;p tăng cường &aacute;nh s&aacute;ng khi quay video trong điều kiện &aacute;nh s&aacute;ng yếu.</p>
+
+<h3>&nbsp;</h3>
+',
+            'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Xiaomi Mi 11 5G</h3>
+
+<p><img alt="Thông số kỹ thuật 226264" src="https://cdn.tgdd.vn/Products/Images/42/226264/Kit/xiaomi-mi-11-note-2.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-amoled-la-gi-905766" target="_blank">AMOLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p>2K+ (1440 x 3200 Pixels)</p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.81&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>120 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>1500 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-kinh-cuong-luc-corning-gorilla-glass-victus-1284586" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass Victus</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 108 MP &amp; Phụ 13 MP, 5 MP</p>
+	</li>
+	<li>Quay phim
+	<p>8K 4320p@30fps<a href="https://www.thegioididong.com/hoi-dap/quay-phim-sieu-cham-super-slow-motion-960fps-la-1144253" target="_blank">HD 720p@960fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@240fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@60fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>C&oacute;</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/quay-phim-sieu-cham-super-slow-motion-960fps-la-gi-1144253" target="_blank">Quay Si&ecirc;u chậm (Super Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-touch-focus-khi-chup-anh-tren-smartphone-906412" target="_blank">Chạm lấy n&eacute;t</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chong-rung-quang-hoc-ois-chup-anh-tren-sm-906416" target="_blank">Chống rung quang học (OIS)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-manual-mode-pro-tren-smartphone-906405" target="_blank">Chuy&ecirc;n nghiệp (Pro)</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-chong-rung-ky-thuat-so-eis-tren-may-an-906417" target="_blank">Chống rung điện tử kỹ thuật số (EIS)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>20 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/flash-man-hinh-tren-camera-la-gi-925753" target="_blank">Flash m&agrave;n h&igrave;nh</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-11-la-gi-co-gi-moi-thiet-bi-nao-duoc-cap-nhat-1306447" target="_blank">Android 11</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/chip-snapdragon-888-la-gi-hieu-nang-manh-the-nao-1337297" target="_blank">Snapdragon 888 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>1 nh&acirc;n 2.84 GHz, 3 nh&acirc;n 2.42 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p>Adreno 660</p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>8 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>256 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>230 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-5g-la-gi-co-nhung-uu-diem-gi-so-voi-4g-1312277" target="_blank">Hỗ trợ 5G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wi-fi-chuan-80211ax-la-gi-tim-hieu-ve-wi-fi-the-1187524" target="_blank">Wi-Fi 802.11 a/b/g/n/ac/ax</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a><a href="https://www.thegioididong.com/tin-tuc/wi-fi-direct-la-gi--590298" target="_blank">Wi-Fi Direct</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#galileo" target="_blank">GALILEO</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a></p>
+	</li>
+	<li>Bluetooth
+	<p>v5.2<a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-743602#aptx" target="_blank">apt-X</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-743602#le" target="_blank">LE</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-a2dp-la-gi-723725" target="_blank">A2DP</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-nfc-tren-dien-thoai-may-tinh-bang-la-gi-1172835" target="_blank">NFC</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>4600 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a><a href="https://www.thegioididong.com/hoi-dap/sac-nguoc-khong-day-la-gi-1151528" target="_blank">Sạc ngược kh&ocirc;ng d&acirc;y</a><a href="https://www.thegioididong.com/hoi-dap/che-do-tiet-kiem-pin-va-sieu-tiet-kiem-pin-la-gi-926730" target="_blank">Tiết kiệm pin</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-khong-day-la-gi-761328" target="_blank">Sạc kh&ocirc;ng d&acirc;y</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>55 W</p>
+	</li>
+	<li>Sạc k&egrave;m theo m&aacute;y
+	<p>55 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cam-bien-van-tay-duoi-man-hinh-1171916" target="_blank">Mở kho&aacute; v&acirc;n tay dưới m&agrave;n h&igrave;nh</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p>Theo d&otilde;i nhịp tim bằng cảm biến v&acirc;n tay&Acirc;m thanh bởi Harman Kardon<a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a></p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#3gp" target="_blank">3GP</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung kim loại &amp; Mặt lưng k&iacute;nh cường lực Gorilla Glass 5</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 164.3 mm - Ngang 74.6 mm - D&agrave;y 8.06 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>196 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>02/2021</p>
+	</li>
+</ul>
+',
+            'details'=> '<h2>Hiệu năng h&agrave;ng khủng với Snapdragon 888</h2>
+
+<p>Được trang bị vi xử l&yacute; Qualcomm Snapdragon 888 cao cấp nhất, vừa được ra mắt gần đ&acirc;y với tiến tr&igrave;nh 5 nm. Trang bị l&otilde;i Arm Cortex-X1 với xung nhịp khủng 2.84 GHz gi&uacute;p tốc độ xử l&yacute; CPU tăng 25%, đồng thời tiết kiệm pin hơn so với Snapdragon 865.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-122221-032200.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Trang bị vi xử lý Qualcomm Snapdragon 888" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-122221-032200.jpg" /></a></p>
+
+<p>C&ugrave;ng sự nhảy vọt đ&aacute;ng kể về khả năng đồ họa với GPU Adreno 660 tăng 35%, Mi 11 ho&agrave;n to&agrave;n c&oacute; thể chạy mượt bất kỳ tựa game mobile &ldquo;hạng nặng&rdquo; n&agrave;o.</p>
+
+<p>Mi 11 c&ograve;n dẫn đầu về tốc độ xử l&yacute; AI khi trang bị bộ xử l&yacute; AI Engine thế hệ thứ 6 Hexagon 780 gi&uacute;p cho m&aacute;y c&oacute; thể xử l&yacute; h&igrave;nh ảnh, video v&agrave; c&aacute;c t&aacute;c vụ AI, m&aacute;y học diễn ra nhanh ch&oacute;ng hơn.&nbsp;</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-114921-114947.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Trang bị bộ xử lý AI Engine thế hệ thứ 6 Hexagon 780 xử lý ảnh video nhanh hơn" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-114921-114947.jpg" /></a></p>
+
+<p>Kết hợp với&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-8gb-tro-len" target="_blank">8 GB RAM</a>&nbsp;LPDDR5 v&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-rom-128-den-256gb" target="_blank">256 GB bộ nhớ trong</a>&nbsp;chuẩn UFS 3.1 với tốc độ h&agrave;ng đầu, c&ugrave;ng c&ocirc;ng nghệ tản nhiệt chất lỏng VC, gi&uacute;p cho Mi 11 ph&aacute;t huy hết sức mạnh của vi xử l&yacute; Snapdragon 888 khi thực hiện c&aacute;c t&aacute;c vụ nặng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-010.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Khay sim" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-010.jpg" /></a></p>
+
+<p>Mi 11 được t&iacute;ch hợp MIUI 12.5 mới nhất hoạt động tr&ecirc;n nền Android 11, được xem l&agrave; bản cập nhật c&oacute; nhiều cải tiến về bảo mật, tối ưu hiệu năng tốt hơn nhờ sử dụng bộ nhớ nền &iacute;t hơn 35% v&agrave; giảm 25% mức ti&ecirc;u thụ điện năng nhưng kh&ocirc;ng l&agrave;m giảm trải nghiệm v&agrave; sự mượt m&agrave; trong mọi t&aacute;c vụ.</p>
+
+<h3>Sạc nhanh c&ocirc;ng suất cao 55 W</h3>
+
+<p>Với thiết kế mỏng, nhưng Mi 11 vẫn sở hữu vi&ecirc;n pin với dung lượng ấn tượng 4.600 mAh, đảm bảo thoải m&aacute;i cho một ng&agrave;y sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-115021-115040.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Pin với dung lượng 4.600 mAh ấn tượng" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-115021-115040.jpg" /></a></p>
+
+<p>Trang bị&nbsp;c&ocirc;ng nghệ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;Mi TurboCharge với c&ocirc;ng suất 55 W, gi&uacute;p cho Mi 11 được sạc đầy chỉ trong 45 ph&uacute;t, thậm ch&iacute;&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-khong-day" target="_blank">sạc kh&ocirc;ng d&acirc;y</a>&nbsp;50 W cũng nhanh kh&ocirc;ng k&eacute;m chỉ với 53 ph&uacute;t.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-009.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Trang bị công nghệ sạc pin nhanh Mi TurboCharge với công suất 55 W" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-009.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, t&iacute;nh năng sạc ngược kh&ocirc;ng d&acirc;y 10 W gi&uacute;p bạn chia sẻ năng lượng cho những thiết bị kh&aacute;c v&ocirc; c&ugrave;ng tiện lợi.</p>
+
+<h3>Trải nghiệm đỉnh cao với m&agrave;n h&igrave;nh 120 Hz</h3>
+
+<p>Trang bị&nbsp;<a href="https://www.thegioididong.com/dtdd-man-hinh-sieu-tran-vien" target="_blank">m&agrave;n h&igrave;nh si&ecirc;u tr&agrave;n viền</a>&nbsp;được uốn cong th&aacute;c nước tuyệt đẹp với camera &ldquo;đục lỗ&rdquo;, sử dụng tấm nền AMOLED, độ ph&acirc;n giải 2K+, đảm bảo cho mọi chi tiết, đồ họa, h&igrave;nh ảnh đều hiển thị với chất lượng cao nhất.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-001.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Trang bị màn hình siêu tràn viền với camera đục lỗ" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-001.jpg" /></a></p>
+
+<p>Sử dụng vật liệu ph&aacute;t s&aacute;ng E4 mới cung cấp độ s&aacute;ng 1.500 nits, việc d&ugrave;ng ngo&agrave;i trời nắng kh&ocirc;ng c&ograve;n l&agrave; trở ngại với Mi 11.</p>
+
+<p>Mi 11 hỗ trợ tốc độ l&agrave;m tươi 120 Hz v&agrave; tốc độ lấy mẫu cảm ứng cực cao l&agrave; 480 Hz mang đến sự mượt m&agrave; mỗi khi lướt cảm ứng v&agrave; l&agrave;m tăng trải nghiệm đặc biệt l&agrave; khi bạn chơi game.&nbsp;</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-006.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Kính cường lực Corning Gorilla Glass Victus bảo vệ tuyệt đối" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-006.jpg" /></a></p>
+
+<p>M&agrave;n h&igrave;nh của Mi 11 cũng được phủ l&ecirc;n mặt k&iacute;nh cường lực Corning Gorilla Glass Victus gi&uacute;p bảo vệ m&agrave;n h&igrave;nh khỏi c&aacute;c sự cố nứt vỡ trong khi sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-121121-031158.jpg" onclick="return false;"><img alt="Xiaomi Mi 11 | Trang bị kính cường lực Corning Gorilla Glass Victus" src="https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-121121-031158.jpg" /></a></p>
+
+<p>Sở hữu vi xử l&yacute; Snapdragon 888, Mi 11 được dự đo&aacute;n sẽ l&agrave; một t&acirc;n binh &quot;đ&aacute;ng gờm&quot; mở đầu cuộc đua hiệu năng đầy s&ocirc;i động trong 2021. Tuy l&agrave; một thiết bị cao cấp nhưng Mi 11 vẫn sẽ c&oacute; mức gi&aacute; cực kỳ hợp l&yacute;, cho ph&eacute;p tiếp cận đến nhiều đối tượng kh&aacute;ch h&agrave;ng hơn.</p>
+',
+            'slug'=>Str::slug('Điện thoại Xiaomi Mi 11 5G','-').'.aspx',
+            'created_at'=>now(),
+        ]);DB::table('products')->insert([
+        'name'=>'Điện thoại Xiaomi Mi 10T Pro 5G',
+        'price'=>12490000,
+        'old_price'=>13890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-den-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>5,
+        'brand_id'=>4,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của Xiaomi Mi 10T Pro 5G</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/228136/Slider/-xiaomi-mi-10t-pro-5g-thumbvideo.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, Jack chuyển tai nghe 3.5mm, C&acirc;y lấy sim, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A</p>
+
+<h3><a href="https://www.thegioididong.com/dtdd/xiaomi-mi-10t-pro" target="_blank">Mi 10T Pro 5G</a>&nbsp;mẫu&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;cao cấp của&nbsp;<a href="https://www.thegioididong.com/dtdd-xiaomi" target="_blank">Xiaomi</a>&nbsp;trong năm 2020 cuối c&ugrave;ng cũng được tr&igrave;nh l&agrave;ng với loạt những th&ocirc;ng số g&acirc;y &ldquo;cho&aacute;ng ngợp&rdquo;: m&agrave;n h&igrave;nh tần số qu&eacute;t 144 Hz, vi xử l&yacute; Snapdragon 865 v&agrave; cụm camera khủng 108 MP k&egrave;m theo đ&oacute; l&agrave; một mức gi&aacute; dễ chịu cho người d&ugrave;ng.</h3>
+
+<h3>Mượt m&agrave; trong từng khung h&igrave;nh với tần số qu&eacute;t 144 Hz</h3>
+
+<p>Tần số qu&eacute;t 144 Hz l&agrave; một trong những điểm&nbsp;ấn tượng của Mi 10T Pro, cung cấp l&ecirc;n đến 144 khung h&igrave;nh/gi&acirc;y mang đến sự mượt m&agrave; tối đa, n&acirc;ng cao mọi trải nghiệm cho d&ugrave; bạn đang chơi game, xem phim hay chỉ đơn giản l&agrave; cuộn trang web để xem tin tức.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111720-101756.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111720-101756.jpg" /></a></p>
+
+<p>T&iacute;nh năng&nbsp;AdaptiveSync s&aacute;ng tạo tự động điều chỉnh tốc độ l&agrave;m mới từ 30 Hz đến 144 Hz để th&iacute;ch ứng với c&aacute;c đặc điểm của từng ứng dụng, do đ&oacute; t&igrave;m thấy sự c&acirc;n bằng ho&agrave;n hảo giữa trải nghiệm người d&ugrave;ng v&agrave; tối ưu h&oacute;a mức ti&ecirc;u thụ điện năng của thiết bị.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-112420-102432.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Tần số quét 144 Hz, mượt mà từng khung hình" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-112420-102432.jpg" /></a></p>
+
+<p>Xiaomi c&ograve;n t&iacute;ch hợp MEMC - C&ocirc;ng nghệ đặc biệt gi&uacute;p cải thiện c&aacute;c nội dung, video c&oacute; tần số qu&eacute;t thấp bằng c&aacute;ch bổ sung th&ecirc;m những khung h&igrave;nh ảo gi&uacute;p t&aacute;i hiện lại những ph&acirc;n cảnh h&agrave;nh động trở n&ecirc;n r&otilde; r&agrave;ng v&agrave; mượt m&agrave; hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111820-101820.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Màn hình viền siêu mỏng, rộng lên đến 6.67 inch" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111820-101820.jpg" /></a></p>
+
+<p>Mi 10T Pro trang bị&nbsp;<a href="https://www.thegioididong.com/dtdd-man-hinh-sieu-tran-vien" target="_blank">m&agrave;n h&igrave;nh viền si&ecirc;u mỏng</a>&nbsp;Full HD+ với camera selfie &ldquo;đục lỗ&rdquo; trong m&agrave;n h&igrave;nh cho k&iacute;ch thước mở rộng l&ecirc;n đến 6.67 inch, hỗ trợ kh&ocirc;ng gian m&agrave;u DCI-P3 với độ bao phủ rộng hơn so với sRBG hiển thị m&agrave;u sắc v&ocirc; c&ugrave;ng chuẩn x&aacute;c mang đến những thước phim, khung h&igrave;nh c&oacute; độ trung thực cao.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-142420-032426.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Hỗ trợ không gian màu DCI-P3" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-142420-032426.jpg" /></a></p>
+
+<p>Sử dụng Mi 10T Pro v&ocirc; c&ugrave;ng thoải m&aacute;i dễ chịu khi m&agrave;n h&igrave;nh của m&aacute;y c&oacute; khả năng giảm bớt &aacute;nh s&aacute;ng xanh g&acirc;y mỏi mắt, m&agrave;n h&igrave;nh đạt chứng nhận T&Uuml;V Rheinland c&oacute; lượng &aacute;nh s&aacute;ng xanh dương thấp bảo vệ đ&ocirc;i mắt của bạn.</p>
+
+<h3>Chơi game cực &ldquo;mướt&rdquo; với Snapdragon 865</h3>
+
+<p>Sức mạnh hiệu năng của Mi 10T Pro l&agrave; &ldquo;v&ocirc; địch&rdquo; trong tầm gi&aacute; khi trang bị vi xử l&yacute; tối t&acirc;n Qualcomm Snapdragon 865 gồm 8 nh&acirc;n xung nhịp tối đa 2.84 GHz, tiến tr&igrave;nh 7 nm ti&ecirc;n tiến mang đến hiệu năng ấn tượng m&agrave; &iacute;t ti&ecirc;u tốn điện năng.</p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/snapdragon-865-vi-xu-ly-di-dong-hang-dau-2020-1231391" target="_blank">Snapdragon 865 - vi xử l&yacute; di động h&agrave;ng đầu 2020</a>.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111820-101827.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Chip Snapdragon 865 gồm 8 nhân chơi game mượt mà" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111820-101827.jpg" /></a></p>
+
+<p>Qualcomm Snapdragon 865 cũng l&agrave; con chip c&oacute; t&iacute;ch hợp kết nối mạng 5G tốc độ cao, đang dần thay thế 4G trong thời gian sắp tới c&ugrave;ng Wifi 6 đ&aacute;p ứng mọi nhu cầu tra cứu th&ocirc;ng tin, chơi game trực tuyến hay xem phim chất lượng cao mọi l&uacute;c mọi nơi mọi kh&ocirc;ng lo kết nối mạng yếu, chậm g&acirc;y gi&aacute;n đoạn trải nghiệm của bạn.</p>
+
+<p>B&ecirc;n cạnh đ&oacute;, RAM v&agrave; bộ nhớ trong của Mi 10T Pro cũng thuộc dạng khủng khi trang bị&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-8gb-tro-len" target="_blank">RAM 8 GB</a>&nbsp;v&agrave; bộ nhớ tốc độ UFS 3.1 nhanh nhất hiện nay, cho tốc độ mở ứng dụng v&ocirc; c&ugrave;ng nhanh ch&oacute;ng, đa nhiệm mượt m&agrave; với độ trễ gần như bằng kh&ocirc;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111920-101906.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | RAM 8 GB và bộ nhớ tốc độ UFS 3.1 nhanh nhất hiện nay" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111920-101906.jpg" /></a></p>
+
+<p>Mi 10T Pro c&ograve;n l&agrave; mẫu&nbsp;<a href="https://www.thegioididong.com/dtdd-choi-game" target="_blank">điện thoại&nbsp;chơi game</a>&nbsp;đ&aacute;ng tiền với nhiều t&iacute;nh năng gi&uacute;p tăng trải nghiệm cho anh em game thủ như m&ocirc;-tơ rung phản hồi x&uacute;c gi&aacute;c, loa k&eacute;p &acirc;m thanh stereo, đặc biệt l&agrave; c&ocirc;ng nghệ tản nhiệt LiquidCool gi&uacute;p duy tr&igrave; nhiệt độ l&yacute; tưởng trong suốt v&aacute;n game giữ cho hiệu năng của thiết bị ổn định, bảo vệ tuổi thọ pin v&agrave; c&aacute;c linh kiện b&ecirc;n trong.</p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Xiaomi Mi 10T Pro 5G</h3>
+
+<p><img alt="Thông số kỹ thuật 228136" src="https://cdn.tgdd.vn/Products/Images/42/228136/Kit/xiaomi-mi-10t-pro-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-ips-lcd-la-gi-905752" target="_blank">IPS LCD</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p>Full HD+ (1080 x 2440 Pixels)</p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.67&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>144 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>650 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass5" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass 5</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 108 MP &amp; Phụ 13 MP, 5 MP</p>
+	</li>
+	<li>Quay phim
+	<p>8K 4320p@30fps<a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@60fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>C&oacute;</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>20 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-10-android-q-la-gi-co-gi-moi-1237224" target="_blank">Android 10</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/snapdragon-865-vi-xu-ly-di-dong-hang-dau-2020-1231391" target="_blank">Snapdragon 865 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>1 nh&acirc;n 2.84 GHz, 3 nh&acirc;n 2.42 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p>Adreno 650</p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>8 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>256 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>230 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-5g-la-gi-co-nhung-uu-diem-gi-so-voi-4g-1312277" target="_blank">Hỗ trợ 5G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wi-fi-chuan-80211ax-la-gi-tim-hieu-ve-wi-fi-the-1187524" target="_blank">Wi-Fi 802.11 a/b/g/n/ac/ax</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a><a href="https://www.thegioididong.com/tin-tuc/wi-fi-direct-la-gi--590298" target="_blank">Wi-Fi Direct</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a></p>
+	</li>
+	<li>Bluetooth
+	<p>v5.1</p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/cam-bien-hong-ngoai-tren-dien-thoai-la-gi-926657" target="_blank">Hồng ngoại</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/ket-noi-nfc-tren-dien-thoai-may-tinh-bang-la-gi-1172835" target="_blank">NFC</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>5000 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>33 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-bao-mat-mo-khoa-van-tay-canh-vien-tren-smartphone-1286767" target="_blank">Mở kho&aacute; v&acirc;n tay cạnh viền</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tinh-nang-mo-khoa-bang-khuon-mat-la-gi-1167784" target="_blank">Mở kho&aacute; khu&ocirc;n mặt</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p>Tản nhiệt bằng chất lỏng<a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn tin nhắn</a><a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#3gp" target="_blank">3GP</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p>3GPP&nbsp;,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung kim loại &amp; Mặt lưng k&iacute;nh cường lực Gorilla Glass 5</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 165.1 mm - Ngang 76.4 mm - D&agrave;y 9.33 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>218 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>09/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Camera 108 MP sắc n&eacute;t, thoả th&iacute;ch thu ph&oacute;ng</h2>
+
+<p>Về khả năng chụp ảnh, Mi 10T Pro trang bị cụm 3 camera sau trong đ&oacute; ấn tượng nhất l&agrave; camera ch&iacute;nh độ ph&acirc;n giải khủng 108 MP sử dụng cảm biến cao cấp của&nbsp;<a href="https://www.thegioididong.com/dtdd-samsung" target="_blank">Samsung</a>&nbsp;cho ra những tấm h&igrave;nh với độ sắc n&eacute;t kinh ngạc, cho ph&eacute;p bạn t&ugrave;y &yacute; thu ph&oacute;ng bất kỳ vị tr&iacute; n&agrave;o trong bức ảnh.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-142520-032538.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Camera chính độ phân giải khủng 108 MP" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-142520-032538.jpg" /></a></p>
+
+<p>Kh&ocirc;ng những vậy, với độ ph&acirc;n giải cao n&ecirc;n chỉ với zoom kỹ thuật số 30x l&agrave; đ&atilde; đủ để bạn kh&aacute;m ph&aacute; những chi tiết ở rất xa nhưng bầu trời đ&ecirc;m đầy sao, n&oacute;c của t&ograve;a nh&agrave; cao tầng.</p>
+
+<p>Ngo&agrave;i camera ch&iacute;nh, Xiaomi kh&ocirc;ng qu&ecirc;n trang bị&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c si&ecirc;u rộng</a>&nbsp;13 MP với g&oacute;c chụp 123 độ, bao qu&aacute;t to&agrave;n bộ mọi h&igrave;nh ảnh ngay trước mặt bạn v&agrave; ghi ch&uacute;ng lại trong 1 khung h&igrave;nh duy nhất.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111720-101742.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Camera góc siêu rộng 13 MP với góc chụp 123 độ" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111720-101742.jpg" /></a></p>
+
+<p>Những ai th&iacute;ch kh&aacute;m ph&aacute; chắc sẽ kh&ocirc;ng bỏ qua&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">camera macro</a>&nbsp;5 MP, cho bạn kh&ocirc;ng ngừng sự s&aacute;ng tạo với những t&aacute;c phẩm macro ấn tượng độc đ&aacute;o hay chỉ đơn giản l&agrave; t&igrave;m hiểu cuộc sống của thế giới thu nhỏ đầy b&iacute; ẩn.</p>
+
+<p>Mi 10T Pro c&ograve;n hỗ trợ đa dạng nhiều t&iacute;nh năng chụp ảnh để bạn c&oacute; thể s&aacute;ng tạo theo c&aacute;ch ri&ecirc;ng của m&igrave;nh như chế độ chụp si&ecirc;u nhanh Timed Burst cho ph&eacute;p người d&ugrave;ng chụp nhiều ảnh theo thiết lập thời gian v&agrave; chuyển đổi th&agrave;nh những đoạn video&nbsp;ấn tượng, cung cấp nhiều bộ lọc m&agrave;u nghệ thuật, trong chế độ chuy&ecirc;n nghiệp bạn c&oacute; thể chỉnh thời gian phơi s&aacute;ng để tạo ra những bức ảnh chụp đường phố rực rỡ trong đ&ecirc;m.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111720-101728.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Chế độ chụp siêu nhanh Timed Burst 600 hình trong 6 giây" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111720-101728.jpg" /></a></p>
+
+<p>Chế độ chụp đ&ecirc;m 2.0 cải tiến kh&ocirc;ng chỉ đơn thuần l&agrave; đẩy s&aacute;ng cho bức h&igrave;nh, m&agrave; c&ograve;n khử nhiễu, t&aacute;i hiện c&acirc;n bằng c&aacute;c v&ugrave;ng s&aacute;ng, v&ugrave;ng tối th&ocirc;ng minh để cho ra những tấm ảnh chụp đ&ecirc;m đẹp r&otilde; chi tiết thể hiện cuộc sống về đ&ecirc;m s&ocirc;i động đầy m&agrave;u sắc.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-142720-042740.jpg" onclick="return false;"><img alt="Chụp đêm rõ nét, chi tiết trên khung hình | Xiaomi Mi 10T Pro 5G" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-142720-042740.jpg" /></a></p>
+
+<p>Ống kinh của Mi 10T Pro c&ograve;n trang bị khả năng quay phim 8K v&agrave; cho ph&eacute;p bạn c&oacute; thể chụp h&igrave;nh khi quay phim với độ ph&acirc;n giải 20 MP, để bạn kh&ocirc;ng bỏ lỡ những khoảnh khắc th&uacute; vị trong khi đang quay phim.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111920-101916.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Trang bị khả năng quay phim 8K" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111920-101916.jpg" /></a></p>
+
+<p>M&aacute;y c&ograve;n trang bị t&iacute;nh năng camera k&eacute;p độc đ&aacute;o, quay phim đồng thời bằng cả camera trước v&agrave; sau, cho bạn tạo ra những đoạn video blog, TikTok vui vẻ c&ugrave;ng bạn b&egrave;.</p>
+
+<p>Camera selfie 20 MP được hỗ trợ đầy đủ t&iacute;nh năng từ l&agrave;m x&oacute;a ph&ocirc;ng, nhận diện khu&ocirc;n mặt cho đến l&agrave;m đẹp th&ocirc;ng minh gi&uacute;p bạn tự tin tỏa s&aacute;ng ngay với bạn b&egrave; v&agrave; người th&acirc;n.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-5g-1.jpg" onclick="return false;"><img alt="Camera selfie 20 MP hỗ trợ làm đẹp AI, xóa phông sắc nét | Xiaomi Mi 10T Pro 5G" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-5g-1.jpg" /></a></p>
+
+<h3>Sạc nhanh 33 W tốc độ ấn tượng</h3>
+
+<p>Mi 10T Pro chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd-pin-khung" target="_blank">điện thoại pin tr&acirc;u</a>&nbsp;được trang bị vi&ecirc;n pin c&oacute; dung lượng 5000 mAh, đ&aacute;p ứng cho một ng&agrave;y l&agrave;m việc bận rộn. B&ecirc;n cạnh đ&oacute;, c&ocirc;ng nghệ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;33 W với 2 luồng sạc song song, r&uacute;t ngắn thời gian sạc chỉ c&ograve;n ph&acirc;n nửa. Theo Xiaomi, c&ocirc;ng nghệ sạc nhanh Mi Fast Charge độc quyền của h&atilde;ng chỉ mất 1 giờ để sạc đầy pin Mi 10T Pro.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-142720-032708.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Pin khủng 5000 mAh cùng công nghệ sạc pin nhanh 33 W qua cổng Type C" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-142720-032708.jpg" /></a></p>
+
+<h3>Thiết kế ấn tượng, mặt lưng k&iacute;nh h&uacute;t mắt</h3>
+
+<p>Thiết kế của Mi 10T Pro v&ocirc; c&ugrave;ng đẹp mắt sự kết hợp h&agrave;i h&ograve;a giữa chất liệu&nbsp;<a href="https://www.thegioididong.com/dtdd?g=kim-loai-va-kinh" target="_blank">khung kim loại v&agrave; k&iacute;nh</a>&nbsp;b&oacute;ng bẩy, chuyển sắc tinh tế dưới &aacute;nh s&aacute;ng tạo n&ecirc;n vẻ sang trọng cho người sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-111720-101734.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Thiết kế ấn tượng, mặt lưng kính bóng bẩy" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-111720-101734.jpg" /></a></p>
+
+<p>Điểm nhấn ở mặt lưng nằm l&agrave; nằm ở cụm camera. Xiaomi lựa chọn m&ocirc; đun chữ nhật đứng quen thuộc, nhưng c&aacute;ch sắp xếp độc đ&aacute;o đ&atilde; gi&uacute;p cho m&aacute;y trở n&ecirc;n kh&aacute;c biệt hơn, với hơn 50% diện t&iacute;ch ph&iacute;a tr&ecirc;n d&agrave;nh cho camera ch&iacute;nh 108 MP v&agrave; phần c&ograve;n lại l&agrave; c&aacute;c camera phụ, cảm biến Light Sensor c&ugrave;ng đ&egrave;n flash v&ocirc; c&ugrave;ng c&acirc;n đối v&agrave; h&agrave;i ho&agrave;i.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-143020-033056.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Máy phủ lớp kháng khuẩn công nghệ ion bạc loại bỏ hơn 99% vi khuẩn" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-143020-033056.jpg" /></a></p>
+
+<p>To&agrave;n bộ m&aacute;y được phủ lớp kh&aacute;ng khuẩn c&ocirc;ng nghệ ion bạc c&oacute; khả năng loại bỏ hơn 99% vi khuẩn, một t&iacute;nh năng v&ocirc; c&ugrave;ng cần thiết trong giai đoạn phức tạp như hiện nay.</p>
+
+<p>Mi 10T Pro chỉ trang bị tấm nền IPS LCD, v&igrave; thế n&uacute;t nguồn ở cạnh b&ecirc;n ch&iacute;nh l&agrave; vị tr&iacute; kh&ocirc;ng thể n&agrave;o tốt hơn để đặt&nbsp;<a href="https://www.thegioididong.com/dtdd-bao-mat-van-tay" target="_blank">cảm biến v&acirc;n tay</a>, tối ưu cho thao t&aacute;c mở kh&oacute;a m&aacute;y nhanh ch&oacute;ng tiện lợi hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228136/xiaomi-mi-10t-pro-142920-032918.jpg" onclick="return false;"><img alt="Xiaomi Mi 10T Pro 5G | Nút nguồn tích hợp cảm biến vân tay" src="https://cdn.tgdd.vn/Products/Images/42/228136/xiaomi-mi-10t-pro-142920-032918.jpg" /></a></p>
+
+<p>Tổng kết, Xiaomi 10T Pro c&oacute; thể được xem l&agrave; mẫu smartphone cao cấp nhất của Xiaomi trong nằm 2020. Trong ph&acirc;n kh&uacute;c cận cao cấp&nbsp;đ&acirc;y&nbsp;l&agrave; một lựa chọn đ&aacute;ng đầu tư, người d&ugrave;ng vẫn sẽ c&oacute; cấu h&igrave;nh mạnh mẽ, mạng 5G, camera 108 MP c&ugrave;ng h&agrave;ng loạt t&iacute;nh năng hấp dẫn đ&acirc;y l&agrave; điều kh&ocirc;ng phải smartphone n&agrave;o cũng đ&aacute;p ứng được.</p>
+',
+        'slug'=>Str::slug('Điện thoại Xiaomi Mi 10T Pro 5G','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại Xiaomi Redmi Note 10 (6GB/128GB)',
+        'price'=>5490000,
+        'old_price'=>6890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-thumb-green-600x600-1-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>5,
+        'brand_id'=>4,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của Xiaomi Redmi Note 10 (6GB/128GB)</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/222758/Slider/vi-vn-xiaomi-redmi-note-10-tongquan.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A</p>
+
+<h3><a href="https://www.thegioididong.com/dtdd-xiaomi" target="_blank">Xiaomi</a>&nbsp;đ&atilde; tr&igrave;nh l&agrave;ng chiếc điện thoại mang t&ecirc;n gọi l&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd/xiaomi-redmi-note-10" target="_blank">Xiaomi Redmi Note 10</a>&nbsp;với điểm nhấn ch&iacute;nh l&agrave; cụm 4 camera 48 MP, chip rồng Snapdragon 678 mạnh mẽ c&ugrave;ng nhiều n&acirc;ng cấp như dung lượng pin 5.000 mAh v&agrave; hỗ trợ sạc nhanh 33 W tiện lợi.</h3>
+
+<h3>Thiết kế đẹp mắt, sang trọng đến từng chi tiết</h3>
+
+<p>Xiaomi Redmi Note 10 sở hữu khung viền kim loại kết hợp với mặt lưng nhựa c&oacute; hiệu ứng m&agrave;u sắc đem lại một ngoại h&igrave;nh sang trọng v&agrave; bắt mắt.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-002.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Thiết kế đẹp mắt, sang trọng đến từng chi tiết" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-002.jpg" /></a></p>
+
+<p>Tổng trọng lượng của m&aacute;y chỉ 178.8 g c&ugrave;ng thiết kế&nbsp;<a href="https://www.thegioididong.com/dtdd-mong-nhe" target="_blank">mỏng nhẹ</a>&nbsp;ấn tượng với độ mỏng 8.29 mm, cho trải nghiệm cầm nắm thao t&aacute;c thoải m&aacute;i, mang điện thoại đi khắp nơi thật dễ d&agrave;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-004.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Thiết kế cạnh viền" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-004.jpg" /></a></p>
+
+<p><a href="https://www.thegioididong.com/dtdd-bao-mat-van-tay" target="_blank">Cảm biến v&acirc;n tay&nbsp;</a>một chạm được t&iacute;ch hợp ở cạnh viền gi&uacute;p việc mở kh&oacute;a điện thoại nhanh ch&oacute;ng v&agrave; cho cảm gi&aacute;c cầm tay thoải m&aacute;i.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-010.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Cảm biến vân tay ở cạnh viền" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-010.jpg" /></a></p>
+
+<p>Xiaomi Redmi Note 10 đem đến cho người ti&ecirc;u d&ugrave;ng 3 t&ugrave;y chọn m&agrave;u sắc bao gồm: Trắng, Đen v&agrave; Xanh tự do lựa chọn cho phong c&aacute;ch của bạn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-8.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Nhiều màu sắc, thoải mái lựa chọn" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-8.jpg" /></a></p>
+
+<h3>M&agrave;n h&igrave;nh si&ecirc;u lớn, trải nghiệm ho&agrave;n hảo</h3>
+
+<p>Màn hình của Redmi Note 10 được trang bị m&agrave;n h&igrave;nh giải tr&iacute; k&iacute;ch thước 6.43 inch, đ&ocirc;̣ ph&acirc;n giải Full HD+, mật độ điểm ảnh cao đến tận 409 ppi, đem đến khả năng hiển thị v&ocirc; c&ugrave;ng sắc n&eacute;t.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-001.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Màn hình siêu lớn, trải nghiệm hoàn hảo" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-001.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, tấm nền AMOLED tr&ecirc;n Redmi Note 10 c&ograve;n cho độ s&aacute;ng cao, m&agrave;u sắc trung thực, đem đến cho người d&ugrave;ng trải nghiệm giải tr&iacute; đỉnh cao.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-16.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Chất lượng hiển thị sắc nét" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-16.jpg" /></a></p>
+
+<p>Nổi bật hơn cả ch&iacute;nh l&agrave; tr&ecirc;n Xiaomi Redmi Note 10 sử dụng m&agrave;n h&igrave;nh đục lỗ, với viền m&agrave;n h&igrave;nh được thiết kế mỏng gi&uacute;p tối ưu h&oacute;a diện t&iacute;ch hiển thị của m&agrave;n h&igrave;nh mang đến trải nghiệm kh&ocirc;ng gian rộng r&atilde;i đủ để bạn thoải m&aacute;i sử dụng.&nbsp;</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-008.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Màn hình đục lỗ tràn viền" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-008.jpg" /></a></p>
+
+<p>Đồng thời, m&agrave;n h&igrave;nh tr&ecirc;n Redmi Note 10 c&ograve;n được chứng nhận bởi SGS, giảm lượng &aacute;nh s&aacute;ng xanh c&oacute; hại cho mắt, cho bạn thoải m&aacute;i sử dụng giải tr&iacute;, đọc b&aacute;o, xem phim trong thời gian d&agrave;i.&nbsp;</p>
+
+<p>Ngo&agrave;i ra, Redmi Note 10 c&ograve;n hỗ trợ hệ thống &acirc;m thanh Hi-res Audio với &acirc;m lượng cao v&agrave; dải &acirc;m rộng, cho bạn đắm ch&igrave;m trong kh&ocirc;ng gian giải tr&iacute; bất tận.</p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Xiaomi Redmi Note 10 (6GB/128GB)</h3>
+
+<p><img alt="Thông số kỹ thuật 222758" src="https://cdn.tgdd.vn/Products/Images/42/222758/Kit/xiaomi-redmi-note-10-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-amoled-la-gi-905766" target="_blank">AMOLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p><a href="https://www.thegioididong.com/tin-tuc/do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi--592178#fullhd" target="_blank">Full HD+ (1080 x 2400 Pixels)</a></p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.43&quot;</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>1100 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass3" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass 3</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 48 MP &amp; Phụ 8 MP, 2 MP, 2 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/quay-phim-sieu-cham-super-slow-motion-960fps-la-1144253" target="_blank">HD 720p@960fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@240fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@24fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>C&oacute;</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/quay-phim-sieu-cham-super-slow-motion-960fps-la-gi-1144253" target="_blank">Quay Si&ecirc;u chậm (Super Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cong-nghe-lay-net-theo-pha-tren-smartph-1007275" target="_blank">Lấy n&eacute;t theo pha (PDAF)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-touch-focus-khi-chup-anh-tren-smartphone-906412" target="_blank">Chạm lấy n&eacute;t</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>13 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-11-la-gi-co-gi-moi-thiet-bi-nao-duoc-cap-nhat-1306447" target="_blank">Android 11</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-snapdragon-678-hieu-nang-manh-me-den-dau-1337173" target="_blank">Snapdragon 678 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 2.2 GHz &amp; 6 nh&acirc;n 1.7 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-435-1009658" target="_blank">Adreno 612</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>6 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>128 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>113 GB</p>
+	</li>
+	<li>Thẻ nhớ
+	<p><a href="https://www.thegioididong.com/the-nho-dien-thoai" target="_blank">MicroSD, hỗ trợ tối đa 512 GB</a></p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#80211ac" target="_blank">Wi-Fi 802.11 a/b/g/n/ac</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a><a href="https://www.thegioididong.com/tin-tuc/wi-fi-direct-la-gi--590298" target="_blank">Wi-Fi Direct</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#galileo" target="_blank">GALILEO</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p>3.5 mm</p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>5000 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>33 W</p>
+	</li>
+	<li>Sạc k&egrave;m theo m&aacute;y
+	<p>30 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/tinh-nang-mo-khoa-bang-khuon-mat-la-gi-1167784" target="_blank">Mở kho&aacute; khu&ocirc;n mặt</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-bao-mat-mo-khoa-van-tay-canh-vien-tren-smartphone-1286767" target="_blank">Mở kho&aacute; v&acirc;n tay cạnh viền</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn tin nhắn</a><a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP53</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Radio
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#3gp" target="_blank">3GP</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#avi" target="_blank">AVI</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wmv" target="_blank">WMV</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wav" target="_blank">WAV</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung kim loại &amp; Mặt lưng nhựa</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 160.46 mm - Ngang 74.5 mm - D&agrave;y 8.29 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>178.8 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>03/2021</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Hiệu năng mượt m&agrave; với chip rồng Snapdragon</h2>
+
+<p>Xiaomi Redmi Note 10 được trang bị bộ vi xử l&yacute; Snapdragon 678 được sản xuất tr&ecirc;n tiến tr&igrave;nh 11 nm hiện đại đem đến một hiệu năng mạnh mẽ, c&ugrave;ng khả năng xử l&yacute; mượt m&agrave; c&aacute;c t&aacute;c vụ nhẹ nh&agrave;ng như lướt Facebook, xem phim hay thậm ch&iacute; l&agrave; chơi c&aacute;c tựa game nặng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-013.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Hiệu năng mạnh mẽ với chip rồng Snapdragon" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-013.jpg" /></a></p>
+
+<p>Đi k&egrave;m với đ&oacute; l&agrave; dung lượng&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-4-den-6gb" target="_blank">RAM 6 GB</a>&nbsp;cho khả năng đa nhiệm tuyệt vời, mở nhiều ứng dụng c&ugrave;ng một l&uacute;c ho&agrave;n to&agrave;n kh&ocirc;ng bị giật lag.</p>
+
+<p><a href="https://www.thegioididong.com/dtdd-rom-128-den-256gb" target="_blank">Bộ nhớ trong 128 GB</a>&nbsp;c&oacute; thể mở rộng khả năng lưu trữ đến 512 GB qua thẻ nhớ ngo&agrave;i Micro SD, cho bạn thoải m&aacute;i sử dụng dữ liệu, c&agrave;i đặt được nhiều ứng dụng hay c&aacute;c tựa game nặng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-007.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Hỗ trợ khe cắm thẻ nhớ ngoài tới 512 GB" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-007.jpg" /></a></p>
+
+<p>Hơn thế nữa, Redmi Note 10 c&ograve;n được c&agrave;i đặt sẵn giao diện MIUI 12 mới, t&ugrave;y biến tr&ecirc;n nền Android 11 với nhiều n&acirc;ng cấp về giao diện lẫn hiệu năng, để mang tới một trải nghiệm giải tr&iacute; tốt nhất.</p>
+
+<h3>Bộ bốn camera si&ecirc;u n&eacute;t, bắt trọn mọi khoảnh khắc</h3>
+
+<p>Xiaomi Redmi Note được trang bị cụm camera sau với độ ph&acirc;n giải lần lượt l&agrave; 48 MP hỗ trợ chụp ảnh g&oacute;c rộng, camera chụp ảnh&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_top">g&oacute;c si&ecirc;u rộng</a>&nbsp;8 MP, hai camera 2 MP đo chiều s&acirc;u ảnh v&agrave; chụp ảnh&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">macro</a>.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-003.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Cụm 4 camera sau" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-003.jpg" /></a></p>
+
+<p>Cụm camera tr&ecirc;n Redmi Note 10 được hỗ trợ bằng c&ocirc;ng nghệ AI th&ocirc;ng minh, cho bạn ghi lại mọi khoảnh khắc trong cuộc sống h&agrave;ng ng&agrave;y của bạn một c&aacute;ch dễ d&agrave;ng v&agrave; đầy chi tiết.&nbsp;</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-13.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Ảnh chụp bằng camera sau" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-13.jpg" /></a></p>
+
+<p>Với camera g&oacute;c si&ecirc;u rộng 8 MP, cho độ mở l&ecirc;n tới 118&deg; gi&uacute;p bạn c&oacute; thể ghi lại những d&atilde;y n&uacute;i rộng lớn, những t&ograve;a nh&agrave; chọc trời hay những cột mốc ở xa một c&aacute;ch dễ d&agrave;ng m&agrave; kh&ocirc;ng cần phải di chuyển nhiều.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-10.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Ảnh chụp góc rộng" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-10.jpg" /></a></p>
+
+<p>Ngo&agrave;i ra, camera macro v&agrave; camera đo chiều s&acirc;u l&agrave; c&ocirc;ng cụ đắc lực để bạn c&oacute; được những bức ảnh độc đ&aacute;o ở khoảng c&aacute;ch gần hay chụp ảnh&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-xoa-phong" target="_blank">x&oacute;a ph&ocirc;ng</a>&nbsp;một c&aacute;ch ảo diệu m&agrave; kh&ocirc;ng cần phải sử dụng đến ứng dụng thứ ba.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-5.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Ảnh chụp bằng camera sau" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-5.jpg" /></a></p>
+
+<p>Camera trước của m&aacute;y được thiết kế dạng đục lỗ c&oacute; độ ph&acirc;n giải 13 MP hỗ trợ đầy đủ các tính năng l&agrave;m đẹp AI Beautify, chụp ảnh g&oacute;c rộng, x&oacute;a ph&ocirc;ng với nhiều hiệu ứng bokeh độc đ&aacute;o cho bạn sẵn s&agrave;ng chia sẻ ảnh cho người th&acirc;n v&agrave; gia đ&igrave;nh l&ecirc;n mạng x&atilde; hội bất cứ l&uacute;c n&agrave;o.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-12.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Ảnh chụp selfie" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-12.jpg" /></a></p>
+
+<h3>Thoải m&aacute;i sử dụng với dung lượng pin 5.000 mAh, tích hợp sạc nhanh 33 W&nbsp;</h3>
+
+<p>Xiaomi trang bị cho Xiaomi Redmi Note 10 vi&ecirc;n pin khủng 5.000 mAh, cho ph&eacute;p bạn sử dụng thoải m&aacute;i trong 1.5 ng&agrave;y chỉ sau duy nhất một lần sạc.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-006.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Dung lượng pin lớn, thoải mái trải nghiệm" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-006.jpg" /></a></p>
+
+<p>Ngo&agrave;i ra, Xiaomi Redmi Note 10 c&oacute; khả năng<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">&nbsp;sạc nhanh&nbsp;</a>33 W, nh&agrave; sản xuất tự tin cho biết rằng n&oacute; cho khả năng sạc đầy 50% pin chỉ trong khoảng 30 ph&uacute;t, cho ph&eacute;p bạn tận dụng tối đa thời gian sử dụng điện thoại của m&igrave;nh.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/222758/xiaomi-redmi-note-10-9.jpg" onclick="return false;"><img alt="Điện thoại Xiaomi Redmi Note 10 (6GB/128GB) | Khả năng sạc nhanh 33W" src="https://cdn.tgdd.vn/Products/Images/42/222758/xiaomi-redmi-note-10-9.jpg" /></a></p>
+
+<p>Nh&igrave;n chung, Xiaomi Redmi Note 10 l&agrave; chiếc smartphone ho&agrave;n hảo, đ&aacute;p ứng tốt cho c&aacute;c nhu cầu giải tr&iacute;, chụp ảnh hay chơi game. Đặc biệt với mức gi&aacute; b&aacute;n v&ocirc; c&ugrave;ng hấp dẫn, chắc chắn đ&acirc;y sẽ l&agrave; một t&acirc;n binh s&aacute;ng gi&aacute; tr&ecirc;n thị trường smartphone đang rất s&ocirc;i động hiện nay.</p>
+',
+        'slug'=>Str::slug('Điện thoại Xiaomi Redmi Note 10 (6GB/128GB)','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại Vsmart Aris (8GB/128GB)',
+        'price'=>5490000,
+        'old_price'=>6890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-xanhduong-600x600-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>5,
+        'brand_id'=>5,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của Vsmart Aris (8GB/128GB)</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/230413/Slider/vsmart-aris-8gb-128gb-031120-1041470.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&acirc;y lấy sim, Miếng d&aacute;n m&agrave;n h&igrave;nh, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A</p>
+
+<h3>Dạo gần đ&acirc;y,&nbsp;<a href="https://www.thegioididong.com/dtdd-vsmart" target="_blank">Vsmart</a>&nbsp;đang dần khẳng định vị thế, t&ecirc;n tuổi của m&igrave;nh tr&ecirc;n thị trường smartphone Việt Nam. V&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd/vsmart-aris-8gb-128gb" target="_blank">Vsmart Aris 8GB/128GB</a>&nbsp;l&agrave; sản phẩm m&agrave; Vsmart muốn giới thiệu đến người d&ugrave;ng h&agrave;ng loạt c&aacute;c t&iacute;nh năng hấp dẫn, xịn s&ograve; tr&ecirc;n thiết bị n&agrave;y.</h3>
+
+<h3>Thiết kế tinh tế, sang trọng</h3>
+
+<p>Phần thiết kế của Vsmart Aris c&oacute; độ ho&agrave;n thiện cao với phần khung viền kim loại v&agrave; mặt lưng l&agrave; một lớp k&iacute;nh phủ nh&aacute;m tốt gi&uacute;p chống b&aacute;m mồ h&ocirc;i, dấu v&acirc;n tay hiệu quả.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-044420-014446.jpg" onclick="return false;"><img alt="Thiết kế ở mức độ hoàn thiện cao, chắc chắn | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-044420-014446.jpg" /></a></p>
+
+<p>C&aacute;c đường n&eacute;t ở phần cạnh viền cũng được bo cong mềm mại tạo cảm gi&aacute;c cầm nắm chắc chắn, đầm tay khi sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-042720-012746.jpg" onclick="return false;"><img alt="Phần khung viền được làm cong nhẹ cầm nắm thoải mái | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-042720-012746.jpg" /></a></p>
+
+<p>Mặt k&iacute;nh Corning Gorilla Glass 5 phủ ho&agrave;n to&agrave;n tr&ecirc;n bề mặt của thiết bị mang lại sự an to&agrave;n bền bỉ lẫn n&eacute;t sang trọng, cao cấp cho m&aacute;y.</p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass5" target="_blank">T&igrave;m hiểu về c&aacute;c mặt k&iacute;nh cường lực Gorilla Glass</a></p>
+
+<p>Vsmart Aris được trang bị m&agrave;n h&igrave;nh giải tr&iacute; lớn 6.39 inch đi c&ugrave;ng tấm nền AMOLED với độ ph&acirc;n giải Full HD+ cho ph&eacute;p bạn trải nghiệm những bộ phim bom tấn, h&agrave;nh động tr&ecirc;n một m&agrave;n ảnh sắc n&eacute;t, mượt m&agrave; từng chi tiết.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-042920-012946.jpg" onclick="return false;"><img alt="Màn hình tràn viền 6.39 inch | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-042920-012946.jpg" /></a></p>
+
+<p>Ngo&agrave;i ra, m&aacute;y cũng hỗ trợ cả 2 t&iacute;nh năng&nbsp;<a href="https://www.thegioididong.com/dtdd-bao-mat-khuon-mat" target="_blank">bảo mật khu&ocirc;n mặt</a>&nbsp;v&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-bao-mat-van-tay" target="_blank">bảo mật v&acirc;n tay</a>&nbsp;cạnh viền với tốc độ nhận diện mở kh&oacute;a ch&iacute;nh x&aacute;c, nhanh ch&oacute;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-043020-013047.jpg" onclick="return false;"><img alt="Cảm biến vân tay cạnh viền | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-043020-013047.jpg" /></a></p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Vsmart Aris (8GB/128GB)</h3>
+
+<p><img alt="Thông số kỹ thuật 230413" src="https://cdn.tgdd.vn/Products/Images/42/230413/Kit/vsmart-aris-8gb-128gb-note-3.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-amoled-la-gi-905766" target="_blank">AMOLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p><a href="https://www.thegioididong.com/tin-tuc/do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi--592178#fullhd" target="_blank">Full HD+ (1080 x 2340 Pixels)</a></p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.39&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>60 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>600 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass5" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass 5</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 64 MP &amp; Phụ 8 MP, 8 MP, 2 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@240fps</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808#flash2tongmau" target="_blank">Đ&egrave;n LED 2 t&ocirc;ng m&agrave;u</a></p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-manual-mode-pro-tren-smartphone-906405" target="_blank">Chuy&ecirc;n nghiệp (Pro)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>20 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/ar-stickers-la-gi-vi-sao-hang-nao-cung-ap-dung-ar-1096228" target="_blank">Nh&atilde;n d&aacute;n (AR Stickers)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-10-android-q-la-gi-co-gi-moi-1237224" target="_blank">Android 10</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-730-1174819" target="_blank">Snapdragon 730 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 2.2 GHz &amp; 6 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-730-1174819#adreno618" target="_blank">Adreno 618</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>8 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>128 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>119 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a>,&nbsp;<a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#80211ac" target="_blank">Wi-Fi 802.11 a/b/g/n/ac</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p>3.5 mm</p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>4000 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/so-sanh-pin-li-ion-va-pin-li-po-651833#lipo" target="_blank">Li-Po</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-sac-pin-nhanh-quick-charge-30-917509" target="_blank">Sạc nhanh Quick Charge 3.0</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>18 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-bao-mat-mo-khoa-van-tay-canh-vien-tren-smartphone-1286767" target="_blank">Mở kho&aacute; v&acirc;n tay cạnh viền</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tinh-nang-mo-khoa-bang-khuon-mat-la-gi-1167784" target="_blank">Mở kho&aacute; khu&ocirc;n mặt</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-google-assistant-tro-ly-ao-tieng-viet-1172276" target="_blank">Trợ l&yacute; ảo Google Assistant</a>Kh&ocirc;ng gian thứ hai (Kh&ocirc;ng gian ri&ecirc;ng tư)Ứng dụng k&eacute;pTối ưu game (Chế độ tr&ograve; chơi)<a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn tin nhắn</a><a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP52</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Radio
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#avi" target="_blank">AVI</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#ogg" target="_blank">OGG</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#midi" target="_blank">Midi</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#amr" target="_blank">AMR</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wav" target="_blank">WAV</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung kim loại &amp; Mặt lưng k&iacute;nh</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 156.2 mm - Ngang 75.04 mm - D&agrave;y 8.55 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>178 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>11/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Trở th&agrave;nh nhiếp ảnh gia chuy&ecirc;n nghiệp</h2>
+
+<p>Kh&ocirc;ng đơn thuần l&agrave; một chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">điện thoại th&ocirc;ng minh</a>, Vsmart Aris c&ograve;n c&oacute; khả năng chụp ảnh chuy&ecirc;n nghiệp kh&ocirc;ng kh&aacute;c g&igrave; một chiếc m&aacute;y ảnh cơ thực thụ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-043320-013301.jpg" onclick="return false;"><img alt="Bộ 4 camera chất lượng | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-043320-013301.jpg" /></a></p>
+
+<p>Biến m&agrave;n đ&ecirc;m huyền ảo trở n&ecirc;n sắc n&eacute;t dễ d&agrave;ng tr&ecirc;n cảm biến ch&iacute;nh 64 MP cũng như hỗ trợ chụp ảnh r&otilde; n&eacute;t, chất lượng cao.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-183720-083744.jpg" onclick="return false;"><img alt="Chụp đêm siêu nét với cảm biến chính 64 MP | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-183720-083744.jpg" /></a></p>
+
+<p>Với&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c si&ecirc;u rộng</a>&nbsp;8 MP bạn sẽ dễ d&agrave;ng chụp được những cảnh biển rộng lớn, n&uacute;i non h&ugrave;ng vĩ hay l&agrave; những bức ảnh chụp nh&oacute;m đ&ocirc;ng người m&agrave; kh&ocirc;ng bỏ s&oacute;t chi tiết n&agrave;o.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-183720-083734.jpg" onclick="return false;"><img alt="Camera góc siêu rộng 8 MP bắt trọn mọi chi tiết | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-183720-083734.jpg" /></a></p>
+
+<p>Kh&ocirc;ng kh&oacute; để đưa những cảnh vật ở xa ngay tới trước mắt bạn nhờ&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-zoom" target="_blank">camera tele</a>&nbsp;8 MP cho khả năng zoom tầm xa 2x r&otilde; n&eacute;t.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-043520-013520.jpg" onclick="return false;"><img alt="Camera tele 8 MP zoom xa cực tốt | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-043520-013520.jpg" /></a></p>
+
+<p>S&aacute;ng tạo những h&igrave;nh ảnh nghệ thuật với&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">camera macro</a>&nbsp;2 MP hỗ trợ chụp cận cảnh độc đ&aacute;o gi&uacute;p bắt n&eacute;t tốt c&aacute;c chi tiết vật thể nhỏ dễ d&agrave;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-183720-083739.jpg" onclick="return false;"><img alt="Camera macro 2 MP hỗ trợ chụp cận cảnh độc đáo | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-183720-083739.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, hệ thống camera tr&ecirc;n Vsmart Aris cho ph&eacute;p bạn quay video ở độ ph&acirc;n giải 4K sắc n&eacute;t đạt chuẩn chất lượng cao trong từng khung h&igrave;nh.</p>
+
+<p>Mặt trước l&agrave; m&agrave;n h&igrave;nh giọt nước chứa camera selfie 20 MP hỗ trợ đầy đủ c&aacute;c t&iacute;nh năng từ l&agrave;m đẹp AI, nhận diện khu&ocirc;n mặt cho đến quay video Full HD một c&aacute;ch tốt nhất.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-183720-083749.jpg" onclick="return false;"><img alt="Camera selfie 20 MP hỗ trợ tính năng làm đẹp AI | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-183720-083749.jpg" /></a></p>
+
+<h3>Chiến game mượt m&agrave; c&ugrave;ng Snapdragon 730</h3>
+
+<p>Vsmart Aris sử dụng bộ vi xử l&yacute; Snapdragon 730 8 nh&acirc;n mạnh mẽ kết hợp c&ugrave;ng&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-8gb-tro-len" target="_blank">RAM 8 GB</a>&nbsp;gi&uacute;p m&aacute;y ho&agrave;n to&agrave;n xử l&yacute; tốt c&aacute;c t&aacute;c vụ từ cơ bản nhẹ đến nặng nhất m&agrave; kh&ocirc;ng gặp phải vấn đề g&igrave;.</p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-730-1174819" target="_blank">T&igrave;m hiểu chip Qualcomm Snapdragon 730</a></p>
+
+<p>Vsmart trang bị chip bảo mật lượng tử Quantis QRNG từ Thụy Sĩ cho thiết bị gi&uacute;p bảo mật tuyệt đối cũng như hạn chế rủi ro r&ograve; rỉ th&ocirc;ng tin khi giao dịch v&agrave; thanh to&aacute;n online.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-044120-014117.jpg" onclick="return false;"><img alt="Chip bảo mật lượng tử QUANTIS QRNG | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-044120-014117.jpg" /></a></p>
+
+<p>Kh&ocirc;ng gian lưu trữ lớn cho bạn thoải m&aacute;i lưu trữ c&aacute;c h&igrave;nh ảnh, video hay c&aacute;c ứng dụng, tệp c&oacute; dung lượng nặng nhờ v&agrave;o&nbsp;<a href="https://www.thegioididong.com/dtdd-rom-128-den-256gb" target="_blank">bộ nhớ trong 128 GB</a>.</p>
+
+<p>Thiết bị sẽ chạy hệ điều h&agrave;nh Android 10 t&ugrave;y biến tr&ecirc;n giao diện mới nhất VOS 3.0 c&ugrave;ng với nhiều t&iacute;nh năng được tối ưu, cửa h&agrave;ng chủ đề phong ph&uacute;, c&aacute;c ứng dụng tiện &iacute;ch hấp dẫn cho người d&ugrave;ng trải nghiệm tốt nhất.</p>
+
+<p>Với lượng trang bị cấu h&igrave;nh tr&ecirc;n, dễ d&agrave;ng gi&uacute;p&nbsp;<a href="https://www.thegioididong.com/dtdd-choi-game" target="_blank">điện thoại chơi game</a>&nbsp;tốt mọi thể loại game hot hiện nay như&nbsp;<a href="https://www.thegioididong.com/game-app/trai-nghiem-lien-minh-toc-chien-tai-som-gameplay-nhung-229952" target="_blank">Li&ecirc;n Minh Huyền Thoại Tốc Chiến</a>,&nbsp;<a href="https://www.thegioididong.com/game-app/garena-lien-quan-mobile-thang-bai-tai-ky-nang-219924" target="_blank">Li&ecirc;n Qu&acirc;n Mobile</a>,&nbsp;<a href="https://www.thegioididong.com/game-app/pubg-mobile-vn-winner-winner-chicken-dinner-219952" target="_blank">PUBG Mobile</a>&hellip; ở mức cấu h&igrave;nh cao m&agrave; vẫn diễn ra mượt m&agrave;, ổn định.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-044220-014219.jpg" onclick="return false;"><img alt="Cấu hình mạnh mẽ chiến game mượt mà | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-044220-014219.jpg" /></a></p>
+
+<h3>Trải nghiệm liền mạch với vi&ecirc;n pin khủng</h3>
+
+<p>Một điều nữa phải n&oacute;i tới Vsmart Aris c&ograve;n l&agrave; một chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd-pin-khung" target="_blank">điện thoại pin tr&acirc;u</a>&nbsp;khi sở hữu dung lượng pin 4000 mAh cho bạn trải nghiệm xuy&ecirc;n suốt, liền mạch cả ng&agrave;y d&agrave;i với c&aacute;c t&aacute;c vụ hằng ng&agrave;y hay ứng dụng giải tr&iacute; như xem phim, lướt web.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/230413/vsmart-aris-8gb-128gb-044320-014321.jpg" onclick="return false;"><img alt="Pin khủng 4000 mAh tích hợp sạc nhanh 18 W | Vsmart Aris" src="https://cdn.tgdd.vn/Products/Images/42/230413/vsmart-aris-8gb-128gb-044320-014321.jpg" /></a></p>
+
+<p>Đi k&egrave;m với vi&ecirc;n pin lớn, m&aacute;y c&ograve;n được t&iacute;ch hợp c&ocirc;ng nghệ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;18 W qua cổng USB Type-C r&uacute;t ngắn thời gian chờ sạc đ&aacute;ng kể cho thiết bị.</p>
+
+<p>Nh&igrave;n chung, Vsmart Aris l&agrave; một chiếc m&aacute;y tầm trung nhưng lại trang bị đầy đủ t&iacute;nh năng xịn s&ograve; của một chiếc flagship cao cấp từ thiết kế, hiệu năng mạnh mẽ cho đến camera chuy&ecirc;n nghiệp. V&agrave; đ&acirc;y l&agrave; mẫu sản phẩm đ&aacute;ng để được trải nghiệm.</p>
+',
+        'slug'=>Str::slug('Điện thoại Vsmart Aris (8GB/128GB)','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại Vsmart Star 5 (3GB/32GB)',
+        'price'=>32490000,
+        'old_price'=>33890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-5-thumb-blue-600x600-2-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>5,
+        'brand_id'=>5,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của Vsmart Star 5 (3GB/32GB)</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/236027/Slider/vi-vn-vsmart-star-5-thumbvideo.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&acirc;y lấy sim, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A</p>
+
+<h3><a href="https://www.thegioididong.com/dtdd/vsmart-star-5" target="_blank">Vsmart Star 5</a>&nbsp;mẫu&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone gi&aacute; rẻ</a>&nbsp;đến từ thương hiệu&nbsp;<a href="https://www.thegioididong.com/dtdd-vsmart" target="_blank">Vsmart</a>&nbsp;nhận được nhiều sự quan t&acirc;m nhờ sở hữu những n&acirc;ng cấp đ&aacute;ng kể về hiệu năng, camera, dung lượng pin khủng v&agrave; một mức gi&aacute; kh&ocirc;ng thể n&agrave;o tốt hơn.</h3>
+
+<h3>Thiết kế gọn g&agrave;ng, cầm nắm thoải m&aacute;i</h3>
+
+<p>Vsmart Star 5 được ho&agrave;n thiện nguy&ecirc;n khối với chất liệu nhựa tạo n&ecirc;n thiết kế đồng nhất từ mặt lưng đến tận phần cạnh m&agrave;n h&igrave;nh. M&aacute;y c&oacute; trọng lượng nhẹ khoảng 196 g, gi&uacute;p cho mọi thao t&aacute;c sử dụng thường ng&agrave;y trở n&ecirc;n thoải m&aacute;i hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-516.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Thiết kế nhựa nguyên khối, gọn nhẹ chỉ 196 g" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-516.jpg" /></a></p>
+
+<p>Sở hữu một m&agrave;n h&igrave;nh lớn, nhưng nhờ thiết kế viền mỏng đều ở c&aacute;c cạnh, gi&uacute;p cho Vsmart Star 5 vẫn c&oacute; k&iacute;ch thước&nbsp;<a href="https://www.thegioididong.com/dtdd-nho-gon" target="_blank">nhỏ gọn</a>, c&oacute; thể dễ d&agrave;ng cầm v&agrave; thao t&aacute;c bằng một tay m&agrave; kh&ocirc;ng gặp bất cứ kh&oacute; khăn n&agrave;o.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-511.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Sở hữu màn hình lớn, thiết kế viền mỏng" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-511.jpg" /></a></p>
+
+<p>Mặt lưng Vsmart Star 5 vẫn giữ nguy&ecirc;n kiểu thiết kế đặc trưng của d&ograve;ng Star với cụm 3 camera h&igrave;nh chữ nhật ở g&oacute;c tr&aacute;i,&nbsp;<a href="https://www.thegioididong.com/dtdd-bao-mat-van-tay" target="_blank">cảm biến v&acirc;n tay</a>&nbsp;được đặt ph&iacute;a tr&ecirc;n biểu tượng Vsmart thuận tiện cho thao t&aacute;c mở kh&oacute;a đồng thời tạo điểm nhấn cho thiết kế ở mặt lưng.</p>
+
+<h3>Giải tr&iacute; thả ga c&ugrave;ng m&agrave;n h&igrave;nh HD+ si&ecirc;u lớn</h3>
+
+<p>Điện thoại mới của Vsmart trang bị m&agrave;n h&igrave;nh viền tương đối mỏng với phần khuyết giọt nước nhỏ gọn, đồng thời sở hữu k&iacute;ch thước tương đối lớn trong ph&acirc;n kh&uacute;c gi&aacute; rẻ l&ecirc;n đến 6.52 inch.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-58.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Màn hình lớn lên đến 6.52 inch" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-58.jpg" /></a></p>
+
+<p>Với độ ph&acirc;n giải HD+, c&ugrave;ng tấm nền IPS LCD, chất lượng hiển thị của Vsmart Star 5 kh&aacute; ổn trong tầm gi&aacute; với m&agrave;u sắc tươi s&aacute;ng, hiển thị r&otilde; r&agrave;ng với g&oacute;c nh&igrave;n rộng, tuy kh&ocirc;ng được sắc n&eacute;t như m&agrave;n h&igrave;nh c&oacute; độ ph&acirc;n giải Full HD nhưng vẫn đủ đ&aacute;p ứng tốt cho nhu cầu đọc tin tức, lướt web hay xem phim.</p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Vsmart Star 5 (3GB/32GB)</h3>
+
+<p><img alt="Thông số kỹ thuật 236027" src="https://cdn.tgdd.vn/Products/Images/42/236027/Kit/mart-star-5-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-ips-lcd-la-gi-905752" target="_blank">IPS LCD</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p><a href="https://www.thegioididong.com/tin-tuc/do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi--592178#hd" target="_blank">HD+ (720 x 1600 Pixels)</a></p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.52&quot;</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/kinh-thuong-kinh-chong-xuoc-kinh-cuong-luc-la-1173657#cuongluc" target="_blank">K&iacute;nh cường lực</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 13 MP &amp; Phụ 2 MP, 2 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>C&oacute;</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>8 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-11-la-gi-co-gi-moi-thiet-bi-nao-duoc-cap-nhat-1306447" target="_blank">Android 11</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-xu-ly-helio-g-series-cua-mediatek-1284166#helio-g35" target="_blank">MediaTek Helio G35 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>4 nh&acirc;n 2.5 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-chip-xu-li-do-hoa-tren-smartphone-gpu-pow-594021" target="_blank">IMG PowerVR GE8320</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>3 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>32 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>24 GB</p>
+	</li>
+	<li>Thẻ nhớ
+	<p><a href="https://www.thegioididong.com/the-nho-dien-thoai" target="_blank">MicroSD, hỗ trợ tối đa 256 GB</a></p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#80211ac" target="_blank">Wi-Fi 802.11 a/b/g/n/ac</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#galileo" target="_blank">GALILEO</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p>3.5 mm</p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>5000 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/so-sanh-pin-li-ion-va-pin-li-po-651833#lipo" target="_blank">Li-Po</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>15 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/cam-bien-van-tay-tren-smartphone-la-gi-908163" target="_blank">Mở kh&oacute;a bằng v&acirc;n tay</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#avi" target="_blank">AVI</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#3gp" target="_blank">3GP</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wmv" target="_blank">WMV</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#midi" target="_blank">Midi</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#amr" target="_blank">AMR</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung &amp; Mặt lưng nhựa</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 163.91 mm - Ngang 75.67 mm - D&agrave;y 9.1 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>Khoảng 196.26 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>03/2021</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Hiệu năng ổn định, chơi game tốt hơn</h2>
+
+<p>Vsmart Star 5 tiếp tục l&agrave; mẫu smartphone gi&aacute; rẻ sở hữu cấu h&igrave;nh mạnh với vi xử l&yacute; Helio G35 8 nh&acirc;n xung nhịp l&ecirc;n đến 2.5 GHz, sử dụng tiến tr&igrave;nh 12 nm đ&aacute;p ứng tốt nhu cầu giải tr&iacute; th&ocirc;ng thường như lướt web, xem phim online v&agrave; chạy mượt c&aacute;c ứng dụng phổ biến như Youtube, Facebook,...</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-5-002.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Trang bị vi xử lý Helio G35 8 nhân xung nhịp lên đến 2.5 GHz" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-5-002.jpg" /></a></p>
+
+<p>C&oacute; thể thấy, vi xử l&yacute; mới tr&ecirc;n Vsmart Star 5 mạnh mẽ hơn để tăng cường khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd-choi-game" target="_blank">chơi game</a>, m&aacute;y c&oacute; thể chiến ổn định c&aacute;c tựa game phổ biến hiện nay như PUBG, Li&ecirc;n Qu&acirc;n Mobile ở mức c&agrave;i đặt cơ bản.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-510.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Chiến ổn định các tựa game phổ biến hiện nay như PUBG, Liên Quân Mobile" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-510.jpg" /></a></p>
+
+<p>Với mức&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-duoi-4gb" target="_blank">RAM 3 GB</a>, Vsmart Star 5 chạy đa nhiệm ổn, &iacute;t bị giật lag khi mở nhiều ứng dụng. Bộ nhớ 32 GB đủ kh&ocirc;ng gian để bạn c&agrave;i đặt lưu trữ c&aacute;c ứng dụng cơ bản hay d&ugrave;ng, nếu c&oacute; nhu cầu nghe nhạc, chụp h&igrave;nh nhiều, bạn n&ecirc;n gắn th&ecirc;m&nbsp;<a href="https://www.thegioididong.com/the-nho-dien-thoai" target="_blank">thẻ nhớ</a>&nbsp;để lưu trữ thoải m&aacute;i hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-513.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | RAM 3 GB, bộ nhớ trong 32 GB" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-513.jpg" /></a></p>
+
+<p>Star 5 cũng được c&agrave;i đặt VOS 4.0 được t&ugrave;y biến tr&ecirc;n&nbsp;Android&nbsp;11 cực kỳ gọn nhẹ kh&ocirc;ng c&oacute; ứng dụng r&aacute;c, tiết kiệm pin, giao diện th&acirc;n thiện gần gũi với người Việt, cung cấp c&aacute;c cử chỉ vuốt chạm điều hướng th&ocirc;ng minh với hiệu ứng mượt m&agrave;.</p>
+
+<h3>Tăng cường ống k&iacute;nh, chụp ảnh s&aacute;ng tạo hơn</h3>
+
+<p>Vsmart Star 5 trang bị bộ camera 3 sau bao gồm camera ch&iacute;nh 13 MP,&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">camera macro</a>&nbsp;2 MP v&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-xoa-phong" target="_blank">camera x&oacute;a ph&ocirc;ng</a>&nbsp;2 MP, cho người d&ugrave;ng thỏa sức s&aacute;ng tạo, kh&aacute;m ph&aacute; những g&oacute;c nh&igrave;n mới.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-55.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Camera chính 13 MP, camera macro 2 MP và camera xóa phông 2 MP" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-55.jpg" /></a></p>
+
+<p>Camera ch&iacute;nh 13 MP cho chất lượng chụp ảnh r&otilde; n&eacute;t trong điều kiện đủ s&aacute;ng, c&aacute;c camera c&ograve;n lại sẽ cung cấp nhiều t&ugrave;y chọn chụp ảnh như chụp cận macro bắt trọn vẻ đẹp của những chi tiết cực nhỏ ở khoảng c&aacute;ch gần, hay camera x&oacute;a ph&ocirc;ng để bạn c&oacute; được ảnh ch&acirc;n dung thu h&uacute;t.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-5-003.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Giao diện chụp ảnh" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-5-003.jpg" /></a></p>
+
+<p>Camera trước 8 MP với khả năng nhận diện khu&ocirc;n mặt v&agrave; l&agrave;m đẹp th&ocirc;ng minh thỏa m&atilde;n sở th&iacute;ch chụp ảnh của t&iacute;n đồ selfie hoặc tận hưởng những gi&acirc;y ph&uacute;t tr&ograve; chuyện vui vẻ với bạn b&egrave; v&agrave; người th&acirc;n qua video call.</p>
+
+<h3>Pin 5000 mAh k&eacute;o d&agrave;i đến tận 2 ng&agrave;y</h3>
+
+<p>Trang bị vi&ecirc;n&nbsp;pin dung lượng 5000 mAh, Vsmart Star 5 dễ d&agrave;ng đ&aacute;p ứng nhu cầu giải tr&iacute;, li&ecirc;n lạc của bạn l&ecirc;n tới 2 ng&agrave;y xứng đ&aacute;ng l&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-pin-khung" target="_blank">điện thoại pin tr&acirc;u</a>.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/236027/vsmart-star-51.jpg" onclick="return false;"><img alt="Vsmart Star 5 (3GB/32GB) | Trang bị viên pin dung lượng 5000 mAh" src="https://cdn.tgdd.vn/Products/Images/42/236027/vsmart-star-51.jpg" /></a></p>
+
+<p>Với thời lượng pin cực l&acirc;u, bạn sẽ y&ecirc;n t&acirc;m hơn khi mang chiếc điện thoại trong những chuyến đi d&agrave;i ng&agrave;y m&agrave; kh&ocirc;ng phải l&uacute;c n&agrave;o cũng phải mang theo sạc dự ph&ograve;ng hay t&igrave;m chỗ để cắm sạc pin.</p>
+
+<p>Với một mức gi&aacute; rất tốt c&ugrave;ng cấu h&igrave;nh ổn định, dung lượng pin bền bỉ, Vsmart Star 5 sẽ l&agrave; mẫu smartphone d&agrave;nh cho tất cả mọi người, đặc biệt l&agrave; học sinh, sinh vi&ecirc;n hay những người d&ugrave;ng phổ th&ocirc;ng cần một chiếc smartphone pin tr&acirc;u để nghe gọi nhưng vẫn c&oacute; thể giải tr&iacute;, lướt web thỏa th&iacute;ch.</p>
+',
+        'slug'=>Str::slug('Điện thoại Vsmart Star 5 (3GB/32GB)','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại Vsmart Joy 4 (6GB/64GB)',
+        'price'=>3490000,
+        'old_price'=>3890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-xanh-600x600-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>5,
+        'brand_id'=>5,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của Vsmart Joy 4 (6GB/64GB)</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/231992/Slider/vsmart-joy-4-6gb-121220-02134311.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&acirc;y lấy sim, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A, Tai nghe d&acirc;y</p>
+
+<h3><a href="https://www.thegioididong.com/dtdd/vsmart-joy-4-6gb" target="_blank">Vsmart Joy 4</a>, một sản phẩm đ&aacute;ng tự h&agrave;o được sản xuất từ thương hiệu Việt&nbsp;<a href="https://www.thegioididong.com/dtdd-vsmart" target="_blank">Vsmart</a>&nbsp;với nhiều t&iacute;nh năng nổi bật từ hiệu năng mạnh mẽ, cụm 4 camera đa t&iacute;nh năng cho đến pin khủng 5000 mAh, hứa hẹn sẽ được nhiều người d&ugrave;ng săn đ&oacute;n.</h3>
+
+<h3>Thiết kế sang trọng, bắt mắt</h3>
+
+<p>Vsmart Joy 4 cải tiến vượt bậc về ngoại h&igrave;nh với phần lưng được l&agrave;m nh&aacute;m n&ecirc;n rất &iacute;t b&aacute;m v&acirc;n tay, k&egrave;m với những t&ocirc;ng m&agrave;u trẻ trung cho hiệu ứng chuyển m&agrave;u gradient khi nghi&ecirc;ng m&aacute;y ở c&aacute;c g&oacute;c kh&aacute;c nhau.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-214120-014110.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Thiết kế sang trọng" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-214120-014110.jpg" /></a></p>
+
+<p>Hệ thống 4 camera nổi bật được đặt trong khung chữ nhật bo cong, phủ lớp m&agrave;u đen s&aacute;ng b&oacute;ng tr&ocirc;ng bắt mắt v&agrave; sang trọng hơn hẳn.</p>
+
+<p>Logo Vsmart mang d&aacute;ng dấp h&igrave;nh ngọn lửa được mạ bạc lấp l&aacute;nh nằm ngay ch&iacute;nh giữa ở mặt lưng v&agrave; ph&iacute;a tr&ecirc;n l&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-bao-mat-van-tay" target="_blank">cảm biến v&acirc;n tay</a>&nbsp;vừa c&oacute; độ nhận diện cao gi&uacute;p mở kh&oacute;a m&agrave;n h&igrave;nh nhanh ch&oacute;ng vừa đỡ tốn diện t&iacute;ch ở mặt trước.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-163220-093246.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Mặt lưng sang trọng với logo hình ngọn lửa cùng cảm biến vân tay" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-163220-093246.jpg" /></a></p>
+
+<p>Vsmart Joy 4 sở hữu&nbsp;<a href="https://www.thegioididong.com/dtdd-man-hinh-tran-vien" target="_blank">m&agrave;n h&igrave;nh tr&agrave;n viền</a>&nbsp;sang trọng với tỷ lệ m&agrave;n h&igrave;nh 19.5:9, người d&ugrave;ng c&oacute; thể tận hưởng tối đa kh&ocirc;ng gian hiển thị của m&agrave;n h&igrave;nh viền mỏng c&oacute; k&iacute;ch thước 6.53 inch. Tấm nền IPS LCD k&egrave;m hỗ trợ độ ph&acirc;n giải Full HD+ cho chất lượng hiển thị h&igrave;nh ảnh với gam m&agrave;u rộng hơn với độ n&eacute;t cao v&agrave; độ s&aacute;ng tốt.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122918.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Màn hình tràn viền với tấm nền IPS LCD" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122918.jpg" /></a></p>
+
+<h3>Hiệu năng xử l&yacute; ổn định</h3>
+
+<p>Vsmart Joy 4 sở hữu sức mạnh từ bộ vi xử l&yacute; Snapdragon 665 mang đến hiệu năng mạnh mẽ cũng như tiết kiệm năng lượng hơn so với thế hệ tiền nhiệm 660. Chip đồ họa GPU Adreno 610 cho chất lượng đồ họa sắc n&eacute;t, m&agrave;u sắc rực rỡ v&agrave; ch&acirc;n thật hơn bao giờ hết.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122912.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Vi xử lí Snapdragon 665 chiến game mượt mà" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122912.jpg" /></a></p>
+
+<p>Hơn nữa, m&aacute;y sở hữu&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-4-den-6gb" target="_blank">RAM 6 GB</a>&nbsp;cho tốc độ xử l&yacute; đa nhiệm vượt trội với hầu hết c&aacute;c t&aacute;c vụ, gần như hiện tượng bị load lại ứng dụng l&agrave; kh&aacute; hiếm gặp. Bạn sẽ kh&ocirc;ng c&ograve;n lo lắng về dung lượng lưu trữ v&igrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-rom-32-den-64gb" target="_blank">bộ nhớ trong 64 GB</a>&nbsp;c&ugrave;ng thẻ nhớ ngo&agrave;i hỗ trợ l&ecirc;n đến 256 GB sẽ gi&uacute;p bạn lưu giữ lại những h&igrave;nh ảnh, video, b&agrave;i h&aacute;t v&agrave; c&aacute;c tệp y&ecirc;u th&iacute;ch.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-214120-014104.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Ram 6 GB hỗ trợ đa nhiệm vượt trội" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-214120-014104.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, sức mạnh của chipset n&agrave;y cho ph&eacute;p bạn chiến c&aacute;c tựa game mobile như: PUBG Mobile, Warhammer, Li&ecirc;n Qu&acirc;n Mobile,&hellip; ở mức đồ họa trung b&igrave;nh để tr&aacute;nh t&igrave;nh trạng giật lag.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122924.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Thỏa sức với các tựa game mobile" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122924.jpg" /></a></p>
+
+<p>Ngo&agrave;i ra, Vsmart Joy 4 hoạt động tr&ecirc;n hệ điều h&agrave;nh Android 10 t&ugrave;y biến VOS 3.0 mang nhiều t&iacute;nh năng vượt hay c&ugrave;ng giao diện th&acirc;n thiện, dễ d&ugrave;ng, ph&ugrave; hợp mọi đối tượng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-153020-123020.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Hệ điều hành Android 10 tùy biến VOS 3.0 thân thiện" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-153020-123020.jpg" /></a></p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Vsmart Joy 4 (6GB/64GB)</h3>
+
+<p><img alt="Thông số kỹ thuật 231992" src="https://cdn.tgdd.vn/Products/Images/42/231992/Kit/vsmart-joy-4-6gb-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-ips-lcd-la-gi-905752" target="_blank">LTPS IPS LCD</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p><a href="https://www.thegioididong.com/tin-tuc/do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi--592178#fullhd" target="_blank">Full HD+ (1080 x 2340 Pixels)</a></p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.53&quot;</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass3" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass 3</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 16 MP &amp; Phụ 8 MP, 2 MP, 2 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>C&oacute;</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-manual-mode-pro-tren-smartphone-906405" target="_blank">Chuy&ecirc;n nghiệp (Pro)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>13 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#4k" target="_blank">Quay video 4K</a><a href="https://www.thegioididong.com/hoi-dap/ar-stickers-la-gi-vi-sao-hang-nao-cung-ap-dung-ar-1096228" target="_blank">Nh&atilde;n d&aacute;n (AR Stickers)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-10-android-q-la-gi-co-gi-moi-1237224" target="_blank">Android 10</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-665-1177729" target="_blank">Snapdragon 665 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>4 nh&acirc;n 2.0 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-665-1177729" target="_blank">Adreno 610</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>6 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>64 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>55 GB</p>
+	</li>
+	<li>Thẻ nhớ
+	<p><a href="https://www.thegioididong.com/the-nho-dien-thoai" target="_blank">MicroSD, hỗ trợ tối đa 256 GB</a></p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#80211ac" target="_blank">Wi-Fi 802.11 a/b/g/n/ac</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p>3.5 mm</p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/so-sanh-pin-li-ion-va-pin-li-po-651833#lipo" target="_blank">Li-Po</a></p>
+	</li>
+	<li>Dung lượng pin
+	<p>5000 mAh</p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-sac-pin-nhanh-quick-charge-30-917509" target="_blank">Sạc nhanh Quick Charge 3.0</a></p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/cam-bien-van-tay-tren-smartphone-la-gi-908163" target="_blank">Mở kh&oacute;a bằng v&acirc;n tay</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tinh-nang-mo-khoa-bang-khuon-mat-la-gi-1167784" target="_blank">Mở kho&aacute; khu&ocirc;n mặt</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn tin nhắn</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Radio
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#h264" target="_blank">H.264(MPEG4-AVC)</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#amr" target="_blank">AMR</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#eaac+" target="_blank">eAAC+</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC+</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung &amp; Mặt lưng nhựa</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 163.65 mm - Ngang 77.65 mm - D&agrave;y 9.15 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>216.4 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>12/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>S&aacute;ng tạo nghệ thuật c&ugrave;ng cụm 4 camera&nbsp;</h2>
+
+<p>H&atilde;y để Vsmart Joy 4 gi&uacute;p bạn s&aacute;ng tạo ra những bức ảnh selfie &ldquo;chất lừ&rdquo; nhờ cảm biến 13 MP với khả năng lấy n&eacute;t kh&aacute; ch&iacute;nh x&aacute;c, khử nhiễu tốt v&agrave; t&aacute;i hiện m&agrave;u da tự nhi&ecirc;n hầu hết trong mọi điều kiện &aacute;nh s&aacute;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122939.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Camera selfie 13 MB" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122939.jpg" /></a></p>
+
+<p>Thuật to&aacute;n Beauty AI cho ph&eacute;p bạn biến tấu, l&agrave;m đẹp khu&ocirc;n mặt của ch&iacute;nh m&igrave;nh những vẫn giữ được vẻ ch&acirc;n thực, h&agrave;i h&ograve;a c&ugrave;ng chế độ x&oacute;a ph&ocirc;ng chuẩn, độ chi tiết cao k&egrave;m c&aacute;c AR Sticker động cực &ldquo;teen&rdquo; gi&uacute;p trải nghiệm selfie trở n&ecirc;n th&uacute; vị hơn.</p>
+
+<p>Hệ thống camera AI Quad ấn tượng ở mặt sau gồm camera ch&iacute;nh 16 MP,&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c rộng</a>&nbsp;8 MP,&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-xoa-phong" target="_blank">camera x&oacute;a ph&ocirc;ng</a>&nbsp;2 MP v&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">camera macro</a>&nbsp;2 MP.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-214020-014058.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Hệ thống camera AI Quad ấn tượng" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-214020-014058.jpg" /></a></p>
+
+<p>Chụp ảnh trong điều kiện thiếu s&aacute;ng kh&ocirc;ng l&agrave;m kh&oacute; được Vsmart Joy 4, m&aacute;y sẽ chụp li&ecirc;n tiếp nhiều bức ảnh, thuật to&aacute;n sẽ xử l&yacute; nhanh ch&oacute;ng để cho ra bức ảnh tuyệt nhất, đảm bảo chất lượng sắc n&eacute;t v&agrave; m&agrave;u sắc rực rỡ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-153020-123005.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Giao diện chụp ảnh" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-153020-123005.jpg" /></a></p>
+
+<p>Khả năng chụp ảnh ch&acirc;n dung x&oacute;a ph&ocirc;ng của Vsmart Joy 4 sẽ khiến bạn thỏa m&atilde;n nhờ khả năng tự động nhận diện chủ thể ch&iacute;nh x&aacute;c, t&aacute;ch v&agrave; x&oacute;a ph&ocirc;ng hậu cảnh tốt, gi&uacute;p bạn dễ d&agrave;ng c&oacute; được bức ảnh như mong muốn m&agrave; kh&ocirc;ng cần đến ứng dụng từ b&ecirc;n thứ 3.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122945.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Khả năng chụp xóa phông ấn tượng" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122945.jpg" /></a></p>
+
+<p>Camera g&oacute;c rộng l&ecirc;n đến 120 độ cho ph&eacute;p bạn &ldquo;thu trọn&rdquo; mọi chi tiết v&agrave;o khung cảnh m&agrave; kh&ocirc;ng cần chọn c&aacute;ch thủ c&ocirc;ng cần l&ugrave;i ra xa hoặc kh&aacute;m ph&aacute; thế giới nhỏ đầy chi tiết với camera macro 2 MP, bạn chỉ cần đứng c&aacute;ch vật thể ở khoảng c&aacute;ch nhất định l&agrave; đ&atilde; c&oacute; những bức h&igrave;nh độc đ&aacute;o, nghệ thuật.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122950.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Camera chụp cận cảnh sắc nét" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122950.jpg" /></a></p>
+
+<p>Những video đẹp đang trở th&agrave;nh xu hướng sống ảo mới của giới trẻ. Nắm bắt nhu cầu đ&oacute;, nh&agrave; sản xuất đ&atilde; bổ sung h&agrave;ng loạt &ldquo;vũ kh&iacute; b&iacute; mật&rdquo; để l&agrave;m được điều đ&oacute; như: Chế độ quay chậm Slow motion, quay nhanh Fast Motion. Đặc biệt nhất l&agrave; c&ocirc;ng nghệ đưa hiệu ứng x&oacute;a ph&ocirc;ng l&ecirc;n video.</p>
+
+<h3>Trải nghiệm ng&agrave;y d&agrave;i, sạc nhanh &ldquo;si&ecirc;u tốc&rdquo;</h3>
+
+<p>Một trong những ti&ecirc;u ch&iacute; h&agrave;ng đầu để lựa chọn chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;của hầu hết mọi người đ&oacute; l&agrave; thời lượng pin. Thật tuyệt vời khi Vsmart Joy 4 được t&iacute;ch hợp vi&ecirc;n pin lớn 5000 mAh c&ugrave;ng c&ocirc;ng nghệ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;QuickCharge 3.0 18 W để niềm vui kh&ocirc;ng bao giờ bị gi&aacute;n đoạn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-214020-014053.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Sạc nhanh qua cổng sạc Type-C" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-214020-014053.jpg" /></a></p>
+
+<p>H&atilde;ng tuy&ecirc;n bố rằng pin tr&ecirc;n m&aacute;y c&oacute; thể cung cấp năng lượng cho thời gian gọi 45 giờ, 22 giờ YouTube, 166 giờ nghe nhạc v&agrave; 21 giờ lướt web li&ecirc;n tục.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/231992/vsmart-joy-4-6gb-152920-122905.jpg" onclick="return false;"><img alt="Vsmart Joy 4 (6GB/64GB) | Pin dung lượng lớn 5000 mAh cùng sạc nhanh 18 W" src="https://cdn.tgdd.vn/Products/Images/42/231992/vsmart-joy-4-6gb-152920-122905.jpg" /></a></p>
+
+<p>Vsmart Joy 4 ho&agrave;n to&agrave;n xứng đ&aacute;ng l&agrave; thiết bị đ&aacute;ng c&oacute; ở ph&acirc;n kh&uacute;c gi&aacute; rẻ. Nếu bạn đang cần một chiếc điện thoại đẹp, cấu h&igrave;nh tốt c&ugrave;ng cụm camera độ ph&acirc;n giải cao th&igrave; Vsmart Joy 4 ch&iacute;nh l&agrave; sự lựa chọn tuyệt vời.</p>
+',
+        'slug'=>Str::slug('Điện thoại Vsmart Joy 4 (6GB/64GB)','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại Vsmart Aris Pro',
+        'price'=>7490000,
+        'old_price'=>7890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-green-600jpg-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>5,
+        'brand_id'=>5,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của Vsmart Aris Pro</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/228531/Slider/vsmart-aris-pro-thumb-video-500x277.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&acirc;y lấy sim, Ốp lưng, C&aacute;p Type C, Củ sạc nhanh rời đầu Type A, Tai nghe d&acirc;y</p>
+
+<h3>Thương hiệu&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;Việt -&nbsp;<a href="https://www.thegioididong.com/dtdd-vsmart" target="_blank">Vsmart</a>&nbsp;đ&atilde; ch&iacute;nh thức tr&igrave;nh l&agrave;ng&nbsp;<a href="https://www.thegioididong.com/dtdd/vsmart-aris-pro" target="_blank">Vsmart Aris Pro</a>. Sự ra mắt mẫu điện thoại n&agrave;y đ&aacute;nh dấu một bước ngoặc lớn trong l&agrave;ng smartphone với c&ocirc;ng nghệ camera ẩn trong m&agrave;n h&igrave;nh, mức gi&aacute; hợp l&yacute; gi&uacute;p người Việt c&oacute; cơ hội tiếp cận những c&ocirc;ng nghệ mới nhất hiện nay.</h3>
+
+<h3>Camera selfie ẩn, đỉnh cao của thiết kế m&agrave;n h&igrave;nh tr&agrave;n viền</h3>
+
+<p>Aris Pro l&agrave; một trong những d&ograve;ng điện thoại đầu ti&ecirc;n được trang bị camera selfie với c&ocirc;ng nghệ ẩn sau m&agrave;n h&igrave;nh độc đ&aacute;o, tạo n&ecirc;n một m&agrave;n h&igrave;nh liền mạch, kh&ocirc;ng c&ograve;n khiếm khuyết &ldquo;đục lỗ&rdquo; hay &ldquo;giọt nước&rdquo;.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-282420-082418.jpg" onclick="return false;"><img alt="Màn hình vô khuyết chứa camera ẩn dưới màn hình - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-282420-082418.jpg" /></a></p>
+
+<p>Với ưu điểm mang t&iacute;nh đột ph&aacute;, camera ẩn sẽ l&agrave; xu thế c&ocirc;ng nghệ kế tiếp tr&ecirc;n c&aacute;c d&ograve;ng smartphone trong những năm sắp tới. Vsmart cũng sẽ l&agrave; h&atilde;ng điện thoại Việt Nam đầu ti&ecirc;n ti&ecirc;n phong đưa c&ocirc;ng nghệ n&agrave;y l&ecirc;n smartphone của m&igrave;nh sớm nhất.</p>
+
+<p>Camera ẩn sau m&agrave;n h&igrave;nh (Camera Under Display - CUD) xử l&yacute; h&igrave;nh ảnh bằng tr&iacute; tuệ nh&acirc;n tạo d&agrave;nh ri&ecirc;ng cho camera ẩn, gi&uacute;p ph&acirc;n t&iacute;ch nguồn s&aacute;ng tr&ecirc;n m&agrave;n h&igrave;nh loại bỏ hiện tượng ảnh mờ, thiếu, nhiễu, m&agrave;u sắc sai lệch đi qua lớp k&iacute;nh d&agrave;y, t&aacute;i tạo c&aacute;c chi tiết, m&agrave;u sắc để đưa lại chất lượng ảnh về đ&uacute;ng ban đầu.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-282520-082520.jpg" onclick="return false;"><img alt="Màn hình tràn viền sắc nét và chi tiết - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-282520-082520.jpg" /></a></p>
+
+<p>Ở chế độ sử dụng th&ocirc;ng thường, m&agrave;n h&igrave;nh Aris Pro&nbsp;<a href="https://www.thegioididong.com/dtdd-man-hinh-tran-vien" target="_blank">tr&agrave;n viền</a>&nbsp;ho&agrave;n hảo kh&ocirc;ng t&igrave; vết. Khi bắt đầu sử dụng camera trước, phần m&agrave;n h&igrave;nh ph&iacute;a tr&ecirc;n tại nơi đặt cảm biến lớp k&iacute;nh sẽ mờ đi để &aacute;nh s&aacute;ng c&oacute; thể lọt v&agrave;o cảm biến.</p>
+
+<p>Thuật to&aacute;n AI n&agrave;y sẽ được li&ecirc;n tục được h&atilde;ng cải tiến n&acirc;ng cấp nhằm c&oacute; thể nhận diện ch&iacute;nh x&aacute;c n&acirc;ng cao chất lượng h&igrave;nh ảnh trong nhiều điều kiện chụp phức tạp, người d&ugrave;ng sẽ nhận được c&aacute;c bản n&acirc;ng cấp trong suốt qu&aacute; tr&igrave;nh sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-214220-034235.jpg" onclick="return false;"><img alt="Các thuật toán AI luôn được cải tiến và nâng cấp - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-214220-034235.jpg" /></a></p>
+
+<h3>Hiệu năng mạnh mẽ với mức gi&aacute; tầm trung</h3>
+
+<p>Aris Pro cũng l&agrave; chiếc điện thoại mạnh mẽ nhất của Vsmart ở thời điểm hiện tại (9/2020) khi trang bị vi xử l&yacute; Snapdragon 730 kết hợp c&ugrave;ng&nbsp;<a href="https://www.thegioididong.com/dtdd-ram-8gb-tro-len" target="_blank">RAM 8 GB</a>&nbsp;mạnh mẽ cho hiệu năng tiệm cận với d&ograve;ng cao cấp, với sức mạnh như vậy gi&uacute;p&nbsp;<a href="https://www.thegioididong.com/dtdd-choi-game" target="_blank">điện thoại chơi game</a>&nbsp;c&oacute; đồ họa phức tạp ho&agrave;n to&agrave;n kh&ocirc;ng thể l&agrave;m kh&oacute; được.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-214420-034458.jpg" onclick="return false;"><img alt="Hiệu năng mạnh mẽ, vượt trội - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-214420-034458.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, bộ nhớ 128 GB lu&ocirc;n đủ kh&ocirc;ng gian để lưu trữ được cả kho nhạc, phim chất lượng cao, cho bạn c&oacute; thể giải tr&iacute; bất cứ l&uacute;c n&agrave;o m&agrave; kh&ocirc;ng cần phải lo lắng về vấn đề lưu trữ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-282820-082817.jpg" onclick="return false;"><img alt="Khe cắm sim trên điện thoại - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-282820-082817.jpg" /></a></p>
+
+<p>T&iacute;ch hợp vi&ecirc;n pin 4000 mAh b&ecirc;n trong gi&uacute;p cho mẫu điện thoại mới của Vsmart c&oacute; thời gian sử dụng trong khoảng 1 ng&agrave;y. B&ecirc;n cạnh đ&oacute;, m&aacute;y cũng sẽ đi k&egrave;m 1 củ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;18 W cho tốc độ sạc v&ocirc; c&ugrave;ng nhanh ch&oacute;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-282720-082705.jpg" onclick="return false;"><img alt="Pin 4000 mAh tích hợp sạc nhanh 18W - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-282720-082705.jpg" /></a></p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết Vsmart Aris Pro</h3>
+
+<p><img alt="Thông số kỹ thuật 228531" src="https://cdn.tgdd.vn/Products/Images/42/228531/Kit/vsmart-aris-pro-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-amoled-la-gi-905766" target="_blank">AMOLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p><a href="https://www.thegioididong.com/tin-tuc/do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi--592178#fullhd" target="_blank">Full HD+ (1080 x 2340 Pixels)</a></p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.39&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>60 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>600 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-cac-mat-kinh-cuong-luc-gorilla-glass-1172198#glass5" target="_blank">K&iacute;nh cường lực Corning Gorilla Glass 5</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>Ch&iacute;nh 64 MP &amp; Phụ 8 MP, 8 MP, 2 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@240fps</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808#flash2tongmau" target="_blank">Đ&egrave;n LED 2 t&ocirc;ng m&agrave;u</a></p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">AI Camera</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-manual-mode-pro-tren-smartphone-906405" target="_blank">Chuy&ecirc;n nghiệp (Pro)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-macro-la-gi-907851" target="_blank">Si&ecirc;u cận (Macro)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>20 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-che-do-chup-tren-camera-la-ma-quen-1144484#livestream" target="_blank">L&agrave;m đẹp khi Livestream</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-lam-dep-beautify-tren-smartphone-tablet-1172231" target="_blank">L&agrave;m đẹp</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/ai-camera-la-gi-co-tac-dung-gi-trong-may-anh-1169103" target="_blank">A.I Camera</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/android-10-android-q-la-gi-co-gi-moi-1237224" target="_blank">Android 10</a></p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-730-1174819" target="_blank">Snapdragon 730 8 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 2.2 GHz &amp; 6 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-qualcomm-snapdragon-730-1174819#adreno618" target="_blank">Adreno 618</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>8 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>128 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>119 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#nano-sim" target="_blank">2 Nano SIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a>,&nbsp;<a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#80211ac" target="_blank">Wi-Fi 802.11 a/b/g/n/ac</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/usb-typec-chuan-muc-cong-ket-noi-moi-723760" target="_blank">Type-C</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p>3.5 mm</p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>4000 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/so-sanh-pin-li-ion-va-pin-li-po-651833#lipo" target="_blank">Li-Po</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-sac-pin-nhanh-quick-charge-30-917509" target="_blank">Sạc nhanh Quick Charge 3.0</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>18 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-bao-mat-mo-khoa-van-tay-canh-vien-tren-smartphone-1286767" target="_blank">Mở kho&aacute; v&acirc;n tay cạnh viền</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tinh-nang-mo-khoa-bang-khuon-mat-la-gi-1167784" target="_blank">Mở kho&aacute; khu&ocirc;n mặt</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-google-assistant-tro-ly-ao-tieng-viet-1172276" target="_blank">Trợ l&yacute; ảo Google Assistant</a>Kh&ocirc;ng gian thứ hai (Kh&ocirc;ng gian ri&ecirc;ng tư)Ứng dụng k&eacute;pTối ưu game (Chế độ tr&ograve; chơi)<a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/lam-the-nao-de-ghi-am-cuoc-goi-tren-android-574902#ghiam" target="_blank">Ghi &acirc;m cuộc gọi</a><a href="https://www.thegioididong.com/hoi-dap/tong-hop-mot-so-tinh-nang-quen-thuoc-tren-dien-t-1144487#chan" target="_blank">Chặn tin nhắn</a><a href="https://www.thegioididong.com/hoi-dap/nhan-doi-ung-dung-la-gi-1115719" target="_blank">Ứng dụng k&eacute;p (Nh&acirc;n bản ứng dụng)</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP52</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p>C&oacute;</p>
+	</li>
+	<li>Radio
+	<p>C&oacute;</p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp4" target="_blank">MP4</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#avi" target="_blank">AVI</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#ogg" target="_blank">OGG</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#midi" target="_blank">Midi</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#amr" target="_blank">AMR</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#wav" target="_blank">WAV</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung kim loại &amp; Mặt lưng k&iacute;nh</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 156.2 mm - Ngang 75.04 mm - D&agrave;y 8.55 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>178 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>09/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Ch&uacute; trọng đến chăm s&oacute;c sức khỏe m&ugrave;a dịch</h2>
+
+<p>Một điểm đặc biệt nhưng cũng kh&aacute; quan trọng trong giai đoạn n&agrave;y đ&oacute; l&agrave; đi k&egrave;m mỗi chiếc Aris Pro l&agrave; một miếng d&aacute;n m&agrave;n h&igrave;nh đặc biệt, c&oacute; khả năng ph&ograve;ng chống đến&nbsp;99,7% virus l&acirc;y nhiễm.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-214920-034946.jpg" onclick="return false;"><img alt="Màn hình có khả năng chống nhiễm khuẩn - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-214920-034946.jpg" /></a></p>
+
+<p>Kh&ocirc;ng chỉ vậy, Aris Pro cũng l&agrave; d&ograve;ng m&aacute;y đầu ti&ecirc;n của Vsmart t&iacute;ch hợp ứng dụng sức khoẻ AI Dr. AidTM do VinBrain (thuộc Vingroup) ph&aacute;t triển để hỗ trợ chẩn đo&aacute;n c&aacute;c bệnh l&yacute; về tim phổi, xương dựa tr&ecirc;n c&aacute;c ảnh chụp xquang một c&aacute;ch chuẩn x&aacute;c, gi&uacute;p người bệnh theo d&otilde;i v&agrave; tự kiểm so&aacute;t bệnh tại nh&agrave;.</p>
+
+<h3>Bộ tứ camera đỉnh cao, mu&ocirc;n v&agrave;n g&oacute;c chụp chất lượng</h3>
+
+<p>Mặt lưng của Aris Pro nổi bật với cụm camera vu&ocirc;ng độc đ&aacute;o chứa 4 camera, được đặt ngay ch&iacute;nh giữa gần cạnh tr&ecirc;n, b&ecirc;n dưới l&agrave; dải đ&egrave;n flash k&eacute;p trợ s&aacute;ng. Kiểu thiết kế kh&aacute; giống với&nbsp;<a href="https://www.thegioididong.com/dtdd/xiaomi-redmi-note-9-pro" target="_blank">Redmi Note 9 Pro</a>&nbsp;của nh&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-xiaomi" target="_blank">Xiaomi</a>.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-283120-083107.jpg" onclick="return false;"><img alt="Hệ thống camera sau - Vsmart Ảris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-283120-083107.jpg" /></a></p>
+
+<p>Về th&ocirc;ng số, Vsmart Aris Pro kh&ocirc;ng thua k&eacute;m bất kỳ mẫu flagship n&agrave;o khi trang bị d&agrave;n cảm biến với th&ocirc;ng số khủng: camera ch&iacute;nh 64 MP, camera&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">g&oacute;c rộng</a>&nbsp;8 MP, camera zoom 2x 8 MP, v&agrave; camera chụp cận macro 2 MP.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-282220-082259.jpg" onclick="return false;"><img alt="Cụm 4 camera sau chất lượng, đa tính năng - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-282220-082259.jpg" /></a></p>
+
+<p>T&iacute;ch hợp AI cho ph&eacute;p camera tr&ecirc;n Vsmart Aris nhận diện, ph&acirc;n t&iacute;ch m&ocirc;i trường chụp từ đ&oacute; d&ugrave;ng thuật to&aacute;n AI c&acirc;n chỉnh lại c&aacute;c th&ocirc;ng số độ s&aacute;ng, iso, khẩu độ, m&agrave;u sắc để cho ra bức ảnh tốt nhất chỉ với 1 thao t&aacute;c bấm chụp đơn giản, thay v&igrave; chỉnh h&agrave;ng t&aacute; c&aacute;c th&ocirc;ng số phức tạp như trước kia.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-283220-083234.jpg" onclick="return false;"><img alt="Tích hợp AI cho ra tấm ảnh đẹp hơn - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-283220-083234.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, camera g&oacute;c rộng với g&oacute;c nh&igrave;n tương đương với mắt người, gi&uacute;p bạn thu được to&agrave;n bộ những cảnh đẹp trước v&agrave;o khung h&igrave;nh dễ d&agrave;ng, hiệu ứng g&oacute;c rộng gi&uacute;p h&igrave;nh ảnh phong cảnh của bạn trở n&ecirc;n rộng lớn h&ugrave;ng vĩ hơn bao giờ hết.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-215420-035416.jpg" onclick="return false;"><img alt="Camera góc rộng 8 MP dễ dàng bắt trọn mọi chi tiết trên khung hình - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-215420-035416.jpg" /></a></p>
+
+<p>Chưa dừng lại ở đ&oacute;, bạn c&oacute; thể chụp những sự vật khoảng c&aacute;ch xa nhờ v&agrave;o&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-zoom" target="_blank">camera zoom</a>&nbsp;2x. Ngược lại, cảm biến&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-macro" target="_blank">chụp cận macro</a>&nbsp;gi&uacute;p bạn c&oacute; được những tấm h&igrave;nh cận cảnh ấn tượng, đầy m&ecirc; hoặc.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-214720-034758.jpg" onclick="return false;"><img alt="Camera macro 2 MP chụp cận cảnh độc đáo - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-214720-034758.jpg" /></a></p>
+
+<h3>VOS bộ giao diện người d&ugrave;ng d&agrave;nh ri&ecirc;ng cho người Việt</h3>
+
+<p>Aris Pro cũng sẽ chạy tr&ecirc;n VOS độc quyền từ Vsmart. VOS chạy&nbsp;<a href="https://www.thegioididong.com/dtdd?g=android" target="_blank">Android</a>&nbsp;thuần &iacute;t t&ugrave;y biến, đồng thời giao diện th&acirc;n thiện, hỗ trợ tiếng Việt sẽ l&agrave; một điểm cộng, gi&uacute;p tối ưu hiệu năng, m&aacute;y chạy mượt m&agrave; v&agrave; th&acirc;n thiện cho người d&ugrave;ng Việt.</p>
+
+<p>Aris Pro cũng l&agrave; một trong số &iacute;t điện thoại hiện nay c&oacute; &aacute;p dụng c&ocirc;ng nghệ bảo mật lượng tử Quantum QRNG v&agrave; c&ocirc;ng nghệ kh&oacute;a x&aacute;c thực FIDO2 ti&ecirc;n tiến n&acirc;ng mức bảo mật cao nhất, bảo vệ t&agrave;i khoản ng&acirc;n h&agrave;ng, th&ocirc;ng tin quan trọng của bạn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228531/vsmart-aris-pro-215620-035638.jpg" onclick="return false;"><img alt="Công nghệ bảo mật lượng tử Quantum QRNG - Vsmart Aris Pro" src="https://cdn.tgdd.vn/Products/Images/42/228531/vsmart-aris-pro-215620-035638.jpg" /></a></p>
+
+<p>C&oacute; thể thấy, với điểm s&aacute;ng l&agrave; ti&ecirc;n phong trong c&ocirc;ng nghệ camera ẩn sau m&agrave;n h&igrave;nh. Vsmart Aris hứa hẹn tạo n&ecirc;n cơn sốt trong giới c&ocirc;ng nghệ, mở ra một xu hướng mới về m&agrave;n h&igrave;nh tr&agrave;n viền kh&ocirc;ng khiếm khuyết trong tương lai kh&ocirc;ng xa.</p>
+',
+        'slug'=>Str::slug('Điện thoại Vsmart Aris Pro','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại iPhone 12 64GB',
+        'price'=>32490000,
+        'old_price'=>33890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-xanh-duong-new-600x600-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>6,
+        'brand_id'=>10,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của iPhone 12 64GB</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/213031/Slider/vi-vn-iphone-12-1.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&acirc;y lấy sim, C&aacute;p Lightning - Type C</p>
+
+<h3>Trong những th&aacute;ng cuối năm 2020&nbsp;<a href="https://www.thegioididong.com/apple" target="_blank">Apple</a>&nbsp;đ&atilde; ch&iacute;nh thức giới thiệu đến người d&ugrave;ng cũng như iFan thế hệ iPhone&nbsp;12&nbsp;series&nbsp;mới với h&agrave;ng loạt t&iacute;nh năng bức ph&aacute;, thiết kế được lột x&aacute;c ho&agrave;n to&agrave;n, hiệu năng đầy mạnh mẽ v&agrave; một trong số đ&oacute; ch&iacute;nh l&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-12" target="_blank">iPhone 12 64GB</a>.</h3>
+
+<h3>Hiệu năng vượt xa mọi giới hạn</h3>
+
+<p>Apple đ&atilde; trang bị con chip mới nhất của h&atilde;ng (t&iacute;nh đến 11/2020) cho iPhone 12 đ&oacute; l&agrave;&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-chip-apple-a14-bionic-tren-iphone-12-va-ipad-1290695" target="_blank">A14 Bionic</a>, được sản xuất tr&ecirc;n tiến tr&igrave;nh 5 nm với hiệu suất ổn định hơn so với chip A13 được trang bị tr&ecirc;n phi&ecirc;n bản tiền nhiệm&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-11" target="_blank">iPhone 11</a>.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-144220-044259.jpg" onclick="return false;"><img alt="Chip A14 Bionic mạnh mẽ | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-144220-044259.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-chip-apple-a14-bionic-tren-iphone-12-va-ipad-1290695" target="_blank">T&igrave;m hiểu về chip Apple A14 Bionic tr&ecirc;n iPhone 12 v&agrave; iPad Air 2020</a></p>
+
+<p>Với CPU Apple A14 Bionic, bạn c&oacute; thể dễ d&agrave;ng trải nghiệm mọi tựa game với những pha chuyển cảnh mượt m&agrave; hay h&agrave;ng loạt hiệu ứng đồ họa tuyệt đẹp ở mức đồ họa cao m&agrave; kh&ocirc;ng lo t&igrave;nh trạng giật lag.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-18.jpg" onclick="return false;"><img alt="Chiến game siêu mượt, đồ họa tuyệt đẹp | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-18.jpg" /></a></p>
+
+<p>Chưa hết, Apple c&ograve;n g&acirc;y bất ngờ đến người d&ugrave;ng với hệ thống 5G lần đầu ti&ecirc;n được trang bị tr&ecirc;n những chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd-apple-iphone" target="_blank">iPhone</a>, cho tốc độ truyền tải dữ liệu nhanh hơn, ổn định hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-20.jpg" onclick="return false;"><img alt="Kết nối 5G truyền tải dữ liệu nhanh chóng | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-20.jpg" /></a></p>
+
+<p>iPhone 12 sẽ chạy tr&ecirc;n hệ điều h&agrave;nh&nbsp;<a href="https://www.thegioididong.com/hoi-dap/ios-14-va-5-tinh-nang-moi-thu-vi-khong-the-bo-qua-tren-1268933" target="_blank">iOS 14</a>&nbsp;với nhiều t&iacute;nh năng hấp dẫn như hỗ trợ Widget cũng như những n&acirc;ng cấp tối ưu phần mềm đ&aacute;ng kể mang lại những trải nghiệm th&uacute; vị mới lạ đến người d&ugrave;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-13.jpg" onclick="return false;"><img alt="Khám phá những tính năng mới hấp dẫn trên iOS 14 | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-13.jpg" /></a></p>
+
+<h3>Cụm camera kh&ocirc;ng ngừng cải tiến</h3>
+
+<p>iPhone 12 được trang bị hệ thống camera k&eacute;p bao gồm&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c rộng</a>&nbsp;v&agrave; camera si&ecirc;u rộng c&oacute; c&ugrave;ng độ ph&acirc;n giải l&agrave; 12 MP, chế độ ban đ&ecirc;m (<a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Night Mode</a>) tr&ecirc;n bộ đ&ocirc;i camera n&agrave;y cũng đ&atilde; được n&acirc;ng cấp về phần cứng lẫn thuật to&aacute;n xử l&yacute;, khi chụp những bức ảnh thiếu s&aacute;ng bạn sẽ nhận được kết quả ấn tượng với m&agrave;u sắc, độ chi tiết r&otilde; n&eacute;t đ&aacute;ng kinh ngạc.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-040321-030344.jpg" onclick="return false;"><img alt="Cụm camera sau| iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-040321-030344.jpg" /></a></p>
+
+<p>Bạn c&oacute; thể kh&aacute;m ph&aacute; th&ecirc;m những t&iacute;nh năng của camera tr&ecirc;n iPhone 12 như chế độ smart HDR 3 gi&uacute;p c&acirc;n bằng yếu tố &aacute;nh s&aacute;ng trong ảnh, l&agrave;m nổi bật chi tiết đối tượng v&agrave; c&acirc;y cối trong khi vẫn giữ được m&agrave;u sắc phong ph&uacute; của bầu trời ngay cả v&agrave;o buổi trưa nắng gắt.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-9.jpg" onclick="return false;"><img alt="Chụp ảnh với tính năng smart HDR 3 sắc nét, chất lượng | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-9.jpg" /></a></p>
+
+<p>Chế độ chụp ch&acirc;n dung đ&atilde; tốt nay c&ograve;n tốt hơn trong việc l&agrave;m mờ hậu cảnh một c&aacute;ch nghệ thuật để dồn hết sự tập trung v&agrave;o đối tượng m&agrave; bạn muốn chụp.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-10.jpg" onclick="return false;"><img alt="Nổi bật chủ thể với tính năng chụp chân dung độc đáo | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-10.jpg" /></a></p>
+
+<p>Bạn sẽ dễ d&agrave;ng quay video 4K HDR với chuẩn điện ảnh&nbsp;<a href="https://www.thegioididong.com/hoi-dap/dolby-vision-la-gi-cac-ung-dung-noi-bat-va-nhung-loai-1226284" target="_blank">Dolby Vision</a>&nbsp;v&agrave; chỉnh sửa ngay tr&ecirc;n chiếc điện thoại của m&igrave;nh, bạn c&oacute; thể đưa video l&ecirc;n TV của bạn để thưởng thức thước phim sắc n&eacute;t chất lượng cao.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-11.jpg" onclick="return false;"><img alt="Quay video chất lượng ngay cả trong điều kiện ánh sáng yếu | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-11.jpg" /></a></p>
+
+<p>Sự kết hợp của 2 cảm biến chất lượng n&agrave;y đ&atilde; tạo n&ecirc;n một hệ thống camera chuy&ecirc;n nghiệp kh&ocirc;ng kh&aacute;c g&igrave; những chiếc m&aacute;y ảnh thực thụ, dễ d&agrave;ng đem lại những bức h&igrave;nh sắc n&eacute;t tuyệt đối, độ chi tiết cao v&agrave; đa dạng chế độ chụp cho người d&ugrave;ng linh hoạt sử dụng.</p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết iPhone 12 64GB</h3>
+
+<p><img alt="Thông số kỹ thuật 213031" src="https://cdn.tgdd.vn/Products/Images/42/213031/Kit/iphone-12-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-oled-la-gi-905762" target="_blank">OLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p>1170 x 2532 Pixels</p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.1&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>60 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>1200 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/mat-kinh-ceramic-shield-tren-iphone-12-la-gi-co-xin-so-nhu-1298900" target="_blank">K&iacute;nh cường lực Ceramic Shield</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>2 camera 12 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@24fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@240fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808#denflashkep" target="_blank">Đ&egrave;n LED k&eacute;p</a></p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/zoom-quang-hoc-va-zoom-ky-thuat-so-la-gi-co-gi-khac-nhau-1296828#zoom-ky-thuat-so" target="_blank">Zoom kỹ thuật số</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>12 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#4k" target="_blank">Quay video 4K</a><a href="https://www.thegioididong.com/hoi-dap/ar-stickers-la-gi-vi-sao-hang-nao-cung-ap-dung-ar-1096228" target="_blank">Nh&atilde;n d&aacute;n (AR Stickers)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-retina-flash-tren-cac-dong-dien-thoai-ip-1173061" target="_blank">Retina Flash</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p>iOS 14</p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-xu-ly-apple-a14-bionic-hieu-nang-manh-den-1302095" target="_blank">Apple A14 Bionic 6 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 3.1 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-apple-a12-bionic-con-chip-7nm-dau-1171937" target="_blank">Apple GPU 4 nh&acirc;n</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>4 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>64 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>49 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-5g-la-gi-co-nhung-uu-diem-gi-so-voi-4g-1312277" target="_blank">Hỗ trợ 5G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#esim" target="_blank">1 Nano SIM &amp; 1 eSIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wi-fi-chuan-80211ax-la-gi-tim-hieu-ve-wi-fi-the-1187524" target="_blank">Wi-Fi 802.11 a/b/g/n/ac/ax</a>Wi-Fi MIMO<a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a></p>
+	</li>
+	<li>GPS
+	<p>iBeacon<a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#galileo" target="_blank">GALILEO</a>QZSS<a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-a2dp-la-gi-723725" target="_blank">A2DP</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>2815 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-khong-day-la-gi-761328" target="_blank">Sạc kh&ocirc;ng d&acirc;y</a><a href="https://www.thegioididong.com/hoi-dap/che-do-tiet-kiem-pin-va-sieu-tiet-kiem-pin-la-gi-926730" target="_blank">Tiết kiệm pin</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-magsafe-magsafe-2-la-gi-co-tren-thiet-bi-nao-cua-1241888" target="_blank">Sạc kh&ocirc;ng d&acirc;y MagSafe</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>20 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/face-id-la-gi-va-cach-hoat-dong-cua-face-id-1021871" target="_blank">Mở kho&aacute; khu&ocirc;n mặt Face ID</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/chong-nuoc-va-chong-bui-tren-smart-phone-771130" target="_blank">Kh&aacute;ng nước, kh&aacute;ng bụi</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP68</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p><a href="https://www.thegioididong.com/hoi-dap/microphone-chong-on-la-gi-894183" target="_blank">C&oacute; (microphone chuy&ecirc;n dụng chống ồn)</a></p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#h264" target="_blank">H.264(MPEG4-AVC)</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#lossless" target="_blank">Lossless</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung nh&ocirc;m &amp; Mặt lưng k&iacute;nh cường lực</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 146.7 mm - Ngang 71.5 mm - D&agrave;y 7.4 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>164 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>10/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Ghi dấu ấn về mặt thiết kế</h2>
+
+<p>Về ngoại h&igrave;nh iPhone 12 c&oacute; thiết kế ho&agrave;i niệm với phần cạnh được l&agrave;m vu&ocirc;ng vức tương tự tr&ecirc;n mẫu iPhone 4 thay v&igrave; bo cong như iPhone 11.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-040321-030352.jpg" onclick="return false;"><img alt=" iPhone 12 có thiết kế hoài niệm tương tự iPhone 4 series" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-040321-030352.jpg" /></a></p>
+
+<p>Ở mặt trước iPhone 12 phần tai thỏ được l&agrave;m nhỏ gọn hơn v&agrave; cũng l&agrave; nơi chứa cảm biến Face ID c&oacute; thể nhận diện khu&ocirc;n mặt một c&aacute;ch nhanh ch&oacute;ng v&agrave; ch&iacute;nh x&aacute;c.</p>
+
+<p>Apple c&ograve;n mang đến cho người một loạt gam m&agrave;u c&aacute; t&iacute;nh, độc đ&aacute;o tr&ecirc;n những chiếc iPhone của m&igrave;nh để người d&ugrave;ng c&oacute; sự lựa chọn ph&ugrave; hợp với những phong c&aacute;ch kh&aacute;c nhau.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-17.jpg" onclick="return false;"><img alt="Sở hữu loạt gam màu cá tính | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-17.jpg" /></a></p>
+
+<p>iPhone 12 được trang bị m&agrave;n h&igrave;nh Super Retina XDR OLED tr&agrave;n viền c&oacute; k&iacute;ch thước 6.1 inch, cho bạn kh&ocirc;ng gian trải nghiệm lớn cũng như những gi&acirc;y ph&uacute;t giải tr&iacute; hấp dẫn tr&ecirc;n một m&agrave;n ảnh v&ocirc; c&ugrave;ng chất lượng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-040421-030410.jpg" onclick="return false;"><img alt="Màn hình Super Retina XDR OLED 6.1 inch | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-040421-030410.jpg" /></a></p>
+
+<p>M&aacute;y được chế t&aacute;c c&oacute; độ ho&agrave;n thiện cực cao với thiết kế nguy&ecirc;n khối, khung nh&ocirc;m v&agrave; mặt sau l&agrave; k&iacute;nh cường lực cao cấp to&aacute;t l&ecirc;n vẻ ngo&agrave;i sang chảnh cũng như mang lại độ hiệu quả an to&agrave;n cao mỗi khi sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-041521-031513.jpg" onclick="return false;"><img alt="Độ hoàn thiện cao, chắc chắn cho thiết bị | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-041521-031513.jpg" /></a></p>
+
+<p>Mặt trước của iPhone 12 được phủ ho&agrave;n to&agrave;n bởi lớp k&iacute;nh cường lực Ceramic Shield cứng c&aacute;p, được đ&aacute;nh gi&aacute; l&agrave; c&oacute; độ bền cao v&agrave; cứng c&aacute;p hơn hầu hết c&aacute;c loại mặt k&iacute;nh c&oacute; tr&ecirc;n&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">điện thoại th&ocirc;ng minh</a>&nbsp;kh&aacute;c c&oacute; mặt tr&ecirc;n thị trường.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-040321-030328.jpg" onclick="return false;"><img alt="Lớp kính cường lực Ceramic Shield | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-040321-030328.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/mat-kinh-ceramic-shield-tren-iphone-12-la-gi-co-xin-so-nhu-1298900" target="_blank">Mặt k&iacute;nh Ceramic Shield tr&ecirc;n iPhone 12 l&agrave; g&igrave;? C&oacute; xịn s&ograve; như quảng c&aacute;o?</a></p>
+
+<p>V&agrave; để cho thiết bị trở n&ecirc;n ho&agrave;n hảo hơn n&ecirc;n kh&ocirc;ng thể thiếu khả năng kh&aacute;ng nước, bụi chuẩn IP68 gi&uacute;p người d&ugrave;ng y&ecirc;n t&acirc;m sử dụng với những buổi đi chơi biển m&agrave; kh&ocirc;ng hề lo chiếc m&aacute;y bị v&ocirc; nước.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-2.jpg" onclick="return false;"><img alt="Kháng nước bụi chuẩn IP68 | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-2.jpg" /></a></p>
+
+<h3>Trải nghiệm xuy&ecirc;n suốt, liền mạch cả ng&agrave;y d&agrave;i</h3>
+
+<p>Để bạn c&oacute; những gi&acirc;y ph&uacute;t trải nghiệm liền mạch, Apple đ&atilde; trang bị một vi&ecirc;n pin c&oacute; dung lượng 2815 mAh, t&iacute;ch hợp cho khả năng tiết kiệm pin gi&uacute;p người d&ugrave;ng c&oacute; thể giải tr&iacute; đa phương tiện l&ecirc;n đến 17 giờ v&agrave; nghe nhạc li&ecirc;n tục l&ecirc;n đến 65 giờ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-040321-030358.jpg" onclick="return false;"><img alt="Dung lượng pin sử dụng đáp ứng đủ một ngày | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-040321-030358.jpg" /></a></p>
+
+<p>V&agrave; kh&ocirc;ng thể thiếu đ&oacute; ch&iacute;nh l&agrave; t&iacute;nh năng sạc nhanh, iPhone 12 c&oacute; khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;qua c&aacute;p c&ocirc;ng suất 20 W, chỉ trong v&ograve;ng 30 ph&uacute;t th&igrave; chiếc m&aacute;y đ&atilde; c&oacute; thế sạc được 50% pin. Th&ecirc;m v&agrave;o đ&oacute; l&agrave; khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-khong-day" target="_blank">sạc kh&ocirc;ng d&acirc;y</a>&nbsp;MagSafe v&ocirc; c&ugrave;ng tiện dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/213031/iphone-12-16.jpg" onclick="return false;"><img alt="Sạc nhanh và sạc không dây tiện lợi hữu ích | iPhone 12" src="https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-16.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cong-nghe-magsafe-magsafe-2-la-gi-co-tren-thiet-bi-nao-cua-1241888" target="_blank">MagSafe tr&ecirc;n iPhone 12 l&agrave; g&igrave;? D&ugrave;ng để l&agrave;m g&igrave; tr&ecirc;n c&aacute;c thiết bị Apple?</a></p>
+
+<p>Sự lột x&aacute;c đầy mạnh mẽ lần n&agrave;y của Apple kh&ocirc;ng chỉ g&acirc;y bất ngờ đến người d&ugrave;ng m&agrave; c&ograve;n đ&aacute;nh dấu một kỷ nguy&ecirc;n mới trong nền ph&aacute;t triển smartphone Apple. V&agrave; đ&acirc;y cũng được xem l&agrave; một trong những bộ series iPhone m&agrave; Apple đặt nhiều t&acirc;m huyết, mục đ&iacute;ch v&agrave; đầy t&iacute;nh năng mạnh mẽ chưa từng thấy.</p>
+',
+        'slug'=>Str::slug('Điện thoại iPhone 12 64GB','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại iPhone 12 Pro Max 512GB',
+        'price'=>41490000,
+        'old_price'=>43890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-xanh-duong-new-600x600-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>6,
+        'brand_id'=>10,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của iPhone 12 Pro Max 512GB</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/228744/Slider/vi-vn-iphone-12-pro-max-512gb-thumbvideo.jpg" /></p>
+
+<h3><a href="https://www.thegioididong.com/dtdd/iphone-12-pro-max-512gb" target="_blank">iPhone 12 Pro Max 512GB</a>&nbsp;- đẳng cấp từ t&ecirc;n gọi đến từng chi tiết. Ngay từ khi chỉ l&agrave; tin đồn th&igrave; chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;n&agrave;y đ&atilde; l&agrave;m đứng ngồi kh&ocirc;ng y&ecirc;n bao &ldquo;fan cứng&rdquo; nh&agrave;&nbsp;<a href="https://www.thegioididong.com/apple" target="_blank">Apple</a>, với những n&acirc;ng cấp v&ocirc; c&ugrave;ng nổi bật hứa hẹn sẽ mang đến những trải nghiệm tốt nhất về mọi mặt m&agrave; chưa một chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd-apple-iphone" target="_blank">iPhone</a>&nbsp;tiền nhiệm n&agrave;o c&oacute; được.</h3>
+
+<h3>Thu h&uacute;t từ c&aacute;i nh&igrave;n đầu ti&ecirc;n</h3>
+
+<p>Quay trở lại đầy ho&agrave;i niệm với thiết kế phẳng, vu&ocirc;ng vức tương tự&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-4-8gb" target="_blank">iPhone 4</a>&nbsp;nhưng kh&ocirc;ng hề cho cảm gi&aacute;c lỗi thời m&agrave; ho&agrave;n to&agrave;n sang trọng với thiết kế tinh tế v&agrave; được cấu tạo từ những vật liệu cao cấp hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-144921-094924.jpg" onclick="return false;"><img alt="Trở lại kiểu thiết kế vuông vức từng có trên iPhone 4 | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-144921-094924.jpg" /></a></p>
+
+<p><a href="https://www.thegioididong.com/dtdd/iphone-12-pro-max" target="_blank">iPhone 12 Pro Max</a>&nbsp;được chế t&aacute;c từ mặt k&iacute;nh cường lực Ceramic Shield c&oacute; độ bền gấp 4 lần iPhone tiền nhiệm, phần khung cấu tạo từ th&eacute;p kh&ocirc;ng gỉ cực kỳ chắc chắn. Mang lại khả năng chống trầy, chống va đập tốt hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-122620-042638.jpg" onclick="return false;"><img alt="Mặt kính Ceramic Shield | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-122620-042638.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/mat-kinh-ceramic-shield-tren-iphone-12-la-gi-co-xin-so-nhu-1298900" target="_blank">Mặt k&iacute;nh Ceramic Shield tr&ecirc;n iPhone l&agrave; g&igrave;? C&oacute; xịn s&ograve; như quảng c&aacute;o?</a></p>
+
+<h3>Super Retina XDR - mang đến trải nghiệm m&agrave;n h&igrave;nh ch&acirc;n thực</h3>
+
+<p>Sau những ph&agrave;n n&agrave;n về phần viền m&agrave;n h&igrave;nh của&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-11" target="_blank">iPhone 11</a>&nbsp;series th&igrave; nay chiếc iPhone 12 Pro Max 512GB đ&atilde; được cải thiện triệt để với k&iacute;ch thước m&agrave;n h&igrave;nh 6.7 inch, tỉ lệ m&agrave;n h&igrave;nh so với th&acirc;n m&aacute;y tương đương 87.4% tăng tối đa diện t&iacute;ch hiển thị.</p>
+
+<p>C&ocirc;ng nghệ m&agrave;n h&igrave;nh Super Retina XDR mang đến trải nghiệm m&agrave;n h&igrave;nh ch&acirc;n thực từng chi tiết. Nhờ t&iacute;nh năng True Tone tự động điều chỉnh cho độ ch&iacute;nh x&aacute;c m&agrave;u sắc cao, &aacute;nh s&aacute;ng h&agrave;i h&ograve;a.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-145021-095032.jpg" onclick="return false;"><img alt="Công nghệ màn hình Super Retina XDR OLED mang đến trải nghiệm hoàn hảo | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-145021-095032.jpg" /></a></p>
+
+<p>Độ s&aacute;ng tối đa l&ecirc;n đến 1200 nits (HDR), hỗ trợ HDR 10, dải m&agrave;u P3 chuẩn điện ảnh đảm bảo đ&acirc;y l&agrave; c&ocirc;ng nghệ m&agrave;n h&igrave;nh tốt nhất từ trước đến nay của nh&agrave; Apple, đ&aacute;p ứng nhu cầu giải tr&iacute; ng&agrave;y c&agrave;ng thiết yếu của người d&ugrave;ng smartphone.</p>
+
+<h3>Hệ thống camera được n&acirc;ng cấp mạnh mẽ</h3>
+
+<p>iPhone 12 Pro Max được trang bị bộ 3 camera chuy&ecirc;n nghiệp với độ ph&acirc;n giải đều bằng 12 MP, trong đ&oacute; gồm một cảm biến ch&iacute;nh l&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c rộng</a>, một camera g&oacute;c si&ecirc;u rộng 120 độ v&agrave; một camera chụp x&oacute;a ph&ocirc;ng. Ngo&agrave;i ra, 12 Pro Max c&ograve;n hỗ trợ một cảm biến LiDAR gi&uacute;p việc lấy n&eacute;t trong điều kiện thiếu s&aacute;ng nhanh hơn gấp 6 lần.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-145321-095330.jpg" onclick="return false;"><img alt="Cụm 3 camera chất lượng | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-145321-095330.jpg" /></a></p>
+
+<p>iPhone 12 Pro Max c&oacute; cảm biến lớn hơn gi&uacute;p thu s&aacute;ng tốt hơn 27% v&agrave; c&oacute; c&ocirc;ng nghệ chống rung ti&ecirc;n tiến. Dựa v&agrave;o c&aacute;c yếu tố tr&ecirc;n, iPhone 12 Pro Max c&oacute; thể chụp những bức ảnh chất lượng, đầy m&agrave;u sắc, đủ chi tiết, d&ugrave; trong m&ocirc;i trường thiếu s&aacute;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-045920-025933.jpg" onclick="return false;"><img alt="Cụm camera chụp ảnh sắc nét, chi tiết | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-045920-025933.jpg" /></a></p>
+
+<p>Tất cả mang đến những thước ảnh tự nhi&ecirc;n ho&agrave;n hảo như c&aacute;i nh&igrave;n trực tiếp từ đ&ocirc;i mắt của bạn.</p>
+
+<p>Camera trước cũng c&oacute; độ ph&acirc;n giải 12 MP hỗ trợ đầy đủ c&aacute;c t&iacute;nh năng như chế độ chụp ch&acirc;n dung với hiệu ứng bokeh, Memoji, Night Mode, Deep Fusion,... v&agrave; c&ograve;n nhiều t&iacute;nh năng kh&aacute;c.</p>
+
+<p>Cảm biến LiDAR đo đạc v&agrave; qu&eacute;t hiển thị sơ đồ 3D, l&agrave; một ưu điểm lớn cho người d&ugrave;ng l&agrave; &ldquo;d&acirc;n&rdquo; thiết kế.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-040720-030754.jpg" onclick="return false;"><img alt="Cảm biến LiDAR quét chính xác | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-040720-030754.jpg" /></a></p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết iPhone 12 Pro Max 512GB</h3>
+
+<p><img alt="Thông số kỹ thuật 228744" src="https://cdn.tgdd.vn/Products/Images/42/228744/Kit/iphone-12-pro-max-512gb-note-2.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-oled-la-gi-905762" target="_blank">OLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p>1284 x 2778 Pixels</p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.7&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>60 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>1200 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/mat-kinh-ceramic-shield-tren-iphone-12-la-gi-co-xin-so-nhu-1298900" target="_blank">K&iacute;nh cường lực Ceramic Shield</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>3 camera 12 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@24fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808#denflashkep" target="_blank">Đ&egrave;n LED k&eacute;p</a></p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/zoom-quang-hoc-va-zoom-ky-thuat-so-la-gi-co-gi-khac-nhau-1296828#zoom-quang-hoc" target="_blank">Zoom quang học</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chong-rung-quang-hoc-ois-chup-anh-tren-sm-906416" target="_blank">Chống rung quang học (OIS)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-raw-tren-smartphone-906402" target="_blank">Ảnh Raw</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>12 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#4k" target="_blank">Quay video 4K</a><a href="https://www.thegioididong.com/hoi-dap/ar-stickers-la-gi-vi-sao-hang-nao-cung-ap-dung-ar-1096228" target="_blank">Nh&atilde;n d&aacute;n (AR Stickers)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-retina-flash-tren-cac-dong-dien-thoai-ip-1173061" target="_blank">Retina Flash</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p>iOS 14</p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-xu-ly-apple-a14-bionic-hieu-nang-manh-den-1302095" target="_blank">Apple A14 Bionic 6 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 3.1 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-apple-a12-bionic-con-chip-7nm-dau-1171937" target="_blank">Apple GPU 4 nh&acirc;n</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>6 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>512 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>497 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-5g-la-gi-co-nhung-uu-diem-gi-so-voi-4g-1312277" target="_blank">Hỗ trợ 5G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#esim" target="_blank">1 Nano SIM &amp; 1 eSIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wi-fi-chuan-80211ax-la-gi-tim-hieu-ve-wi-fi-the-1187524" target="_blank">Wi-Fi 802.11 a/b/g/n/ac/ax</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-a2dp-la-gi-723725" target="_blank">A2DP</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>3687 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-khong-day-la-gi-761328" target="_blank">Sạc kh&ocirc;ng d&acirc;y</a><a href="https://www.thegioididong.com/hoi-dap/che-do-tiet-kiem-pin-va-sieu-tiet-kiem-pin-la-gi-926730" target="_blank">Tiết kiệm pin</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-magsafe-magsafe-2-la-gi-co-tren-thiet-bi-nao-cua-1241888" target="_blank">Sạc kh&ocirc;ng d&acirc;y MagSafe</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>20 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/face-id-la-gi-va-cach-hoat-dong-cua-face-id-1021871" target="_blank">Mở kho&aacute; khu&ocirc;n mặt Face ID</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/chong-nuoc-va-chong-bui-tren-smart-phone-771130" target="_blank">Kh&aacute;ng nước, kh&aacute;ng bụi</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP68</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p><a href="https://www.thegioididong.com/hoi-dap/microphone-chong-on-la-gi-894183" target="_blank">C&oacute; (microphone chuy&ecirc;n dụng chống ồn)</a></p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#h264" target="_blank">H.264(MPEG4-AVC)</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#lossless" target="_blank">Lossless</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung th&eacute;p kh&ocirc;ng gỉ &amp; Mặt lưng k&iacute;nh cường lực</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 160.8 mm - Ngang 78.1 mm - D&agrave;y 7.4 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>228 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>10/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Chuẩn kết nối 5G - nhanh hơn, th&ocirc;ng minh hơn</h2>
+
+<p>Cuối c&ugrave;ng th&igrave; nh&agrave; T&aacute;o cũng đ&atilde; đưa c&ocirc;ng nghệ 5G v&agrave;o iPhone 12 series, b&ecirc;n cạnh tốc độ thực th&igrave; những &iacute;ch lợi kh&aacute;c của 5G sẽ l&agrave; độ trễ thấp v&agrave; c&ocirc;ng suất lớn hơn.</p>
+
+<p>C&ocirc;ng nghệ n&agrave;y sẽ gi&uacute;p người d&ugrave;ng sử dụng c&aacute;c trải nghiệm giải tr&iacute; ổn định, tải phim chất lượng cao v&ocirc; c&ugrave;ng nhanh ch&oacute;ng. Với 5G, ch&uacute;ng ta c&oacute; thể tải một bộ phim chỉ trong v&ograve;ng v&agrave;i gi&acirc;y.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-041020-031059.jpg" onclick="return false;"><img alt="Tốc độ 5G siêu nhanh | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-041020-031059.jpg" /></a></p>
+
+<p>Apple cho biết h&atilde;ng đ&atilde; ph&aacute;t triển được một số c&ocirc;ng nghệ nhằm giảm việc ti&ecirc;u hao pin của iPhone khi sử dụng dữ liệu, bao gồm chế độ Dữ liệu Th&ocirc;ng minh (Smart Data Mode), cho ph&eacute;p c&aacute;c ứng dụng chỉ sử dụng mạng 5G khi thực sự cần.</p>
+
+<h3>Apple A14 Bionic - Hiệu năng mạnh mẽ h&agrave;ng đầu</h3>
+
+<p>L&agrave; phi&ecirc;n bản cao cấp nhất của iPhone 12 series cấu h&igrave;nh của m&aacute;y sẽ kh&ocirc;ng l&agrave;m bạn thất vọng đ&acirc;u. iPhone 12 Pro Max sử dụng CPU Apple A14 Bionic, đ&acirc;y l&agrave; thế hệ chip đầu ti&ecirc;n của Apple được sản xuất tr&ecirc;n tiến tr&igrave;nh 5 nm.</p>
+
+<p>Theo Apple th&igrave; h&atilde;ng đ&atilde; tăng th&ecirc;m 40% b&oacute;ng b&aacute;n dẫn gi&uacute;p tăng tốc độ đồng thời tăng hiệu suất để c&oacute; tuổi thọ pin tốt hơn thế hệ&nbsp;trước,&nbsp;Machine Learning được tăng l&ecirc;n gấp 10 lần, qua đ&oacute; cải thiện h&igrave;nh ảnh trong từng cảnh phim hay đồ họa gaming.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-041820-031813.jpg" onclick="return false;"><img alt="Chip A14 Bionic mạnh mẽ hàng đầu | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-041820-031813.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-xu-ly-apple-a14-bionic-hieu-nang-manh-den-1302095" target="_blank">T&igrave;m hiểu chip xử l&yacute; Apple A14 Bionic. Hiệu năng mạnh đến mức n&agrave;o?</a></p>
+
+<p>Đ&acirc;y sẽ l&agrave; một trong những n&acirc;ng cấp mang lại &yacute; nghĩa lớn cho Siri, c&aacute;c c&ocirc;ng cụ dịch. V&igrave; Apple xử l&yacute; phần lớn c&aacute;c dữ liệu ngay tr&ecirc;n m&aacute;y chứ kh&ocirc;ng sử dụng m&aacute;y chủ, điều n&agrave;y gi&uacute;p tăng t&iacute;nh ri&ecirc;ng tư, tăng tốc độ xử l&yacute; do loại bỏ được độ trễ khi tương t&aacute;c với m&aacute;y chủ.</p>
+
+<p>Với&nbsp;<a href="https://www.thegioididong.com/dtdd-rom-512gb-tro-len" target="_blank">bộ nhớ trong 512 GB</a>, gi&uacute;p nhu cầu lưu trữ ảnh, video, ứng dụng&hellip; tr&ecirc;n m&aacute;y chưa bao giờ l&agrave; vấn đề nan giải.</p>
+
+<h3>Hỗ trợ c&ocirc;ng nghệ sạc kh&ocirc;ng d&acirc;y MagSafe</h3>
+
+<p>iPhone 12 Pro Max c&oacute; dung lượng pin 3687 mAh, hỗ trợ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;qua c&aacute;p c&ocirc;ng suất 20 W c&oacute; thể sạc từ 0 - 50% trong khoảng 30 ph&uacute;t, khi bạn sạc bằng sạc kh&ocirc;ng d&acirc;y MagSafe th&igrave; m&aacute;y hỗ trợ sạc đến 15 W, sạc với chuẩn Qi th&igrave; hỗ trợ đến 7.5 W.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-041920-031904.jpg" onclick="return false;"><img alt="Sạc không dây MagSafe tiện lợi | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-041920-031904.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cong-nghe-magsafe-magsafe-2-la-gi-co-tren-thiet-bi-nao-cua-1241888" target="_blank">MagSafe tr&ecirc;n iPhone 12 l&agrave; g&igrave;? D&ugrave;ng để l&agrave;m g&igrave; tr&ecirc;n c&aacute;c thiết bị Apple?</a></p>
+
+<p>Theo như Apple c&ocirc;ng bố th&igrave; phi&ecirc;n bản Pro Max c&oacute; thể ph&aacute;t video offline khoảng 20 tiếng, ph&aacute;t nhạc khoảng 80 tiếng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228744/iphone-12-pro-max-512gb-142621-102605.jpg" onclick="return false;"><img alt="Hỗ trợ sạc nhanh | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228744/iphone-12-pro-max-512gb-142621-102605.jpg" /></a></p>
+
+<p>iPhone 12 Pro Max 512GB một sản phẩm c&oacute; những t&iacute;nh năng hiện đại nhất từ trước đến nay của nh&agrave; Apple. C&oacute; m&agrave;n h&igrave;nh Super Retina XDR OLED si&ecirc;u &quot;m&aacute;t mắt&quot;, hệ thống camera si&ecirc;u khủng cho đến hiệu năng v&ocirc; c&ugrave;ng mạnh mẽ từ A14 Bionic. Hứa hẹn sẽ mang lại trải nghiệm tốt nhất cho người sử dụng, n&acirc;ng tầm đẳng cấp v&agrave; sự thời thượng của chủ nh&acirc;n sở hữu n&oacute;.</p>
+',
+        'slug'=>Str::slug('Điện thoại iPhone 12 Pro Max 512GB','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại iPhone 12 Pro Max 256GB',
+        'price'=>36490000,
+        'old_price'=>38890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-vang-new-600x600-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>6,
+        'brand_id'=>10,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của iPhone 12 Pro Max 256GB</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/228743/Slider/vi-vn-iphone-12-pro-max-256gb-thumbvideo.jpg" /></p>
+
+<h3>Chiếc điện thoại&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-12-pro-max-256gb" target="_blank">iPhone 12 Pro Max 256 GB</a>&nbsp;l&agrave; mẫu smartphone sở hữu nhiều t&iacute;nh năng nổi bật với hệ thống camera chất lượng, hiệu năng vượt trội hay hỗ trợ kết nối 5G hứa hẹn sẽ l&agrave; mẫu sản phẩm mang lại cảm gi&aacute;c trải nghiệm tối ưu cho người d&ugrave;ng.</h3>
+
+<h3>Hiệu năng cao vượt mọi thử th&aacute;ch</h3>
+
+<p>Một sự cải tiến được coi l&agrave; nguồn l&otilde;i v&agrave; l&agrave; tr&aacute;i tim hay nguồn sức mạnh để c&oacute; thể vận h&agrave;nh một chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">điện thoại</a>&nbsp;si&ecirc;u phẩm 2020 đ&oacute; l&agrave;&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-chip-apple-a14-bionic-tren-iphone-12-va-ipad-1290695" target="_blank">chipset A14 Bionic</a>&nbsp;được sản xuất tr&ecirc;n tiến tr&igrave;nh 5 nm cho ph&eacute;p tạo ra 11.8 tỷ b&oacute;ng b&aacute;n dẫn mang đến hiệu năng v&ocirc; c&ugrave;ng mạnh mẽ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-022620-042659.jpg" onclick="return false;"><img alt="Chip A14 Bionic thách thức mọi giới hạn | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-022620-042659.jpg" /></a></p>
+
+<p>iOS 14 cũng được c&agrave;i sẵn tr&ecirc;n m&aacute;y v&agrave; mang nhiều điểm cải tiến gi&uacute;p m&aacute;y được tối ưu tốt hơn n&acirc;ng cao hiệu năng.</p>
+
+<p>T&iacute;nh năng App Library cho ph&eacute;p gộp tự động c&aacute;c ứng dụng c&oacute; sự tương đồng với nhau về chức năng như giải tr&iacute;, mạng x&atilde; hội, game,... tr&ocirc;ng thật tiện lợi.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-093020-103002.jpg" onclick="return false;"><img alt="Tính năng App Library | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-093020-103002.jpg" /></a></p>
+
+<p>Lần đầu ti&ecirc;n,&nbsp;<a href="https://www.thegioididong.com/apple" target="_blank">Apple</a>&nbsp;cho ph&eacute;p người d&ugrave;ng mang &ldquo;Widget&rdquo; l&ecirc;n m&agrave;n h&igrave;nh ch&iacute;nh. Bạn c&oacute; thể t&ugrave;y biến k&iacute;ch cỡ, đặt widget ở bất kỳ đ&acirc;u bạn th&iacute;ch. V&agrave; c&ograve;n nhiều điểm được đổi mới mong chờ bạn kh&aacute;m ph&aacute;.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-023020-043055.jpg" onclick="return false;"><img alt="Trải nghiệm các tính năng hấp dẫn trên iOS 14 | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-023020-043055.jpg" /></a></p>
+
+<h3>C&ocirc;ng nghệ 5G - tốc&nbsp;độ si&ecirc;u nhanh</h3>
+
+<p>Đ&acirc;y cũng lần đầu, m&aacute;y được hỗ trợ 5G cho tốc độ mạng si&ecirc;u nhanh, tốc độ tải xuống v&agrave; ph&aacute;t trực tiếp nhanh hơn, giảm độ trễ v&agrave; hiệu suất tổng thể được tốt hơn.</p>
+
+<p>Giờ đ&acirc;y việc tải c&aacute;c tập phim Full HD chỉ t&iacute;nh bằng gi&acirc;y, độ trễ tương đối thấp gi&uacute;p mọi trải nghiệm của bạn lu&ocirc;n được ổn định nhất.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-023220-043207.jpg" onclick="return false;"><img alt="Tốc độ 5G siêu nhanh | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-023220-043207.jpg" /></a></p>
+
+<p>Nhiều tựa&nbsp;<a href="https://www.thegioididong.com/game-app" target="_blank">game</a>&nbsp;mobile cực nặng đ&ograve;i hỏi cấu h&igrave;nh khủng như PUBG Mobile, Li&ecirc;n Qu&acirc;n hay mới nhất l&agrave; Tốc Chiến được Apple giới thiệu tại sự kiện,... c&ugrave;ng với mạng 5G cho bạn chơi tốt ở c&aacute;c mức thiết lập với sự mượt m&agrave;, kh&ocirc;ng giật lag.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-022920-042903.jpg" onclick="return false;"><img alt="Thoải mái chiến game | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-022920-042903.jpg" /></a></p>
+
+<p>B&ecirc;n cạnh đ&oacute;, 5G tr&ecirc;n&nbsp;<a href="https://www.thegioididong.com/dtdd-apple-iphone" target="_blank">iPhone</a>&nbsp;kh&ocirc;ng chỉ nhanh m&agrave; c&ograve;n th&ocirc;ng minh khi c&oacute; t&iacute;nh năng &ldquo;Smart Data&rdquo; cho ph&eacute;p tự động chuyển đổi qua lại giữa 5G v&agrave; LTE. Khi iPhone kh&ocirc;ng cần tốc độ 5G th&igrave; n&oacute; sẽ tự động d&ugrave;ng LTE để tiết kiệm pin. Bạn cũng c&oacute; thể sử dụng 5G bất cứ l&uacute;c n&agrave;o c&oacute; sẵn.</p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết iPhone 12 Pro Max 256GB</h3>
+
+<p><img alt="Thông số kỹ thuật 228743" src="https://cdn.tgdd.vn/Products/Images/42/228743/Kit/iphone-12-pro-max-256gb-note-2.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-oled-la-gi-905762" target="_blank">OLED</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p>1284 x 2778 Pixels</p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.7&quot;</p>
+	</li>
+	<li>Tần số qu&eacute;t
+	<p>60 Hz</p>
+	</li>
+	<li>Độ s&aacute;ng tối đa
+	<p>1200 nits</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/mat-kinh-ceramic-shield-tren-iphone-12-la-gi-co-xin-so-nhu-1298900" target="_blank">K&iacute;nh cường lực Ceramic Shield</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>3 camera 12 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@24fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808#denflashkep" target="_blank">Đ&egrave;n LED k&eacute;p</a></p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/zoom-quang-hoc-va-zoom-ky-thuat-so-la-gi-co-gi-khac-nhau-1296828#zoom-quang-hoc" target="_blank">Zoom quang học</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chong-rung-quang-hoc-ois-chup-anh-tren-sm-906416" target="_blank">Chống rung quang học (OIS)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-raw-tren-smartphone-906402" target="_blank">Ảnh Raw</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>12 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#4k" target="_blank">Quay video 4K</a><a href="https://www.thegioididong.com/hoi-dap/ar-stickers-la-gi-vi-sao-hang-nao-cung-ap-dung-ar-1096228" target="_blank">Nh&atilde;n d&aacute;n (AR Stickers)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-retina-flash-tren-cac-dong-dien-thoai-ip-1173061" target="_blank">Retina Flash</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p>iOS 14</p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-xu-ly-apple-a14-bionic-hieu-nang-manh-den-1302095" target="_blank">Apple A14 Bionic 6 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 3.1 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-apple-a12-bionic-con-chip-7nm-dau-1171937" target="_blank">Apple GPU 4 nh&acirc;n</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>6 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>256 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>241 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-5g-la-gi-co-nhung-uu-diem-gi-so-voi-4g-1312277" target="_blank">Hỗ trợ 5G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#esim" target="_blank">1 Nano SIM &amp; 1 eSIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wi-fi-chuan-80211ax-la-gi-tim-hieu-ve-wi-fi-the-1187524" target="_blank">Wi-Fi 802.11 a/b/g/n/ac/ax</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/bluetooth-50-chuan-bluetooth-danh-cho-thoi-dai-1113891" target="_blank">v5.0</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-a2dp-la-gi-723725" target="_blank">A2DP</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Dung lượng pin
+	<p>3687 mAh</p>
+	</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-khong-day-la-gi-761328" target="_blank">Sạc kh&ocirc;ng d&acirc;y</a><a href="https://www.thegioididong.com/hoi-dap/che-do-tiet-kiem-pin-va-sieu-tiet-kiem-pin-la-gi-926730" target="_blank">Tiết kiệm pin</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-magsafe-magsafe-2-la-gi-co-tren-thiet-bi-nao-cua-1241888" target="_blank">Sạc kh&ocirc;ng d&acirc;y MagSafe</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>20 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/face-id-la-gi-va-cach-hoat-dong-cua-face-id-1021871" target="_blank">Mở kho&aacute; khu&ocirc;n mặt Face ID</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/chong-nuoc-va-chong-bui-tren-smart-phone-771130" target="_blank">Kh&aacute;ng nước, kh&aacute;ng bụi</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP68</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p><a href="https://www.thegioididong.com/hoi-dap/microphone-chong-on-la-gi-894183" target="_blank">C&oacute; (microphone chuy&ecirc;n dụng chống ồn)</a></p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#h264" target="_blank">H.264(MPEG4-AVC)</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#lossless" target="_blank">Lossless</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung th&eacute;p kh&ocirc;ng gỉ &amp; Mặt lưng k&iacute;nh cường lực</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 160.8 mm - Ngang 78.1 mm - D&agrave;y 7.4 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>228 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>10/2020</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Thiết kế&nbsp;đậm chất truyền thống nhưng hiện&nbsp;đại</h2>
+
+<p>iPhone 12 Pro Max l&agrave;m người d&ugrave;ng nhớ lại những k&yacute; ức xưa cũ đi v&agrave;o huyền thoại. N&eacute;t thiết kế với khung viền vu&ocirc;ng vức, mạnh mẽ từng l&agrave;m n&ecirc;n t&ecirc;n tuổi của iPhone 4, iPhone 5 giờ đ&acirc;y quay trở lại.</p>
+
+<p>Khung viền iPhone 12 Pro Max được ho&agrave;n thiện bằng th&eacute;p kh&ocirc;ng gỉ, s&aacute;ng b&oacute;ng gi&uacute;p tăng độ cứng c&aacute;p v&agrave; sang trọng cho m&aacute;y.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-4-1.jpg" onclick="return false;"><img alt="Khung viền máy sử dụng thép không gỉ cao cấp | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-4-1.jpg" /></a></p>
+
+<p>Mặt lưng trang bị cụm camera độc đ&aacute;o được đặt lệch về b&ecirc;n tr&aacute;i, mặt k&iacute;nh sau cũng được phủ mờ, cải thiện độ b&aacute;m khi cầm v&agrave; hạn chế mồ h&ocirc;i, dấu v&acirc;n tay.</p>
+
+<p>Mặt trước của iPhone 12 Pro Max phủ một lớp bảo vệ mới c&oacute; t&ecirc;n l&agrave; Ceramic Shield. Apple c&ograve;n khẳng định l&aacute; chắn Ceramic Shield n&agrave;y sẽ gi&uacute;p điện thoại bạn chống trầy xước v&agrave; va đập tốt hơn 4 lần th&ocirc;ng thường.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-023720-043759.jpg" onclick="return false;"><img alt="Mặt kính Ceramic Shield xuất hiện trên mặt trước màn hình | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-023720-043759.jpg" /></a></p>
+
+<p>V&agrave; mặt trước vẫn c&ograve;n tai thỏ kh&aacute; lớn nơi chứa camera selfie v&agrave; cũng như chứa cụm cảm biến Face ID&nbsp;<a href="https://www.thegioididong.com/dtdd-bao-mat-khuon-mat" target="_blank">nhận diện khu&ocirc;n mặt</a>. Tuy nhi&ecirc;n, c&aacute;c ứng dụng cũng đ&atilde; được tối ưu sao cho kh&ocirc;ng bị ảnh hưởng bởi tay thỏ qu&aacute; nhiều.</p>
+
+<p>Đ&acirc;y cũng l&agrave; mẫu iPhone mỏng hơn đ&aacute;ng kể so với phi&ecirc;n bản tiền nhiệm, với độ mỏng chỉ vỏn vẹn 7.4 mm, iPhone 12 Pro Max đủ gọn nhẹ để bạn thao t&aacute;c d&ugrave;ng một tay thoải m&aacute;i hay nh&eacute;t t&uacute;i quần dễ d&agrave;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-8-1.jpg" onclick="return false;"><img alt="Thiết kế nhỏ gọn dễ cầm nắm sử dụng | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-8-1.jpg" /></a></p>
+
+<p>Tăng th&ecirc;m sự an to&agrave;n, iPhone 12 Pro Max cũng c&oacute; khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd-chong-nuoc-bui" target="_blank">kh&aacute;ng nước v&agrave; bụi</a>&nbsp;chuẩn IP68 chịu được độ s&acirc;u tối ta 6 m&eacute;t trong v&ograve;ng 30 ph&uacute;t cho bạn c&oacute; thể y&ecirc;n t&acirc;m hơn trong những buổi đi chơi biển m&agrave; kh&ocirc;ng hề lo bị v&ocirc; nước.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-023620-043631.jpg" onclick="return false;"><img alt="Hỗ trợ chống nước, bụi chuẩn IP68 | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-023620-043631.jpg" /></a></p>
+
+<h3>M&agrave;n h&igrave;nh giải tr&iacute; Super Retina XDR OLED chất lượng</h3>
+
+<p>Kh&ocirc;ng c&oacute; nhiều thay đổi so với&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-11-pro" target="_blank">iPhone 11 Pro</a>&nbsp;hay&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-11-pro-max" target="_blank">iPhone 11 Pro Max</a>&nbsp;về m&agrave;n h&igrave;nh. iPhone 12 Pro Max vẫn sử dụng c&ocirc;ng nghệ m&agrave;n h&igrave;nh ti&ecirc;n tiến&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cong-nghe-man-hinh-super-retina-xdr-tren-iphone-1198630" target="_blank">Super Retina XDR</a>&nbsp;OLED với độ trung thực m&agrave;u sắc, độ tương phản v&agrave; độ s&aacute;ng vượt trội.</p>
+
+<p>M&agrave;n h&igrave;nh rộng 6.7 inch độ ph&acirc;n giải 1284 x 2778 Pixels v&agrave; được n&acirc;ng cấp c&ocirc;ng nghệ mới c&oacute; t&ecirc;n&nbsp;<a href="https://www.thegioididong.com/hoi-dap/mat-kinh-ceramic-shield-tren-man-hinh-iphone-co-gi-dac-biet-1300222" target="_blank">Ceramic Shield</a>. N&oacute; kh&ocirc;ng ảnh hưởng đến chất lượng trải nghiệm m&agrave; tăng th&ecirc;m độ bền chống vỡ gấp 4 lần cho bạn sự y&ecirc;n t&acirc;m hơn trong khi sử dụng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-1-1.jpg" onclick="return false;"><img alt="Giải trí đã mắt trên màn hình 6.7 inch | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-1-1.jpg" /></a></p>
+
+<p>Hỗ trợ True Tone v&agrave; c&oacute; độ s&aacute;ng tối đa l&agrave; 1.200 nits ở HDR từ đ&oacute; gi&uacute;p m&aacute;y hiển thị tốt ngay cả ở ngo&agrave;i trời dưới &aacute;nh nắng trực tiếp m&agrave; kh&ocirc;ng kh&ocirc;ng gặp bất kỳ vấn đề g&igrave;.</p>
+
+<h3>Camera&nbsp;được n&acirc;ng cấp nhiều t&iacute;nh năng</h3>
+
+<p>iPhone 12 Pro Max được trang bị 3 cụm camera c&oacute; độ ph&acirc;n giải đều 12 MP gồm:&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-goc-rong" target="_blank">camera g&oacute;c rộng</a>, camera g&oacute;c si&ecirc;u rộng v&agrave;&nbsp;<a href="https://www.thegioididong.com/dtdd-camera-zoom" target="_blank">camera tele</a>.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-3-1.jpg" onclick="return false;"><img alt="Bộ 3 camera cùng cảm biến LiDAR chất lượng | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-3-1.jpg" /></a></p>
+
+<p>Camera tele c&oacute; ti&ecirc;u cự 65 mm cao hơn iPhone 12 Pro trong khi chỉ c&oacute; 52 mm. V&igrave; thế m&agrave; bản Pro Max c&oacute; phạm vi zoom quang đến 5x thay v&igrave; 4x như bản Pro. Zoom kỹ thuật số tr&ecirc;n iPhone 12 Pro Max cũng đạt 12x đem những bức ảnh thu ph&oacute;ng đầy ấn tượng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-025520-045538.jpg" onclick="return false;"><img alt="Hệ thống camera chuyên nghiệp | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-025520-045538.jpg" /></a></p>
+
+<p>iPhone 12 Pro Max được trang bị cảm biến LiDAR hứa hẹn mang đến nhiều trải nghiệm AR trong tương lai. C&ocirc;ng nghệ n&agrave;y cho ph&eacute;p chụp ảnh ở chế độ ch&acirc;n dung ngay cả trong điều kiện thiếu s&aacute;ng khi bật chế độ ban đ&ecirc;m.</p>
+
+<p>Ngo&agrave;i ra, cảm biến LiDAR c&oacute; thể hữu &iacute;ch trong một số lĩnh vực c&ocirc;ng việc nhất định như thiết kế nội thất bằng c&aacute;ch LiDAR bắn ra những ch&ugrave;m s&aacute;ng v&ocirc; h&igrave;nh gi&uacute;p n&oacute; x&acirc;y dựng một bản đồ 3D nhận biết m&ocirc;i trường xung quanh.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-024420-044422.jpg" onclick="return false;"><img alt="Nhận biết chính xác các vật thể xung quanh với LiDAR | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-024420-044422.jpg" /></a></p>
+
+<p>Nhiều c&ocirc;ng nghệ tối t&acirc;n cũng được trang bị tr&ecirc;n camera iPhone 12 Pro Max như: khả năng quay video HDR đạt chuẩn Dobly Vision, t&iacute;nh năng Deep Fussion, c&ocirc;ng nghệ Apple ProRAW hỗ trợ chụp ảnh RAW, t&iacute;nh năng Night Mode, Time-Lapse tr&ecirc;n cả camera trước v&agrave; sau cho khả năng chụp đ&ecirc;m xuất sắc.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-025420-045429.jpg" onclick="return false;"><img alt="Chỉnh sửa ảnh chuyên nghiệp trên Apple ProRAW | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-025420-045429.jpg" /></a></p>
+
+<h3>&Aacute;p dụng nhiều c&ocirc;ng nghệ sạc</h3>
+
+<p>Nếu so với iPhone 11 Pro Max th&igrave; iPhone 12 Pro Max được Apple giảm dung lượng pin xuống ch&uacute;t &iacute;t. Tuy nhi&ecirc;n điều đ&oacute; l&agrave; kh&ocirc;ng đ&aacute;ng kể, v&igrave; chipset A14 hoạt động lu&ocirc;n được tối ưu, n&oacute; ti&ecirc;u thụ &iacute;t điện năng hơn cho c&ugrave;ng một nhu cầu trong khi n&oacute; c&oacute; m&agrave;n h&igrave;nh lớn hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-5-1.jpg" onclick="return false;"><img alt="Dung lượng pin 3687 mAh | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-5-1.jpg" /></a></p>
+
+<p>iPhone 12 Pro Max c&oacute; khả năng ph&aacute;t video trực tuyến 12 giờ v&agrave; 80 giờ nghe nhạc li&ecirc;n tục cho bạn khỏi lo kh&ocirc;ng đ&aacute;p ứng đủ trong một ng&agrave;y sử dụng.</p>
+
+<p>M&aacute;y c&oacute; khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-pin-nhanh" target="_blank">sạc pin nhanh</a>&nbsp;th&ocirc;ng qua củ sạc 20 W, gi&uacute;p đầy 50% trong 30 ph&uacute;t gi&uacute;p bạn khỏi phải đợi qu&aacute; l&acirc;u.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-024020-044041.jpg" onclick="return false;"><img alt="Hỗ trợ sạc nhanh 20 W | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-024020-044041.jpg" /></a></p>
+
+<p>Lưu &yacute;: Củ sạc kh&ocirc;ng k&egrave;m theo trong hộp.</p>
+
+<p>MagSafe l&agrave; c&ocirc;ng nghệ&nbsp;<a href="https://www.thegioididong.com/dtdd-sac-khong-day" target="_blank">sạc kh&ocirc;ng d&acirc;y</a>&nbsp;của Apple được mang trở lại tr&ecirc;n iPhone 12 Pro Max năm nay. Với mặt lưng sẽ chứa một miếng nam ch&acirc;m v&agrave; c&aacute;c linh kiện c&oacute; từ t&iacute;nh được đặt ở vị tr&iacute; thuận lợi gi&uacute;p kết nối nhanh ch&oacute;ng v&agrave; ch&iacute;nh x&aacute;c với c&aacute;c bộ sạc t&iacute;ch hợp MagSafe.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/228743/iphone-12-pro-max-256gb-024020-044046.jpg" onclick="return false;"><img alt="Sạc không dây MagSafe hữu ích tiện dụng | iPhone 12 Pro Max" src="https://cdn.tgdd.vn/Products/Images/42/228743/iphone-12-pro-max-256gb-024020-044046.jpg" /></a></p>
+
+<p>Apple năm nay sẽ l&agrave;m người d&ugrave;ng c&agrave;ng phải bỏ tiền ra để được sở hữu, khi mọi sự tối ưu, mọi sự tốt nhất đều đổ dồn về một si&ecirc;u phẩm iPhone 12 Pro Max. Với một cấu h&igrave;nh ho&agrave;n to&agrave;n vượt trội, hệ thống camera đầy chuy&ecirc;n nghiệp cũng như đ&atilde; mở ra một kỷ nguy&ecirc;n mới về 5G cho tốc độ si&ecirc;u nhanh.</p>
+',
+        'slug'=>Str::slug('Điện thoại iPhone 12 Pro Max 256GB','-').'.aspx',
+        'created_at'=>now(),
+    ]);DB::table('products')->insert([
+        'name'=>'Điện thoại iPhone 11 64GB',
+        'price'=>16490000,
+        'old_price'=>17890000,
+        'quantity'=>50,
+        'cover_image'=>'https://cdn.tgdd.vn/Products/Images/42/153856/iphone-xi-do-600x600-600x600.jpg',
+        'rate'=>400,
+        'category_id'=>6,
+        'brand_id'=>10,
+        'user_id'=>random_int(1,5),
+        'describe'=> '<h2>Đặc điểm nổi bật của iPhone 11 64GB</h2>
+
+<p><img src="https://cdn.tgdd.vn/Products/Images/42/153856/Slider/--iphone-11-thumbvideo-test.jpg" /></p>
+
+<p>Bộ sản phẩm chuẩn: Hộp, S&aacute;ch hướng dẫn, C&acirc;y lấy sim, C&aacute;p Lightning - Type C</p>
+
+<h2>Apple ch&iacute;nh thức giới thiệu bộ 3 si&ecirc;u phẩm iPhone 11 mạnh mẽ nhất của m&igrave;nh v&agrave;o th&aacute;ng 9/2019. C&oacute; mức gi&aacute; rẻ nhất nhưng vẫn được n&acirc;ng cấp mạnh mẽ như chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-xr-128gb" target="_blank">iPhone Xr</a>&nbsp;trước đ&oacute;, đ&oacute; ch&iacute;nh l&agrave; phi&ecirc;n bản&nbsp;<a href="https://www.thegioididong.com/dtdd/iphone-11" target="_blank">iPhone 11 64GB</a>.</h2>
+
+<h3>N&acirc;ng cấp mạnh mẽ về camera</h3>
+
+<p>N&oacute;i về n&acirc;ng cấp th&igrave; camera ch&iacute;nh l&agrave; điểm c&oacute; nhiều cải tiến nhất tr&ecirc;n thế hệ&nbsp;<a href="https://www.thegioididong.com/dtdd-apple-iphone" target="_blank">iPhone</a>&nbsp;mới.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd42.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thiết kế nhiều màu sắc" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd42.jpg" /></a></p>
+
+<p>Nếu như trước đ&acirc;y iPhone Xr chỉ c&oacute; một camera th&igrave; nay với iPhone 11 ch&uacute;ng ta sẽ c&oacute; tới hai camera ở mặt sau.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-114-1.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Camera sau" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-114-1.jpg" /></a></p>
+
+<p>Ngo&agrave;i camera ch&iacute;nh vẫn c&oacute; độ ph&acirc;n giải 12 MP th&igrave; ch&uacute;ng ta sẽ c&oacute; th&ecirc;m một camera g&oacute;c si&ecirc;u rộng v&agrave; cũng với độ ph&acirc;n giải tương tự.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-116.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh chụp chế độ chân dung" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-116.jpg" /></a></p>
+
+<p><em>Ảnh chụp ch&acirc;n dung với iPhone 11</em></p>
+
+<p>Theo Apple th&igrave; việc chuyển đổi qua lại giữa hai ống k&iacute;nh th&igrave; sẽ kh&ocirc;ng l&agrave;m thay đổi m&agrave;u sắc của bức ảnh.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-2-1.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh chụp chế độ chân dung" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-2-1.jpg" /></a></p>
+
+<p><em>Ảnh chụp chế độ ch&acirc;n dung với iPhone 11</em></p>
+
+<p>Đ&acirc;y l&agrave; một điều được xem l&agrave; bước ngoặt bởi những chiếc&nbsp;<a href="https://www.thegioididong.com/dtdd" target="_blank">smartphone</a>&nbsp;Android c&oacute; nhiều camera hiện nay sẽ thường bị sai lệch về m&agrave;u sắc khi chuyển đổi qua lại giữa c&aacute;c ống k&iacute;nh g&acirc;y cảm gi&aacute;c kh&aacute; kh&oacute; chịu cho người d&ugrave;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd7.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh chụp với Deep Fusion" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd7.jpg" /></a></p>
+
+<p><em>Ảnh chụp với&nbsp;<a href="https://www.thegioididong.com/hoi-dap/deep-fusion-tren-dong-iphone-11-pro-la-gi-tinh-nan-1197418" target="_blank">Deep Fusion</a></em></p>
+
+<p>B&ecirc;n cạnh đ&oacute; với iPhone 11 th&igrave; đ&acirc;y sẽ l&agrave; lần đầu ti&ecirc;n Apple trang bị khả năng chụp đ&ecirc;m l&ecirc;n chiếc iPhone của m&igrave;nh.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-113.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh chụp với chế độ Night Mode Ảnh chụp với chế độ Night Mode" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-113.jpg" /></a></p>
+
+<p><em>Ảnh chụp với&nbsp;<a href="https://www.thegioididong.com/hoi-dap/night-mode-la-gi-diem-khac-nhau-giu-night-mode-va-1197122" target="_blank">chế độ Night Mode</a></em></p>
+
+<p>Theo trải nghiệm th&igrave; t&iacute;nh năng n&agrave;y hoạt động rất hiệu quả đặc biệt trong những m&ocirc;i trường cực kỳ thiếu s&aacute;ng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-112.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh chụp bằng camera sau" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-112.jpg" /></a></p>
+
+<p>K&iacute;ch hoạt chế độ chụp đ&ecirc;m sẽ do iPhone tự quyết định việc của bạn chỉ cần đưa m&aacute;y l&ecirc;n v&agrave; chụp, rất đơn giản.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh chụp chế độ góc siêu rộng" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-.jpg" /></a></p>
+
+<p><em>Ảnh chụp chế độ g&oacute;c si&ecirc;u rộng</em></p>
+
+<p>Năm nay Apple cũng đ&atilde; n&acirc;ng cấp độ ph&acirc;n giải camera trước n&ecirc;n 12 MP thay v&igrave; 7 MP như thế hệ trước đ&oacute;.</p>
+
+<p>Camera trước cũng c&oacute; một t&iacute;nh năng th&ocirc;ng minh, khi bạn xoay ngang điện thoại n&oacute; sẽ tự k&iacute;ch hoạt chế độ selfie g&oacute;c rộng để bạn c&oacute; thể chụp với nhiều người hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-111.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Ảnh selfie bằng camera trước" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-111.jpg" /></a></p>
+
+<p>Ngo&agrave;i ra Apple cũng giới thiệu t&iacute;nh năng quay video slow motion d&agrave;nh cho camera trước, điều m&agrave; Apple chưa từng trang bị cho những chiếc iPhone trước đ&acirc;y.</p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/danh-gia-chi-tiet-apple-iphone-11-iphone-2019-1191805" target="_blank">Đ&aacute;nh gi&aacute; chi tiết iPhone 11: H&oacute;a &#39;b&atilde;o tố&#39; hay th&agrave;nh &#39;bom xịt&#39;?</a></p>
+
+<h3>Hiệu năng mạnh mẽ h&agrave;ng đầu thế giới</h3>
+
+<p>Mỗi lần ra iPhone mới l&agrave; mỗi lần Apple mang đến cho người d&ugrave;ng một trải nghiệm về hiệu năng &quot;chưa từng c&oacute;&quot;.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd45.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Trải nghiệm chơi game trên iPhone 11" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd45.jpg" /></a></p>
+
+<p>Tr&ecirc;n iPhone 11 mới Apple n&acirc;ng cấp con chip của m&igrave;nh l&ecirc;n thế hệ&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-chip-apple-a13-bionic-tren-iphone-11-n-1197492" target="_blank">Apple A13 Bionic</a>&nbsp;rất mạnh mẽ.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-dmx18.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Điểm hiệu năng Antutu Benchmark" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-dmx18.jpg" /></a></p>
+
+<p>Chiếc iPhone n&agrave;y cũng được n&acirc;ng cấp dung lượng ram l&ecirc;n th&agrave;nh 4 GB thay v&igrave; 3 GB như thế hệ trước đ&oacute;.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-119.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Trải nghiệm thao tác" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-119.jpg" /></a></p>
+
+<p>Ở mức cấu h&igrave;nh tr&ecirc;n gi&uacute;p&nbsp;<a href="https://www.thegioididong.com/dtdd-choi-game" target="_blank">điện thoại chơi game</a>&nbsp;tốt với c&aacute;c tựa game phổ biến hiện nay một c&aacute;ch mượt m&agrave;, ổn định. Mọi thao t&aacute;c tr&ecirc;n iPhone mới cũng cho tốc độ phản hồi nhanh m&agrave; bạn gần như sẽ kh&ocirc;ng cảm nhận được sự giật lag cho d&ugrave; c&oacute; sử dụng trong một thời gian d&agrave;i.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd4.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Trải nghiệm chơi game" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd4.jpg" /></a></p>
+
+<p>Xem th&ecirc;m:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/thu-nghiem-do-ben-iphone-11-cao-xuoc-nung-nong-va-be-cong-1203631" target="_blank">Thử nghiệm độ bền iPhone 11: C&agrave;o xước, nung n&oacute;ng v&agrave; bẻ cong</a></p>
+
+<p>Phi&ecirc;n bản&nbsp;<a href="https://www.thegioididong.com/hoi-dap/tat-ca-nhung-tinh-nang-moi-duoc-cap-nhat-tren-ios-1171206" target="_blank">iOS 13</a>&nbsp;đi k&egrave;m với chiếc iPhone n&agrave;y cũng được trang bị nhiều t&iacute;nh năng hơn gi&uacute;p bạn sử dụng chiếc iPhone hiệu quả hơn.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-112-1.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thiết kế thời trang" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-112-1.jpg" /></a></p>
+
+<p>Face ID tr&ecirc;n iPhone 11 cũng được cải tiến để c&oacute; thể nhận diện ở nhiều g&oacute;c độ hơn v&agrave; tốc độ phản hồi nhanh hơn.</p>
+
+<h3>&nbsp;</h3>
+',
+        'specifications'=> '<h3>Th&ocirc;ng số kỹ thuật chi tiết iPhone 11 64GB</h3>
+
+<p><img alt="Thông số kỹ thuật 153856" src="https://cdn.tgdd.vn/Products/Images/42/153856/Kit/iphone-11-note.jpg" style="height:430px; width:500px" /></p>
+
+<ul>
+	<li>﻿</li>
+	<li>M&agrave;n h&igrave;nh</li>
+	<li>C&ocirc;ng nghệ m&agrave;n h&igrave;nh
+	<p><a href="https://www.thegioididong.com/hoi-dap/man-hinh-ips-lcd-la-gi-905752" target="_blank">IPS LCD</a></p>
+	</li>
+	<li>Độ ph&acirc;n giải
+	<p>828 x 1792 Pixels</p>
+	</li>
+	<li>K&iacute;ch thước m&agrave;n h&igrave;nh
+	<p>6.1&quot;</p>
+	</li>
+	<li>Mặt k&iacute;nh cảm ứng
+	<p><a href="https://www.thegioididong.com/hoi-dap/kinh-oleophobic-ion-cuong-luc-tren-cac-dong-appl-1167791" target="_blank">K&iacute;nh cường lực Oleophobic (ion cường lực)</a></p>
+	</li>
+	<li>Camera sau</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>2 camera 12 MP</p>
+	</li>
+	<li>Quay phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@24fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@30fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#4k" target="_blank">4K 2160p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@120fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@240fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#fullhd" target="_blank">FullHD 1080p@60fps</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-bi-1174134#hd" target="_blank">HD 720p@30fps</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-cac-loai-den-flash-tren-camera-dien-thoai-1143808" target="_blank">Đ&egrave;n Flash</a>
+	<p>3 đ&egrave;n LED 2 t&ocirc;ng m&agrave;u</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-dem-night-mode-la-gi-907873" target="_blank">Ban đ&ecirc;m (Night Mode)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-phim-timelapse-la-gi-1172228" target="_blank">Tr&ocirc;i nhanh thời gian (Time Lapse)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/zoom-quang-hoc-va-zoom-ky-thuat-so-la-gi-co-gi-khac-nhau-1296828#zoom-quang-hoc" target="_blank">Zoom quang học</a><a href="https://www.thegioididong.com/hoi-dap/che-do-touch-focus-khi-chup-anh-tren-smartphone-906412" target="_blank">Chạm lấy n&eacute;t</a><a href="https://www.thegioididong.com/hoi-dap/chup-anh-panorama-toan-canh-tren-camera-cua-smar-906425" target="_blank">To&agrave;n cảnh (Panorama)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c rộng (Wide)</a><a href="https://www.thegioididong.com/hoi-dap/camera-goc-rong-goc-sieu-rong-tren-smartphone-l-1172240" target="_blank">G&oacute;c si&ecirc;u rộng (Ultrawide)</a></p>
+	</li>
+	<li>Camera trước</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/do-phan-giai-camera-tren-smartphone-la-gi-1339722" target="_blank">Độ ph&acirc;n giải</a>
+	<p>12 MP</p>
+	</li>
+	<li>T&iacute;nh năng
+	<p><a href="https://www.thegioididong.com/hoi-dap/chup-anh-xoa-phong-la-gi-no-co-tac-dung-nhu-the-na-1138006" target="_blank">X&oacute;a ph&ocirc;ng</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#4k" target="_blank">Quay video 4K</a><a href="https://www.thegioididong.com/hoi-dap/ar-stickers-la-gi-vi-sao-hang-nao-cung-ap-dung-ar-1096228" target="_blank">Nh&atilde;n d&aacute;n (AR Stickers)</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-retina-flash-tren-cac-dong-dien-thoai-ip-1173061" target="_blank">Retina Flash</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#hd" target="_blank">Quay video HD</a><a href="https://www.thegioididong.com/hoi-dap/chuc-nang-nhan-dien-khuon-mat-la-gi-907903" target="_blank">Nhận diện khu&ocirc;n mặt</a><a href="https://www.thegioididong.com/hoi-dap/cac-chuan-quay-phim-tren-dien-thoai-tablet-pho-1174134#fullhd" target="_blank">Quay video Full HD</a><a href="https://www.thegioididong.com/hoi-dap/che-do-autofocus-trong-chup-anh-tren-smartphone-906408" target="_blank">Tự động lấy n&eacute;t (AF)</a><a href="https://www.thegioididong.com/hoi-dap/che-do-chup-anh-hdr-tren-smartphone-la-gi-906400" target="_blank">HDR</a><a href="https://www.thegioididong.com/hoi-dap/che-do-quay-video-slow-motion-la-gi-luu-y-khi-quay-video-1013728" target="_blank">Quay chậm (Slow Motion)</a></p>
+	</li>
+	<li>Hệ điều h&agrave;nh &amp; CPU</li>
+	<li>Hệ điều h&agrave;nh
+	<p>iOS 14</p>
+	</li>
+	<li>Chip xử l&yacute; (CPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-ve-chip-apple-a13-bionic-tren-iphone-11-n-1197492" target="_blank">Apple A13 Bionic 6 nh&acirc;n</a></p>
+	</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/toc-do-cpu-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-tu-1299483" target="_blank">Tốc độ CPU</a>
+	<p>2 nh&acirc;n 2.65 GHz &amp; 4 nh&acirc;n 1.8 GHz</p>
+	</li>
+	<li>Chip đồ họa (GPU)
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-chip-apple-a12-bionic-con-chip-7nm-dau-1171937" target="_blank">Apple GPU 4 nh&acirc;n</a></p>
+	</li>
+	<li>Bộ nhớ &amp; Lưu trữ</li>
+	<li><a href="https://www.thegioididong.com/hoi-dap/ram-la-gi-co-y-nghia-gi-trong-cac-thiet-bi-dien-t-1216259" target="_blank">RAM</a>
+	<p>4 GB</p>
+	</li>
+	<li>Bộ nhớ trong
+	<p>64 GB</p>
+	</li>
+	<li>Bộ nhớ c&ograve;n lại (khả dụng) khoảng
+	<p>59 GB</p>
+	</li>
+	<li>Kết nối</li>
+	<li>Mạng di động
+	<p><a href="https://www.thegioididong.com/hoi-dap/mang-du-lieu-di-dong-4g-la-gi-731757" target="_blank">Hỗ trợ 4G</a></p>
+	</li>
+	<li>SIM
+	<p><a href="https://www.thegioididong.com/hoi-dap/sim-thuong-micro-sim-nano-sim-esim-la-gi-co-gi-khac-nhau-1310659#esim" target="_blank">1 Nano SIM &amp; 1 eSIM</a></p>
+	</li>
+	<li>Wifi
+	<p><a href="https://www.thegioididong.com/hoi-dap/wi-fi-chuan-80211ax-la-gi-tim-hieu-ve-wi-fi-the-1187524" target="_blank">Wi-Fi 802.11 a/b/g/n/ac/ax</a><a href="https://www.thegioididong.com/tin-tuc/wifi-la-gi-cai-dat-wifi-hotspot-nhu-the-nao--590309#wifihotspot" target="_blank">Wi-Fi hotspot</a><a href="https://www.thegioididong.com/hoi-dap/wifi-dual-band-la-gi-736489" target="_blank">Dual-band (2.4 GHz/5 GHz)</a></p>
+	</li>
+	<li>GPS
+	<p><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#a-gps" target="_blank">A-GPS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#bds" target="_blank">BDS</a><a href="https://www.thegioididong.com/hoi-dap/gps-la-gi-806129#glonass" target="_blank">GLONASS</a></p>
+	</li>
+	<li>Bluetooth
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-a2dp-la-gi-723725" target="_blank">A2DP</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/cong-nghe-bluetooth-743602#le" target="_blank">LE</a></p>
+	</li>
+	<li>C&ocirc;̉ng k&ecirc;́t n&ocirc;́i/sạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Jack tai nghe
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-lightning-la-gi-868282" target="_blank">Lightning</a></p>
+	</li>
+	<li>Kết nối kh&aacute;c
+	<p><a href="https://www.thegioididong.com/hoi-dap/ket-noi-otg-la-gi-otg-duoc-su-dung-cho-muc-dich-gi-1172882" target="_blank">OTG</a>,&nbsp;<a href="https://www.thegioididong.com/hoi-dap/ket-noi-nfc-tren-dien-thoai-may-tinh-bang-la-gi-1172835" target="_blank">NFC</a></p>
+	</li>
+	<li>Pin &amp; Sạc</li>
+	<li>Loại pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/tim-hieu-pin-li-ion-la-gi-985040" target="_blank">Li-Ion</a></p>
+	</li>
+	<li>Dung lượng pin
+	<p>3110 mAh</p>
+	</li>
+	<li>C&ocirc;ng nghệ pin
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-nhanh-tren-smartphone-755549" target="_blank">Sạc pin nhanh</a><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-sac-khong-day-la-gi-761328" target="_blank">Sạc kh&ocirc;ng d&acirc;y</a><a href="https://www.thegioididong.com/hoi-dap/che-do-tiet-kiem-pin-va-sieu-tiet-kiem-pin-la-gi-926730" target="_blank">Tiết kiệm pin</a></p>
+	</li>
+	<li>Hỗ trợ sạc tối đa
+	<p>18 W</p>
+	</li>
+	<li>Sạc k&egrave;m theo m&aacute;y
+	<p>18 W</p>
+	</li>
+	<li>Tiện &iacute;ch</li>
+	<li>Bảo mật n&acirc;ng cao
+	<p><a href="https://www.thegioididong.com/hoi-dap/face-id-la-gi-va-cach-hoat-dong-cua-face-id-1021871" target="_blank">Mở kho&aacute; khu&ocirc;n mặt Face ID</a></p>
+	</li>
+	<li>T&iacute;nh năng đặc biệt
+	<p><a href="https://www.thegioididong.com/hoi-dap/cong-nghe-dolby-atmos-tren-smartphone-772074" target="_blank">&Acirc;m thanh Dolby Audio</a><a href="https://www.thegioididong.com/hoi-dap/chong-nuoc-va-chong-bui-tren-smart-phone-771130" target="_blank">Kh&aacute;ng nước, kh&aacute;ng bụi</a><a href="https://www.thegioididong.com/hoi-dap/apple-pay-la-gi-khac-biet-cua-apple-pay-so-voi-1117374" target="_blank">Apple Pay</a></p>
+	</li>
+	<li>Chống nước
+	<p>IP68</p>
+	</li>
+	<li>Ghi &acirc;m
+	<p><a href="https://www.thegioididong.com/hoi-dap/microphone-chong-on-la-gi-894183" target="_blank">C&oacute; (microphone chuy&ecirc;n dụng chống ồn)</a></p>
+	</li>
+	<li>Xem phim
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#h264" target="_blank">H.264(MPEG4-AVC)</a></p>
+	</li>
+	<li>Nghe nhạc
+	<p><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#mp3" target="_blank">MP3</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#lossless" target="_blank">Lossless</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#flac" target="_blank">FLAC</a><a href="https://www.thegioididong.com/hoi-dap/cac-dinh-dang-video-va-am-thanh-740243#aac" target="_blank">AAC</a></p>
+	</li>
+	<li>Th&ocirc;ng tin chung</li>
+	<li>Thiết kế
+	<p><a href="https://www.thegioididong.com/tin-tuc/tim-hieu-cac-kieu-thiet-ke-tren-di-dong-va-may-tin-597153#nguyenkhoi" target="_blank">Nguy&ecirc;n khối</a></p>
+	</li>
+	<li>Chất liệu
+	<p>Khung nh&ocirc;m &amp; Mặt lưng k&iacute;nh cường lực</p>
+	</li>
+	<li>K&iacute;ch thước
+	<p>D&agrave;i 150.9 mm - Ngang 75.7 mm - D&agrave;y 8.3 mm</p>
+	</li>
+	<li>Khối lượng
+	<p>194 g</p>
+	</li>
+	<li>Thời điểm ra mắt
+	<p>11/2019</p>
+	</li>
+</ul>
+',
+        'details'=> '<h2>Những thay đổi về thiết kế theo hướng t&iacute;ch cực</h2>
+
+<p>Ch&uacute;ng ta sẽ c&oacute; một mặt lưng ho&agrave;n thiện dưới dạng k&iacute;nh v&agrave; Apple n&oacute;i rằng họ đ&atilde; sử dụng loại k&iacute;nh bền nhất từ trước tới nay cho chiếc iPhone n&agrave;y.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-113-1.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thiết kế cụm camera kép ở mặt sau" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-113-1.jpg" /></a></p>
+
+<p>Camera k&eacute;p tr&ecirc;n iPhone mới cũng được thiết kế lại v&agrave; tin vui l&agrave; n&oacute; sẽ bớt lồi hơn so với tr&ecirc;n tr&ecirc;n iPhone Xr trước đ&acirc;y.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-115-1.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thiết kế thời trang" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-115-1.jpg" /></a></p>
+
+<p>Điểm nhấn về cụm camera to bản ở mặt sau sẽ gi&uacute;p người kh&aacute;c dễ d&agrave;ng nhận biết bạn đang sử dụng một chiếc iPhone 11 tr&ecirc;n tay.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-118.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Khay sim" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-118.jpg" /></a></p>
+
+<p>Logo quả t&aacute;o truyền thống của Apple nay đ&atilde; được di chuyển về phần ch&iacute;nh giữa của mặt lớn thay v&igrave; đặt lệch về ph&iacute;a cạnh tr&ecirc;n như những đời iPhone trước đ&oacute;.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd17.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Khả năng chóng nước chuẩn IP68" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd17.jpg" /></a></p>
+
+<p>Apple cho biết họ đ&atilde; ho&agrave;n thiện tr&ecirc;n iPhone mới để n&oacute; cho khả năng&nbsp;<a href="https://www.thegioididong.com/dtdd?f=chong-nuoc-bui" target="_blank">chống nước</a>&nbsp;tốt hơn v&agrave; người d&ugrave;ng c&oacute; thể y&ecirc;n t&acirc;m về điều đ&oacute;.&nbsp;</p>
+
+<h3>Thời lượng pin tốt nhất từ trước tới nay</h3>
+
+<p>Khi n&oacute;i đến thời lượng pin iPhone 11, hẳn nhiều người đ&atilde; ước ao rằng m&aacute;y sẽ c&oacute; vi&ecirc;n pin tốt giống như iPhone Xr (c&oacute; thời lượng pin tốt nhất so với bất kỳ iPhone hiện đại n&agrave;o).</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd46.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thời lượng pin" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd46.jpg" /></a></p>
+
+<p>Tuy nhi&ecirc;n bạn sẽ c&ograve;n c&oacute; một chiếc m&aacute;y thậm ch&iacute; c&ograve;n tốt hơn nữa.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-116-1.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thiết kế hiện đại" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-116-1.jpg" /></a></p>
+
+<p>Theo Apple th&igrave; chiếc iPhone mới sẽ c&oacute; thời lượng pin tr&acirc;u hơn 1 giờ so với chiếc iPhone Xr.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd40.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Giao diện Dark Mode" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd40.jpg" /></a></p>
+
+<p>Như vậy với iPhone mới bạn ho&agrave;n to&agrave;n c&oacute; thể sử dụng m&aacute;y l&ecirc;n tới 2 ng&agrave;y m&agrave; kh&ocirc;ng cần lo lắng việc thiết bị sẽ hết pin giữa chừng.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-11-tgdd39.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thời lượng pin" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-tgdd39.jpg" /></a></p>
+
+<p>Tất nhi&ecirc;n m&aacute;y cũng sẽ hỗ trợ c&ocirc;ng nghệ&nbsp;<a href="https://www.thegioididong.com/dtdd?f=sac-pin-nhanh" target="_blank">sạc nhanh</a>&nbsp;nhưng bạn phải mua th&ecirc;m củ sạc b&ecirc;n ngo&agrave;i để c&oacute; thể sử dụng t&iacute;nh năng n&agrave;y.</p>
+
+<p><a href="https://www.thegioididong.com/images/42/153856/iphone-117.jpg" onclick="return false;"><img alt="Điện thoại iPhone 11 64GB | Thời lượng sử dụng dài" src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-117.jpg" /></a></p>
+
+<p>Với chừng đ&oacute; t&iacute;nh năng, chừng đ&oacute; cải tiến th&igrave; chiếc iPhone 11 n&agrave;y tự tin sẽ l&agrave; một đối thủ đ&aacute;ng gờm với những chiếc flagship đến từ c&aacute;c h&atilde;ng Android đang c&oacute; mặt tr&ecirc;n thị trường.</p>
+',
+        'slug'=>Str::slug('Điện thoại iPhone 11 64GB','-').'.aspx',
+        'created_at'=>now(),
+    ]);
+
+        DB::table('products')->insert([
             'name'=>'Dell G3 15 3500 i5 10300H/8GB/256GB+1TB/120Hz/4GB GTX1650/Win10 (70223130)',
             'price'=>22490000,
             'old_price'=>23890000,

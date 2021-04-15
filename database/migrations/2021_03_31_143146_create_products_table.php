@@ -25,7 +25,7 @@ class CreateProductsTable extends Migration
             $table->longText('details');
             $table->smallInteger('rate');
             $table->unsignedBigInteger('category_id');
-            $table->unsignedBigInteger('brand_id');
+            $table->unsignedBigInteger('brand_id')->nullable();
             $table->unsignedBigInteger('user_id');
             $table->string('slug');
             $table->foreign('brand_id')->references('id')->on('brands');

@@ -118,7 +118,8 @@
             <div class="mt-5">
                 <div class="text-primary h3 pb-5 text-center">Sản phẩm liên quan</div>
                 <div class="row">
-                    @foreach($products as $items)
+                    @foreach($products as $index => $items)
+                        @if($index < 8)
                         <div class="col-md-3 col-sm-6 mb-4">
                             <div class="box-shadow bg-white rounded ">
                                 <a href="{!!route('product',['slug'=>$items->slug])!!}"
@@ -136,7 +137,11 @@
                                 </a>
                             </div>
                         </div>
+                        @endif
                     @endforeach
+                    <div class="d-flex align-items-center justify-content-center w-100 py-2 ">
+                        <button class="btn btn-primary"><a class="link-style-none text-white" href="{{route('category',['slug'=>$link['category_url'],'page'=>1])}}" >Xem thêm</a></button>
+                    </div>
                 </div>
                 @if(count($tag)!==0)
                     <div class="row">
@@ -163,7 +168,7 @@
             function buy(method){
                 var quantity = $('#quantity').val();
 
-                url= "http://slaptop.com.vn/cart/" +method+"/{{$product->id}}/"+quantity;
+                url= "{{url('/cart')}}/"+method+"/{{$product->id}}/"+quantity;
                 console.log(url);
                location.assign(url);
             }

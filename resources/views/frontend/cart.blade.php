@@ -90,7 +90,7 @@
                         <div class="col-4"><p class="text-primary size-responsive">+ 12.000 đ</p></div>
                     </div>
                     <div class="row">
-                        <div class="col-8"><p class="font-weight-bold size-responsive">Mã khuyến mãi áp dụng</p></div>
+                        <div class="col-8"><p class="font-weight-bold size-responsive">Khuyến mãi áp dụng</p></div>
                         <div class="col-4"><p class="text-success size-responsive">- 12.000 đ</p></div>
                     </div>
                     <hr>
@@ -124,7 +124,7 @@
                 </div>
             </div>
         @else
-            <div class="text-center p-5">Giỏ hàng trống , hãy quay lại mua hàng nhé !!</div>
+            <img class="w-100 text-center" src="https://rtworkspace.com/wp-content/plugins/rtworkspace-ecommerce-wp-plugin/assets/img/empty-cart.png">
         @endif
         <div class="row mb-5 box-shadow p-3 hidden border-radius">
             <div class="h4">Đơn hàng</div>
@@ -174,7 +174,7 @@
         <script>
             function loadAjax(id,method){
                 $.ajax({
-                        url:"http://slaptop.com.vn/cart/"+method+"/"+id,
+                        url:"{{url('/cart')}}/"+method+"/"+id,
                         type : "get",
                     }
                 )

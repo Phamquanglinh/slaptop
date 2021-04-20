@@ -218,5 +218,11 @@
     </div>
     @else
         <div class="text-center p-5">Giỏ hàng trống , hãy quay lại mua hàng nhé !!</div>
+        <div class="container">
+            <img src="{{asset('asset/img/cart-page/empty.png')}}" class="w-100">
+        </div>
     @endif
+    <div class="container">
+        <a href="{{route('order.history')}}">Xem lịch sử mua hàng</a>
+    </div>
 @endsection
